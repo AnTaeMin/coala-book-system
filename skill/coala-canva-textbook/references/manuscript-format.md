@@ -102,7 +102,7 @@ Use a standard Markdown table with two or three columns and no more than five bo
 
 ### Practice opening
 
-The page can contain one Tip or one checklist, not both.
+The page can contain one Tip, a `- [ ]` checklist, or both. The app draws them below the card in a fixed order, Tip first and then `📑 실습 목표`, whatever order the manuscript uses. Objectives that do not fit under the card move to a `제목(계속)` page; `--layout` shows this as `← 분할됨`.
 
 ```markdown
 :::page{type="practice-opening" id="practice-002-1" practice="002-1" practice-kind="프롬프트 실습" platform="알고플로에서 실습하기"}
@@ -443,7 +443,6 @@ The parser must reject the complete manuscript before Canva writes begin when:
 - a required heading, table, checklist, or flowchart field is missing;
 - a flowchart `height` is not an integer from 300 to 1800;
 - an image placeholder is malformed, uses an unsupported attribute, or sits in a position where it cannot be laid out;
-- a practice opening contains both a Tip and an objective checklist;
 - any syntax outside "Supported Markdown, and nothing else" appears.
 
 Problems are collected page by page and reported together. Only a broken Front Matter or a broken `:::page` boundary stops the check at once, because row numbers after it cannot be trusted.

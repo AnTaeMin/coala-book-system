@@ -35,7 +35,7 @@ The retained PNG files show what the finished pages must look like, but they are
 - Do not rebuild these locked templates from memory, approximate them with a generic layout, or use the retained PNG as the final full-page image.
 - For flowcharts, use only the exact Canva Elements assets and constructions defined in `references/flowcharts.md`. Join them with native Canva line or connector elements and keep every shape, label, and connector editable. Do not substitute generic or custom-drawn lookalikes.
 - The Coala Book Builder app cannot insert those flowchart assets, so it reserves a marked placeholder on each flowchart page and lists what must be built. A person builds the flowchart in the Canva editor. A page that still shows a placeholder is unfinished and does not satisfy the flowchart rules.
-- A practice-opening page contains exactly one primary practice card. Below it, leave empty space or place at most one short supporting block: a simple Tip or a concise practice-objective block. Do not add a second practice card or ordinary lesson content below it.
+- A practice-opening page contains exactly one primary practice card. Below it, leave empty space, or place a short Tip, a concise practice-objective checklist, or both in that order. The objectives are the one exception to the one-supporting-block rule: when the page has room, they sit under the Tip instead of needing a separate page. Do not add a second practice card or ordinary lesson content below it.
 - If the available Canva capabilities cannot duplicate and edit the required native template or flowchart elements, stop and report that exact template fidelity cannot be guaranteed. Produce an approximate draft only when the user accepts that limitation.
 
 ## Before creating

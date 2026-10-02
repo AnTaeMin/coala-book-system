@@ -50,7 +50,7 @@ There are eight supported page types; `concept` has two layouts.
 | Paragraphs, one-level bullets or numbered lists, `**bold**` | Explaining an idea, grouping scan-friendly points, or showing a short ordered list. | Follow each page type's body rules; bold is the only inline style. |
 | `> [!TIP]` or `> [!KEY_POINT]` | A useful caution/hint or one takeaway deserves emphasis. | At most one callout on `concept`, `comparison`, `practice-opening`, or `practice-checklist`. Do not use as filler. |
 | Markdown table | Two or three comparable dimensions need aligned rows. | `comparison` only; one table, at most five body rows. |
-| `- [ ]` checklist | Learners need observable practice goals or completion checks. | `practice-opening` or `practice-checklist` only. |
+| `- [ ]` checklist | Learners need observable practice goals or completion checks. | `practice-opening` or `practice-checklist` only. On `practice-opening` it may sit under the Tip on the same page; use a separate `practice-checklist` page only when the opening page has no room. |
 | `::image{...}` | A supplied image or a later screenshot, illustration, diagram, or result will clarify content. | `concept` basic, chapter-opening concept subsection, or one per screenshot-guide step. A GUI code result uses `role="result"`. |
 | Fenced code + `output` or result image | A runnable example is needed to explain behaviour. | `concept` basic only; exactly one real result immediately after each code block. |
 | `prompt` + `response` | The lesson examines a specific AI exchange. | `concept` basic only; keep the pair adjacent. Do not invent a sourced response. |

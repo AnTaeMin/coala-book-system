@@ -647,23 +647,14 @@ function parsePracticeOpening(
   const lines = rawPage.body.split("\n");
   const titleIndex = firstHeadingIndex(lines, 1, rawPage, "실습 제목");
   const calloutResult = extractCallout(lines);
+  // 카드 아래에는 Tip과 실습 목표가 함께 올 수 있다. 원고에 적힌 순서와
+  // 상관없이 카드 → Tip → 실습 목표 순으로 놓인다.
   const checklist = checkboxItems(calloutResult.lines);
-  if (calloutResult.callout && checklist.length > 0) {
-    throw new MarkdownBookParseError(
-      "practice-opening 하단에는 Tip 또는 실습 목표 중 하나만 넣을 수 있습니다.",
-      rawPage.startLine,
-    );
-  }
   const description = blockText(
     calloutResult.lines
       .slice(titleIndex + 1)
       .filter((line) => !/^\s*-\s*\[[ xX]\]\s+/.test(line)),
   );
-  const support = calloutResult.callout
-    ? { type: "tip" as const, text: calloutResult.callout.text }
-    : checklist.length > 0
-      ? { type: "objectives" as const, items: checklist }
-      : undefined;
   return {
     type: "practice-opening",
     id,
@@ -672,7 +663,8 @@ function parsePracticeOpening(
     platform: requiredAttribute(rawPage, "platform"),
     title: headingText(calloutResult.lines[titleIndex] ?? "", 1),
     description,
-    support,
+    tip: calloutResult.callout?.text,
+    objectives: checklist.length > 0 ? checklist : undefined,
   };
 }
 

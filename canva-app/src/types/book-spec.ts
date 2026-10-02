@@ -93,9 +93,10 @@ export type PracticeOpeningPage = PageBase & {
   platform: string;
   title: string;
   description: string;
-  support?:
-    | { type: "tip"; text: string }
-    | { type: "objectives"; items: string[] };
+  /** 카드 아래의 Tip. 실습 목표와 함께 올 수 있다. */
+  tip?: string;
+  /** 카드(와 Tip) 아래의 실습 목표. 자리가 모자라면 다음 페이지로 넘어간다. */
+  objectives?: string[];
 };
 
 export type PracticeChecklistPage = PageBase & {
@@ -367,10 +368,11 @@ function validatePracticeOpeningPage(
   requireText(page.platform, `${prefix}.platform`);
   requireText(page.title, `${prefix}.title`);
   requireText(page.description, `${prefix}.description`);
-  if (page.support?.type === "objectives") {
-    requireTextArray(page.support.items, `${prefix}.support.items`);
-  } else if (page.support?.type === "tip") {
-    requireText(page.support.text, `${prefix}.support.text`);
+  if (page.objectives !== undefined) {
+    requireTextArray(page.objectives, `${prefix}.objectives`);
+  }
+  if (page.tip !== undefined) {
+    requireText(page.tip, `${prefix}.tip`);
   }
 }
 

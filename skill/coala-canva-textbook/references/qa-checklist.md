@@ -51,7 +51,7 @@
 - [ ] Each chapter-opening page was duplicated from the native Canva source and preserves the circular marker, rounded title frame, overlap, proportions, positions, and layer order.
 - [ ] Each practice-opening page was duplicated from one intact native source variant rather than reconstructed or mixed from multiple variants.
 - [ ] Each practice-opening page contains exactly one primary practice card.
-- [ ] The area below a practice-opening card is empty or contains only one short Tip or one concise practice-objective block.
+- [ ] The area below a practice-opening card is empty or contains only a short Tip, a concise practice-objective block, or the Tip followed by the objectives.
 - [ ] No practice-opening page includes a second practice card, full procedure, flowchart, code listing, table, screenshot sequence, or multiple callout boxes below the card.
 - [ ] Every flowchart placeholder listed by the app after generation has been replaced by a finished flowchart, and no grey placeholder box or guide text remains on any page.
 - [ ] Each finished flowchart contains every node and connection listed for its placeholder, with the listed text.

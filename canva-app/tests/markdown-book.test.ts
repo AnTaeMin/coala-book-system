@@ -43,11 +43,11 @@ describe("Markdown textbook parser", () => {
     );
   });
 
-  it("rejects a practice opening with both a tip and objectives", () => {
+  it("accepts a practice opening with both a tip and objectives", () => {
     const source = [
       "---",
       "schema_version: 1",
-      "title: 잘못된 실습",
+      "title: 실습",
       "---",
       "",
       ':::page{type="practice-opening" id="p1" practice="001-1" practice-kind="실습" platform="알고플로"}',
@@ -59,9 +59,13 @@ describe("Markdown textbook parser", () => {
       ":::",
     ].join("\n");
 
-    expect(() => parseBookMarkdown(source)).toThrow(
-      "Tip 또는 실습 목표 중 하나만",
-    );
+    const [page] = parseBookMarkdown(source).pages;
+    expect(page).toMatchObject({
+      type: "practice-opening",
+      description: "설명입니다.",
+      tip: "팁",
+      objectives: ["목표"],
+    });
   });
 
   it("rejects duplicate page ids", () => {

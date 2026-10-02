@@ -117,8 +117,9 @@ This is a locked native template. Choose the closer of `practice-opening1.png` a
 Exactly one primary practice-opening card is allowed on a page. The area below the card must be one of the following:
 
 1. intentionally empty;
-2. one short pale-blue Tip block; or
-3. one concise practice-objective block.
+2. one short pale-blue Tip block;
+3. one concise practice-objective block; or
+4. the Tip followed by the practice-objective block, when both fit under the card. The objective block is the only block allowed to join the Tip; it moves to a continuation page when the room runs out.
 
 Do not place a second practice card, full procedure, flowchart, code listing, table, screenshot sequence, long explanation, or multiple callout boxes below the opening card. Move those materials to subsequent step-by-step or concept pages. If the opening text does not fit the existing card comfortably, shorten the introduction or move detail to the next page; do not shrink the text, enlarge the card into the lower support area, or add another opening card.
 

@@ -234,8 +234,9 @@ function chunkDescription(
 /**
  * practice-opening 페이지를 만든다.
  *
- * 카드 아래에는 Tip 하나 또는 실습 목표 하나만 온다(스킬 규칙). 목표 개수
- * 제한은 없고, 들어가지 않으면 `제목(계속)` 페이지로 넘어간다.
+ * 카드 아래에는 Tip 하나와 실습 목표가 이 순서로 올 수 있다. 둘 다 있어도
+ * 된다. 목표 개수 제한은 없고, 자리가 모자라면 목표(또는 Tip부터)가
+ * `제목(계속)` 페이지로 넘어간다.
  */
 export function layoutPracticeOpening(
   page: PracticeOpeningPage,
@@ -257,13 +258,14 @@ export function layoutPracticeOpening(
   );
   const items: FlowItem[] = [...cards];
 
-  if (page.support?.type === "tip") {
+  if (page.tip !== undefined) {
     items.push(
-      calloutItem({ type: "tip", text: page.support.text }, fonts, {
-        gapAfter: 0,
+      calloutItem({ type: "tip", text: page.tip }, fonts, {
+        gapAfter: page.objectives ? GAP.callout : 0,
       }),
     );
-  } else if (page.support?.type === "objectives") {
+  }
+  if (page.objectives) {
     items.push(
       headingItem("📑 실습 목표", wide, { gapAfter: GAP.afterHeading }),
       ...blockFlowItems(
@@ -271,14 +273,15 @@ export function layoutPracticeOpening(
           {
             kind: "list",
             ordered: false,
-            items: page.support.items.map((item) => parseInline(item)),
+            items: page.objectives.map((item) => parseInline(item)),
           },
         ],
         bodyStyle(fonts, { width: CONTENT_WIDTH }),
         { maxItemHeight: available, listGap: GAP.objectiveItem },
       ),
     );
-  } else {
+  }
+  if (page.tip === undefined && !page.objectives) {
     const last = items[items.length - 1];
     if (last) {
       last.gapAfter = 0;
