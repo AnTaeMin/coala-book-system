@@ -11,15 +11,17 @@ import type { FlowItem } from "./flow";
 import { lineHeight, measureText } from "./measure";
 
 /**
- * 이미지 자리표시자.
+ * 이미지 자리.
  *
- * 원고가 선언한 비율만큼 자리를 **정확히** 비워 둔다. 자리는 `dropTarget`이
- * 켜진 도형이라, Canva에서 이미지를 그 위에 끌어다 놓으면 도형의 채움이
- * 이미지로 바뀐다. 도형의 위치와 크기는 그대로이므로 나머지 지면은 움직이지
- * 않는다.
+ * 원고 폴더에 파일이 있으면 그 자리에 **실제 이미지**를 놓는다. 이때 자리의
+ * 비율은 원고의 `ratio`가 아니라 파일의 실제 비율을 따른다. Canva가 채우면서
+ * 자르는 일이 없도록 하기 위해서다.
  *
- * Canva는 놓인 이미지를 도형에 맞춰 채운다(넘치는 쪽은 잘린다). 그래서 원고에
- * 적는 `ratio`가 곧 최종 이미지의 비율이어야 한다.
+ * 파일이 없으면 원고가 선언한 비율만큼 자리를 **정확히** 비워 둔다. 자리는
+ * `dropTarget`이 켜진 도형이라, Canva에서 이미지를 그 위에 끌어다 놓으면
+ * 도형의 채움이 이미지로 바뀐다. 도형의 위치와 크기는 그대로이므로 나머지
+ * 지면은 움직이지 않는다. 그래서 원고에 적는 `ratio`가 곧 최종 이미지의
+ * 비율이어야 한다.
  */
 const LABEL_PADDING = { x: 40, y: 24 } as const;
 
@@ -69,12 +71,20 @@ function pickLabel(
   );
 }
 
+/** 원고 비율과 파일 비율이 눈에 띄게(1% 넘게) 다른가. */
+function ratioDiffers(declared: number, actual: number): boolean {
+  return Math.abs(declared - actual) / declared > 0.01;
+}
+
 export function imagePlaceholderItem(
   image: ImageDirective,
   style: FlowStyle,
   options: { gapAfter: number; maxHeight: number },
 ): FlowItem {
   const { colors } = coalaTheme;
+  // 폴더에 파일이 있으면 비율은 무조건 파일 기준이다.
+  const asset = style.fonts.images?.get(image.src);
+  const ratio = asset ? asset.ratio : image.ratio;
 
   // `full`은 카드·표와 같은 전체 단 너비다. 본문이 지면 여백에서 시작할 때만
   // 의미가 있고, 그렇지 않으면 흐름의 폭을 넘지 않는다.
@@ -112,16 +122,16 @@ export function imagePlaceholderItem(
       options.maxHeight - continuationReserve() - captionBlock - labelBlock,
     ),
   );
-  const declaredHeight = Math.round(declaredWidth / image.ratio);
+  const declaredHeight = Math.round(declaredWidth / ratio);
   const scaledToFit = declaredHeight > maxBoxHeight;
   const boxHeight = scaledToFit ? maxBoxHeight : declaredHeight;
-  const boxWidth = scaledToFit
-    ? Math.round(boxHeight * image.ratio)
-    : declaredWidth;
+  const boxWidth = scaledToFit ? Math.round(boxHeight * ratio) : declaredWidth;
   const boxLeft = style.left + Math.round((frameWidth - boxWidth) / 2);
 
   const innerWidth = boxWidth - LABEL_PADDING.x * 2;
-  const label = pickLabel(image, innerWidth, boxHeight - LABEL_PADDING.y * 2);
+  const label = asset
+    ? undefined
+    : pickLabel(image, innerWidth, boxHeight - LABEL_PADDING.y * 2);
   const placeholderLabelHeight = label
     ? measureText(label.map((segment) => segment.text).join(""), {
         fontSize: TYPOGRAPHY.body,
@@ -129,6 +139,75 @@ export function imagePlaceholderItem(
         lineHeightEm: LINE_HEIGHT.global,
       })
     : 0;
+
+  const resultLabel = (itemTop: number): ElementAtPoint[] =>
+    image.role === "result"
+      ? [
+          createRichText({
+            left: style.left,
+            top: itemTop,
+            width: frameWidth,
+            text: RESULT_LABEL,
+            fontRef: style.fonts.fontRef,
+            fontSize: TYPOGRAPHY.body,
+            role: "body",
+            fontWeight: style.fonts.boldWeight,
+            color: colors.primary,
+            lineHeightEm: LINE_HEIGHT.global,
+          }),
+        ]
+      : [];
+  const caption = (itemTop: number): ElementAtPoint[] =>
+    image.caption
+      ? [
+          createRichText({
+            left: style.left,
+            top: itemTop + labelBlock + boxHeight + GAP.imageCaption,
+            width: frameWidth,
+            text: image.caption,
+            fontRef: style.fonts.fontRef,
+            fontSize: TYPOGRAPHY.body,
+            role: "body",
+            fontWeight: style.fonts.regularWeight,
+            color: colors.secondaryText,
+            textAlign: "center",
+            lineHeightEm: LINE_HEIGHT.global,
+          }),
+        ]
+      : [];
+  const role = image.role === "result" ? { role: "result" as const } : {};
+
+  if (asset) {
+    return {
+      height: labelBlock + boxHeight + captionBlock,
+      gapAfter: options.gapAfter,
+      placedImage: {
+        src: image.src,
+        alt: image.alt,
+        fileName: asset.fileName,
+        ratioLabel: asset.ratioLabel,
+        manuscriptRatioLabel: image.ratioLabel,
+        ratioChanged: ratioDiffers(image.ratio, asset.ratio),
+        width: boxWidth,
+        height: boxHeight,
+        scaledToFit,
+        ...role,
+      },
+      render: (itemTop): ElementAtPoint[] => [
+        ...resultLabel(itemTop),
+        {
+          type: "image",
+          dataUrl: asset.dataUrl,
+          altText: { text: image.alt, decorative: false },
+          left: boxLeft,
+          top: itemTop + labelBlock,
+          width: boxWidth,
+          height: boxHeight,
+        },
+        ...caption(itemTop),
+      ],
+    };
+  }
 
   return {
     height: labelBlock + boxHeight + captionBlock,
@@ -141,25 +220,10 @@ export function imagePlaceholderItem(
       width: boxWidth,
       height: boxHeight,
       scaledToFit,
-      ...(image.role === "result" ? { role: "result" as const } : {}),
+      ...role,
     },
     render: (itemTop): ElementAtPoint[] => [
-      ...(image.role === "result"
-        ? [
-            createRichText({
-              left: style.left,
-              top: itemTop,
-              width: frameWidth,
-              text: RESULT_LABEL,
-              fontRef: style.fonts.fontRef,
-              fontSize: TYPOGRAPHY.body,
-              role: "body",
-              fontWeight: style.fonts.boldWeight,
-              color: colors.primary,
-              lineHeightEm: LINE_HEIGHT.global,
-            }),
-          ]
-        : []),
+      ...resultLabel(itemTop),
       createVectorShape({
         left: boxLeft,
         top: itemTop + labelBlock,
@@ -190,23 +254,7 @@ export function imagePlaceholderItem(
             }),
           ]
         : []),
-      ...(image.caption
-        ? [
-            createRichText({
-              left: style.left,
-              top: itemTop + labelBlock + boxHeight + GAP.imageCaption,
-              width: frameWidth,
-              text: image.caption,
-              fontRef: style.fonts.fontRef,
-              fontSize: TYPOGRAPHY.body,
-              role: "body",
-              fontWeight: style.fonts.regularWeight,
-              color: colors.secondaryText,
-              textAlign: "center",
-              lineHeightEm: LINE_HEIGHT.global,
-            }),
-          ]
-        : []),
+      ...caption(itemTop),
     ],
   };
 }

@@ -169,9 +169,11 @@ export function layoutPracticeChecklist(
   }
 
   if (page.tip) {
-    items.push(calloutItem({ type: "tip", text: page.tip }, fonts, {
-      gapAfter: 0,
-    }));
+    items.push(
+      calloutItem({ type: "tip", text: page.tip }, fonts, {
+        gapAfter: 0,
+      }),
+    );
   } else {
     const last = items[items.length - 1];
     if (last) {

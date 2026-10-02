@@ -15,7 +15,12 @@ import { roundedRectPath } from "../utils/geometry";
 import type { ContentBlock } from "../parser/blocks";
 import { parseBlocks } from "../parser/blocks";
 import type { FlowItem } from "../layout/flow";
-import { flowIntoPages, pendingImagesOf, renderPlaced } from "../layout/flow";
+import {
+  flowIntoPages,
+  pendingImagesOf,
+  placedImagesOf,
+  renderPlaced,
+} from "../layout/flow";
 import {
   continuationInset,
   continuationReserve,
@@ -155,12 +160,14 @@ function stepCardItem(
   }
   const cardHeight = chrome + contentHeight;
   const pendingImage = inner.find((item) => item.pendingImage)?.pendingImage;
+  const placedImage = inner.find((item) => item.placedImage)?.placedImage;
 
   return {
     height: arrowShare + cardHeight,
     gapAfter: 0,
     reservesContinuation: true,
     ...(pendingImage ? { pendingImage } : {}),
+    ...(placedImage ? { placedImage } : {}),
     render: (top): ElementAtPoint[] => {
       const cardTop = top + arrowShare;
       let cursor =
@@ -261,6 +268,7 @@ export function layoutStepCards(
 
   return pages.map((placed, index) => {
     const pendingImages = pendingImagesOf(placed);
+    const placedImages = placedImagesOf(placed);
     return {
       title: continuedTitle(page.title, index),
       elements:
@@ -268,6 +276,7 @@ export function layoutStepCards(
           ? renderPlaced(placed)
           : renderPlaced(withContinuationHeading(placed, page.title, wide)),
       ...(pendingImages.length > 0 ? { pendingImages } : {}),
+      ...(placedImages.length > 0 ? { placedImages } : {}),
     };
   });
 }

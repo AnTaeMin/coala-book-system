@@ -284,13 +284,58 @@ describe("prompt·response 배치", () => {
       (pill?.top ?? 0) + PROMPT_BOX.paddingY + PROMPT_BOX.textOffsetY,
     );
     expect(day.left).toBe(PAGE.marginX + PROMPT_BOX.paddingX);
-    expect(day.top).toBe((response?.top ?? 0) + PROMPT_BOX.responsePaddingY);
+    expect(day.top).toBe(
+      (response?.top ?? 0) +
+        PROMPT_BOX.responsePaddingY +
+        PROMPT_BOX.textOffsetY,
+    );
     // 목록 항목은 응답 상자 안에서 다시 들여쓴다.
     expect(item.left).toBeGreaterThan(day.left);
     // 마지막 글줄이 상자 안에 있다.
     expect(item.top).toBeLessThan(
       (response?.top ?? 0) + (response?.height ?? 0),
     );
+  });
+
+  it("한 줄 응답은 프롬프트 상자와 같은 높이의 알약이 된다", () => {
+    const [page] = layoutOf(
+      book(
+        concept([
+          ...dialogue("한국 최초의 스마트폰은 1995년에 출시되었나요?", [
+            "네, 맞습니다.",
+          ]),
+          "",
+          "마무리 문장입니다.",
+        ]),
+      ),
+    );
+    const elements = page?.elements ?? [];
+    const [pill, response] = dialogueBoxes(elements);
+    const answer = findText(elements, "네, 맞습니다.");
+
+    expect(response?.height).toBe(pill?.height);
+    expect(response?.paths[0]?.d).toContain(
+      `A ${(response?.height ?? 0) / 2}`,
+    );
+    expect(answer.top).toBe(
+      (response?.top ?? 0) + PROMPT_BOX.paddingY + PROMPT_BOX.textOffsetY,
+    );
+  });
+
+  it("두 줄 이상의 응답은 여러 줄 여백의 둥근 상자를 유지한다", () => {
+    const [page] = layoutOf(
+      book(
+        concept(
+          dialogue("설명해줘.", [
+            "생성형 AI는 사용자의 요청에 따라 새로운 결과물을 만드는 인공지능이라서 한 줄에 다 들어가지 않는 긴 문장으로 답합니다.",
+          ]),
+        ),
+      ),
+    );
+    const [pill, response] = dialogueBoxes(page?.elements ?? []);
+
+    expect(response?.height).toBeGreaterThan(pill?.height ?? 0);
+    expect(response?.paths[0]?.d).toContain(`A ${PROMPT_BOX.responseRadius}`);
   });
 
   it("이어지는 문단은 응답 상자 아래 정해진 간격에 놓인다", () => {

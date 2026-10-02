@@ -3,12 +3,7 @@ import type { ResolvedBookFonts } from "../theme/font-resolver";
 import type { ConceptPage, ContentSection } from "../types/book-spec";
 import { coalaTheme } from "../theme/coala-theme";
 import { LINE_HEIGHT, TYPOGRAPHY } from "../theme/typography";
-import {
-  CONTENT_WIDTH,
-  GAP,
-  PAGE,
-  TEXT_WIDTH,
-} from "../theme/page-layout";
+import { CONTENT_WIDTH, GAP, PAGE, TEXT_WIDTH } from "../theme/page-layout";
 import { createRichText, createVectorShape } from "../builder/element-factory";
 import { roundedRectPath } from "../utils/geometry";
 import { parseBlocks } from "../parser/blocks";
@@ -17,6 +12,7 @@ import type { FlowItem } from "../layout/flow";
 import {
   flowIntoPages,
   pendingImagesOf,
+  placedImagesOf,
   renderPlaced,
 } from "../layout/flow";
 import { continuationInset } from "../layout/image-placeholder";
@@ -27,7 +23,12 @@ import {
   withContinuationHeading,
 } from "../layout/content-flow";
 import type { PagePart } from "./page-part";
-import { bodyStyle, calloutItem, continuedTitle, sectionMarkdown } from "./shared";
+import {
+  bodyStyle,
+  calloutItem,
+  continuedTitle,
+  sectionMarkdown,
+} from "./shared";
 
 const CARD = {
   columns: 2,
@@ -246,6 +247,7 @@ export function layoutConcept(
 
   return pages.map((placed, index) => {
     const pendingImages = pendingImagesOf(placed);
+    const placedImages = placedImagesOf(placed);
     return {
       title: continuedTitle(page.title, index),
       elements:
@@ -253,6 +255,7 @@ export function layoutConcept(
           ? renderPlaced(placed)
           : renderPlaced(withContinuationHeading(placed, page.title, wide)),
       ...(pendingImages.length > 0 ? { pendingImages } : {}),
+      ...(placedImages.length > 0 ? { placedImages } : {}),
     };
   });
 }

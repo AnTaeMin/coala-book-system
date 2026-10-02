@@ -12,6 +12,7 @@ import type { FlowItem } from "../layout/flow";
 import {
   flowIntoPages,
   pendingImagesOf,
+  placedImagesOf,
   renderPlaced,
 } from "../layout/flow";
 import { continuationInset } from "../layout/image-placeholder";
@@ -132,8 +133,7 @@ function headerElements(
         left: HEADER.marker.left,
         top:
           HEADER.marker.top +
-          (HEADER.marker.size -
-            TYPOGRAPHY.chapterMarker * LINE_HEIGHT.single) /
+          (HEADER.marker.size - TYPOGRAPHY.chapterMarker * LINE_HEIGHT.single) /
             2,
         width: HEADER.marker.size,
         text: String(page.chapterNumber),
@@ -229,10 +229,10 @@ export function layoutChapterOpening(
     ...(pendingImagesOf(placed).length > 0
       ? { pendingImages: pendingImagesOf(placed) }
       : {}),
-    title: continuedTitle(
-      `${page.chapterNumber}. ${page.chapterTitle}`,
-      index,
-    ),
+    ...(placedImagesOf(placed).length > 0
+      ? { placedImages: placedImagesOf(placed) }
+      : {}),
+    title: continuedTitle(`${page.chapterNumber}. ${page.chapterTitle}`, index),
     elements:
       index === 0
         ? [...header.elements, ...renderPlaced(placed)]

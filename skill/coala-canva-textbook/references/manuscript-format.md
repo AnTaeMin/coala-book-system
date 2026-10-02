@@ -249,7 +249,7 @@ The horizontal row of white cards joined by thin lines at the top of `assets/pag
 
 ## AI prompt and response
 
-Write the user's prompt and the AI's response as two fenced blocks, the response directly after the prompt with nothing but blank lines between them. The app draws the prompt in a pill-shaped outline and the response in a rounded outlined box, both at body size, following `assets/page-examples/ai-prompt-response.png`. The reference page's `+` and microphone icons are decoration and are not reproduced.
+Write the user's prompt and the AI's response as two fenced blocks, the response directly after the prompt with nothing but blank lines between them. The app draws the prompt in a pill-shaped outline and the response in a rounded outlined box, both at body size, following `assets/page-examples/ai-prompt-response.png`. A one-line response (a single short paragraph) is drawn as a pill of the same height as the prompt, so a short exchange reads as two matching pills. The reference page's `+` and microphone icons are decoration and are not reproduced.
 
 ````markdown
 :::page{type="concept" id="prompt-example" layout="basic"}
@@ -344,7 +344,12 @@ The text-only STEP card page of `assets/page-examples/process-steps.png`. One `#
 
 ## Image placeholders
 
-Declare an image where it belongs in the manuscript, even when the file does not exist yet. The app reserves the exact space, marks it, and leaves it empty. The image is added later in Canva by dragging it onto the reserved box; nothing else on the page moves.
+Declare an image where it belongs in the manuscript, even when the file does not exist yet. What happens to it depends on whether the file is given to the app:
+
+- **The manuscript folder is handed to the app and the file exists** (at `src`, relative to the manuscript file): the app places the actual image there, sized to the file's **real aspect ratio**. The `ratio` in the manuscript is ignored for that image, and the app's report says so when the two differ.
+- **Only the `.md` is handed over, or the file is missing**: the app reserves the exact space from `ratio`, marks it, and leaves it empty. The image is added later in Canva by dragging it onto the reserved box; nothing else on the page moves.
+
+The two cases mix freely in one manuscript. A manuscript with no image files at all works exactly as before.
 
 ```markdown
 ::image{src="assets/ch01/step-01.png" alt="새 프로젝트 만들기 창" ratio="16:9" caption="그림 1-1 새 프로젝트 만들기"}
@@ -363,7 +368,7 @@ Write the directive as **one line with no closing line**. A line containing only
 
 Rules:
 
-- `ratio` decides the reserved height, and Canva fills the box by cropping. **Declare the ratio of the final image.** A different ratio means the image is cropped.
+- `ratio` decides the reserved height when the file is not supplied, and Canva fills the box by cropping when the image is dropped in later. **Declare the ratio of the final image.** When the file is supplied with the folder, its real ratio always wins and nothing is cropped.
 - The Canva editor itself can scale the box but cannot stretch it to another ratio. When the final image turns out to have a different ratio, change the box with the app's **이미지 자리 비율 바꾸기** panel before adding the image (see `image-guidelines.md`). The manuscript `ratio` still decides how much space is reserved when the book is generated, so set it as accurately as you can.
 - A placeholder is never split across pages. One that is taller than a page is scaled down with its ratio preserved, and the post-generation list says so.
 - Allowed positions: anywhere under the page title of a `concept` page with `layout="basic"`, in the body under the concept subsection heading of a `chapter-opening` page, and under each step heading of a `screenshot-guide` page, where exactly one is required per step.

@@ -40,6 +40,16 @@ import {
   describeProgress,
   isGenerateDisabled,
 } from "./builder/generation-state";
+import type {
+  FolderFile,
+  ImageLoadFailure,
+  ResolvedImages,
+} from "./builder/image-assets";
+import {
+  imageSrcsOf,
+  loadImageAssets,
+  pairImageFiles,
+} from "./builder/image-assets";
 import { parseRatio } from "./parser/image-directive";
 import { parseBookMarkdown } from "./parser/markdown-book";
 import { coalaTheme } from "./theme/coala-theme";
@@ -170,6 +180,39 @@ function PendingImagesReport({ result }: { result: CreateBookResult }) {
             {image.ratioDeclared ? "" : ", 비율 미지정 → 기본값"}
             {image.scaledToFit ? ", 지면에 맞춰 축소" : ""})
             {image.role === "result" ? " · 실행 결과" : ""} — {image.alt}
+          </Text>
+        ))}
+      </Rows>
+    </Alert>
+  );
+}
+
+/** 폴더의 파일로 채운 이미지 목록. 원고의 비율과 다르면 알린다. */
+function PlacedImagesReport({ result }: { result: CreateBookResult }) {
+  const { placedImages } = result;
+  if (placedImages.length === 0) {
+    return null;
+  }
+  return (
+    <Alert
+      tone="positive"
+      title={`이미지 ${placedImages.length}곳을 폴더의 파일로 채웠습니다`}
+    >
+      <Rows spacing="0.5u">
+        {placedImages.map((image, index) => (
+          <Text
+            key={`${image.designPage}-${image.src}-${index}`}
+            size="small"
+            tone="secondary"
+          >
+            {image.pageNumber ? `${image.pageNumber}쪽` : image.pageTitle} ·{" "}
+            {image.fileName} · {image.width}×{image.height}px (
+            {image.ratioLabel}
+            {image.ratioChanged
+              ? `, 원고의 ${image.manuscriptRatioLabel} 대신 파일 비율로 놓음`
+              : ""}
+            {image.scaledToFit ? ", 지면에 맞춰 축소" : ""})
+            {image.role === "result" ? " · 실행 결과" : ""}
           </Text>
         ))}
       </Rows>
@@ -487,6 +530,15 @@ export function App() {
   const canAddPage = isSupported(addPage);
   const [bookSpec, setBookSpec] = useState<BookSpec>();
   const [fileName, setFileName] = useState<string>();
+  /** 읽어 둔 원고 원문. 나중에 고른 이미지 폴더와 짝을 맞출 때 쓴다. */
+  const [manuscript, setManuscript] = useState<{
+    path: string;
+    source: string;
+  }>();
+  /** 원고 폴더에서 찾아 읽어 둔 이미지. 원고를 다시 고르면 비운다. */
+  const [imageAssets, setImageAssets] = useState<ResolvedImages>();
+  const [imageNote, setImageNote] = useState<string>();
+  const [imageFailures, setImageFailures] = useState<ImageLoadFailure[]>([]);
   const [phase, setPhase] = useState<GenerationPhase>("idle");
   const [status, setStatus] = useState<Status>();
   const [progress, setProgress] = useState<ProgressState>();
@@ -504,9 +556,46 @@ export function App() {
   /** 이전에 만든 페이지가 아직 남아 있는지 확인한 결과. */
   const [createdPageNote, setCreatedPageNote] = useState<string>();
 
-  const readMarkdown = async (files: File[]) => {
-    const file = files[0];
-    if (!file) {
+  /**
+   * 폴더의 이미지 파일을 읽어 둔 원고와 짝 맞춘다.
+   *
+   * 원고의 `::image` src마다 파일을 찾아 읽는다. 파일이 없는 자리는 이전처럼
+   * 비워 두므로 이미지가 하나도 없어도 똑같이 동작한다.
+   */
+  const attachImages = async (
+    current: { path: string; source: string },
+    files: FolderFile[],
+  ) => {
+    const srcs = imageSrcsOf(current.source);
+    const { found } = pairImageFiles(current.path, srcs, files);
+    const { images, failures } = await loadImageAssets(found);
+    setImageAssets(images);
+    setImageFailures(failures);
+    setImageNote(
+      srcs.length === 0
+        ? "이 원고에는 이미지 자리가 없습니다."
+        : `이미지 자리 ${srcs.length}곳 중 ${images.size}곳의 파일을 폴더에서 찾았습니다. 찾은 파일은 실제 비율대로 놓고, 나머지 ${srcs.length - images.size}곳은 자리로 비워 둡니다.`,
+    );
+  };
+
+  /**
+   * 원고를 읽는다. 파일 하나(.md)만 왔을 수도, 폴더째 왔을 수도 있다.
+   *
+   * 폴더로 오면 그 안의 .md를 원고로 삼는다. 함께 온 이미지 파일은
+   * `attachImages`로 짝 맞춘다.
+   */
+  const readManuscript = async (files: FolderFile[]) => {
+    const markdownFiles = files.filter((entry) =>
+      entry.file.name.toLowerCase().endsWith(".md"),
+    );
+    const manuscriptFile =
+      markdownFiles.find((entry) => entry.file.name === "book.md") ??
+      markdownFiles[0];
+    if (!manuscriptFile) {
+      setStatus({
+        tone: "critical",
+        message: "폴더에 .md 원고 파일이 없습니다.",
+      });
       return;
     }
     setPhase("reading");
@@ -515,13 +604,25 @@ export function App() {
     setFailureReport(undefined);
     setFailedAttempts([]);
     setBookSpec(undefined);
+    setImageAssets(undefined);
+    setImageNote(undefined);
+    setImageFailures([]);
     setProgress(undefined);
     setRerunDecision(undefined);
-    setFileName(file.name);
+    setFileName(manuscriptFile.relativePath);
     try {
-      const source = await file.text();
+      const source = await manuscriptFile.file.text();
       const parsed = parseBookMarkdown(source);
       setBookSpec(parsed);
+      const current = { path: manuscriptFile.relativePath, source };
+      setManuscript(current);
+
+      // 폴더로 왔다면 함께 온 이미지 파일을 짝 맞춘다. .md 하나만 왔다면
+      // 짝이 없어 모든 자리를 비워 둔다. 없어도 생성은 막지 않는다.
+      if (files.length > 1) {
+        await attachImages(current, files);
+      }
+
       // 원고 업로드 단계에서는 구조만 검사한다. 글꼴은 여기서 확인하지 않는다.
       // findFonts()가 Canva 글꼴의 일부만 돌려주기 때문에, 사전 조회 결과로
       // 생성을 막으면 실제로는 쓸 수 있는 글꼴을 막는 오탐이 된다.
@@ -535,6 +636,49 @@ export function App() {
     } catch (error) {
       setFailureReport(buildFailureReport(error));
       setPhase("failed");
+    }
+  };
+
+  /** 파일 하나만 골랐을 때. 폴더 정보가 없으므로 파일 이름이 곧 경로다. */
+  const readMarkdown = (files: File[]) =>
+    readManuscript(files.map((file) => ({ relativePath: file.name, file })));
+
+  /**
+   * 폴더를 골랐을 때. 브라우저가 폴더 기준 경로를 함께 준다.
+   *
+   * 폴더에 .md가 있으면 그것을 원고로 삼아 통째로 읽는다. 없으면 이미 읽어 둔
+   * 원고에 이미지만 붙인다. 원고가 아직 없으면 먼저 고르라고 알린다.
+   */
+  const readFolder = async (list: FileList | null) => {
+    if (!list) {
+      return;
+    }
+    const files = Array.from(list).map((file) => ({
+      relativePath:
+        (file as File & { webkitRelativePath?: string }).webkitRelativePath ||
+        file.name,
+      file,
+    }));
+    const hasMarkdown = files.some((entry) =>
+      entry.file.name.toLowerCase().endsWith(".md"),
+    );
+    if (hasMarkdown) {
+      await readManuscript(files);
+      return;
+    }
+    if (!manuscript) {
+      setStatus({
+        tone: "critical",
+        message:
+          "먼저 위에서 .md 원고를 고르거나, 원고가 든 폴더를 골라 주세요. 이 폴더에는 원고가 없습니다.",
+      });
+      return;
+    }
+    setPhase("reading");
+    try {
+      await attachImages(manuscript, files);
+    } finally {
+      setPhase("idle");
     }
   };
 
@@ -566,6 +710,7 @@ export function App() {
         {},
         {
           alreadyCreatedIndexes,
+          images: imageAssets,
           onProgress: (event) => {
             setProgress({
               message: describeProgress(event),
@@ -684,7 +829,42 @@ export function App() {
             })
           }
         />
+        <Rows spacing="0.5u">
+          <Text size="small" tone="secondary">
+            이미지까지 넣으려면(선택) 이미지가 든 폴더를 고르세요. 위에서 고른
+            원고의 이미지 자리와 파일 이름·경로로 짝을 맞춥니다. 원고와
+            assets/가 함께 든 폴더를 골라도 됩니다. 파일이 있는 자리에는 실제
+            이미지가 들어가고, 없는 자리는 비워 둡니다.
+          </Text>
+          {/* eslint-disable-next-line react/forbid-elements -- UI Kit의 FileInput은 폴더 선택(webkitdirectory)을 지원하지 않는다. */}
+          <input
+            type="file"
+            multiple
+            disabled={phase === "generating" || phase === "reading"}
+            onChange={(event) => {
+              void readFolder(event.target.files);
+              event.target.value = "";
+            }}
+            {...({ webkitdirectory: "", directory: "" } as object)}
+          />
+        </Rows>
         {fileName && <Text>선택한 원고: {fileName}</Text>}
+        {imageNote && (
+          <Text size="small" tone="secondary">
+            {imageNote}
+          </Text>
+        )}
+        {imageFailures.length > 0 && (
+          <Alert tone="warn" title="읽지 못한 이미지 파일">
+            <Rows spacing="0.5u">
+              {imageFailures.map((failure) => (
+                <Text key={failure.src} size="small">
+                  {failure.src} · {failure.reason} — 이 자리는 비워 둡니다.
+                </Text>
+              ))}
+            </Rows>
+          </Alert>
+        )}
         {bookSpec && (
           <Text>
             {bookSpec.title} · 원고 {bookSpec.pages.length}페이지 ·{" "}
@@ -753,6 +933,7 @@ export function App() {
           </Alert>
         )}
         {result && <FontReport result={result} />}
+        {result && <PlacedImagesReport result={result} />}
         {result && <PendingImagesReport result={result} />}
         {result && <PendingFlowchartsReport result={result} />}
         {result?.blankFirstPage?.reused === false &&

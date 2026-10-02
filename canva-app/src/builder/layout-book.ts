@@ -2,7 +2,10 @@ import type { BookPage, BookSpec } from "../types/book-spec";
 import type { ResolvedBookFonts } from "../theme/font-resolver";
 import type { PagePart } from "../page-types/page-part";
 import type { PendingFlowchartReport } from "../types/pending-flowchart";
-import type { PendingImageReport } from "../types/pending-image";
+import type {
+  PendingImageReport,
+  PlacedImageReport,
+} from "../types/pending-image";
 import { layoutPage } from "./create-page";
 import { isNumberedPage } from "./plan-book";
 
@@ -72,6 +75,20 @@ export function collectPendingImages(
 ): PendingImageReport[] {
   return pages.flatMap((page, index) =>
     (page.pendingImages ?? []).map((image) => ({
+      ...image,
+      designPage: index + 1,
+      pageNumber: page.pageNumber,
+      pageTitle: page.title,
+    })),
+  );
+}
+
+/** 파일로 채운 이미지를 책 전체에서 모은다. 순서는 지면 순서와 같다. */
+export function collectPlacedImages(
+  pages: readonly LaidOutPage[],
+): PlacedImageReport[] {
+  return pages.flatMap((page, index) =>
+    (page.placedImages ?? []).map((image) => ({
       ...image,
       designPage: index + 1,
       pageNumber: page.pageNumber,

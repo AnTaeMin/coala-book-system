@@ -31,3 +31,33 @@ export type PendingImageReport = PendingImage & {
   /** Canva 페이지 제목. */
   pageTitle: string;
 };
+
+/**
+ * 폴더에서 찾은 파일로 실제로 채운 이미지 하나.
+ *
+ * 자리를 비워 둔 것이 아니므로 사용자가 할 일은 없다. 다만 원고의 `ratio`와
+ * 파일의 실제 비율이 다르면 알려 준다. 자리는 파일 비율을 따랐다.
+ */
+export type PlacedImage = {
+  src: string;
+  alt: string;
+  fileName: string;
+  /** 파일의 실제 비율 표기. 자리는 이 비율로 잡았다. */
+  ratioLabel: string;
+  /** 원고에 적힌 비율 표기. */
+  manuscriptRatioLabel: string;
+  /** 원고의 비율과 파일의 비율이 다른가(1% 넘게). */
+  ratioChanged: boolean;
+  /** 지면에 놓인 크기(px). */
+  width: number;
+  height: number;
+  /** 지면에 들어가지 않아 줄여 놓았는가. */
+  scaledToFit: boolean;
+  role?: "result";
+};
+
+export type PlacedImageReport = PlacedImage & {
+  designPage: number;
+  pageNumber?: string;
+  pageTitle: string;
+};

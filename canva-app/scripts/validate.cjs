@@ -83,7 +83,43 @@ function installCanvaStubs() {
 }
 
 let layoutModules;
-function layoutOf(spec) {
+
+/**
+ * 원고 옆의 이미지 파일을 찾는다. 앱이 폴더에서 하는 일과 같되, 여기서는
+ * 파일 시스템을 직접 읽고 크기는 헤더에서 알아낸다. 없는 파일은 자리로 남는다.
+ */
+function resolveImageFiles(source, manuscriptPath) {
+  const { imageSrcsOf, ratioLabelOf } = require("../src/builder/image-assets.ts");
+  const { imageSizeOf } = require("../src/utils/image-size.ts");
+  const images = new Map();
+  const missing = [];
+  const unreadable = [];
+  for (const src of imageSrcsOf(source)) {
+    const filePath = path.resolve(path.dirname(manuscriptPath), src);
+    if (!fs.existsSync(filePath)) {
+      missing.push(src);
+      continue;
+    }
+    const size = imageSizeOf(new Uint8Array(fs.readFileSync(filePath)));
+    if (!size) {
+      unreadable.push(src);
+      continue;
+    }
+    images.set(src, {
+      src,
+      fileName: path.basename(filePath),
+      mimeType: "",
+      dataUrl: "",
+      width: size.width,
+      height: size.height,
+      ratio: size.width / size.height,
+      ratioLabel: ratioLabelOf(size.width, size.height),
+    });
+  }
+  return { images, missing, unreadable };
+}
+
+function layoutOf(spec, source, manuscriptPath) {
   if (!layoutModules) {
     installCanvaStubs();
     layoutModules = {
@@ -91,13 +127,20 @@ function layoutOf(spec) {
       ...require("../src/builder/layout-book.ts"),
     };
   }
-  const { planBook, layoutBook, collectPendingImages, collectPendingFlowcharts } =
-    layoutModules;
+  const {
+    planBook,
+    layoutBook,
+    collectPendingImages,
+    collectPlacedImages,
+    collectPendingFlowcharts,
+  } = layoutModules;
+  const files = resolveImageFiles(source, manuscriptPath);
   const fonts = {
     familyName: "Canva 디자인 기본 글꼴",
     regularWeight: "normal",
     boldWeight: "bold",
     source: "canva-default",
+    images: files.images,
   };
   const pages = layoutBook(spec, planBook(spec).pages, fonts);
   const counts = new Map();
@@ -119,6 +162,16 @@ function layoutOf(spec) {
       role: image.role,
       alt: image.alt,
     })),
+    placedImages: collectPlacedImages(pages).map((image) => ({
+      page: image.pageNumber ?? image.pageTitle,
+      src: image.src,
+      fileRatio: image.ratioLabel,
+      manuscriptRatio: image.manuscriptRatioLabel,
+      ratioChanged: image.ratioChanged,
+      size: `${image.width}×${image.height}`,
+      role: image.role,
+    })),
+    unreadableImages: files.unreadable,
     flowcharts: collectPendingFlowcharts(pages).map((flowchart) => ({
       page: flowchart.pageNumber ?? flowchart.pageTitle,
       title: flowchart.pageTitle,
@@ -152,7 +205,7 @@ const reports = files.map((file) => {
   const report = { file, ok: spec !== undefined, pages: spec?.pages.length, issues };
   if (report.ok && withLayout) {
     try {
-      report.layout = layoutOf(spec);
+      report.layout = layoutOf(spec, source, fullPath);
     } catch (error) {
       // 배치 단계의 원고 오류(카드에 들어가지 않는 글 등)도 원고 오류다.
       report.ok = false;
@@ -192,13 +245,25 @@ if (asJson) {
         const split = page.canvaPages > 1 ? "  ← 분할됨" : "";
         console.log(`  ${page.id} (${page.type}): ${page.canvaPages}장${split}`);
       }
-      const { images, flowcharts } = report.layout;
-      console.log(`  이미지 자리 ${images.length}곳, 순서도 자리 ${flowcharts.length}곳`);
+      const { images, placedImages, unreadableImages, flowcharts } = report.layout;
+      console.log(
+        `  이미지: 파일로 채움 ${placedImages.length}곳, 자리로 비움 ${images.length}곳, 순서도 자리 ${flowcharts.length}곳`,
+      );
+      for (const image of placedImages) {
+        const role = image.role === "result" ? " · 실행 결과" : "";
+        const ratio = image.ratioChanged
+          ? `${image.fileRatio} (원고 ${image.manuscriptRatio} → 파일 비율 우선)`
+          : image.fileRatio;
+        console.log(`    ${image.page}쪽 · ${image.src} · 파일 있음 · ${ratio} · ${image.size}px${role}`);
+      }
       for (const image of images) {
         const role = image.role === "result" ? " · 실행 결과" : "";
         console.log(
-          `    ${image.page}쪽 · ${image.src} · ${image.ratio} · ${image.size}px${role} — ${image.alt}`,
+          `    ${image.page}쪽 · ${image.src} · 파일 없음 · ${image.ratio} · ${image.size}px${role} — ${image.alt}`,
         );
+      }
+      for (const src of unreadableImages) {
+        console.log(`    ${src} · 파일은 있으나 크기를 읽지 못함(png/jpg/gif/webp만) → 자리로 비움`);
       }
       for (const flowchart of flowcharts) {
         console.log(

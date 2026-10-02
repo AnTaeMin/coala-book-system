@@ -1,5 +1,6 @@
 import type { Font, FontRef, FontWeight, FontWeightName } from "@canva/asset";
 import { findFonts } from "@canva/asset";
+import type { ResolvedImages } from "../builder/image-assets";
 
 /**
  * 글꼴 해석.
@@ -49,6 +50,12 @@ export type ResolvedBookFonts = {
    * 본문 글꼴로 그려진다. 본문 글꼴처럼 실제 적용으로 판정하지는 않는다.
    */
   code?: CodeFont;
+  /**
+   * 원고 폴더에서 찾은 이미지 파일. 자리표시자 대신 실제 이미지를 놓는 데 쓴다.
+   * 글꼴과 함께 모든 배치 함수에 전달되므로 여기에 실어 나른다. 없으면 모든
+   * 이미지 자리를 비워 둔다.
+   */
+  images?: ResolvedImages;
 };
 
 export type CodeFont = {

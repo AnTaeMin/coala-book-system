@@ -112,14 +112,13 @@ export function responseItems(
     left: frame.left + PROMPT_BOX.paddingX,
     width: frame.width - PROMPT_BOX.paddingX * 2,
   };
-  const padding = PROMPT_BOX.responsePaddingY * 2;
   const maxInner = Math.max(
     1,
     Math.floor(
       options.maxHeight -
         continuationReserve() -
         carriedHeadingReserve() -
-        padding,
+        PROMPT_BOX.responsePaddingY * 2,
     ),
   );
   // 응답 안에는 문단과 목록만 온다. 원고 검사가 나머지를 거절한다.
@@ -129,6 +128,17 @@ export function responseItems(
   );
   const flowOptions: BlockFlowOptions = { maxItemHeight: maxInner };
   const inner = blockFlowItems(blocks, innerStyle, flowOptions);
+  // 한 줄짜리 응답("네, 맞습니다.")은 프롬프트 상자와 같은 여백을 써서 같은
+  // 높이의 알약이 된다. 여러 줄 응답의 36px 여백을 그대로 쓰면 글 한 줄에
+  // 여백이 글만큼 붙어 상자가 뚱뚱해 보인다.
+  const oneLine =
+    blocks.length === 1 &&
+    blocks[0]?.kind === "paragraph" &&
+    inner.length === 1 &&
+    (inner[0]?.height ?? 0) <=
+      lineHeight(TYPOGRAPHY.body, LINE_HEIGHT.global);
+  const paddingY = oneLine ? PROMPT_BOX.paddingY : PROMPT_BOX.responsePaddingY;
+  const padding = paddingY * 2;
 
   const groups: FlowItem[][] = [];
   let group: FlowItem[] = [];
@@ -162,7 +172,9 @@ export function responseItems(
       gapAfter: isLast ? options.gapAfter : GAP.promptToResponse,
       reservesContinuation: true,
       render: (top): ElementAtPoint[] => {
-        let cursor = top + PROMPT_BOX.responsePaddingY;
+        // 프롬프트 상자와 같은 보정: 줄 간격의 여분이 글자 아래에 몰리므로
+        // 글을 조금 내려야 상자 가운데에 온다.
+        let cursor = top + paddingY + PROMPT_BOX.textOffsetY;
         const drawn = items.flatMap((item) => {
           const elements = item.render(cursor);
           cursor += item.height + item.gapAfter;

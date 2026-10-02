@@ -98,7 +98,9 @@ const STRUCTURE = {
 
 /** 원고의 순서도를 "사용자가 만들어야 할 것"의 목록으로 바꾼다. */
 export function describeFlowchart(page: FlowchartPage): PendingFlowchartDraft {
-  const numberOf = new Map(page.nodes.map((node, index) => [node.id, index + 1]));
+  const numberOf = new Map(
+    page.nodes.map((node, index) => [node.id, index + 1]),
+  );
   const structure = page.controlStructure
     ? STRUCTURE[page.controlStructure]
     : undefined;

@@ -151,7 +151,9 @@ function cardItem(
   });
   const descriptionHeight = description.reduce(
     (sum, item, index) =>
-      sum + item.height + (index === description.length - 1 ? 0 : item.gapAfter),
+      sum +
+      item.height +
+      (index === description.length - 1 ? 0 : item.gapAfter),
     0,
   );
   const height =
@@ -250,7 +252,9 @@ export function layoutPracticeOpening(
     maxItemHeight: available,
   });
   const chunks = chunkDescription(page, description, fonts, available);
-  const cards = chunks.map((chunk) => cardItem(page, chunk, fonts, GAP.callout));
+  const cards = chunks.map((chunk) =>
+    cardItem(page, chunk, fonts, GAP.callout),
+  );
   const items: FlowItem[] = [...cards];
 
   if (page.support?.type === "tip") {

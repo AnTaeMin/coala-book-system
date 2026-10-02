@@ -1,6 +1,6 @@
 import type { ElementAtPoint } from "@canva/design";
 import type { PendingFlowchart } from "../types/pending-flowchart";
-import type { PendingImage } from "../types/pending-image";
+import type { PendingImage, PlacedImage } from "../types/pending-image";
 
 /**
  * 물리 페이지 하나.
@@ -15,6 +15,8 @@ export type PagePart = {
   elements: ElementAtPoint[];
   /** 이 페이지에 비워 둔 이미지 자리. 하나도 없으면 필드 자체가 없다. */
   pendingImages?: PendingImage[];
+  /** 이 페이지에서 폴더의 파일로 채운 이미지. 하나도 없으면 필드 자체가 없다. */
+  placedImages?: PlacedImage[];
   /** 이 페이지에 비워 둔 순서도 자리. 하나도 없으면 필드 자체가 없다. */
   pendingFlowcharts?: PendingFlowchart[];
 };

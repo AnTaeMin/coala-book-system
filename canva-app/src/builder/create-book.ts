@@ -14,17 +14,18 @@ import type { LaidOutPage } from "./layout-book";
 import {
   collectPendingFlowcharts,
   collectPendingImages,
+  collectPlacedImages,
   layoutBook,
 } from "./layout-book";
 import type { PendingFlowchartReport } from "../types/pending-flowchart";
-import type { PendingImageReport } from "../types/pending-image";
+import type {
+  PendingImageReport,
+  PlacedImageReport,
+} from "../types/pending-image";
+import type { ResolvedImages } from "./image-assets";
 import type { PreparedPage } from "./create-page";
 import { createPage, preparePage } from "./create-page";
-import type {
-  PageTask,
-  PageWriteRecord,
-  WritePageFn,
-} from "./page-writer";
+import type { PageTask, PageWriteRecord, WritePageFn } from "./page-writer";
 import { PageWriteFailedError, SequentialPageWriter } from "./page-writer";
 import { countDesignPages } from "./design-pages";
 import { openDesign, setCurrentPageBackground } from "@canva/design";
@@ -61,6 +62,8 @@ export type CreateBookResult = {
    * 이미지를 끌어다 놓으면 끝난다. 이미지가 없는 원고에서는 빈 배열.
    */
   pendingImages: PendingImageReport[];
+  /** 원고 폴더의 파일로 채운 이미지 목록(책 전체, 지면 순서). */
+  placedImages: PlacedImageReport[];
   /**
    * 자리만 비워 둔 순서도 목록(책 전체, 지면 순서). 앱은 순서도를 그리지
    * 않는다. 사용자가 Canva에서 지정된 요소로 직접 만들어야 한다.
@@ -122,6 +125,11 @@ export type CreateBookOptions = {
    * 다시 만들지 않는다.
    */
   alreadyCreatedIndexes?: readonly number[];
+  /**
+   * 원고 폴더에서 찾은 이미지 파일. 있는 자리에는 실제 이미지를 놓고, 없는
+   * 자리는 이전처럼 비워 둔다. 생략하면 모든 자리를 비워 둔다.
+   */
+  images?: ResolvedImages;
 };
 
 const defaultDeps: CreateBookDeps = {
@@ -237,7 +245,11 @@ export async function createBook(
   }
 
   const layoutWith = (fonts: ResolvedBookFonts): LaidOutPage[] =>
-    layoutBook(spec, plan.pages, fonts);
+    layoutBook(
+      spec,
+      plan.pages,
+      options.images ? { ...fonts, images: options.images } : fonts,
+    );
 
   // 분할 결과는 글꼴에 따라 달라지지 않으므로 페이지 수를 미리 확정할 수 있다.
   let laidOut = layoutWith(firstCandidate);
@@ -315,7 +327,6 @@ export async function createBook(
 
   let font: FontApplicationOutcome | undefined;
   let blankFirstPage: BlankFirstPageReuse | undefined;
-
 
   /**
    * 생성을 멈춘다. 이미 만들어진 페이지는 숨기지 않고 그대로 보고한다.
@@ -494,6 +505,7 @@ export async function createBook(
     records,
     font,
     pendingImages: collectPendingImages(laidOut),
+    placedImages: collectPlacedImages(laidOut),
     pendingFlowcharts: collectPendingFlowcharts(laidOut),
     ...(blankFirstPage ? { blankFirstPage } : {}),
   };

@@ -1,6 +1,6 @@
 import type { ElementAtPoint } from "@canva/design";
 import type { PendingFlowchart } from "../types/pending-flowchart";
-import type { PendingImage } from "../types/pending-image";
+import type { PendingImage, PlacedImage } from "../types/pending-image";
 
 /**
  * 세로 흐름 배치와 페이지 분할.
@@ -24,8 +24,10 @@ export type FlowItem = {
    * 일이 생기지 않는다.
    */
   keepWithNext?: number;
-  /** 이 조각이 이미지 자리표시자일 때만 있다. 생성 후 보고 목록에 쓴다. */
+  /** 이 조각이 비워 둔 이미지 자리일 때만 있다. 생성 후 보고 목록에 쓴다. */
   pendingImage?: PendingImage;
+  /** 이 조각이 폴더의 파일로 채운 이미지일 때만 있다. */
+  placedImage?: PlacedImage;
   /** 이 조각이 순서도 자리표시자일 때만 있다. 생성 후 보고 목록에 쓴다. */
   pendingFlowchart?: PendingFlowchart;
   /**
@@ -124,6 +126,13 @@ export function renderPlaced(placed: readonly PlacedItem[]): ElementAtPoint[] {
 export function pendingImagesOf(placed: readonly PlacedItem[]): PendingImage[] {
   return placed.flatMap(({ item }) =>
     item.pendingImage ? [item.pendingImage] : [],
+  );
+}
+
+/** 이 페이지에서 파일로 채운 이미지들. */
+export function placedImagesOf(placed: readonly PlacedItem[]): PlacedImage[] {
+  return placed.flatMap(({ item }) =>
+    item.placedImage ? [item.placedImage] : [],
   );
 }
 
