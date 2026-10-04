@@ -1,0 +1,22 @@
+[
+  {
+    "session": 5,
+    "code": "first = \"2\"\nsecond = \"3\"\nprint(first + second)\nprint(int(first) + int(second))",
+    "actual_output": "23\n5"
+  },
+  {
+    "session": 6,
+    "code": "borrowed = 3\nif borrowed < 3:\n    print(\"추가 대출 가능\")\nelse:\n    print(\"추가 대출 불가\")",
+    "actual_output": "추가 대출 불가"
+  },
+  {
+    "session": 7,
+    "code": "dan = 4\nfor number in range(1, 10):\n    print(f\"{dan} x {number} = {dan * number}\")",
+    "actual_output": "4 x 1 = 4\n4 x 2 = 8\n4 x 3 = 12\n4 x 4 = 16\n4 x 5 = 20\n4 x 6 = 24\n4 x 7 = 28\n4 x 8 = 32\n4 x 9 = 36"
+  },
+  {
+    "session": 8,
+    "code": "minutes = [20, 30]\ntotal = sum(minutes)\nprint(f\"합계 {total}분\")\nprint(f\"평균 {total / len(minutes):.1f}분\")",
+    "actual_output": "합계 50분\n평균 25.0분"
+  }
+]

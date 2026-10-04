@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-04",
+  "servers": {
+    "http://localhost:8080/app.js": 200,
+    "http://127.0.0.1:8765/?lesson=16": 200
+  },
+  "browser_demo": {
+    "lesson": 16,
+    "inputs": [
+      {
+        "subject": "수학",
+        "time": 20
+      },
+      {
+        "subject": "영어",
+        "time": 30
+      }
+    ],
+    "actual": "기록 2개 · 합계 50분; 수학 20분·영어 30분 그래프"
+  },
+  "canva_manuscript": {
+    "method": "visible paste input and inspection button",
+    "characters": 58927,
+    "pages": 202,
+    "page_types": 8,
+    "generate_button_enabled": true,
+    "generation_started": false,
+    "textbook_pages_created": 0,
+    "image_files_attached": 0
+  },
+  "source_design": {
+    "url": "https://www.canva.com/design/DAHRZrtJw9U/edit",
+    "user_approved_read_and_copy": true,
+    "access": "denied by Canva",
+    "actual_message": "이 디자인을 볼 권한이 없어요.",
+    "access_request_sent": false
+  },
+  "file_chooser": {
+    "manuscript": "timeout after 10000ms",
+    "image_folder": "timeout after 10000ms",
+    "extension_setting_verified": false
+  }
+}

@@ -5,6 +5,7 @@ import {
   Column,
   Columns,
   FileInput,
+  MultilineInput,
   ProgressBar,
   Rows,
   Select,
@@ -530,6 +531,7 @@ export function App() {
   const canAddPage = isSupported(addPage);
   const [bookSpec, setBookSpec] = useState<BookSpec>();
   const [fileName, setFileName] = useState<string>();
+  const [pastedMarkdown, setPastedMarkdown] = useState("");
   /** 읽어 둔 원고 원문. 나중에 고른 이미지 폴더와 짝을 맞출 때 쓴다. */
   const [manuscript, setManuscript] = useState<{
     path: string;
@@ -830,6 +832,41 @@ export function App() {
           }
         />
         <Rows spacing="0.5u">
+          <Text size="small" variant="bold">
+            원고 붙여넣기
+          </Text>
+          <Text size="small" tone="secondary">
+            파일을 선택하기 어려우면 Markdown 원고 전체를 붙여넣으세요. 이미지
+            파일은 아래에서 별도로 선택합니다.
+          </Text>
+          <MultilineInput
+            id="pasted-manuscript"
+            placeholder="Markdown 원고 전체를 여기에 붙여넣으세요."
+            minRows={4}
+            value={pastedMarkdown}
+            onChange={setPastedMarkdown}
+            disabled={phase === "generating" || phase === "reading"}
+          />
+          <Button
+            variant="secondary"
+            stretch
+            disabled={
+              !pastedMarkdown.trim() ||
+              phase === "generating" ||
+              phase === "reading"
+            }
+            onClick={() =>
+              void readMarkdown([
+                new File([pastedMarkdown], "book.md", {
+                  type: "text/markdown",
+                }),
+              ])
+            }
+          >
+            붙여넣은 원고 검사
+          </Button>
+        </Rows>
+        <Rows spacing="0.5u">
           <Text size="small" tone="secondary">
             이미지까지 넣으려면(선택) 이미지가 든 폴더를 고르세요. 위에서 고른
             원고의 이미지 자리와 파일 이름·경로로 짝을 맞춥니다. 원고와
@@ -868,7 +905,7 @@ export function App() {
         {bookSpec && (
           <Text>
             {bookSpec.title} · 원고 {bookSpec.pages.length}페이지 ·{" "}
-            {bookSpec.pages.map((page) => page.type).join(", ")}
+            {new Set(bookSpec.pages.map((page) => page.type)).size}종류의 페이지
           </Text>
         )}
         {progress && (

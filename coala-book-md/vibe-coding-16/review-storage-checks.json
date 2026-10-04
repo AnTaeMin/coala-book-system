@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-04",
+  "scope": "Node isolated execution of actual save/load functions; not browser/Flet tests",
+  "checks": [
+    {
+      "case": "null item",
+      "expected": "invalid data keeps current records",
+      "actual": "[{\"subject\":\"original\",\"time\":20}] / 저장 데이터가 올바르지 않습니다.",
+      "pass": true
+    },
+    {
+      "case": "blank subject",
+      "expected": "invalid data keeps current records",
+      "actual": "[{\"subject\":\"original\",\"time\":20}] / 저장 데이터가 올바르지 않습니다.",
+      "pass": true
+    },
+    {
+      "case": "missing subject",
+      "expected": "invalid data keeps current records",
+      "actual": "[{\"subject\":\"original\",\"time\":20}] / 저장 데이터가 올바르지 않습니다.",
+      "pass": true
+    },
+    {
+      "case": "zero time",
+      "expected": "invalid data keeps current records",
+      "actual": "[{\"subject\":\"original\",\"time\":20}] / 저장 데이터가 올바르지 않습니다.",
+      "pass": true
+    },
+    {
+      "case": "time over 600",
+      "expected": "invalid data keeps current records",
+      "actual": "[{\"subject\":\"original\",\"time\":20}] / 저장 데이터가 올바르지 않습니다.",
+      "pass": true
+    },
+    {
+      "case": "decimal time",
+      "expected": "invalid data keeps current records",
+      "actual": "[{\"subject\":\"original\",\"time\":20}] / 저장 데이터가 올바르지 않습니다.",
+      "pass": true
+    },
+    {
+      "case": "string time",
+      "expected": "invalid data keeps current records",
+      "actual": "[{\"subject\":\"original\",\"time\":20}] / 저장 데이터가 올바르지 않습니다.",
+      "pass": true
+    },
+    {
+      "case": "object root",
+      "expected": "invalid data keeps current records",
+      "actual": "[{\"subject\":\"original\",\"time\":20}] / 저장 데이터가 올바르지 않습니다.",
+      "pass": true
+    },
+    {
+      "case": "malformed JSON",
+      "expected": "invalid data keeps current records",
+      "actual": "[{\"subject\":\"original\",\"time\":20}] / Expected property name or '}' in JSON at position 1 (line 1 column 2)",
+      "pass": true
+    },
+    {
+      "case": "empty saved records",
+      "expected": "valid data replaces current records",
+      "actual": "[] / ",
+      "pass": true
+    },
+    {
+      "case": "trim and load boundary values",
+      "expected": "valid data replaces current records",
+      "actual": "[{\"subject\":\"math\",\"time\":1},{\"subject\":\"english\",\"time\":600}] / ",
+      "pass": true
+    },
+    {
+      "case": "repeated load does not append",
+      "expected": "2 records",
+      "actual": "2 records",
+      "pass": true
+    },
+    {
+      "case": "storage write failure is handled",
+      "expected": "error message, records kept",
+      "actual": "quota blocked",
+      "pass": true
+    }
+  ]
+}
