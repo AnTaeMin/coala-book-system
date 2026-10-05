@@ -56,6 +56,8 @@ import { parseBookMarkdown } from "./parser/markdown-book";
 import { coalaTheme } from "./theme/coala-theme";
 import { BOOK_FONT_FAMILY } from "./theme/font-resolver";
 import type { BookSpec } from "./types/book-spec";
+import { NativeTemplatePanel } from "./native-template-panel";
+import { PrintRefinementPanel } from "./print-refinement-panel";
 
 type Status =
   | { tone: "positive" | "critical" | "warn"; message: string }
@@ -532,6 +534,34 @@ export function App() {
   const [bookSpec, setBookSpec] = useState<BookSpec>();
   const [fileName, setFileName] = useState<string>();
   const [pastedMarkdown, setPastedMarkdown] = useState("");
+  const [rangeIndex, setRangeIndex] = useState(0);
+  const contentRanges: { label: string; ids: string[] }[] = [];
+  let rangeLabel = "교재 안내";
+  let chapter = 0;
+  for (const page of bookSpec?.pages ?? []) {
+    if (page.type === "chapter-opening" || page.type === "practice-opening") {
+      if (page.type === "chapter-opening") chapter = page.chapterNumber;
+      rangeLabel = `${chapter}차시 · ${page.type === "chapter-opening" ? "개념" : "실습"}`;
+    } else {
+      if (contentRanges[contentRanges.length - 1]?.label !== rangeLabel)
+        contentRanges.push({ label: rangeLabel, ids: [] });
+      contentRanges[contentRanges.length - 1]?.ids.push(page.id);
+    }
+  }
+  const selectedRange =
+    rangeIndex > 0 ? contentRanges[rangeIndex - 1] : undefined;
+  const generationFingerprint = bookSpec
+    ? bookFingerprint(
+        selectedRange
+          ? {
+              ...bookSpec,
+              pages: bookSpec.pages.filter((page) =>
+                selectedRange.ids.includes(page.id),
+              ),
+            }
+          : bookSpec,
+      )
+    : "";
   /** 읽어 둔 원고 원문. 나중에 고른 이미지 폴더와 짝을 맞출 때 쓴다. */
   const [manuscript, setManuscript] = useState<{
     path: string;
@@ -611,6 +641,7 @@ export function App() {
     setImageFailures([]);
     setProgress(undefined);
     setRerunDecision(undefined);
+    setRangeIndex(0);
     setFileName(manuscriptFile.relativePath);
     try {
       const source = await manuscriptFile.file.text();
@@ -684,11 +715,46 @@ export function App() {
     }
   };
 
+  const readPreparedImages = async () => {
+    if (!manuscript) return;
+    setPhase("reading");
+    setStatus(undefined);
+    try {
+      const srcs = imageSrcsOf(manuscript.source);
+      const files = await Promise.all(
+        srcs.map(async (src) => {
+          if (!/^assets\/[a-zA-Z0-9/_-]+\.png$/.test(src))
+            throw new Error("준비된 이미지 경로를 확인하세요.");
+          const response = await fetch(
+            `http://localhost:8080/vibe-coding-16/${src}`,
+          );
+          if (!response.ok)
+            throw new Error(`${src}: 준비된 이미지 파일이 없습니다.`);
+          const blob = await response.blob();
+          return {
+            relativePath: src,
+            file: new File([blob], src.split("/").pop() ?? src, {
+              type: "image/png",
+            }),
+          };
+        }),
+      );
+      await attachImages(manuscript, files);
+    } catch (error) {
+      setStatus({
+        tone: "critical",
+        message: error instanceof Error ? error.message : String(error),
+      });
+    } finally {
+      setPhase("idle");
+    }
+  };
+
   const runGeneration = async (alreadyCreatedIndexes: number[]) => {
     if (!bookSpec) {
       return;
     }
-    const fingerprint = bookFingerprint(bookSpec);
+    const fingerprint = generationFingerprint;
     setPhase("generating");
     setStatus(undefined);
     setResult(undefined);
@@ -713,6 +779,7 @@ export function App() {
         {
           alreadyCreatedIndexes,
           images: imageAssets,
+          sourcePageIds: selectedRange?.ids,
           onProgress: (event) => {
             setProgress({
               message: describeProgress(event),
@@ -781,7 +848,12 @@ export function App() {
     if (!bookSpec) {
       return;
     }
-    const decision = decideRerun(previousRun, bookFingerprint(bookSpec));
+    const decision = decideRerun(
+      previousRun?.fingerprint === generationFingerprint
+        ? previousRun
+        : undefined,
+      generationFingerprint,
+    );
     if (decision.kind === "start-fresh") {
       await runGeneration([]);
       return;
@@ -886,6 +958,15 @@ export function App() {
           />
         </Rows>
         {fileName && <Text>선택한 원고: {fileName}</Text>}
+        <Button
+          variant="secondary"
+          disabled={
+            !manuscript || phase === "reading" || phase === "generating"
+          }
+          onClick={() => void readPreparedImages()}
+        >
+          준비된 바이브 코딩 이미지 연결
+        </Button>
         {imageNote && (
           <Text size="small" tone="secondary">
             {imageNote}
@@ -985,6 +1066,35 @@ export function App() {
               </Text>
             </Alert>
           )}
+        {bookSpec && contentRanges.length > 0 && (
+          <Rows spacing="0.5u">
+            <Text size="small" variant="bold">
+              생성할 구간
+            </Text>
+            <Text size="small">
+              원본 틀을 복제한 경우 해당 차시의 개념·실습 구간을 골라 선택한
+              페이지 뒤에 넣으세요. 시작 페이지는 새로 만들지 않습니다.
+            </Text>
+            <Select
+              stretch
+              value={rangeIndex}
+              disabled={phase === "generating" || phase === "reading"}
+              options={[
+                { value: 0, label: "전체 원고 · 앱 기본 배치" },
+                ...contentRanges.map((range, index) => ({
+                  value: index + 1,
+                  label: range.label,
+                })),
+              ]}
+              onChange={(value) => {
+                setRangeIndex(value);
+                setPhase("idle");
+                setRerunDecision(undefined);
+                setResult(undefined);
+              }}
+            />
+          </Rows>
+        )}
         <Button
           variant="primary"
           stretch
@@ -992,9 +1102,11 @@ export function App() {
           loading={phase === "generating"}
           onClick={() => void handleGenerateClick()}
         >
-          교재 페이지 생성
+          {selectedRange ? "선택한 구간 페이지 생성" : "교재 페이지 생성"}
         </Button>
         <ImagePlaceholderRatioPanel />
+        <NativeTemplatePanel />
+        <PrintRefinementPanel />
       </Rows>
     </div>
   );

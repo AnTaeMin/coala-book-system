@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-05",
+  "scope": "current 16-lesson manuscript",
+  "source": "https://chatgpt.com/share/6ac30ffb-817c-83ee-88a7-0f17049262d1",
+  "manuscripts": 17,
+  "issues": 0,
+  "page_containers": 202,
+  "planned_canva_pages": 206,
+  "python_examples_reexecuted": 4,
+  "empty_list_average_actual": "합계 0분\n평균 기록 없음",
+  "chapter_files_match_combined": true,
+  "chapter_and_practice_numbering_contiguous": true,
+  "png_assets_verified": 21,
+  "canva_final_complete": false
+}

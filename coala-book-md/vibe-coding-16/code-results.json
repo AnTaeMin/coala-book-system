@@ -16,7 +16,7 @@
   },
   {
     "session": 8,
-    "code": "minutes = [20, 30]\ntotal = sum(minutes)\nprint(f\"합계 {total}분\")\nprint(f\"평균 {total / len(minutes):.1f}분\")",
+    "code": "minutes = [20, 30]\ntotal = sum(minutes)\nprint(f\"합계 {total}분\")\nif minutes:\n    print(f\"평균 {total / len(minutes):.1f}분\")\nelse:\n    print(\"평균 기록 없음\")",
     "actual_output": "합계 50분\n평균 25.0분"
   }
 ]

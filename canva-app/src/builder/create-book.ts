@@ -119,6 +119,8 @@ export type CreateBookDeps = {
 };
 
 export type CreateBookOptions = {
+  /** Select a content segment after global layout and pagination are complete. */
+  sourcePageIds?: readonly string[];
   onProgress?: (event: BookProgressEvent) => void;
   /**
    * 이전 실행에서 이미 만들어진 페이지의 계획 순서. 여기에 있는 페이지는
@@ -244,12 +246,15 @@ export async function createBook(
     throw new Error("적용할 글꼴 후보를 하나도 만들지 못했습니다.");
   }
 
+  const included = options.sourcePageIds
+    ? new Set(options.sourcePageIds)
+    : undefined;
   const layoutWith = (fonts: ResolvedBookFonts): LaidOutPage[] =>
     layoutBook(
       spec,
       plan.pages,
       options.images ? { ...fonts, images: options.images } : fonts,
-    );
+    ).filter((page) => !included || included.has(page.sourcePageId));
 
   // 분할 결과는 글꼴에 따라 달라지지 않으므로 페이지 수를 미리 확정할 수 있다.
   let laidOut = layoutWith(firstCandidate);

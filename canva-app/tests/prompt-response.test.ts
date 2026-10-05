@@ -242,7 +242,7 @@ describe("prompt·response 배치", () => {
     ]),
   );
 
-  it("원본과 같은 자리에 알약형 프롬프트 상자와 둥근 응답 상자를 놓는다", () => {
+  it("본문 위치를 유지하며 완만한 모서리의 프롬프트·응답 상자를 놓는다", () => {
     const [page] = layoutOf(source);
     const boxes = dialogueBoxes(page?.elements ?? []);
     const [pill, response] = boxes;
@@ -258,13 +258,26 @@ describe("prompt·response 배치", () => {
     // 프롬프트 상자는 한 줄 글 + 위아래 여백. 원본은 114px.
     expect(pill?.height).toBeGreaterThanOrEqual(110);
     expect(pill?.height).toBeLessThanOrEqual(120);
-    // 알약형: 반지름이 높이의 절반이다.
-    expect(pill?.paths[0]?.d).toContain(`A ${(pill?.height ?? 0) / 2}`);
+    expect(pill?.paths[0]?.d).toContain("A 48");
     // 응답 상자는 프롬프트 상자 아래 정해진 간격에 놓인다.
     expect(response?.top).toBe(
       (pill?.top ?? 0) + (pill?.height ?? 0) + GAP.promptToResponse,
     );
     expect(response?.paths[0]?.d).toContain(`A ${PROMPT_BOX.responseRadius}`);
+  });
+
+  it("여러 줄 그래프 요청의 첫 글줄이 모서리 곡선 안쪽에 들어간다", () => {
+    const promptText = "공부 기록 앱에 과목별 합계 막대그래프를 추가해줘. 수학 20, 영어 30, 수학 10이면 수학과 영어는 각각 30분이야. 과목을 세로로 나열하고 시간을 가로 막대 길이로 나타내줘. 제목과 시간(분), 눈금 범위를 표시하고, 기록 변경 시 갱신해줘. 기록이 없으면 빈 상태를 안내해줘. 수업 환경의 그래프 방식을 사용해줘.";
+    const [page] = layoutOf(book(concept(dialogue(promptText, ["기록의 과목별 합계를 비교합니다."]))));
+    const elements = page?.elements ?? [];
+    const [box] = dialogueBoxes(elements);
+    const prompt = findText(elements, promptText);
+    const radius = Number(box?.paths[0]?.d.match(/A ([\d.]+)/)?.[1]);
+    const y = prompt.top - (box?.top ?? 0);
+    const leftBoundary = y >= radius ? 0 : radius - Math.sqrt(radius ** 2 - (y - radius) ** 2);
+    expect(box?.height).toBeGreaterThan(200);
+    expect(prompt.left - (box?.left ?? 0)).toBeGreaterThan(leftBoundary + 10);
+    expect(prompt.fontSizePt).toBe(TYPOGRAPHY.body);
   });
 
   it("상자 안의 글은 본문과 같은 28pt이고 안쪽 여백만큼 들여쓴다", () => {

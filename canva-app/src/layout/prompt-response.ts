@@ -19,7 +19,7 @@ import { lineHeight, measureText } from "./measure";
 /**
  * AI 프롬프트·응답 상자.
  *
- * 원본 ai-prompt-response.png의 두 영역을 따른다. 프롬프트는 알약형 테두리
+ * 원본 ai-prompt-response.png의 두 영역을 따른다. 프롬프트는 둥근 사각형 테두리
  * 안의 글 한 덩어리이고, 응답은 둥근 사각형 테두리 안에 문단과 목록이 본문과
  * 같은 크기로 흐른다. 글자 크기는 본문 28pt, 줄 간격 2로 다른 본문과 같다.
  *
@@ -58,8 +58,8 @@ export function promptItem(text: string, style: FlowStyle): FlowItem {
         top,
         width: frame.width,
         height,
-        // 반지름을 높이보다 크게 주면 roundedRectPath가 높이의 절반으로 맞춘다.
-        path: roundedRectPath(frame.width, height, height),
+        // 여러 줄 프롬프트의 첫 줄과 마지막 줄이 모서리 곡선에 걸리지 않게 한다.
+        path: roundedRectPath(frame.width, height, Math.min(48, height / 2)),
         fill: colors.pageBackground,
         stroke: colors.promptStroke,
         strokeWeight: PROMPT_BOX.strokeWeight,

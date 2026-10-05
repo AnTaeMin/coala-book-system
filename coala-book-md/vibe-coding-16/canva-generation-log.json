@@ -1,0 +1,226 @@
+[
+  {
+    "range": "교재 안내",
+    "count": 2,
+    "nativeAfter": 3,
+    "total": 37
+  },
+  {
+    "range": "1차시 · 개념",
+    "count": 4,
+    "nativeAfter": 6,
+    "total": 41
+  },
+  {
+    "range": "1차시 · 실습",
+    "count": 7,
+    "nativeAfter": 11,
+    "total": 48
+  },
+  {
+    "range": "2차시 · 개념",
+    "count": 3,
+    "nativeAfter": 19,
+    "total": 51
+  },
+  {
+    "range": "2차시 · 실습",
+    "count": 7,
+    "nativeAfter": 23,
+    "total": 58
+  },
+  {
+    "range": "3차시 · 개념",
+    "count": 3,
+    "nativeAfter": 31,
+    "total": 61
+  },
+  {
+    "range": "3차시 · 실습",
+    "count": 7,
+    "nativeAfter": 35,
+    "total": 68
+  },
+  {
+    "range": "4차시 · 개념",
+    "count": 3,
+    "nativeAfter": 43,
+    "total": 71,
+    "repositioned": true
+  },
+  {
+    "range": "4차시 · 실습",
+    "count": 8,
+    "nativeAfter": 47,
+    "total": 79,
+    "verifiedNativeId": "PBRp1ttkpR0c1PD4"
+  },
+  {
+    "range": "5차시 · 개념",
+    "count": 4,
+    "nativeAfter": 56,
+    "total": 83,
+    "verifiedNativeId": "PBzbXPx8m3j8q2NN"
+  },
+  {
+    "range": "5차시 · 실습",
+    "count": 7,
+    "nativeAfter": 61,
+    "total": 90,
+    "verifiedNativeId": "PBlZg2yFfCmxr8FT"
+  },
+  {
+    "range": "6차시 · 개념",
+    "count": 5,
+    "nativeAfter": 69,
+    "total": 95,
+    "verifiedNativeId": "PBw0MjYGZpN9LX6N"
+  },
+  {
+    "range": "6차시 · 실습",
+    "count": 7,
+    "nativeAfter": 75,
+    "total": 102,
+    "verifiedNativeId": "PBwlH7r3rhPgBWcx"
+  },
+  {
+    "range": "7차시 · 개념",
+    "count": 4,
+    "nativeAfter": 83,
+    "total": 106,
+    "verifiedNativeId": "PBLYJw9BmP2RfHMt"
+  },
+  {
+    "range": "7차시 · 실습",
+    "count": 7,
+    "nativeAfter": 88,
+    "total": 113,
+    "verifiedNativeId": "PBf3LTwWFYl8DR5x"
+  },
+  {
+    "range": "8차시 · 개념",
+    "count": 4,
+    "nativeAfter": 96,
+    "total": 117,
+    "verifiedNativeId": "PBPN0jl3j9zgkdvF"
+  },
+  {
+    "range": "8차시 · 실습",
+    "count": 7,
+    "nativeAfter": 101,
+    "total": 124,
+    "verifiedNativeId": "PB8sv3zknLgYTXfC"
+  },
+  {
+    "range": "9차시 · 개념",
+    "count": 3,
+    "nativeAfter": 109,
+    "total": 127,
+    "verifiedNativeId": "PBt2XdQVpVnN0zlb"
+  },
+  {
+    "range": "9차시 · 실습",
+    "count": 7,
+    "nativeAfter": 113,
+    "total": 134,
+    "verifiedNativeId": "PBbR4Nx4thSDzC9N"
+  },
+  {
+    "range": "10차시 · 개념",
+    "count": 3,
+    "nativeAfter": 121,
+    "total": 137,
+    "verifiedNativeId": "PBn7Stt5m6NNFK9H"
+  },
+  {
+    "range": "10차시 · 실습",
+    "count": 8,
+    "nativeAfter": 125,
+    "total": 145,
+    "uiCountRefresh": true
+  },
+  {
+    "range": "11차시 · 개념",
+    "count": 3,
+    "nativeAfter": 134,
+    "total": 148,
+    "verifiedNativeId": "PBbv3thBm8v2kSLn"
+  },
+  {
+    "range": "11차시 · 실습",
+    "count": 8,
+    "nativeAfter": 138,
+    "total": 156,
+    "verifiedNativeId": "PB8xxmg2SkcMSsYG"
+  },
+  {
+    "range": "12차시 · 개념",
+    "count": 3,
+    "nativeAfter": 147,
+    "total": 159,
+    "verifiedNativeId": "PBQM8kwkrZ3CYgtm"
+  },
+  {
+    "range": "12차시 · 실습",
+    "count": 8,
+    "nativeAfter": 151,
+    "total": 167,
+    "verifiedNativeId": "PBSv8N8v9qFQZvV8"
+  },
+  {
+    "range": "13차시 · 개념",
+    "count": 3,
+    "nativeAfter": 160,
+    "total": 170,
+    "verifiedNativeId": "PBSVwKdJL5Dv8lZn"
+  },
+  {
+    "range": "13차시 · 실습",
+    "count": 7,
+    "nativeAfter": 164,
+    "total": 177,
+    "verifiedNativeId": "PB08cSZsh1qWRY89"
+  },
+  {
+    "range": "14차시 · 개념",
+    "count": 3,
+    "nativeAfter": 172,
+    "total": 180,
+    "verifiedNativeId": "PB4kJvhvvGtT9D9g"
+  },
+  {
+    "range": "14차시 · 실습",
+    "count": 7,
+    "nativeAfter": 176,
+    "total": 187,
+    "verifiedNativeId": "PBs5TJFSzLXGjQz6"
+  },
+  {
+    "range": "15차시 · 개념",
+    "count": 3,
+    "nativeAfter": 184,
+    "total": 190,
+    "verifiedNativeId": "PBVvZdR1bHx9xs3l"
+  },
+  {
+    "range": "15차시 · 실습",
+    "count": 7,
+    "nativeAfter": 188,
+    "total": 197,
+    "verifiedNativeId": "PBRY5gl5ysBdCdQS"
+  },
+  {
+    "range": "16차시 · 개념",
+    "count": 3,
+    "nativeAfter": 196,
+    "total": 200,
+    "verifiedNativeId": "PBy09qn8KVVfVklL"
+  },
+  {
+    "range": "16차시 · 실습",
+    "count": 9,
+    "nativeAfter": 200,
+    "total": 209,
+    "verifiedNativeId": "PB3RxTP9QFcVxv3Y"
+  }
+]

@@ -1,43 +1,43 @@
 {
-  "date": "2026-10-04",
-  "servers": {
-    "http://localhost:8080/app.js": 200,
-    "http://127.0.0.1:8765/?lesson=16": 200
-  },
-  "browser_demo": {
-    "lesson": 16,
-    "inputs": [
-      {
-        "subject": "수학",
-        "time": 20
-      },
-      {
-        "subject": "영어",
-        "time": 30
-      }
-    ],
-    "actual": "기록 2개 · 합계 50분; 수학 20분·영어 30분 그래프"
-  },
-  "canva_manuscript": {
-    "method": "visible paste input and inspection button",
-    "characters": 58927,
-    "pages": 202,
-    "page_types": 8,
-    "generate_button_enabled": true,
-    "generation_started": false,
-    "textbook_pages_created": 0,
-    "image_files_attached": 0
-  },
+  "date": "2026-10-05",
+  "source_review": "https://chatgpt.com/share/6ac30ffb-817c-83ee-88a7-0f17049262d1",
+  "scope": "current 16-lesson manuscript",
   "source_design": {
     "url": "https://www.canva.com/design/DAHRZrtJw9U/edit",
     "user_approved_read_and_copy": true,
-    "access": "denied by Canva",
-    "actual_message": "이 디자인을 볼 권한이 없어요.",
-    "access_request_sent": false
+    "access": "accessible in resumed session",
+    "source_modified": false
   },
-  "file_chooser": {
-    "manuscript": "timeout after 10000ms",
-    "image_folder": "timeout after 10000ms",
-    "extension_setting_verified": false
+  "production_copy": {
+    "url": "https://www.canva.com/design/DAHXGrp6T5Q/LJk3hNHWt6oKX2ACnx_87w/edit",
+    "title": "AI와 함께하는 바이브 코딩 · 16차시 제작 사본",
+    "physical_pages": 209,
+    "native_structure_pages": 35,
+    "generated_content_pages": 174,
+    "manuscript_pages": 206,
+    "source_containers": 202,
+    "source_order_mismatches": 0,
+    "native_text_replacements": 203,
+    "already_generated_body_text_replacements": 3,
+    "prepared_images_connected": 21,
+    "font_report": "Wanted Sans applied (YAG0heTliII:2)",
+    "content_generation_complete": true,
+    "print_final_complete": false
+  },
+  "remaining": [
+    "6차시 네이티브 순서도 1개: 실제 페이지 74",
+    "목차 제목·참조 쪽번호와 본문 쪽번호 통일",
+    "기관·로고 사용 확인",
+    "전체 209쪽 시각·인쇄 규격 검수"
+  ],
+  "proof_screenshot": "C:/Users/Public/Documents/ESTsoft/CreatorTemp/coala-vibe-shared-error-canva.jpg",
+  "checks": {
+    "manuscripts": 17,
+    "issues": 0,
+    "python_examples": 4,
+    "empty_list_average": "합계 0분 · 평균 기록 없음",
+    "code_tests": 8,
+    "types": "passed",
+    "lint": "passed"
   }
 }

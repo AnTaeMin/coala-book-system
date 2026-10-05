@@ -1,0 +1,22 @@
+{
+  "pages": 209,
+  "promptFrames": 64,
+  "enlargedImages": 21,
+  "activities": 199,
+  "coverLogoRemoved": 1,
+  "whiteBackgroundPages": 209,
+  "densePages": [
+    5,
+    14,
+    87,
+    100,
+    191,
+    208,
+    209
+  ],
+  "shadowFreePracticeCards": 16,
+  "physicalFooterNumbersCorrected": 174,
+  "tocReferencesAdded": 16,
+  "shortenedChapterHeaders": 28,
+  "shortenedPracticeBadges": 16
+}

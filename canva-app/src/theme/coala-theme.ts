@@ -4,7 +4,7 @@ export const coalaTheme = {
     height: 2245,
   },
   colors: {
-    pageBackground: "#F8F9FA",
+    pageBackground: "#FFFFFF",
     contentsBackground: "#DFE9F2",
     primary: "#1800AD",
     text: "#000000",

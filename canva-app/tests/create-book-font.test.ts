@@ -29,7 +29,12 @@ const wantedSans = font("Wanted Sans", "wanted-sans-ref");
 const notoSansKr = font("Noto Sans KR", "noto-sans-kr-ref");
 
 type Format = { fontRef?: string; fontWeight?: string };
-type WrittenPage = { title: string; formats: Format[] };
+type WrittenPage = {
+  title: string;
+  key: string;
+  lastText?: string;
+  formats: Format[];
+};
 
 /**
  * 각 페이지가 실제로 어떤 fontRef로 문단 서식을 지정했는지 기록한다.
@@ -41,10 +46,11 @@ function createHarness(options: {
   rejectFontRef?: string;
 }) {
   const pending: Format[] = [];
+  const textChunks: string[] = [];
   jest.mocked(createRichtextRange).mockImplementation(
     () =>
       ({
-        appendText: jest.fn(),
+        appendText: jest.fn((text: string) => textChunks.push(text)),
         formatParagraph: jest.fn((_bounds: unknown, formatting: Format) => {
           pending.push({
             fontRef: formatting.fontRef,
@@ -83,7 +89,13 @@ function createHarness(options: {
         ) {
           throw new Error("Canva could not apply the requested font.");
         }
-        written.push({ title: page.title, formats });
+        written.push({
+          title: page.title,
+          key: page.key,
+          lastText: textChunks.at(-1),
+          formats,
+        });
+        textChunks.length = 0;
         return undefined;
       },
     },
@@ -92,6 +104,38 @@ function createHarness(options: {
 
 const allFontRefs = (written: WrittenPage[]) =>
   new Set(written.flatMap(({ formats }) => formats.map((f) => f.fontRef)));
+
+describe("content segments retain full-book pagination", () => {
+  it("excludes native opening templates and retains each original page number", async () => {
+    const harness = createHarness({ listedFonts: [wantedSans] });
+    const result = await createBook(fixture(), harness.deps, {
+      sourcePageIds: [
+        "ai-strengths",
+        "prompt-comparison",
+        "practice-002-1-objectives",
+      ],
+    });
+    expect(result.createdPageCount).toBe(3);
+    expect(harness.written.map((page) => page.key)).toEqual([
+      "ai-strengths#0",
+      "prompt-comparison#0",
+      "practice-002-1-objectives#0",
+    ]);
+    expect(harness.written.map((page) => page.lastText)).toEqual([
+      "2",
+      "3",
+      "5",
+    ]);
+  });
+
+  it("adds no pages for an explicitly empty selection", async () => {
+    const harness = createHarness({ listedFonts: [wantedSans] });
+    await expect(
+      createBook(fixture(), harness.deps, { sourcePageIds: [] }),
+    ).rejects.toThrow("생성할 페이지가 없습니다.");
+    expect(harness.written).toEqual([]);
+  });
+});
 
 describe("font applied across every page type", () => {
   it("uses Wanted Sans on all five page types", async () => {

@@ -1,41 +1,55 @@
-# Canva 전체 교재 제작 상태
+# Canva 교재 제작 상태
 
-기록일: 2026-10-04. 사용자 요청에 따라 앱과 예제를 직접 실행했다.
+기록일: 2026-10-05. 최신 원고 오류 반영과 실제 제작 결과를 기록한다.
 
-## 실행 결과
+## 결과
 
-- Canva 앱 서버 http://localhost:8080/app.js 및 예제 서버 http://127.0.0.1:8765/ 모두 HTTP 200.
-- 16차시 예제를 새로 실행해 수학 20분·영어 30분을 입력했다. 기록 2개, 합계 50분, 과목별 그래프 20·30분을 확인했다.
-- Canva 앱에 원고 붙여넣기 기능을 추가했다. 파일 선택이 어려울 때 기존 원고 검사 경로를 사용한다.
-- 최신 book.md 전체 58,927자를 Canva 앱에 입력하고 검사했다. 앱에서 원고 202페이지·8종류를 확인했으며 생성 버튼이 활성화되었다.
-- 예상 Canva 배치는 206장이다. 실제 교재 페이지 생성은 0장이다.
-- 이미지 21개는 준비되어 있지만 아직 Canva 앱에 연결하지 못했다.
+- [제작 사본](https://www.canva.com/design/DAHXGrp6T5Q/LJk3hNHWt6oKX2ACnx_87w/edit): AI와 함께하는 바이브 코딩 · 16차시 제작 사본.
+- 현재 209페이지: 표지 1장·목차 2장·교재 원고 206장.
+- 원본 네이티브 틀을 복제한 구조 페이지 35장, 새로 생성한 본문 174장이다. 원본 디자인에는 쓰지 않았다.
+- 준비한 이미지 21개를 앱에 연결했고 각 이미지가 포함되는 구간을 생성했다. 지면 보정 후 확대·비율·초안 출력 가독성을 검수했다.
+- 33개 구간을 생성했다. 차시 시작·실습 시작은 복제한 원본 틀을 쓰고 본문만 해당 위치 뒤에 넣었다.
+- 202개 원고 컨테이너의 제목·분할 순서를 실제 209페이지 문구와 대조했다. 누락·순서 오류 0개.
+- 표지·목차·16차시 시작·실습 시작 문구 203개와 기존 본문 수정 문구 3개를 실제 페이지에서 다시 읽어 확인했다. 나머지 본문은 수정 원고로 생성했다.
+- 앱의 생성 결과는 Wanted Sans 적용 성공을 표시했다. 전체 지면의 개별 서식·넘침·인쇄 규격 검수를 모두 끝냈다는 뜻은 아니다.
 
-## 원본 디자인 승인과 실제 접근 결과
+## 공유 오류 반영
 
-사용자가 https://www.canva.com/design/DAHRZrtJw9U/edit 의 열람·복제를 승인하고 원본 템플릿 제작 방식을 선택했다. 승인 후 원본을 직접 열었다.
+수정 대상은 사용자가 선택한 현재 16차시 원고다. 입력·처리·출력, 안전한 정수 덧셈, 반복 방식, 빈 목록 평균 처리, 그래프 축·단위, 수정 후 재캡처 절차를 반영했다. 전체·차시별 파일 17개 검사와 Python 예제 4개 재실행, 빈 목록 추가 확인을 통과했다. [오류 반영 내역](shared-error-review.md)을 참고한다.
 
-Canva는 **이 디자인을 볼 권한이 없어요.**라고 표시했다. 화면의 현재 로그인 계정은 hagalsa88@thecoala.io다. 사용자의 작업 승인은 받았지만 이 계정에 원본 디자인을 열람할 Canva 권한이 없다. 소유자에게 메시지나 권한 요청은 보내지 않았다.
+원본 160쪽 PDF의 Matplotlib·코코봇 등 현재 원고에 없는 코드는 수정 대상으로 포함하지 않았다.
 
-이전 자동 승인 검토의 대상 확인 문제는 구체적인 사용자 승인으로 해소되었다. 현재 막힌 이유는 Canva 자체의 디자인 접근 권한이다.
+## 원본 접근과 복제
 
-## 파일 선택 결과
+사용자가 승인한 [원본](https://www.canva.com/design/DAHRZrtJw9U/edit)을 재개한 로그인 세션에서 열었고 복제했다. 이전 접근 제한은 해소되었다. 원본 102페이지를 참조해 제작 사본에 필요한 네이티브 틀을 복제했으며 원본은 편집하지 않았다.
 
-원고 파일 버튼과 이미지 폴더 입력에서 각각 파일 선택을 기다렸지만 10초 뒤 시간 초과했다. 확장 프로그램의 파일 URL 접근 설정 상태는 확인하지 못했다. 설정 문제로 원인을 단정하지 않는다.
+## 2026-10-05 지면 보정
 
-원고는 붙여넣기로 해결했다. 이미지 폴더 선택은 해결되지 않았다. 브라우저·계정 보안 설정을 변경하지 않았다.
+- 삼육보건대 로고가 들어 있던 표지 하단의 204개 요소 그룹을 제거했다. 제작사 THE COALA 표시는 유지했다.
+- 전체 209쪽의 배경을 #FFFFFF로 바꾸고 배경 이미지를 제거했다. 실습 카드 16개는 회색 그림자가 없는 테두리 상자로 바꾸고 성공 기준 문구가 카드에 가려지지 않게 배치했다.
+- 긴 프롬프트·응답 상자 64개를 완만한 모서리의 사각 상자로 바꾸었다. 제보 예시는 실제 사본 152쪽이다.
+- 실행 화면 21개를 원본 비율대로 확대하고 아래 내용과 둘러싼 카드 높이를 함께 조정했다. 원본 PDF에서 잘라낸 화면의 원본 해상도 한계는 남는다.
+- 여백이 큰 199쪽에 설명·예측·실행·검증 기록 활동을 보강했다. 활동 원고는 print-activities.md로 별도 보관한다. 원고 자동 생성용 book.md에 보강 문구가 자동으로 들어 있다는 뜻은 아니다.
+- 차시 머리말 28개와 실습 배지 16개를 틀에 들어가도록 간결하게 바꾸었다. 글자 크기를 줄이지 않았다.
+- 본문 쪽번호 174개를 실제 209쪽 기준으로 통일했고 목차 16개에 차시 시작 쪽수를 넣었다. 목차 제목도 추가했다.
+- 수정 후 전체 209쪽에서 추가 문구 707개와 실제 배치를 대조했다. 텍스트 영역 겹침·지면 넘침 0개, 흰 배경 209쪽을 확인했다. 실습 카드의 가려진 문구는 PDF 시각 검수에서 추가 발견해 수정했다.
+- 관련 상자·배경 검사 23개와 앱 형식 검사를 통과했다. 출력은 Canva PDF 인쇄, RGB, 이미지 병합·재단선·메모 포함 없이 진행했다.
+- Canva 디자인은 약 A2 크기다. 전달 PDF는 동일 비율로 A4에 맞추고 글자·도형을 벡터로 유지한다. A4의 본문 실효 크기는 약 14pt이며 Canva 28pt 값을 그대로 A4 글자 크기라고 부르지 않는다.
 
-## 제작을 이어가기 위한 조건
+## 남은 인쇄 마무리
 
-1. 원본 소유자가 현재 계정에 원본의 편집 권한을 공유하거나 원본을 볼 수 있는 승인된 계정으로 접속해야 한다.
-2. 교재 제작용 캔버스 크기와 원본 네이티브 페이지 복제를 확인한다. 현재 앱 미리보기 디자인은 800×600이다.
-3. vibe-coding-16 폴더를 앱에서 선택해 이미지 21개를 연결한다.
-4. 전체 교재를 생성하고 네이티브 단원·실습 시작 페이지, 6차시 순서도 1개, 글꼴·이미지·페이지 번호를 검수한다.
+1. 6차시 순서도 1개: 실제 사본 74페이지. 현재는 작업 자리이며 [제작 명세](flowchart-canva.md)에 따라 네이티브 요소로 완성해야 한다.
+2. 실제 수업 환경에서 학생이 만든 앱 화면과 교재의 교사 제작 예시 화면이 일치하는지 확인한다.
 
-[교재 스킬](../../skill/coala-canva-textbook/SKILL.md)은 "duplicate the matching Canva source page"를 요구하며, "If the available Canva capabilities cannot duplicate and edit the required native template or flowchart elements, stop and report that exact template fidelity cannot be guaranteed."라고 명시한다. 승인된 원본 제작 경로의 접근 권한이 없어 페이지 생성을 시작하지 않았다.
+[교재 스킬](../../skill/coala-canva-textbook/SKILL.md)은 "A person builds the flowchart in the Canva editor."라고 명시한다. 지정 요소를 쓰는 순서도 작업 자리가 남아 있으므로 현재 Canva 사본은 인쇄 최종본이 아니다. 이 규칙은 순서도 직접 배치에 대한 요구이며 원고 수정이나 본문 생성을 중단할 승인 요구는 아니다.
 
-## 기록
+## 검증 근거
 
-- 원고 검사 화면: C:/Users/Public/Documents/ESTsoft/CreatorTemp/coala-canva-manuscript-ready.png.
-- 원본 접근 제한 화면: C:/Users/Public/Documents/ESTsoft/CreatorTemp/coala-canva-source-access.png.
-- 실행 근거: direct-execution.json.
+- shared-error-validation-full.json·shared-error-checks.json·code-results.json: 원고·Python 검증.
+- canva-content-checks.json·canva-generation-log.json: 실제 제작 수·순서 대조·구간 기록.
+- direct-execution.json: 최신 실행 결과.
+- 검수 화면: C:/Users/Public/Documents/ESTsoft/CreatorTemp/coala-vibe-shared-error-canva.jpg.
+- 지면 보정 기록: print-refinement-stats.json·print-refinement-geometry-checks.json·print-refined-pdf-checks.json·print-refined-pdf-text-checks.json.
+- 보정 확인 화면: C:/Users/Public/Documents/ESTsoft/CreatorTemp/coala-vibe-refined-canva-proof.jpg.
+- 최종 초안 PDF: output/pdf/vibe-coding-16-refined-draft.pdf, 209쪽·A4, 13,041,292바이트. 경로는 저장소 루트 기준이다.
+- 최종 PDF의 실제 글 요소 2,220개를 위치까지 대조했다. 문구 누락 0개·글끼리 겹침 0개. 전체 209쪽의 미리보기, 22쪽의 상세 이미지와 실습 시작 16쪽의 보정 결과를 시각 검수했다.
