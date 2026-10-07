@@ -1,0 +1,82 @@
+[
+  {
+    "chapter": 1,
+    "title": "AI와 함께하는 디지털 시대",
+    "source_pages": "5-8"
+  },
+  {
+    "chapter": 2,
+    "title": "좋은 질문이 좋은 답을 만든다",
+    "source_pages": "9-15"
+  },
+  {
+    "chapter": 3,
+    "title": "문제를 단계별로 나누기",
+    "source_pages": "16-18"
+  },
+  {
+    "chapter": 4,
+    "title": "순서도와 데이터 이해",
+    "source_pages": "19-27"
+  },
+  {
+    "chapter": 5,
+    "title": "반복과 누적 이해",
+    "source_pages": "27-32"
+  },
+  {
+    "chapter": 6,
+    "title": "조건에 따라 결과 나누기",
+    "source_pages": "33-36"
+  },
+  {
+    "chapter": 7,
+    "title": "반복과 조건 함께 사용하기",
+    "source_pages": "37-40"
+  },
+  {
+    "chapter": 8,
+    "title": "Button·Field·Text로 첫 화면 만들기",
+    "source_pages": "41-53"
+  },
+  {
+    "chapter": 9,
+    "title": "계산·누적 출력 앱 만들기",
+    "source_pages": "54-66"
+  },
+  {
+    "chapter": 10,
+    "title": "선택 위젯과 진행 표시",
+    "source_pages": "67-87"
+  },
+  {
+    "chapter": 11,
+    "title": "학생 성적을 표로 정리하기",
+    "source_pages": "88-94"
+  },
+  {
+    "chapter": 12,
+    "title": "입력 데이터를 차트와 저장으로 연결",
+    "source_pages": "95-127"
+  },
+  {
+    "chapter": 13,
+    "title": "Matplotlib 그래프 만들기",
+    "source_pages": "128-145"
+  },
+  {
+    "chapter": 14,
+    "title": "Pandas로 데이터 정리하기",
+    "source_pages": "146-151"
+  },
+  {
+    "chapter": 15,
+    "title": "코코봇과 앱 연결하기",
+    "source_pages": "152-157"
+  },
+  {
+    "chapter": 16,
+    "title": "앱 개선과 결과 발표",
+    "source_pages": "93-94 및 앞선 실습 종합"
+  }
+]

@@ -1,22 +1,162 @@
-[
-  {
-    "session": 5,
-    "code": "first = \"2\"\nsecond = \"3\"\nprint(first + second)\nprint(int(first) + int(second))",
-    "actual_output": "23\n5"
-  },
-  {
-    "session": 6,
-    "code": "borrowed = 3\nif borrowed < 3:\n    print(\"추가 대출 가능\")\nelse:\n    print(\"추가 대출 불가\")",
-    "actual_output": "추가 대출 불가"
-  },
-  {
-    "session": 7,
-    "code": "dan = 4\nfor number in range(1, 10):\n    print(f\"{dan} x {number} = {dan * number}\")",
-    "actual_output": "4 x 1 = 4\n4 x 2 = 8\n4 x 3 = 12\n4 x 4 = 16\n4 x 5 = 20\n4 x 6 = 24\n4 x 7 = 28\n4 x 8 = 32\n4 x 9 = 36"
-  },
-  {
-    "session": 8,
-    "code": "minutes = [20, 30]\ntotal = sum(minutes)\nprint(f\"합계 {total}분\")\nif minutes:\n    print(f\"평균 {total / len(minutes):.1f}분\")\nelse:\n    print(\"평균 기록 없음\")",
-    "actual_output": "합계 50분\n평균 25.0분"
-  }
-]
+{
+  "reviewed_date": "2026-10-06",
+  "python": "3.10.11",
+  "matplotlib": "3.10.9",
+  "pandas": "2.3.3",
+  "numpy": "2.2.6",
+  "executed_blocks": 23,
+  "passed": 23,
+  "records": [
+    {
+      "page_id": "ch04-variables",
+      "status": "passed",
+      "stdout": "민수\n80",
+      "code_sha256": "1be22a2781c7426817edceae92786b0c290f5682c423573049b717084b519035"
+    },
+    {
+      "page_id": "ch04-family-code",
+      "status": "passed",
+      "stdout": "우리 가족 나이의 총합은 103입니다.",
+      "code_sha256": "0b6aba555fa0749bd7b7b7d68b8a75ef2fd2b08ed73d257ac7f2b685603d1816"
+    },
+    {
+      "page_id": "ch04-scores-code",
+      "status": "passed",
+      "stdout": "240",
+      "code_sha256": "2f8da427dc41316717d957254cd5beb1f97ae9f280c1f9ef9ba346679b9fde9f"
+    },
+    {
+      "page_id": "ch05-exercise-code",
+      "status": "passed",
+      "stdout": "총 운동 시간은 55분입니다.",
+      "code_sha256": "c47c83a9f05be9bcc01db026f9a02d8ee7d7e9ed1f838c8476df79957cbe87ba"
+    },
+    {
+      "page_id": "ch05-caffeine-code",
+      "status": "passed",
+      "stdout": "총 카페인 양 80mg",
+      "code_sha256": "1dfba6cd5e3761852e3f8c5928fa5dd09c1fe6d1dd264bc5564851860d1c80dc"
+    },
+    {
+      "page_id": "ch06-sleep-code",
+      "status": "passed",
+      "stdout": "적정 수면입니다",
+      "code_sha256": "d8ffac57aefc5f2cff9006118cce955696d40915a63c7ac540fc13efe03c21f3"
+    },
+    {
+      "page_id": "ch07-pass-code",
+      "status": "passed",
+      "stdout": "FAIL\nPASS\nPASS",
+      "code_sha256": "92d1765501d09364ebfc915f19d3d8a84c7b1ccf6ef55384ca9b0d6b75925a6d"
+    },
+    {
+      "page_id": "ch07-movie-code",
+      "status": "passed",
+      "stdout": "관람 불가\n관람 가능\n관람 가능\n관람 불가",
+      "code_sha256": "32159f2976858ecfd1c7a4715651cabbd3177a7893932b977bceec8aaaedf91d"
+    },
+    {
+      "page_id": "ch09-product-code",
+      "status": "passed",
+      "stdout": "720",
+      "code_sha256": "1f4c7935cfefefe6f2c6106badaf5f2132cde15bf340ea5d7bc3656c31b9ac5e"
+    },
+    {
+      "page_id": "ch09-calculator-code",
+      "status": "passed",
+      "stdout": "20.0",
+      "code_sha256": "09690d10368858adbd7f73f0be38d934658d453f34d81aa36ce24660d55726ff"
+    },
+    {
+      "page_id": "ch09-times-code",
+      "status": "passed",
+      "stdout": "4 x 1 = 4\n4 x 2 = 8\n4 x 3 = 12\n4 x 4 = 16\n4 x 5 = 20\n4 x 6 = 24\n4 x 7 = 28\n4 x 8 = 32\n4 x 9 = 36",
+      "code_sha256": "9c0cc140af4eb1693959cec733783d2d11753b4e596791c19d1957e5e4a58a8f"
+    },
+    {
+      "page_id": "ch11-index-code",
+      "status": "passed",
+      "stdout": "88",
+      "code_sha256": "3e1ef44972541a02c7d3ad2ab0d22e378ba2d494012ca238fd0d3f421a51eee4"
+    },
+    {
+      "page_id": "ch13-one-array",
+      "status": "passed",
+      "stdout": "",
+      "code_sha256": "1543b98e40d9d8883c2230eee7a6179d97d1b2ab4a4dcbb2e49df4e0e9111ea2",
+      "figure_checks": "data, axes, marker/line, range or legend checked as applicable"
+    },
+    {
+      "page_id": "ch13-two-arrays",
+      "status": "passed",
+      "stdout": "",
+      "code_sha256": "d2b1f5760dd24536a1557c56fc4a38ee83819e752b492fb5709cd568a15deaa2",
+      "figure_checks": "data, axes, marker/line, range or legend checked as applicable"
+    },
+    {
+      "page_id": "ch13-range",
+      "status": "passed",
+      "stdout": "",
+      "code_sha256": "47424f005f1797499b356a18876bc73b2752b5b27c4947c907df274cdf84719c",
+      "figure_checks": "data, axes, marker/line, range or legend checked as applicable"
+    },
+    {
+      "page_id": "ch13-markers",
+      "status": "passed",
+      "stdout": "",
+      "code_sha256": "aaf790720c396f07c3472b8db66dda65696c843036990a3508efb4b0645fea39",
+      "figure_checks": "data, axes, marker/line, range or legend checked as applicable"
+    },
+    {
+      "page_id": "ch13-bars",
+      "status": "passed",
+      "stdout": "",
+      "code_sha256": "6d72a56736cccd607a97e55d8a640288bf1f13de0e9ae1e17ce8da6b77531e48",
+      "figure_checks": "data, axes, marker/line, range or legend checked as applicable"
+    },
+    {
+      "page_id": "ch13-grouped",
+      "status": "passed",
+      "stdout": "",
+      "code_sha256": "969cc16de4a06b233f1bf4e305313565eb893dbcd7660ca4e81137d7b47fb824",
+      "figure_checks": "data, axes, marker/line, range or legend checked as applicable"
+    },
+    {
+      "page_id": "ch13-scatter",
+      "status": "passed",
+      "stdout": "",
+      "code_sha256": "a8624ed3b2ef3c22f86286c8ad0ced7fa9ca99123fc8ea11d4e08a0f68ad1a7d",
+      "figure_checks": "data, axes, marker/line, range or legend checked as applicable"
+    },
+    {
+      "page_id": "ch14-series",
+      "status": "passed",
+      "stdout": "{'one': 1, 'two': 2, 'three': 3}\n['one', 'two', 'three']\n[1, 2, 3]",
+      "code_sha256": "90f6194f89cb00ccb8163cb196898df24ab52f3e0e9ecda9747cee02f2950b8a"
+    },
+    {
+      "page_id": "ch14-mixed",
+      "status": "passed",
+      "stdout": "[0, 1, 2, 3, 4]\n['2022-01-01', 2.14, 'song', 1000, True]",
+      "code_sha256": "8bf655bd3284e4f2736354dcad73dbcae58ef9c78406f9345b4b8a7e8b4263d4"
+    },
+    {
+      "page_id": "ch14-dataframe",
+      "status": "passed",
+      "stdout": "['현아', '태민']\n['나이', '성별', '학년']\n{'나이': 17, '성별': '남', '학년': '고1'}",
+      "code_sha256": "779d0af3a74e4ac313142bbbd57a871c5bb28bd80ff49af91ac15f2e449ad1d1"
+    },
+    {
+      "page_id": "ch14-rename-code",
+      "status": "passed",
+      "stdout": "['학생1', '학생2']\n['연령', '남녀', '학년']\n{'연령': 15, '남녀': '여', '학년': '중2'}",
+      "code_sha256": "a6150979251e612498b8d14db37b2ba31f72918ffb6eb1841ccb2e38c2a0e262"
+    }
+  ],
+  "not_executed": [
+    "Algoflow GUI code generation",
+    "project/table persistence in Algoflow",
+    "public-data API calls",
+    "physical Cocobot movement"
+  ]
+}

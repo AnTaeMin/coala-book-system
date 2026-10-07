@@ -1,0 +1,163 @@
+[
+  {
+    "chapter": 4,
+    "page_id": "ch04-variables",
+    "code": "name = \"민수\"\nscore = 80\nprint(name)\nprint(score)",
+    "output": "민수\n80",
+    "result": null
+  },
+  {
+    "chapter": 4,
+    "page_id": "ch04-family-code",
+    "code": "momage = 43\ndadage = 45\nmyage = 15\ntotal = momage + dadage + myage\nprint(f\"우리 가족 나이의 총합은 {total}입니다.\")",
+    "output": "우리 가족 나이의 총합은 103입니다.",
+    "result": null
+  },
+  {
+    "chapter": 4,
+    "page_id": "ch04-scores-code",
+    "code": "s1 = int(\"80\")\ns2 = int(\"90\")\ns3 = int(\"70\")\nprint(s1 + s2 + s3)",
+    "output": "240",
+    "result": null
+  },
+  {
+    "chapter": 5,
+    "page_id": "ch05-exercise-code",
+    "code": "time1 = 1\ntotal = 0\nwhile time1 <= 10:\n    total = total + time1\n    time1 += 1\nprint(f\"총 운동 시간은 {total}분입니다.\")",
+    "output": "총 운동 시간은 55분입니다.",
+    "result": null
+  },
+  {
+    "chapter": 5,
+    "page_id": "ch05-caffeine-code",
+    "code": "caffeine = [50, 30, 0]\ntotal = 0\nfor amount in caffeine:\n    total += amount\nprint(f\"총 카페인 양 {total}mg\")",
+    "output": "총 카페인 양 80mg",
+    "result": null
+  },
+  {
+    "chapter": 6,
+    "page_id": "ch06-sleep-code",
+    "code": "hours = 7\nif hours >= 8:\n    print(\"충분한 수면입니다\")\nelif hours >= 5:\n    print(\"적정 수면입니다\")\nelse:\n    print(\"수면 부족입니다\")",
+    "output": "적정 수면입니다",
+    "result": null
+  },
+  {
+    "chapter": 7,
+    "page_id": "ch07-pass-code",
+    "code": "scores = [79, 80, 100]\nfor score in scores:\n    if score >= 80:\n        print(\"PASS\")\n    else:\n        print(\"FAIL\")",
+    "output": "FAIL\nPASS\nPASS",
+    "result": null
+  },
+  {
+    "chapter": 7,
+    "page_id": "ch07-movie-code",
+    "code": "ages = [14, 15, 16, 13]\nfor age in ages:\n    if age >= 15:\n        print(\"관람 가능\")\n    else:\n        print(\"관람 불가\")",
+    "output": "관람 불가\n관람 가능\n관람 가능\n관람 불가",
+    "result": null
+  },
+  {
+    "chapter": 9,
+    "page_id": "ch09-product-code",
+    "code": "start, end = 1, 6\nproduct = 1\nfor number in range(start, end + 1):\n    product *= number\nprint(product)",
+    "output": "720",
+    "result": null
+  },
+  {
+    "chapter": 9,
+    "page_id": "ch09-calculator-code",
+    "code": "a, b = 100.0, 5.0\nop = \"/\"\nif op == \"+\":\n    result = a + b\nelif op == \"-\":\n    result = a - b\nelif op == \"*\":\n    result = a * b\nelif op == \"/\" and b != 0:\n    result = a / b\nelse:\n    result = \"계산할 수 없습니다\"\nprint(result)",
+    "output": "20.0",
+    "result": null
+  },
+  {
+    "chapter": 9,
+    "page_id": "ch09-times-code",
+    "code": "dan = 4\nfor n in range(1, 10):\n    print(f\"{dan} x {n} = {dan * n}\")",
+    "output": "4 x 1 = 4\n4 x 2 = 8\n4 x 3 = 12\n4 x 4 = 16\n4 x 5 = 20\n4 x 6 = 24\n4 x 7 = 28\n4 x 8 = 32\n4 x 9 = 36",
+    "result": null
+  },
+  {
+    "chapter": 11,
+    "page_id": "ch11-index-code",
+    "code": "rows = [[\"학생1\", 100, 90, 80],\n        [\"학생2\", 97, 88, 90]]\nrow_no, column_no = 2, 3\nprint(rows[row_no - 1][column_no - 1])",
+    "output": "88",
+    "result": null
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-one-array",
+    "code": "import matplotlib.pyplot as plt\n\nfig, ax = plt.subplots(figsize=(8, 5))\nax.plot([1, 2, 3, 4, 5])\nax.set_xlabel(\"index\")\nax.set_ylabel(\"value\")\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-one"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-two-arrays",
+    "code": "import matplotlib.pyplot as plt\n\nx = [15, 25, 35, 45, 55]\ny = [5, 10, 15, 20, 25]\nfig, ax = plt.subplots(figsize=(8, 5))\nax.plot(x, y)\nax.set_xlabel(\"x\")\nax.set_ylabel(\"y\")\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-two"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-range",
+    "code": "import matplotlib.pyplot as plt\n\nx = [1, 2, 3, 4, 5]\ny = [5, 10, 15, 20, 25]\nfig, ax = plt.subplots(figsize=(8, 5))\nax.plot(x, y, \"b-+\", clip_on=False)\nax.axis([0, 10, 0, 25])\nax.set_xlabel(\"x\")\nax.set_ylabel(\"y\")\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-range"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-markers",
+    "code": "import matplotlib.pyplot as plt\n\nx = [1, 2, 3, 4, 5]\ny = [5, 10, 15, 20, 25]\nfig, ax = plt.subplots(figsize=(8, 5))\nax.plot(x, y, \"ro\", clip_on=False)\nax.set_xlabel(\"x\")\nax.set_ylabel(\"y\")\nax.set_title(\"hello\")\nax.text(3, 5, \"12/19\")\nax.axis([0, 10, 0, 25])\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-markers"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-bars",
+    "code": "import matplotlib.pyplot as plt\n\nvalues = [1, 2, 4, 8, 16, 32, 64, 128]\nfig, ax = plt.subplots(figsize=(8, 5))\nax.bar(range(len(values)), values)\nax.set_xlabel(\"index\")\nax.set_ylabel(\"value\")\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-bars"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-grouped",
+    "code": "import matplotlib.pyplot as plt\n\ntopics = [\"one\", \"two\", \"three\", \"four\", \"five\"]\na = [35, 80, 84, 83, 50]\nb = [73, 80, 77, 40, 86]\nx = list(range(len(topics)))\nfig, ax = plt.subplots(figsize=(8, 5))\nax.bar([v - 0.2 for v in x], a, 0.4, label=\"A\")\nax.bar([v + 0.2 for v in x], b, 0.4, label=\"B\")\nax.set_xticks(x)\nax.set_xticklabels(topics)\nax.set_ylabel(\"value\")\nax.legend()\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-grouped"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-scatter",
+    "code": "import numpy as np\nimport matplotlib.pyplot as plt\n\nnp.random.seed(20211206)\nx = np.arange(1.1, 100.0, 5.0)\ny = x * 1.5 + np.random.rand(len(x)) * 50\nfig, ax = plt.subplots(figsize=(8, 5))\nax.scatter(x, y, c=\"red\", alpha=0.5, label=\"random\")\nax.set_xlabel(\"X\")\nax.set_ylabel(\"Y\")\nax.legend(loc=\"upper left\")\nax.set_title(\"random\")\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-scatter"
+  },
+  {
+    "chapter": 14,
+    "page_id": "ch14-series",
+    "code": "import pandas as pd\n\nser = pd.Series({\"one\": 1, \"two\": 2, \"three\": 3})\nprint(ser.to_dict())\nprint(ser.index.tolist())\nprint(ser.values.tolist())",
+    "output": "{'one': 1, 'two': 2, 'three': 3}\n['one', 'two', 'three']\n[1, 2, 3]",
+    "result": null
+  },
+  {
+    "chapter": 14,
+    "page_id": "ch14-mixed",
+    "code": "import pandas as pd\n\nvalues = [\"2022-01-01\", 2.14, \"song\", 1000, True]\nsr = pd.Series(values)\nprint(sr.index.tolist())\nprint(sr.values.tolist())",
+    "output": "[0, 1, 2, 3, 4]\n['2022-01-01', 2.14, 'song', 1000, True]",
+    "result": null
+  },
+  {
+    "chapter": 14,
+    "page_id": "ch14-dataframe",
+    "code": "import pandas as pd\n\ndf = pd.DataFrame(\n    [[15, \"여\", \"중2\"], [17, \"남\", \"고1\"]],\n    index=[\"현아\", \"태민\"],\n    columns=[\"나이\", \"성별\", \"학년\"],\n)\nprint(df.index.tolist())\nprint(df.columns.tolist())\nprint(df.loc[\"태민\"].to_dict())",
+    "output": "['현아', '태민']\n['나이', '성별', '학년']\n{'나이': 17, '성별': '남', '학년': '고1'}",
+    "result": null
+  },
+  {
+    "chapter": 14,
+    "page_id": "ch14-rename-code",
+    "code": "import pandas as pd\n\ndf = pd.DataFrame(\n    [[15, \"여\", \"중2\"], [17, \"남\", \"고1\"]],\n    index=[\"현아\", \"태민\"],\n    columns=[\"나이\", \"성별\", \"학년\"],\n)\ndf.index = [\"학생1\", \"학생2\"]\ndf.columns = [\"연령\", \"남녀\", \"학년\"]\nprint(df.index.tolist())\nprint(df.columns.tolist())\nprint(df.iloc[0].to_dict())",
+    "output": "['학생1', '학생2']\n['연령', '남녀', '학년']\n{'연령': 15, '남녀': '여', '학년': '중2'}",
+    "result": null
+  }
+]

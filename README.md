@@ -1,5 +1,7 @@
 # Coala Book System
 
+다른 컴퓨터에서 현재 16차시 교재 작업을 이어가려면 [다른 컴퓨터 설치·작업 안내](OTHER-PC-SETUP.md)를 따른다. 최신 원고는 `feat/python-vibe-sample` 브랜치의 `coala-book-md/vibe-coding-16/book.md`에 있다.
+
 구조화된 Markdown 원고를 검증하고, Canva Apps SDK로 편집 가능한 교재 페이지(1587 × 2245)를 자동 생성하는 프로젝트다.
 
 ```
