@@ -1,0 +1,68 @@
+{
+  "reviewed_date": "2026-10-10",
+  "python": "3.10.11",
+  "matplotlib": "3.10.9",
+  "numpy": "2.2.6",
+  "executed_blocks": 7,
+  "passed": 7,
+  "records": [
+    {
+      "page_id": "ch12-one-array",
+      "status": "passed",
+      "source_pdf_pages": "131-132",
+      "stdout": "",
+      "code_sha256": "2cd6dcbfc29285217eb3de7c2c61f6a78082146bf1f73e6c4e869d437792ff2b",
+      "result_asset": "plot-one"
+    },
+    {
+      "page_id": "ch12-two-arrays",
+      "status": "passed",
+      "source_pdf_pages": "133",
+      "stdout": "",
+      "code_sha256": "ba26bb8070af9b5ee5ec20752d62fa226cf097e6c59539e546c21dc8b81c8633",
+      "result_asset": "plot-two"
+    },
+    {
+      "page_id": "ch12-range",
+      "status": "passed",
+      "source_pdf_pages": "134",
+      "stdout": "",
+      "code_sha256": "165d17e79c9d6437acfdfd6e8000bf12e45515dc1bd55c8ac2e19b17ed04ed63",
+      "result_asset": "plot-range"
+    },
+    {
+      "page_id": "ch12-markers",
+      "status": "passed",
+      "source_pdf_pages": "136-138",
+      "stdout": "",
+      "code_sha256": "aaf790720c396f07c3472b8db66dda65696c843036990a3508efb4b0645fea39",
+      "result_asset": "plot-markers"
+    },
+    {
+      "page_id": "ch13-bars",
+      "status": "passed",
+      "source_pdf_pages": "140",
+      "stdout": "",
+      "code_sha256": "7aea71be8ea81da41217c195756cc1b81ca5d522e0cdf3218713e83f7e632ab8",
+      "result_asset": "plot-bars"
+    },
+    {
+      "page_id": "ch13-grouped",
+      "status": "passed",
+      "source_pdf_pages": "141-142",
+      "stdout": "",
+      "code_sha256": "09843eb84a99791de977dbf88f597a6edf955fc176a539245d71c5880dc51ee0",
+      "result_asset": "plot-grouped"
+    },
+    {
+      "page_id": "ch13-scatter",
+      "status": "passed",
+      "source_pdf_pages": "145",
+      "stdout": "",
+      "code_sha256": "a0cfe202532f308bf63e55097dcb9b69d0859d4a76a40283fafd75773e57eaf1",
+      "result_asset": "plot-scatter"
+    }
+  ],
+  "gui_practices": "원본 화면 대조 및 절차 작성. GUI/API/코코봇의 새 실행을 주장하지 않음",
+  "edition": "no-pandas-16-sessions"
+}

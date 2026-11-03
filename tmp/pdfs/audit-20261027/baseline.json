@@ -1,0 +1,17 @@
+{
+  "source": {
+    "path": "C:\\Users\\use\\Documents\\카카오톡 받은 파일\\(flet내용 추가)AI와 함께하는 앱 개발  업데이트 수정본(삼육_최종)의 사본 (7).pdf",
+    "pages": 158,
+    "sha256": "a4aa668621a7c59c36c9666fa1019182d5ed999c9fb8620f2ddcf509840b2729"
+  },
+  "target": {
+    "path": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\output\\pdf\\vibe-coding-16-upstream.pdf",
+    "pages": 130,
+    "sha256": "c7a74887b35cec4dce1fa6460d718d1481b286375c5c474b720fd6bbd71950ce"
+  },
+  "local_source": {
+    "path": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\(flet내용 추가)AI와 함께하는 앱 개발  업데이트 수정본(삼육_최종)의 사본 (7).pdf",
+    "pages": 158,
+    "sha256": "a4aa668621a7c59c36c9666fa1019182d5ed999c9fb8620f2ddcf509840b2729"
+  }
+}

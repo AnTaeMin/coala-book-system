@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-11",
+  "activeDerivedAssets": [
+    {
+      "derivedAsset": "assets/ch10/two-images.png",
+      "originalSourceAsset": "assets/source-20261006/image-divider.png",
+      "packagedProvenanceAsset": "provenance/source-assets/image-divider.png",
+      "originalSourceSha256": "a9d777f0706d9481c9315ffae419efc744b6b25df5b89b1000ddbf1d01dc4e0e",
+      "cropBBoxTopLeftPixels": [
+        [
+          37,
+          10,
+          133,
+          108
+        ],
+        [
+          37,
+          118,
+          133,
+          214
+        ]
+      ],
+      "notAnActivePlacement": true
+    },
+    {
+      "derivedAsset": "assets/ch15/save-table-toggle.png",
+      "originalSourceAsset": "assets/source-20261011/save-table-toggle.png",
+      "packagedProvenanceAsset": "provenance/source-assets/save-table-toggle.png",
+      "originalSourceSha256": "ade48614e9fa0405c2f8ec0db7f0643d415b4e0d6a6a48d404a7e48bcd5b44df",
+      "cropBBoxTopLeftPixels": [
+        [
+          148,
+          0,
+          356,
+          84
+        ]
+      ],
+      "notAnActivePlacement": true
+    }
+  ],
+  "note": "원래 이미지 보존용이며 인쇄·Canva의 활성 배치 자산 수에 포함하지 않음"
+}

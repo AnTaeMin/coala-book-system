@@ -1,0 +1,266 @@
+{
+  "reviewed_date": "2026-10-28",
+  "edition": "flet-chart-context-16-sessions",
+  "python": "3.10.11",
+  "runtime": "C:\\Users\\use\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "flet": "0.86.0",
+  "flet_charts": "0.86.0",
+  "matplotlib": "3.10.9",
+  "numpy": "2.2.6",
+  "matplotlib_backend": "module://flet_charts.matplotlib_backends.backend_flet_agg",
+  "executed_blocks": 8,
+  "passed": 8,
+  "practice_blocks": 7,
+  "setup_blocks": 1,
+  "practice_runs": 14,
+  "records": [
+    {
+      "page_id": "ch12-axes",
+      "status": "passed",
+      "role": "generated-chart-setup",
+      "file": "chart_setup.py",
+      "source_pdf_pages": null,
+      "stdout": "",
+      "code_sha256": "ee1f42dd58dacdc59877991f80375826dcf9d25cc409be2711e173f862b5cc53",
+      "result_asset": null,
+      "warnings": [],
+      "semantics": {
+        "figure_inches": [
+          6.4,
+          4.8
+        ],
+        "chart_binding": true,
+        "real_flet_control": true
+      },
+      "chart_binding": true
+    },
+    {
+      "page_id": "ch12-one-array",
+      "status": "passed",
+      "role": "drawing-event-body",
+      "file": "ch12-one-array.py",
+      "source_pdf_pages": "131-132",
+      "stdout": "",
+      "code_sha256": "44e8c4ef05d471ab4b148d3b69ec98fb048aac1833b2cda68588e3c536520c89",
+      "result_asset": "plot-one",
+      "semantics": {
+        "x": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0
+        ],
+        "y": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ]
+      },
+      "warnings": [],
+      "chart_binding": true,
+      "repeated_updates": true,
+      "draw_count": 2,
+      "automatic_refresh_outside_logic": true
+    },
+    {
+      "page_id": "ch12-two-arrays",
+      "status": "passed",
+      "role": "drawing-event-body",
+      "file": "ch12-two-arrays.py",
+      "source_pdf_pages": "133",
+      "stdout": "",
+      "code_sha256": "a12efd065fe80aa8466191c647007dd7852e54332eda6108d8b575ba07238bd8",
+      "result_asset": "plot-two",
+      "semantics": {
+        "x": [
+          15.0,
+          25.0,
+          35.0,
+          45.0,
+          55.0
+        ],
+        "y": [
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0
+        ]
+      },
+      "warnings": [],
+      "chart_binding": true,
+      "repeated_updates": true,
+      "draw_count": 2,
+      "automatic_refresh_outside_logic": true
+    },
+    {
+      "page_id": "ch12-range",
+      "status": "passed",
+      "role": "drawing-event-body",
+      "file": "ch12-range.py",
+      "source_pdf_pages": "134",
+      "stdout": "",
+      "code_sha256": "d66a0eeb18e2c74f308524fdf53338a91ea58572036c1bcde473212baf75d144",
+      "result_asset": "plot-range",
+      "semantics": {
+        "marker": "+",
+        "color": "b",
+        "xlim": [
+          0.0,
+          10.0
+        ],
+        "ylim": [
+          0.0,
+          25.0
+        ]
+      },
+      "warnings": [],
+      "chart_binding": true,
+      "repeated_updates": true,
+      "draw_count": 2,
+      "automatic_refresh_outside_logic": true
+    },
+    {
+      "page_id": "ch12-markers",
+      "status": "passed",
+      "role": "drawing-event-body",
+      "file": "ch12-markers.py",
+      "source_pdf_pages": "136-138",
+      "stdout": "",
+      "code_sha256": "fb4ecba903e76c5eddf1e8475998f2833a0c2737a2d58579f17823f82d2a472f",
+      "result_asset": "plot-markers",
+      "semantics": {
+        "marker": "o",
+        "color": "r",
+        "linestyle": "None",
+        "annotation": "12/19 at (3, 5)"
+      },
+      "warnings": [],
+      "chart_binding": true,
+      "repeated_updates": true,
+      "draw_count": 2,
+      "automatic_refresh_outside_logic": true
+    },
+    {
+      "page_id": "ch13-bars",
+      "status": "passed",
+      "role": "drawing-event-body",
+      "file": "ch13-bars.py",
+      "source_pdf_pages": "140",
+      "stdout": "",
+      "code_sha256": "1f936872e8b11d798d3c4f2e4e17a3bfdf4fc5a358e3403dc9c7d7ca43f4726f",
+      "result_asset": "plot-bars",
+      "semantics": {
+        "heights": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ]
+      },
+      "warnings": [],
+      "chart_binding": true,
+      "repeated_updates": true,
+      "draw_count": 2,
+      "automatic_refresh_outside_logic": true
+    },
+    {
+      "page_id": "ch13-grouped",
+      "status": "passed",
+      "role": "drawing-event-body",
+      "file": "ch13-grouped.py",
+      "source_pdf_pages": "141-142",
+      "stdout": "",
+      "code_sha256": "7f9d91d04f30f096f80a3e2bc69a1316b29b4a71ff10480f4d513a785fdc82af",
+      "result_asset": "plot-grouped",
+      "semantics": {
+        "heights": [
+          35,
+          80,
+          84,
+          83,
+          50,
+          73,
+          80,
+          77,
+          40,
+          86
+        ],
+        "centers": [
+          0.8,
+          2.8,
+          4.8,
+          6.8,
+          8.8,
+          1.6,
+          3.6000000000000005,
+          5.6,
+          7.6,
+          9.6
+        ],
+        "ticks": [
+          1.2000000000000002,
+          3.2,
+          5.199999999999999,
+          7.199999999999999,
+          9.2
+        ]
+      },
+      "warnings": [],
+      "chart_binding": true,
+      "repeated_updates": true,
+      "draw_count": 2,
+      "automatic_refresh_outside_logic": true
+    },
+    {
+      "page_id": "ch13-scatter",
+      "status": "passed",
+      "role": "drawing-event-body",
+      "file": "ch13-scatter.py",
+      "source_pdf_pages": "145",
+      "stdout": "",
+      "code_sha256": "8e6e9f1fe1531e3037b7fa40d5fcee3db0454aa71defd4190b0cf506ecf03543",
+      "result_asset": "plot-scatter",
+      "semantics": {
+        "points": 20,
+        "first_point": [
+          1.1,
+          20.56392186263395
+        ],
+        "last_point": [
+          96.1,
+          184.3747507628296
+        ],
+        "seed_repeatability": true,
+        "labels": [
+          "X axis",
+          "Y axis"
+        ]
+      },
+      "warnings": [],
+      "chart_binding": true,
+      "repeated_updates": true,
+      "draw_count": 2,
+      "automatic_refresh_outside_logic": true
+    }
+  ],
+  "chapter_blocks_match_files": true,
+  "book_blocks_match_files": true,
+  "code_specs_match_files": true,
+  "plot_pixels": [
+    1536,
+    1152
+  ],
+  "plot_dpi": 240,
+  "chart_binding": true,
+  "repeated_updates": true,
+  "automatic_refresh_outside_logic": true,
+  "execution_scope": "Real Flet MatplotlibChart construction and backend rendering; each of 7 drawing bodies executed twice on its original Figure/Axes/control. Controls were not mounted in a live Flet session by this checker."
+}

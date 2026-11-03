@@ -1,0 +1,3028 @@
+{
+  "pages": 130,
+  "renderedPages": 130,
+  "outOfPageGlyphs": [],
+  "missingSourceIds": [],
+  "contentsErrors": [],
+  "images": 41,
+  "flowcharts": 4,
+  "manuscriptCodeBlocks": 7,
+  "printedCodeBlocks": 7,
+  "printedCodeSegments": 7,
+  "codeContentDifferences": [],
+  "replacementGlyphPages": [],
+  "institutionLogoTextPages": [],
+  "editorialReferencePages": [],
+  "robotReferencePages": [],
+  "excludedTopicPages": [],
+  "notebookWorkflowPages": [],
+  "boxOverflows": [],
+  "date": "2026-10-11",
+  "edition": "upstream-gui-16-sessions",
+  "pdfSha256": "c7a74887b35cec4dce1fa6460d718d1481b286375c5c474b720fd6bbd71950ce",
+  "manuscriptSha256": "64a400d55041da05aa45b69cbd792b46ea263796d09030eaed03d438104f3b2f",
+  "manuscriptContainers": 162,
+  "practiceCards": 37,
+  "executedCodeBlocks": 7,
+  "executedCodePassed": 7,
+  "textOutputBlocks": 0,
+  "uniquePngAssets": 39,
+  "vectorAssets": 7,
+  "bookmarks": 16,
+  "contentsLinks": 16,
+  "fontsEmbedded": {
+    "/AAAAAA+WantedSans-Bold": true,
+    "/AAAAAB+WantedSans-Bold": true,
+    "/AAAAAA+WantedSans-Medium": true,
+    "/AAAAAB+WantedSans-Medium": true,
+    "/AAAAAC+WantedSans-Medium": true,
+    "/AAAAAA+Consolas": true
+  },
+  "comparison": {
+    "date": "2026-10-11",
+    "edition": "upstream-gui-16-sessions",
+    "baselineMetadata": "coala-book-md/vibe-coding-16/previous-reports/20261011-before-no-pandas-divider/vibe-coding-16-source7.json",
+    "previousPdfPages": 134,
+    "currentPdfPages": 130,
+    "currentPdfSha256": "c7a74887b35cec4dce1fa6460d718d1481b286375c5c474b720fd6bbd71950ce",
+    "currentManuscriptSha256": "64a400d55041da05aa45b69cbd792b46ea263796d09030eaed03d438104f3b2f",
+    "previousManuscriptContainers": 167,
+    "currentManuscriptContainers": 162,
+    "previousPracticeCards": 40,
+    "currentPracticeCards": 37,
+    "oldToNewSourceIds": {
+      "book-guide": "book-guide",
+      "ch01-opening": "ch01-opening",
+      "ch01-ai": "ch01-ai",
+      "ch01-limits": "ch01-limits",
+      "ch01-ethics": "ch01-ethics",
+      "ch01-practice-1": "ch01-practice-1",
+      "ch01-procedure": "ch01-procedure",
+      "ch01-check": "ch01-check",
+      "ch02-opening": "ch02-opening",
+      "ch02-prompt": "ch02-prompt",
+      "ch02-compare": "ch02-compare",
+      "ch02-inputs": "ch02-inputs",
+      "ch02-practice-1": "ch02-practice-1",
+      "ch02-practice-2": "ch02-practice-2",
+      "ch02-request": "ch02-request",
+      "ch02-check": "ch02-check",
+      "ch03-opening": "ch03-opening",
+      "ch03-ramen": "ch03-ramen",
+      "ch03-algorithm": "ch03-algorithm",
+      "ch03-practice-1": "ch03-practice-1",
+      "ch03-design": "ch03-design",
+      "ch03-check": "ch03-check",
+      "ch04-opening": "ch04-opening",
+      "ch04-roles": "ch04-roles",
+      "ch04-types": "ch04-types",
+      "ch04-variables": "ch04-variables",
+      "ch04-practice-1": "ch04-practice-1",
+      "ch04-family-code": "ch04-family-code",
+      "ch04-family-flow": "ch04-family-flow",
+      "ch04-scores-code": "ch04-scores-code",
+      "ch04-check": "ch04-check",
+      "ch05-opening": "ch05-opening",
+      "ch05-loops": "ch05-loops",
+      "ch05-trace": "ch05-trace",
+      "ch05-practice-1": "ch05-practice-1",
+      "ch05-exercise-code": "ch05-exercise-code",
+      "ch05-exercise-flow": "ch05-exercise-flow",
+      "ch05-practice-2": "ch05-practice-2",
+      "ch05-caffeine-code": "ch05-caffeine-code",
+      "ch05-check": "ch05-check",
+      "ch06-opening": "ch06-opening",
+      "ch06-conditions": "ch06-conditions",
+      "ch06-sleep-rules": "ch06-sleep-rules",
+      "ch06-practice-1": "ch06-practice-1",
+      "ch06-sleep-code": "ch06-sleep-code",
+      "ch06-sleep-flow": "ch06-sleep-flow",
+      "ch06-fix": "ch06-fix",
+      "ch06-check": "ch06-check",
+      "ch07-opening": "ch07-opening",
+      "ch07-roles": "ch07-roles",
+      "ch07-practice-1": "ch07-practice-1",
+      "ch07-pass-code": "ch07-pass-code",
+      "ch07-movie-code": "ch07-movie-code",
+      "ch07-movie-flow": "ch07-movie-flow",
+      "ch07-check": "ch07-check",
+      "ch08-opening": "ch08-opening",
+      "ch08-widgets": "ch08-widgets",
+      "ch08-designer": "ch08-designer",
+      "ch08-practice-1": "ch08-practice-1",
+      "ch08-button-before": "ch08-button-before",
+      "ch08-button-after": "ch08-button-after",
+      "ch08-practice-message": "ch08-practice-message",
+      "ch08-message-screen": "ch08-message-screen",
+      "ch08-practice-2": "ch08-practice-2",
+      "ch08-request": "ch08-request",
+      "ch08-field-copy": "ch08-field-copy",
+      "ch08-platform": "ch08-platform",
+      "ch08-check": "ch08-check",
+      "ch09-opening": "ch09-opening",
+      "ch09-practice-1": "ch09-practice-1",
+      "ch09-product-code": "ch09-product-code",
+      "ch09-product": "ch09-product",
+      "ch09-practice-2": "ch09-practice-2",
+      "ch09-calculator-request": "ch09-calculator-request",
+      "ch09-calculator": "ch09-calculator",
+      "ch09-calculator-code": "ch09-calculator-code",
+      "ch09-practice-3": "ch09-practice-3",
+      "ch09-text": "ch09-text",
+      "ch09-practice-4": "ch09-practice-4",
+      "ch09-times-code": "ch09-times-code",
+      "ch09-times": "ch09-times",
+      "ch09-check": "ch09-check",
+      "ch10-opening": "ch10-opening",
+      "ch10-choice": "ch10-choice",
+      "ch10-practice-1": "ch10-practice-1",
+      "ch10-dropdown": "ch10-dropdown",
+      "ch10-practice-2": "ch10-practice-2",
+      "ch10-health": "ch10-health",
+      "ch10-health-request": "ch10-health-request",
+      "ch10-practice-3": "ch10-practice-3",
+      "ch10-club": "ch10-club",
+      "ch10-practice-4": "ch10-practice-4",
+      "ch10-progress": "ch10-progress",
+      "ch10-practice-5": "ch10-practice-5",
+      "ch10-images": "ch10-images",
+      "ch10-check": "ch10-check",
+      "ch11-opening": "ch11-opening",
+      "ch11-table": "ch11-table",
+      "ch11-practice-1": "ch11-practice-1",
+      "ch11-table-screen": "ch11-table-screen",
+      "ch11-field-map": "ch11-field-map",
+      "ch11-request": "ch11-request",
+      "ch11-index": "ch11-index",
+      "ch11-index-code": "ch11-index-code",
+      "ch11-practice-2": "ch11-practice-2",
+      "ch11-check": "ch11-check",
+      "ch12-opening": "ch12-opening",
+      "ch12-axes": "ch12-axes",
+      "ch12-practice-1": "ch12-practice-1",
+      "ch12-one-array": "ch12-one-array",
+      "ch12-practice-two": "ch12-practice-two",
+      "ch12-two-arrays": "ch12-two-arrays",
+      "ch12-practice-2": "ch12-practice-2",
+      "ch12-range": "ch12-range",
+      "ch12-practice-colors": "ch12-practice-colors",
+      "ch12-markers": "ch12-markers",
+      "ch12-practice-labels": "ch12-practice-labels",
+      "ch12-labels-screen": "ch12-labels-screen",
+      "ch12-practice-3": "ch13-practice-3",
+      "ch12-bars": "ch13-bars",
+      "ch12-practice-grouped": "ch13-practice-grouped",
+      "ch12-grouped": "ch13-grouped",
+      "ch12-practice-4": "ch13-practice-4",
+      "ch12-scatter": "ch13-scatter",
+      "ch12-fix": "ch12-fix",
+      "ch12-check": "ch12-check",
+      "ch13-opening": "ch14-opening",
+      "ch13-charts": "ch14-charts",
+      "ch13-practice-1": "ch14-practice-1",
+      "ch13-line-screen": "ch14-line-screen",
+      "ch13-practice-2": "ch14-practice-2",
+      "ch13-scatter-screen": "ch14-scatter-screen",
+      "ch13-practice-3": "ch14-practice-3",
+      "ch13-bar-screen": "ch14-bar-screen",
+      "ch13-check": "ch14-check",
+      "ch14-opening": "ch15-opening",
+      "ch14-practice-data": "ch15-practice-data",
+      "ch14-loaded-data": "ch15-loaded-data",
+      "ch14-data-screen": "ch15-data-screen",
+      "ch14-practice-school": "ch15-practice-school",
+      "ch14-school-screen": "ch15-school-screen",
+      "ch14-practice-3": "ch15-practice-3",
+      "ch14-save-process": "ch15-save-process",
+      "ch14-saved": "ch15-saved",
+      "ch14-check": "ch15-check",
+      "ch15-opening": null,
+      "ch15-formats": null,
+      "ch15-structure": null,
+      "ch15-practice-1": null,
+      "ch15-series": null,
+      "ch15-mixed": null,
+      "ch15-practice-dict": null,
+      "ch15-dict-frame-code": null,
+      "ch15-practice-2": null,
+      "ch15-dataframe": null,
+      "ch15-table-result": null,
+      "ch15-rename": null,
+      "ch15-rename-code": null,
+      "ch15-check": null,
+      "ch16-opening": "ch16-opening",
+      "ch16-projects": "ch16-projects",
+      "ch16-practice-1": "ch16-practice-1",
+      "ch16-procedure": "ch16-procedure",
+      "ch16-fix": "ch16-fix",
+      "ch16-evidence": "ch16-evidence",
+      "ch16-portfolio": "ch16-portfolio",
+      "ch16-check": "ch16-check"
+    },
+    "removedSourceIds": [
+      "ch15-check",
+      "ch15-dataframe",
+      "ch15-dict-frame-code",
+      "ch15-formats",
+      "ch15-mixed",
+      "ch15-opening",
+      "ch15-practice-1",
+      "ch15-practice-2",
+      "ch15-practice-dict",
+      "ch15-rename",
+      "ch15-rename-code",
+      "ch15-series",
+      "ch15-structure",
+      "ch15-table-result"
+    ],
+    "addedSourceIds": [
+      "ch08-gui-example",
+      "ch13-check",
+      "ch13-fix",
+      "ch13-opening",
+      "ch15-gui-layout",
+      "ch15-load-project",
+      "ch15-save-menu",
+      "ch15-save-name",
+      "ch15-save-widgets"
+    ],
+    "codeBlocks": 7,
+    "textOutputBlocks": 0,
+    "retainedCodeChecks": [
+      {
+        "previousId": "ch12-one-array",
+        "currentId": "ch12-one-array",
+        "codeSha256": "2cd6dcbfc29285217eb3de7c2c61f6a78082146bf1f73e6c4e869d437792ff2b",
+        "outputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "exampleFileSha256": "a65fceeeb42b0fafeb74c997096bb97bfdc3933d050f72e54ee7678b1a0d63c0",
+        "previousExampleBytesDirectlyCompared": true
+      },
+      {
+        "previousId": "ch12-two-arrays",
+        "currentId": "ch12-two-arrays",
+        "codeSha256": "ba26bb8070af9b5ee5ec20752d62fa226cf097e6c59539e546c21dc8b81c8633",
+        "outputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "exampleFileSha256": "9202323739e76a81bece75d40973c278431a7dfe64e13f64de3e86749a9ad556",
+        "previousExampleBytesDirectlyCompared": true
+      },
+      {
+        "previousId": "ch12-range",
+        "currentId": "ch12-range",
+        "codeSha256": "165d17e79c9d6437acfdfd6e8000bf12e45515dc1bd55c8ac2e19b17ed04ed63",
+        "outputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "exampleFileSha256": "3cba7390e32de8260647d2ea8333b52edaba20ba8b2185dbad7f5715b354c8e6",
+        "previousExampleBytesDirectlyCompared": true
+      },
+      {
+        "previousId": "ch12-markers",
+        "currentId": "ch12-markers",
+        "codeSha256": "aaf790720c396f07c3472b8db66dda65696c843036990a3508efb4b0645fea39",
+        "outputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "exampleFileSha256": "a2a09732d17c719dd60280dacad51e432e13f69cb54411cfc5e114f130fcb173",
+        "previousExampleBytesDirectlyCompared": true
+      },
+      {
+        "previousId": "ch12-bars",
+        "currentId": "ch13-bars",
+        "codeSha256": "7aea71be8ea81da41217c195756cc1b81ca5d522e0cdf3218713e83f7e632ab8",
+        "outputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "exampleFileSha256": "cfe997f707d28aa2fbb234ca2a75194a45d203eab63d21f3c2a56288308e5e10",
+        "previousExampleBytesDirectlyCompared": true
+      },
+      {
+        "previousId": "ch12-grouped",
+        "currentId": "ch13-grouped",
+        "codeSha256": "09843eb84a99791de977dbf88f597a6edf955fc176a539245d71c5880dc51ee0",
+        "outputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "exampleFileSha256": "68a78c7f30354b5dc3401404611687d935db6ad481902623619e2112dfb013db",
+        "previousExampleBytesDirectlyCompared": true
+      },
+      {
+        "previousId": "ch12-scatter",
+        "currentId": "ch13-scatter",
+        "codeSha256": "a0cfe202532f308bf63e55097dcb9b69d0859d4a76a40283fafd75773e57eaf1",
+        "outputSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "exampleFileSha256": "43ecba8ba928068f2552f0ec80ede643cbbe6f35070355c50f07502a611cea58",
+        "previousExampleBytesDirectlyCompared": true
+      }
+    ],
+    "removedCodeIds": [
+      "ch15-dataframe",
+      "ch15-dict-frame-code",
+      "ch15-mixed",
+      "ch15-rename-code",
+      "ch15-series"
+    ],
+    "removedAssetPaths": [
+      "assets/source-20261006/image-divider.png",
+      "assets/source-20261006/pandas-table.png"
+    ],
+    "addedAssetPaths": [
+      "assets/ch10/two-images.png",
+      "assets/ch15/save-table-toggle.png",
+      "assets/source-20261011/load-project-select.png",
+      "assets/source-20261011/save-gui-layout.png",
+      "assets/source-20261011/save-project-menu.png",
+      "assets/source-20261011/save-project-name.png",
+      "assets/source-20261011/save-table-columns.png"
+    ],
+    "activeAssetChecks": [
+      {
+        "src": "assets/source-20261006/button-before.png",
+        "sha256": "71f2335f7225d72fd4fe3741a5462f959aafe2dc791785ee4cb25a1c8d7ac822",
+        "pixels": [
+          170,
+          84
+        ],
+        "status": "retained",
+        "sourcePdfPage": 46,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/button-after.png",
+        "sha256": "2924d52044a50253f19a8e178a37a23b7755763f26b4d2bb5f047c22e8c5b739",
+        "pixels": [
+          183,
+          82
+        ],
+        "status": "retained",
+        "sourcePdfPage": 46,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/field-copy.png",
+        "sha256": "558cc9f39a622a9495ee2e70916a13f8db7ed25544cb106206829a25c74bd285",
+        "pixels": [
+          497,
+          406
+        ],
+        "status": "retained",
+        "sourcePdfPage": 53,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/product.png",
+        "sha256": "fd7246c1efa691dcf6655f645daff3602406051158c3f50c2b6b2287c02934c5",
+        "pixels": [
+          940,
+          286
+        ],
+        "status": "retained",
+        "sourcePdfPage": 54,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/calculator.png",
+        "sha256": "3b9cb3b567cfc561158e6c4969a5987a39b010ae314773fb28bffb07284b7864",
+        "pixels": [
+          452,
+          215
+        ],
+        "status": "retained",
+        "sourcePdfPage": 61,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/text-append.png",
+        "sha256": "0651fe8960a626305bc004c678aeff3c926408e2f0244902b5bd27fe1d3e597b",
+        "pixels": [
+          393,
+          234
+        ],
+        "status": "retained",
+        "sourcePdfPage": 63,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/times-table.png",
+        "sha256": "0741d77b42a2388488a1fdb2e99f7b90168faa6910fa84f05b8d8b91ba278406",
+        "pixels": [
+          489,
+          257
+        ],
+        "status": "retained",
+        "sourcePdfPage": 65,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/dropdown.png",
+        "sha256": "424979d6be5c25ea5c5e940326346a432c6da7f68dc8649cec44f0815bfd8aec",
+        "pixels": [
+          334,
+          304
+        ],
+        "status": "retained",
+        "sourcePdfPage": 68,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/health-check.png",
+        "sha256": "0e913e6678c3f804e4017d16cf738e86877d7fd0804b6ff269cc3ab9c86a54ab",
+        "pixels": [
+          235,
+          323
+        ],
+        "status": "retained",
+        "sourcePdfPage": 73,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/club-radio.png",
+        "sha256": "10721a7db3b27705ece2290148ce8d9d96606be7c3f14e3c7aebee89c87b6d96",
+        "pixels": [
+          384,
+          240
+        ],
+        "status": "retained",
+        "sourcePdfPage": 78,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/progress.png",
+        "sha256": "46e85c4d0272e83e0ba4972a51c5bdcce5eb1fa4b62157614d944a31b8c59ee5",
+        "pixels": [
+          292,
+          125
+        ],
+        "status": "retained",
+        "sourcePdfPage": 82,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/student-table.png",
+        "sha256": "23ac3fc8a7c64cdef2c9e689ccb29485a0ac190ca6df647b710cd4ba912ff894",
+        "pixels": [
+          744,
+          381
+        ],
+        "status": "retained",
+        "sourcePdfPage": 90,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/line-chart.png",
+        "sha256": "9f983cd292a078b311f22a5bb7f4a899173c3a8b4d48cc1e13cbabb7eb9724df",
+        "pixels": [
+          856,
+          467
+        ],
+        "status": "retained",
+        "sourcePdfPage": 99,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/scatter-chart.png",
+        "sha256": "8ed34053d037a3001a05b158abd721b1c48a0225966ff607c533f435b6bb3089",
+        "pixels": [
+          904,
+          464
+        ],
+        "status": "retained",
+        "sourcePdfPage": 102,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/bar-chart.png",
+        "sha256": "5f31d822f2bff2f282c31c1768f1e977c2977d3a77b919ce555935da016e9726",
+        "pixels": [
+          480,
+          545
+        ],
+        "status": "retained",
+        "sourcePdfPage": 105,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/saved-project.png",
+        "sha256": "2e8e262f20adc4fa6ec82d122f13b2fa7d2cd6372944b9e3adcb07d2c1ba5c46",
+        "pixels": [
+          744,
+          1282
+        ],
+        "status": "retained",
+        "sourcePdfPage": 127,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/plot-one.png",
+        "sha256": "cc89ac838ad7949f97298c414df2722e111660f4b34d7194490de2c92eda6bed",
+        "pixels": [
+          1920,
+          1200
+        ],
+        "status": "retained",
+        "sourcePdfPage": null,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/plot-two.png",
+        "sha256": "698927c36aaddcfe78ce8e5aff3cf4d87e280a05599a56f128d5455daf985659",
+        "pixels": [
+          1920,
+          1200
+        ],
+        "status": "retained",
+        "sourcePdfPage": null,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/plot-range.png",
+        "sha256": "42c0e2b5b06d07fb3613bae4fbd857f6adeec2a59f98649781d01d5483e57623",
+        "pixels": [
+          1920,
+          1200
+        ],
+        "status": "retained",
+        "sourcePdfPage": null,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/plot-markers.png",
+        "sha256": "b9bee387bb10ec4bf6c4b74c0eac82175866522a1407675e3cdfff20fbebb907",
+        "pixels": [
+          1920,
+          1200
+        ],
+        "status": "retained",
+        "sourcePdfPage": null,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/plot-bars.png",
+        "sha256": "f1cd0901f5e58248ee43fb111ed78e76485653d780dd5330a2c25f9039a8eb70",
+        "pixels": [
+          1920,
+          1200
+        ],
+        "status": "retained",
+        "sourcePdfPage": null,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/plot-grouped.png",
+        "sha256": "dcd47ccfea5e6992d72f399dcfc0a546709e8fbe80f51b147d88c6ec0469cfb6",
+        "pixels": [
+          1920,
+          1200
+        ],
+        "status": "retained",
+        "sourcePdfPage": null,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261006/plot-scatter.png",
+        "sha256": "1cb3fe5cc5261b57a103d897a3344ea10113cb306f657e2b39748526fcaf72c5",
+        "pixels": [
+          1920,
+          1200
+        ],
+        "status": "retained",
+        "sourcePdfPage": null,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261010/message-dialog.png",
+        "sha256": "b9576245c7a94a5cf2f36e95672e05afd898cc5d3331b9f488b37b6230325cc3",
+        "pixels": [
+          462,
+          274
+        ],
+        "status": "retained",
+        "sourcePdfPage": 49,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261010/message-input.png",
+        "sha256": "62d241e6f65b9867423f49dadd39d7f09db112091da3e9d8389d898bda0210fe",
+        "pixels": [
+          424,
+          247
+        ],
+        "status": "retained",
+        "sourcePdfPage": 49,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261010/data-column-select.png",
+        "sha256": "b5e42d6312ef046f7ff278af5d76e805a9e3a6da1f6b5d3c0c07560547cde2c3",
+        "pixels": [
+          946,
+          408
+        ],
+        "status": "retained",
+        "sourcePdfPage": 107,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261010/school-count-chart.png",
+        "sha256": "79e8e2f7cae224ca0873bd895be1f763fc4ad0c9696cb2b6d03314b542333f18",
+        "pixels": [
+          1020,
+          992
+        ],
+        "status": "retained",
+        "sourcePdfPage": 110,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-flowcharts/ch04-family-flow.png",
+        "sha256": "ee77a8b7efd0b3dbde047ab9519f43cf1cff1f77edae6d738ce5bc7b0147cd7c",
+        "pixels": [
+          2580,
+          4150
+        ],
+        "status": "retained",
+        "sourcePdfPage": 23,
+        "vectorAsset": "assets/source-flowcharts/ch04-family-flow.pdf",
+        "vectorSha256": "c1e0a5f450eb37a2d587466f6b15cd8ed21a7191ca0a7d696fe3a133bfa99cbb"
+      },
+      {
+        "src": "assets/source-flowcharts/ch05-exercise-flow.png",
+        "sha256": "34639abdb13946c500309844ad5a29071080171e0889f6aca59d435aca5de5de",
+        "pixels": [
+          2905,
+          4150
+        ],
+        "status": "retained",
+        "sourcePdfPage": 31,
+        "vectorAsset": "assets/source-flowcharts/ch05-exercise-flow.pdf",
+        "vectorSha256": "511829586c6c90fbe4dc7229475b8e8aca6e3a9f0ee63f5c149473c5c73c1812"
+      },
+      {
+        "src": "assets/source-flowcharts/ch06-sleep-flow.png",
+        "sha256": "5338707be4918ba2bfee7e52c31205d647c0980ec35497608cfdd340b8ea37fb",
+        "pixels": [
+          4696,
+          2850
+        ],
+        "status": "retained",
+        "sourcePdfPage": 36,
+        "vectorAsset": "assets/source-flowcharts/ch06-sleep-flow.pdf",
+        "vectorSha256": "59b5afb0d9446dc449158acda4b8ae486dc3d7a0662ab24fe6b6d47b9d894b65"
+      },
+      {
+        "src": "assets/source-flowcharts/ch07-movie-flow.png",
+        "sha256": "7dcdd157977bfb4ab3e11716c9c1034d4e9ab3181c797ab36c01422b8f0144b1",
+        "pixels": [
+          3067,
+          4088
+        ],
+        "status": "retained",
+        "sourcePdfPage": 39,
+        "vectorAsset": "assets/source-flowcharts/ch07-movie-flow.pdf",
+        "vectorSha256": "2f03cf2dee987f02bbe353b9858398a597440eb79c3c42a97316e62f58dfc85f"
+      },
+      {
+        "src": "assets/ch01/ai-human-summary.png",
+        "sha256": "f405856e2cdf7b58c05237ef5a22286c7a89b665d7fcc6696364e6d6f2e59824",
+        "pixels": [
+          2197,
+          792
+        ],
+        "status": "retained",
+        "sourcePdfPage": null,
+        "vectorAsset": "assets/ch01/ai-human-summary.pdf",
+        "vectorSha256": "6acb0d0fd33e00697b6629dc01f017045761891d30166d0465416bd0c7339b28"
+      },
+      {
+        "src": "assets/ch10/two-images.png",
+        "sha256": "41435d5c3eb1ba71d48a211d451e980fb0a1b83bd89567a9cb3ddf9c8dc65e44",
+        "pixels": [
+          266,
+          232
+        ],
+        "status": "added",
+        "sourcePdfPage": 85,
+        "vectorAsset": "assets/ch10/two-images.pdf",
+        "vectorSha256": "2cd2c35776b29786af05346019cd5ec83acf288dc274c94334ae0e040ea7eeda"
+      },
+      {
+        "src": "assets/ch15/save-table-toggle.png",
+        "sha256": "3af07ce220e186c295a3bb22b9ade253862775aa04e8b1b1ddead9a0a1988f02",
+        "pixels": [
+          208,
+          84
+        ],
+        "status": "added",
+        "sourcePdfPage": 119,
+        "vectorAsset": "assets/ch15/save-table-toggle.pdf",
+        "vectorSha256": "2b3cd8925a43477063b91a44806032a2104c267d0ebcb35bdbab5da2b3f69fc9"
+      },
+      {
+        "src": "assets/source-20261011/save-table-columns.png",
+        "sha256": "dc6fb7b0e5887a04dc1f18028828dca14a7336f862959380fc0051c9062275df",
+        "pixels": [
+          1066,
+          286
+        ],
+        "status": "added",
+        "sourcePdfPage": 119,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261011/save-project-menu.png",
+        "sha256": "b4a821a85736e74a1f1f90d205a7c3d0f672298b13ce5b5aff197703a394287c",
+        "pixels": [
+          1115,
+          1366
+        ],
+        "status": "added",
+        "sourcePdfPage": 124,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261011/save-project-name.png",
+        "sha256": "edd193fbd43c1abf370ec95674abd688c6620d100edd64ee3dc9198a68c191ea",
+        "pixels": [
+          849,
+          1278
+        ],
+        "status": "added",
+        "sourcePdfPage": 125,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261011/load-project-select.png",
+        "sha256": "fa35e3837c8fd735867d5307e5574aba68105b6e38d04120251ad8c98c2c1ae6",
+        "pixels": [
+          1103,
+          1238
+        ],
+        "status": "added",
+        "sourcePdfPage": 126,
+        "vectorAsset": null,
+        "vectorSha256": null
+      },
+      {
+        "src": "assets/source-20261011/save-gui-layout.png",
+        "sha256": "7621ab9c94a02999bd2fff029764e4621d916393aa68c1c9b9119bdabbe1f545",
+        "pixels": [
+          913,
+          1216
+        ],
+        "status": "added",
+        "sourcePdfPage": 118,
+        "vectorAsset": null,
+        "vectorSha256": null
+      }
+    ],
+    "retainedAssetCount": 32,
+    "retainedImagePlacements": 34,
+    "retainedPixelsPrintWidthAndVectorShaUnchanged": true,
+    "savedProjectResultPhotoRetainedUnchanged": true,
+    "newSavePhotoSourcePages": [
+      119,
+      119,
+      124,
+      125,
+      126
+    ],
+    "derivedIllustrationProvenance": [
+      {
+        "derivedAsset": "assets/ch10/two-images.png",
+        "originalSourceAsset": "assets/source-20261006/image-divider.png",
+        "packagedProvenanceAsset": "provenance/source-assets/image-divider.png",
+        "originalSourceSha256": "a9d777f0706d9481c9315ffae419efc744b6b25df5b89b1000ddbf1d01dc4e0e",
+        "cropBBoxTopLeftPixels": [
+          [
+            37,
+            10,
+            133,
+            108
+          ],
+          [
+            37,
+            118,
+            133,
+            214
+          ]
+        ],
+        "notAnActivePlacement": true
+      },
+      {
+        "derivedAsset": "assets/ch15/save-table-toggle.png",
+        "originalSourceAsset": "assets/source-20261011/save-table-toggle.png",
+        "packagedProvenanceAsset": "provenance/source-assets/save-table-toggle.png",
+        "originalSourceSha256": "ade48614e9fa0405c2f8ec0db7f0643d415b4e0d6a6a48d404a7e48bcd5b44df",
+        "cropBBoxTopLeftPixels": [
+          [
+            148,
+            0,
+            356,
+            84
+          ]
+        ],
+        "notAnActivePlacement": true
+      }
+    ],
+    "chapterStartPages": {
+      "1": 5,
+      "2": 10,
+      "3": 15,
+      "4": 19,
+      "5": 25,
+      "6": 32,
+      "7": 38,
+      "8": 43,
+      "9": 54,
+      "10": 65,
+      "11": 77,
+      "12": 83,
+      "13": 96,
+      "14": 106,
+      "15": 113,
+      "16": 127
+    },
+    "previousPhysicalPagesMapping": [
+      {
+        "previousPage": 1,
+        "previousSourceIds": [
+          "cover"
+        ],
+        "currentSourceIds": [
+          "cover"
+        ],
+        "currentPages": [
+          1
+        ],
+        "excluded": false,
+        "previousTitle": "AI와 함께하는 바이브 코딩"
+      },
+      {
+        "previousPage": 2,
+        "previousSourceIds": [
+          "toc-1"
+        ],
+        "currentSourceIds": [
+          "toc-1"
+        ],
+        "currentPages": [
+          2
+        ],
+        "excluded": false,
+        "previousTitle": "학습 차례"
+      },
+      {
+        "previousPage": 3,
+        "previousSourceIds": [
+          "toc-2"
+        ],
+        "currentSourceIds": [
+          "toc-2"
+        ],
+        "currentPages": [
+          3
+        ],
+        "excluded": false,
+        "previousTitle": "학습 차례"
+      },
+      {
+        "previousPage": 4,
+        "previousSourceIds": [
+          "book-guide"
+        ],
+        "currentSourceIds": [
+          "book-guide"
+        ],
+        "currentPages": [
+          4
+        ],
+        "excluded": false,
+        "previousTitle": "이 교재를 사용하는 방법"
+      },
+      {
+        "previousPage": 5,
+        "previousSourceIds": [
+          "ch01-opening"
+        ],
+        "currentSourceIds": [
+          "ch01-opening"
+        ],
+        "currentPages": [
+          5
+        ],
+        "excluded": false,
+        "previousTitle": "AI와 앱 개발"
+      },
+      {
+        "previousPage": 6,
+        "previousSourceIds": [
+          "ch01-ai",
+          "ch01-limits"
+        ],
+        "currentSourceIds": [
+          "ch01-ai",
+          "ch01-limits"
+        ],
+        "currentPages": [
+          6
+        ],
+        "excluded": false,
+        "previousTitle": "생성형 AI와 바이브 코딩"
+      },
+      {
+        "previousPage": 7,
+        "previousSourceIds": [
+          "ch01-ethics"
+        ],
+        "currentSourceIds": [
+          "ch01-ethics"
+        ],
+        "currentPages": [
+          7
+        ],
+        "excluded": false,
+        "previousTitle": "AI의 답을 검토하는 태도"
+      },
+      {
+        "previousPage": 8,
+        "previousSourceIds": [
+          "ch01-practice-1"
+        ],
+        "currentSourceIds": [
+          "ch01-practice-1"
+        ],
+        "currentPages": [
+          8
+        ],
+        "excluded": false,
+        "previousTitle": "AI는 어떤 질문을 잘하고, 어려워할까?"
+      },
+      {
+        "previousPage": 9,
+        "previousSourceIds": [
+          "ch01-check",
+          "ch01-procedure"
+        ],
+        "currentSourceIds": [
+          "ch01-check",
+          "ch01-procedure"
+        ],
+        "currentPages": [
+          9
+        ],
+        "excluded": false,
+        "previousTitle": "답변의 근거 찾아보기"
+      },
+      {
+        "previousPage": 10,
+        "previousSourceIds": [
+          "ch02-opening",
+          "ch02-prompt"
+        ],
+        "currentSourceIds": [
+          "ch02-opening",
+          "ch02-prompt"
+        ],
+        "currentPages": [
+          10
+        ],
+        "excluded": false,
+        "previousTitle": "질문과 입력"
+      },
+      {
+        "previousPage": 11,
+        "previousSourceIds": [
+          "ch02-compare",
+          "ch02-inputs"
+        ],
+        "currentSourceIds": [
+          "ch02-compare",
+          "ch02-inputs"
+        ],
+        "currentPages": [
+          11
+        ],
+        "excluded": false,
+        "previousTitle": "모호한 요청을 구체적으로 바꾸기"
+      },
+      {
+        "previousPage": 12,
+        "previousSourceIds": [
+          "ch02-practice-1"
+        ],
+        "currentSourceIds": [
+          "ch02-practice-1"
+        ],
+        "currentPages": [
+          12
+        ],
+        "excluded": false,
+        "previousTitle": "어떤 질문이 더 좋은 답을 만들까?"
+      },
+      {
+        "previousPage": 13,
+        "previousSourceIds": [
+          "ch02-practice-2"
+        ],
+        "currentSourceIds": [
+          "ch02-practice-2"
+        ],
+        "currentPages": [
+          13
+        ],
+        "excluded": false,
+        "previousTitle": "앱에 필요한 입력 데이터 설계하기"
+      },
+      {
+        "previousPage": 14,
+        "previousSourceIds": [
+          "ch02-check",
+          "ch02-request"
+        ],
+        "currentSourceIds": [
+          "ch02-check",
+          "ch02-request"
+        ],
+        "currentPages": [
+          14
+        ],
+        "excluded": false,
+        "previousTitle": "질문을 구체적으로 다듬기"
+      },
+      {
+        "previousPage": 15,
+        "previousSourceIds": [
+          "ch03-opening"
+        ],
+        "currentSourceIds": [
+          "ch03-opening"
+        ],
+        "currentPages": [
+          15
+        ],
+        "excluded": false,
+        "previousTitle": "문제 나누기"
+      },
+      {
+        "previousPage": 16,
+        "previousSourceIds": [
+          "ch03-algorithm",
+          "ch03-ramen"
+        ],
+        "currentSourceIds": [
+          "ch03-algorithm",
+          "ch03-ramen"
+        ],
+        "currentPages": [
+          16
+        ],
+        "excluded": false,
+        "previousTitle": "라면 끓이기로 보는 입력·처리·출력"
+      },
+      {
+        "previousPage": 17,
+        "previousSourceIds": [
+          "ch03-practice-1"
+        ],
+        "currentSourceIds": [
+          "ch03-practice-1"
+        ],
+        "currentPages": [
+          17
+        ],
+        "excluded": false,
+        "previousTitle": "내 아이디어를 단계별로 나눠보기"
+      },
+      {
+        "previousPage": 18,
+        "previousSourceIds": [
+          "ch03-check",
+          "ch03-design"
+        ],
+        "currentSourceIds": [
+          "ch03-check",
+          "ch03-design"
+        ],
+        "currentPages": [
+          18
+        ],
+        "excluded": false,
+        "previousTitle": "아이디어를 실행 순서로 만들기"
+      },
+      {
+        "previousPage": 19,
+        "previousSourceIds": [
+          "ch04-opening",
+          "ch04-roles"
+        ],
+        "currentSourceIds": [
+          "ch04-opening",
+          "ch04-roles"
+        ],
+        "currentPages": [
+          19
+        ],
+        "excluded": false,
+        "previousTitle": "순서도와 변수"
+      },
+      {
+        "previousPage": 20,
+        "previousSourceIds": [
+          "ch04-types",
+          "ch04-variables"
+        ],
+        "currentSourceIds": [
+          "ch04-types",
+          "ch04-variables"
+        ],
+        "currentPages": [
+          20
+        ],
+        "excluded": false,
+        "previousTitle": "문자열과 숫자 구분하기"
+      },
+      {
+        "previousPage": 21,
+        "previousSourceIds": [
+          "ch04-practice-1"
+        ],
+        "currentSourceIds": [
+          "ch04-practice-1"
+        ],
+        "currentPages": [
+          21
+        ],
+        "excluded": false,
+        "previousTitle": "우리 가족 나이 합 구하기"
+      },
+      {
+        "previousPage": 22,
+        "previousSourceIds": [
+          "ch04-family-code"
+        ],
+        "currentSourceIds": [
+          "ch04-family-code"
+        ],
+        "currentPages": [
+          22
+        ],
+        "excluded": false,
+        "previousTitle": "가족 나이 합 구하기"
+      },
+      {
+        "previousPage": 23,
+        "previousSourceIds": [
+          "ch04-family-flow"
+        ],
+        "currentSourceIds": [
+          "ch04-family-flow"
+        ],
+        "currentPages": [
+          23
+        ],
+        "excluded": false,
+        "previousTitle": "가족 나이 합의 순서도"
+      },
+      {
+        "previousPage": 24,
+        "previousSourceIds": [
+          "ch04-check",
+          "ch04-scores-code"
+        ],
+        "currentSourceIds": [
+          "ch04-check",
+          "ch04-scores-code"
+        ],
+        "currentPages": [
+          24
+        ],
+        "excluded": false,
+        "previousTitle": "학생 세 명의 총점 구하기"
+      },
+      {
+        "previousPage": 25,
+        "previousSourceIds": [
+          "ch05-loops",
+          "ch05-opening"
+        ],
+        "currentSourceIds": [
+          "ch05-loops",
+          "ch05-opening"
+        ],
+        "currentPages": [
+          25
+        ],
+        "excluded": false,
+        "previousTitle": "반복과 누적"
+      },
+      {
+        "previousPage": 26,
+        "previousSourceIds": [
+          "ch05-trace"
+        ],
+        "currentSourceIds": [
+          "ch05-trace"
+        ],
+        "currentPages": [
+          26
+        ],
+        "excluded": false,
+        "previousTitle": "운동 시간 누적 따라가기"
+      },
+      {
+        "previousPage": 27,
+        "previousSourceIds": [
+          "ch05-practice-1"
+        ],
+        "currentSourceIds": [
+          "ch05-practice-1"
+        ],
+        "currentPages": [
+          27
+        ],
+        "excluded": false,
+        "previousTitle": "10일 동안의 운동 시간 누적하기"
+      },
+      {
+        "previousPage": 28,
+        "previousSourceIds": [
+          "ch05-exercise-code"
+        ],
+        "currentSourceIds": [
+          "ch05-exercise-code"
+        ],
+        "currentPages": [
+          28
+        ],
+        "excluded": false,
+        "previousTitle": "운동 시간 누적 순서"
+      },
+      {
+        "previousPage": 29,
+        "previousSourceIds": [
+          "ch05-exercise-flow"
+        ],
+        "currentSourceIds": [
+          "ch05-exercise-flow"
+        ],
+        "currentPages": [
+          29
+        ],
+        "excluded": false,
+        "previousTitle": "운동 시간 누적 순서도"
+      },
+      {
+        "previousPage": 30,
+        "previousSourceIds": [
+          "ch05-practice-2"
+        ],
+        "currentSourceIds": [
+          "ch05-practice-2"
+        ],
+        "currentPages": [
+          30
+        ],
+        "excluded": false,
+        "previousTitle": "하루 카페인 섭취량 누적하기"
+      },
+      {
+        "previousPage": 31,
+        "previousSourceIds": [
+          "ch05-caffeine-code",
+          "ch05-check"
+        ],
+        "currentSourceIds": [
+          "ch05-caffeine-code",
+          "ch05-check"
+        ],
+        "currentPages": [
+          31
+        ],
+        "excluded": false,
+        "previousTitle": "카페인 섭취량 누적 순서"
+      },
+      {
+        "previousPage": 32,
+        "previousSourceIds": [
+          "ch06-conditions",
+          "ch06-opening"
+        ],
+        "currentSourceIds": [
+          "ch06-conditions",
+          "ch06-opening"
+        ],
+        "currentPages": [
+          32
+        ],
+        "excluded": false,
+        "previousTitle": "조건과 분기"
+      },
+      {
+        "previousPage": 33,
+        "previousSourceIds": [
+          "ch06-sleep-rules"
+        ],
+        "currentSourceIds": [
+          "ch06-sleep-rules"
+        ],
+        "currentPages": [
+          33
+        ],
+        "excluded": false,
+        "previousTitle": "수면 시간 분류 규칙"
+      },
+      {
+        "previousPage": 34,
+        "previousSourceIds": [
+          "ch06-practice-1"
+        ],
+        "currentSourceIds": [
+          "ch06-practice-1"
+        ],
+        "currentPages": [
+          34
+        ],
+        "excluded": false,
+        "previousTitle": "수면 시간에 따른 안내 만들기"
+      },
+      {
+        "previousPage": 35,
+        "previousSourceIds": [
+          "ch06-sleep-code"
+        ],
+        "currentSourceIds": [
+          "ch06-sleep-code"
+        ],
+        "currentPages": [
+          35
+        ],
+        "excluded": false,
+        "previousTitle": "수면 시간에 따른 조건 처리"
+      },
+      {
+        "previousPage": 36,
+        "previousSourceIds": [
+          "ch06-sleep-flow"
+        ],
+        "currentSourceIds": [
+          "ch06-sleep-flow"
+        ],
+        "currentPages": [
+          36
+        ],
+        "excluded": false,
+        "previousTitle": "수면 시간 조건 순서도"
+      },
+      {
+        "previousPage": 37,
+        "previousSourceIds": [
+          "ch06-check",
+          "ch06-fix"
+        ],
+        "currentSourceIds": [
+          "ch06-check",
+          "ch06-fix"
+        ],
+        "currentPages": [
+          37
+        ],
+        "excluded": false,
+        "previousTitle": "조건 검사 순서 읽기"
+      },
+      {
+        "previousPage": 38,
+        "previousSourceIds": [
+          "ch07-opening",
+          "ch07-roles"
+        ],
+        "currentSourceIds": [
+          "ch07-opening",
+          "ch07-roles"
+        ],
+        "currentPages": [
+          38
+        ],
+        "excluded": false,
+        "previousTitle": "반복 속 조건"
+      },
+      {
+        "previousPage": 39,
+        "previousSourceIds": [
+          "ch07-practice-1"
+        ],
+        "currentSourceIds": [
+          "ch07-practice-1"
+        ],
+        "currentPages": [
+          39
+        ],
+        "excluded": false,
+        "previousTitle": "입력받은 학생 수만큼 점수 통과 여부 확인"
+      },
+      {
+        "previousPage": 40,
+        "previousSourceIds": [
+          "ch07-movie-code",
+          "ch07-pass-code"
+        ],
+        "currentSourceIds": [
+          "ch07-movie-code",
+          "ch07-pass-code"
+        ],
+        "currentPages": [
+          40
+        ],
+        "excluded": false,
+        "previousTitle": "학생 수 N에 따라 점수 확인하기"
+      },
+      {
+        "previousPage": 41,
+        "previousSourceIds": [
+          "ch07-movie-flow"
+        ],
+        "currentSourceIds": [
+          "ch07-movie-flow"
+        ],
+        "currentPages": [
+          41
+        ],
+        "excluded": false,
+        "previousTitle": "영화 관람의 반복과 분기"
+      },
+      {
+        "previousPage": 42,
+        "previousSourceIds": [
+          "ch07-check"
+        ],
+        "currentSourceIds": [
+          "ch07-check"
+        ],
+        "currentPages": [
+          42
+        ],
+        "excluded": false,
+        "previousTitle": "실습 완료 확인"
+      },
+      {
+        "previousPage": 43,
+        "previousSourceIds": [
+          "ch08-opening"
+        ],
+        "currentSourceIds": [
+          "ch08-opening"
+        ],
+        "currentPages": [
+          43
+        ],
+        "excluded": false,
+        "previousTitle": "첫 앱 화면"
+      },
+      {
+        "previousPage": 44,
+        "previousSourceIds": [
+          "ch08-designer",
+          "ch08-widgets"
+        ],
+        "currentSourceIds": [
+          "ch08-designer",
+          "ch08-widgets"
+        ],
+        "currentPages": [
+          44
+        ],
+        "excluded": false,
+        "previousTitle": "기본 위젯의 역할"
+      },
+      {
+        "previousPage": 45,
+        "previousSourceIds": [
+          "ch08-practice-1"
+        ],
+        "currentSourceIds": [
+          "ch08-practice-1"
+        ],
+        "currentPages": [
+          46
+        ],
+        "excluded": false,
+        "previousTitle": "버튼 클릭하면 배경색과 글자색 바꾸기"
+      },
+      {
+        "previousPage": 46,
+        "previousSourceIds": [
+          "ch08-button-after",
+          "ch08-button-before"
+        ],
+        "currentSourceIds": [
+          "ch08-button-after",
+          "ch08-button-before"
+        ],
+        "currentPages": [
+          47
+        ],
+        "excluded": false,
+        "previousTitle": "버튼 클릭 전"
+      },
+      {
+        "previousPage": 47,
+        "previousSourceIds": [
+          "ch08-practice-message"
+        ],
+        "currentSourceIds": [
+          "ch08-practice-message"
+        ],
+        "currentPages": [
+          48
+        ],
+        "excluded": false,
+        "previousTitle": "버튼 클릭하면 메시지 창 출력하기"
+      },
+      {
+        "previousPage": 48,
+        "previousSourceIds": [
+          "ch08-message-screen"
+        ],
+        "currentSourceIds": [
+          "ch08-message-screen"
+        ],
+        "currentPages": [
+          49
+        ],
+        "excluded": false,
+        "previousTitle": "입력 화면과 메시지 창"
+      },
+      {
+        "previousPage": 49,
+        "previousSourceIds": [
+          "ch08-practice-2"
+        ],
+        "currentSourceIds": [
+          "ch08-practice-2"
+        ],
+        "currentPages": [
+          50
+        ],
+        "excluded": false,
+        "previousTitle": "Field에 입력한 내용 버튼으로 출력하기"
+      },
+      {
+        "previousPage": 50,
+        "previousSourceIds": [
+          "ch08-request"
+        ],
+        "currentSourceIds": [
+          "ch08-request"
+        ],
+        "currentPages": [
+          51
+        ],
+        "excluded": false,
+        "previousTitle": "Field 실습 · 이벤트 설정"
+      },
+      {
+        "previousPage": 51,
+        "previousSourceIds": [
+          "ch08-field-copy",
+          "ch08-platform"
+        ],
+        "currentSourceIds": [
+          "ch08-field-copy",
+          "ch08-platform"
+        ],
+        "currentPages": [
+          52
+        ],
+        "excluded": false,
+        "previousTitle": "입력값을 복사한 화면"
+      },
+      {
+        "previousPage": 52,
+        "previousSourceIds": [
+          "ch08-check"
+        ],
+        "currentSourceIds": [
+          "ch08-check"
+        ],
+        "currentPages": [
+          53
+        ],
+        "excluded": false,
+        "previousTitle": "실습 완료 확인"
+      },
+      {
+        "previousPage": 53,
+        "previousSourceIds": [
+          "ch09-opening"
+        ],
+        "currentSourceIds": [
+          "ch09-opening"
+        ],
+        "currentPages": [
+          54
+        ],
+        "excluded": false,
+        "previousTitle": "계산과 출력"
+      },
+      {
+        "previousPage": 54,
+        "previousSourceIds": [
+          "ch09-practice-1"
+        ],
+        "currentSourceIds": [
+          "ch09-practice-1"
+        ],
+        "currentPages": [
+          55
+        ],
+        "excluded": false,
+        "previousTitle": "Field에 입력한 두 수의 누적곱 출력"
+      },
+      {
+        "previousPage": 55,
+        "previousSourceIds": [
+          "ch09-product",
+          "ch09-product-code"
+        ],
+        "currentSourceIds": [
+          "ch09-product",
+          "ch09-product-code"
+        ],
+        "currentPages": [
+          56
+        ],
+        "excluded": false,
+        "previousTitle": "누적곱 프로그램의 동작"
+      },
+      {
+        "previousPage": 56,
+        "previousSourceIds": [
+          "ch09-practice-2"
+        ],
+        "currentSourceIds": [
+          "ch09-practice-2"
+        ],
+        "currentPages": [
+          57
+        ],
+        "excluded": false,
+        "previousTitle": "계산기 프로그램 2"
+      },
+      {
+        "previousPage": 57,
+        "previousSourceIds": [
+          "ch09-calculator",
+          "ch09-calculator-request"
+        ],
+        "currentSourceIds": [
+          "ch09-calculator",
+          "ch09-calculator-request"
+        ],
+        "currentPages": [
+          58
+        ],
+        "excluded": false,
+        "previousTitle": "계산기 2 · 위젯과 이벤트"
+      },
+      {
+        "previousPage": 58,
+        "previousSourceIds": [
+          "ch09-calculator-code"
+        ],
+        "currentSourceIds": [
+          "ch09-calculator-code"
+        ],
+        "currentPages": [
+          59
+        ],
+        "excluded": false,
+        "previousTitle": "입력·연산·결과 연결하기"
+      },
+      {
+        "previousPage": 59,
+        "previousSourceIds": [
+          "ch09-practice-3"
+        ],
+        "currentSourceIds": [
+          "ch09-practice-3"
+        ],
+        "currentPages": [
+          60
+        ],
+        "excluded": false,
+        "previousTitle": "Text에 원하는 내용 추가 프로그램"
+      },
+      {
+        "previousPage": 60,
+        "previousSourceIds": [
+          "ch09-text"
+        ],
+        "currentSourceIds": [
+          "ch09-text"
+        ],
+        "currentPages": [
+          61
+        ],
+        "excluded": false,
+        "previousTitle": "Text에 두 문장을 추가한 화면"
+      },
+      {
+        "previousPage": 61,
+        "previousSourceIds": [
+          "ch09-practice-4"
+        ],
+        "currentSourceIds": [
+          "ch09-practice-4"
+        ],
+        "currentPages": [
+          62
+        ],
+        "excluded": false,
+        "previousTitle": "원하는 단 구구단 출력하기"
+      },
+      {
+        "previousPage": 62,
+        "previousSourceIds": [
+          "ch09-times",
+          "ch09-times-code"
+        ],
+        "currentSourceIds": [
+          "ch09-times",
+          "ch09-times-code"
+        ],
+        "currentPages": [
+          63
+        ],
+        "excluded": false,
+        "previousTitle": "구구단 실습 · 프로그램 순서"
+      },
+      {
+        "previousPage": 63,
+        "previousSourceIds": [
+          "ch09-check"
+        ],
+        "currentSourceIds": [
+          "ch09-check"
+        ],
+        "currentPages": [
+          64
+        ],
+        "excluded": false,
+        "previousTitle": "실습 완료 확인"
+      },
+      {
+        "previousPage": 64,
+        "previousSourceIds": [
+          "ch10-opening"
+        ],
+        "currentSourceIds": [
+          "ch10-opening"
+        ],
+        "currentPages": [
+          65
+        ],
+        "excluded": false,
+        "previousTitle": "선택 위젯"
+      },
+      {
+        "previousPage": 65,
+        "previousSourceIds": [
+          "ch10-choice"
+        ],
+        "currentSourceIds": [
+          "ch10-choice"
+        ],
+        "currentPages": [
+          66
+        ],
+        "excluded": false,
+        "previousTitle": "선택 방식 비교"
+      },
+      {
+        "previousPage": 66,
+        "previousSourceIds": [
+          "ch10-practice-1"
+        ],
+        "currentSourceIds": [
+          "ch10-practice-1"
+        ],
+        "currentPages": [
+          67
+        ],
+        "excluded": false,
+        "previousTitle": "Dropdown을 추가하고 선택한 값 확인"
+      },
+      {
+        "previousPage": 67,
+        "previousSourceIds": [
+          "ch10-dropdown"
+        ],
+        "currentSourceIds": [
+          "ch10-dropdown"
+        ],
+        "currentPages": [
+          68
+        ],
+        "excluded": false,
+        "previousTitle": "목록의 선택값 확인하기"
+      },
+      {
+        "previousPage": 68,
+        "previousSourceIds": [
+          "ch10-practice-2"
+        ],
+        "currentSourceIds": [
+          "ch10-practice-2"
+        ],
+        "currentPages": [
+          69
+        ],
+        "excluded": false,
+        "previousTitle": "오늘의 건강습관 체크 프로그램"
+      },
+      {
+        "previousPage": 69,
+        "previousSourceIds": [
+          "ch10-health",
+          "ch10-health-request"
+        ],
+        "currentSourceIds": [
+          "ch10-health",
+          "ch10-health-request"
+        ],
+        "currentPages": [
+          70
+        ],
+        "excluded": false,
+        "previousTitle": "건강습관 체크 화면"
+      },
+      {
+        "previousPage": 70,
+        "previousSourceIds": [
+          "ch10-practice-3"
+        ],
+        "currentSourceIds": [
+          "ch10-practice-3"
+        ],
+        "currentPages": [
+          71
+        ],
+        "excluded": false,
+        "previousTitle": "선택한 동아리 소개 프로그램"
+      },
+      {
+        "previousPage": 71,
+        "previousSourceIds": [
+          "ch10-club"
+        ],
+        "currentSourceIds": [
+          "ch10-club"
+        ],
+        "currentPages": [
+          72
+        ],
+        "excluded": false,
+        "previousTitle": "한 동아리만 선택한 화면"
+      },
+      {
+        "previousPage": 72,
+        "previousSourceIds": [
+          "ch10-practice-4"
+        ],
+        "currentSourceIds": [
+          "ch10-practice-4"
+        ],
+        "currentPages": [
+          73
+        ],
+        "excluded": false,
+        "previousTitle": "ProgressBar 버튼 2개로 증가·감소"
+      },
+      {
+        "previousPage": 73,
+        "previousSourceIds": [
+          "ch10-progress"
+        ],
+        "currentSourceIds": [
+          "ch10-progress"
+        ],
+        "currentPages": [
+          74
+        ],
+        "excluded": false,
+        "previousTitle": "진행 막대와 두 버튼"
+      },
+      {
+        "previousPage": 74,
+        "previousSourceIds": [
+          "ch10-practice-5"
+        ],
+        "currentSourceIds": [
+          "ch10-practice-5"
+        ],
+        "currentPages": [
+          75
+        ],
+        "excluded": false,
+        "previousTitle": "Image 구성하기"
+      },
+      {
+        "previousPage": 75,
+        "previousSourceIds": [
+          "ch10-check",
+          "ch10-images"
+        ],
+        "currentSourceIds": [
+          "ch10-check",
+          "ch10-images"
+        ],
+        "currentPages": [
+          76
+        ],
+        "excluded": false,
+        "previousTitle": "두 이미지와 구분선"
+      },
+      {
+        "previousPage": 76,
+        "previousSourceIds": [
+          "ch11-opening",
+          "ch11-table"
+        ],
+        "currentSourceIds": [
+          "ch11-opening",
+          "ch11-table"
+        ],
+        "currentPages": [
+          77
+        ],
+        "excluded": false,
+        "previousTitle": "표와 성적"
+      },
+      {
+        "previousPage": 77,
+        "previousSourceIds": [
+          "ch11-practice-1"
+        ],
+        "currentSourceIds": [
+          "ch11-practice-1"
+        ],
+        "currentPages": [
+          78
+        ],
+        "excluded": false,
+        "previousTitle": "학생 성적을 Table에 기록하기"
+      },
+      {
+        "previousPage": 78,
+        "previousSourceIds": [
+          "ch11-table-screen"
+        ],
+        "currentSourceIds": [
+          "ch11-table-screen"
+        ],
+        "currentPages": [
+          79
+        ],
+        "excluded": false,
+        "previousTitle": "학생 성적 Table"
+      },
+      {
+        "previousPage": 79,
+        "previousSourceIds": [
+          "ch11-field-map",
+          "ch11-request"
+        ],
+        "currentSourceIds": [
+          "ch11-field-map",
+          "ch11-request"
+        ],
+        "currentPages": [
+          80
+        ],
+        "excluded": false,
+        "previousTitle": "입력창과 표 열 대조"
+      },
+      {
+        "previousPage": 80,
+        "previousSourceIds": [
+          "ch11-index",
+          "ch11-index-code"
+        ],
+        "currentSourceIds": [
+          "ch11-index",
+          "ch11-index-code"
+        ],
+        "currentPages": [
+          81
+        ],
+        "excluded": false,
+        "previousTitle": "왜 위치 번호에서 1을 뺄까?"
+      },
+      {
+        "previousPage": 81,
+        "previousSourceIds": [
+          "ch11-check",
+          "ch11-practice-2"
+        ],
+        "currentSourceIds": [
+          "ch11-check",
+          "ch11-practice-2"
+        ],
+        "currentPages": [
+          82
+        ],
+        "excluded": false,
+        "previousTitle": "표의 값 변경 순서"
+      },
+      {
+        "previousPage": 82,
+        "previousSourceIds": [
+          "ch12-axes",
+          "ch12-opening"
+        ],
+        "currentSourceIds": [
+          "ch12-axes",
+          "ch12-opening"
+        ],
+        "currentPages": [
+          83
+        ],
+        "excluded": false,
+        "previousTitle": "그래프 코딩"
+      },
+      {
+        "previousPage": 83,
+        "previousSourceIds": [
+          "ch12-practice-1"
+        ],
+        "currentSourceIds": [
+          "ch12-practice-1"
+        ],
+        "currentPages": [
+          84
+        ],
+        "excluded": false,
+        "previousTitle": "Matplotlib 실습 1 · 배열 한 개"
+      },
+      {
+        "previousPage": 84,
+        "previousSourceIds": [
+          "ch12-one-array"
+        ],
+        "currentSourceIds": [
+          "ch12-one-array"
+        ],
+        "currentPages": [
+          85
+        ],
+        "excluded": false,
+        "previousTitle": "실습 1 · 배열 한 개의 그래프"
+      },
+      {
+        "previousPage": 85,
+        "previousSourceIds": [
+          "ch12-practice-two"
+        ],
+        "currentSourceIds": [
+          "ch12-practice-two"
+        ],
+        "currentPages": [
+          86
+        ],
+        "excluded": false,
+        "previousTitle": "Matplotlib 실습 2 · X·Y 배열"
+      },
+      {
+        "previousPage": 86,
+        "previousSourceIds": [
+          "ch12-two-arrays"
+        ],
+        "currentSourceIds": [
+          "ch12-two-arrays"
+        ],
+        "currentPages": [
+          87
+        ],
+        "excluded": false,
+        "previousTitle": "실습 2 · X·Y 배열 지정"
+      },
+      {
+        "previousPage": 87,
+        "previousSourceIds": [
+          "ch12-practice-2"
+        ],
+        "currentSourceIds": [
+          "ch12-practice-2"
+        ],
+        "currentPages": [
+          88
+        ],
+        "excluded": false,
+        "previousTitle": "Matplotlib 실습 3 · 표시 범위"
+      },
+      {
+        "previousPage": 88,
+        "previousSourceIds": [
+          "ch12-range"
+        ],
+        "currentSourceIds": [
+          "ch12-range"
+        ],
+        "currentPages": [
+          89
+        ],
+        "excluded": false,
+        "previousTitle": "실습 3 · 선 모양과 표시 범위"
+      },
+      {
+        "previousPage": 89,
+        "previousSourceIds": [
+          "ch12-practice-colors"
+        ],
+        "currentSourceIds": [
+          "ch12-practice-colors"
+        ],
+        "currentPages": [
+          90
+        ],
+        "excluded": false,
+        "previousTitle": "Matplotlib 실습 4 · 모양과 색"
+      },
+      {
+        "previousPage": 90,
+        "previousSourceIds": [
+          "ch12-markers"
+        ],
+        "currentSourceIds": [
+          "ch12-markers"
+        ],
+        "currentPages": [
+          91,
+          92
+        ],
+        "excluded": false,
+        "previousTitle": "실습 4 · 빨간 점과 설명"
+      },
+      {
+        "previousPage": 91,
+        "previousSourceIds": [
+          "ch12-markers"
+        ],
+        "currentSourceIds": [
+          "ch12-markers"
+        ],
+        "currentPages": [
+          91,
+          92
+        ],
+        "excluded": false,
+        "previousTitle": "실습 4 · 빨간 점과 설명 (계속)"
+      },
+      {
+        "previousPage": 92,
+        "previousSourceIds": [
+          "ch12-practice-labels"
+        ],
+        "currentSourceIds": [
+          "ch12-practice-labels"
+        ],
+        "currentPages": [
+          93
+        ],
+        "excluded": false,
+        "previousTitle": "Matplotlib 실습 5 · 제목과 설명"
+      },
+      {
+        "previousPage": 93,
+        "previousSourceIds": [
+          "ch12-labels-screen"
+        ],
+        "currentSourceIds": [
+          "ch12-labels-screen"
+        ],
+        "currentPages": [
+          94
+        ],
+        "excluded": false,
+        "previousTitle": "그래프의 제목·축·좌표 설명"
+      },
+      {
+        "previousPage": 94,
+        "previousSourceIds": [
+          "ch12-practice-3"
+        ],
+        "currentSourceIds": [
+          "ch13-practice-3"
+        ],
+        "currentPages": [
+          97
+        ],
+        "excluded": false,
+        "previousTitle": "Matplotlib 실습 6 · 막대그래프 1"
+      },
+      {
+        "previousPage": 95,
+        "previousSourceIds": [
+          "ch12-bars"
+        ],
+        "currentSourceIds": [
+          "ch13-bars"
+        ],
+        "currentPages": [
+          98
+        ],
+        "excluded": false,
+        "previousTitle": "실습 6 · 막대그래프 1"
+      },
+      {
+        "previousPage": 96,
+        "previousSourceIds": [
+          "ch12-practice-grouped"
+        ],
+        "currentSourceIds": [
+          "ch13-practice-grouped"
+        ],
+        "currentPages": [
+          99
+        ],
+        "excluded": false,
+        "previousTitle": "Matplotlib 실습 7 · 막대그래프 2"
+      },
+      {
+        "previousPage": 97,
+        "previousSourceIds": [
+          "ch12-grouped"
+        ],
+        "currentSourceIds": [
+          "ch13-grouped"
+        ],
+        "currentPages": [
+          100,
+          101
+        ],
+        "excluded": false,
+        "previousTitle": "실습 7 · 나란한 막대그래프"
+      },
+      {
+        "previousPage": 98,
+        "previousSourceIds": [
+          "ch12-grouped"
+        ],
+        "currentSourceIds": [
+          "ch13-grouped"
+        ],
+        "currentPages": [
+          100,
+          101
+        ],
+        "excluded": false,
+        "previousTitle": "실습 7 · 나란한 막대그래프 (계속)"
+      },
+      {
+        "previousPage": 99,
+        "previousSourceIds": [
+          "ch12-practice-4"
+        ],
+        "currentSourceIds": [
+          "ch13-practice-4"
+        ],
+        "currentPages": [
+          102
+        ],
+        "excluded": false,
+        "previousTitle": "Matplotlib 실습 8 · 산점도"
+      },
+      {
+        "previousPage": 100,
+        "previousSourceIds": [
+          "ch12-scatter"
+        ],
+        "currentSourceIds": [
+          "ch13-scatter"
+        ],
+        "currentPages": [
+          103,
+          104
+        ],
+        "excluded": false,
+        "previousTitle": "실습 8 · 산점도"
+      },
+      {
+        "previousPage": 101,
+        "previousSourceIds": [
+          "ch12-fix",
+          "ch12-scatter"
+        ],
+        "currentSourceIds": [
+          "ch12-fix",
+          "ch13-scatter"
+        ],
+        "currentPages": [
+          94,
+          103,
+          104
+        ],
+        "excluded": false,
+        "previousTitle": "실습 8 · 산점도 (계속)"
+      },
+      {
+        "previousPage": 102,
+        "previousSourceIds": [
+          "ch12-check"
+        ],
+        "currentSourceIds": [
+          "ch12-check"
+        ],
+        "currentPages": [
+          95
+        ],
+        "excluded": false,
+        "previousTitle": "실습 완료 확인"
+      },
+      {
+        "previousPage": 103,
+        "previousSourceIds": [
+          "ch13-charts",
+          "ch13-opening"
+        ],
+        "currentSourceIds": [
+          "ch14-charts",
+          "ch14-opening"
+        ],
+        "currentPages": [
+          106
+        ],
+        "excluded": false,
+        "previousTitle": "차트 바이브 코딩"
+      },
+      {
+        "previousPage": 104,
+        "previousSourceIds": [
+          "ch13-practice-1"
+        ],
+        "currentSourceIds": [
+          "ch14-practice-1"
+        ],
+        "currentPages": [
+          107
+        ],
+        "excluded": false,
+        "previousTitle": "꺾은선 그래프 만들기"
+      },
+      {
+        "previousPage": 105,
+        "previousSourceIds": [
+          "ch13-line-screen"
+        ],
+        "currentSourceIds": [
+          "ch14-line-screen"
+        ],
+        "currentPages": [
+          108
+        ],
+        "excluded": false,
+        "previousTitle": "선 그래프 화면"
+      },
+      {
+        "previousPage": 106,
+        "previousSourceIds": [
+          "ch13-practice-2"
+        ],
+        "currentSourceIds": [
+          "ch14-practice-2"
+        ],
+        "currentPages": [
+          109
+        ],
+        "excluded": false,
+        "previousTitle": "키·몸무게 산점도 만들기"
+      },
+      {
+        "previousPage": 107,
+        "previousSourceIds": [
+          "ch13-scatter-screen"
+        ],
+        "currentSourceIds": [
+          "ch14-scatter-screen"
+        ],
+        "currentPages": [
+          110
+        ],
+        "excluded": false,
+        "previousTitle": "키·몸무게 산점도"
+      },
+      {
+        "previousPage": 108,
+        "previousSourceIds": [
+          "ch13-practice-3"
+        ],
+        "currentSourceIds": [
+          "ch14-practice-3"
+        ],
+        "currentPages": [
+          111
+        ],
+        "excluded": false,
+        "previousTitle": "입력값 막대그래프 만들기"
+      },
+      {
+        "previousPage": 109,
+        "previousSourceIds": [
+          "ch13-bar-screen",
+          "ch13-check"
+        ],
+        "currentSourceIds": [
+          "ch14-bar-screen",
+          "ch14-check"
+        ],
+        "currentPages": [
+          112
+        ],
+        "excluded": false,
+        "previousTitle": "입력값 막대그래프"
+      },
+      {
+        "previousPage": 110,
+        "previousSourceIds": [
+          "ch14-opening"
+        ],
+        "currentSourceIds": [
+          "ch15-opening"
+        ],
+        "currentPages": [
+          113
+        ],
+        "excluded": false,
+        "previousTitle": "자료와 저장"
+      },
+      {
+        "previousPage": 111,
+        "previousSourceIds": [
+          "ch14-practice-data"
+        ],
+        "currentSourceIds": [
+          "ch15-practice-data"
+        ],
+        "currentPages": [
+          114
+        ],
+        "excluded": false,
+        "previousTitle": "학생 100명 자료 불러와 시각화하기"
+      },
+      {
+        "previousPage": 112,
+        "previousSourceIds": [
+          "ch14-data-screen",
+          "ch14-loaded-data"
+        ],
+        "currentSourceIds": [
+          "ch15-data-screen",
+          "ch15-loaded-data"
+        ],
+        "currentPages": [
+          115
+        ],
+        "excluded": false,
+        "previousTitle": "저장된 자료 불러오기 순서"
+      },
+      {
+        "previousPage": 113,
+        "previousSourceIds": [
+          "ch14-practice-school"
+        ],
+        "currentSourceIds": [
+          "ch15-practice-school"
+        ],
+        "currentPages": [
+          116
+        ],
+        "excluded": false,
+        "previousTitle": "학교별 학생 수를 막대그래프로 표현"
+      },
+      {
+        "previousPage": 114,
+        "previousSourceIds": [
+          "ch14-school-screen"
+        ],
+        "currentSourceIds": [
+          "ch15-school-screen"
+        ],
+        "currentPages": [
+          117
+        ],
+        "excluded": false,
+        "previousTitle": "학교별 학생 수 막대그래프"
+      },
+      {
+        "previousPage": 115,
+        "previousSourceIds": [
+          "ch14-practice-3"
+        ],
+        "currentSourceIds": [
+          "ch15-practice-3"
+        ],
+        "currentPages": [
+          118
+        ],
+        "excluded": false,
+        "previousTitle": "입력받은 데이터 저장·불러오기"
+      },
+      {
+        "previousPage": 116,
+        "previousSourceIds": [
+          "ch14-save-process"
+        ],
+        "currentSourceIds": [
+          "ch15-save-process"
+        ],
+        "currentPages": [
+          121
+        ],
+        "excluded": false,
+        "previousTitle": "저장·불러오기 확인 순서"
+      },
+      {
+        "previousPage": 117,
+        "previousSourceIds": [
+          "ch14-saved"
+        ],
+        "currentSourceIds": [
+          "ch15-saved"
+        ],
+        "currentPages": [
+          125
+        ],
+        "excluded": false,
+        "previousTitle": "다시 불러온 프로젝트"
+      },
+      {
+        "previousPage": 118,
+        "previousSourceIds": [
+          "ch14-check"
+        ],
+        "currentSourceIds": [
+          "ch15-check"
+        ],
+        "currentPages": [
+          126
+        ],
+        "excluded": false,
+        "previousTitle": "실습 완료 확인"
+      },
+      {
+        "previousPage": 119,
+        "previousSourceIds": [
+          "ch15-opening"
+        ],
+        "currentSourceIds": [],
+        "currentPages": [],
+        "excluded": true,
+        "previousTitle": "데이터 정리"
+      },
+      {
+        "previousPage": 120,
+        "previousSourceIds": [
+          "ch15-formats",
+          "ch15-structure"
+        ],
+        "currentSourceIds": [],
+        "currentPages": [],
+        "excluded": true,
+        "previousTitle": "데이터를 보관하는 형식"
+      },
+      {
+        "previousPage": 121,
+        "previousSourceIds": [
+          "ch15-practice-1"
+        ],
+        "currentSourceIds": [],
+        "currentPages": [],
+        "excluded": true,
+        "previousTitle": "Series · 딕셔너리와 리스트"
+      },
+      {
+        "previousPage": 122,
+        "previousSourceIds": [
+          "ch15-series"
+        ],
+        "currentSourceIds": [],
+        "currentPages": [],
+        "excluded": true,
+        "previousTitle": "딕셔너리를 Series로 변환"
+      },
+      {
+        "previousPage": 123,
+        "previousSourceIds": [
+          "ch15-mixed"
+        ],
+        "currentSourceIds": [],
+        "currentPages": [],
+        "excluded": true,
+        "previousTitle": "리스트를 Series로 변환"
+      },
+      {
+        "previousPage": 124,
+        "previousSourceIds": [
+          "ch15-practice-dict"
+        ],
+        "currentSourceIds": [],
+        "currentPages": [],
+        "excluded": true,
+        "previousTitle": "DataFrame · 요일별 열 만들기"
+      },
+      {
+        "previousPage": 125,
+        "previousSourceIds": [
+          "ch15-dict-frame-code"
+        ],
+        "currentSourceIds": [],
+        "currentPages": [],
+        "excluded": true,
+        "previousTitle": "요일별 열의 DataFrame"
+      },
+      {
+        "previousPage": 126,
+        "previousSourceIds": [
+          "ch15-practice-2"
+        ],
+        "currentSourceIds": [],
+        "currentPages": [],
+        "excluded": true,
+        "previousTitle": "DataFrame · 행·열 이름 지정과 변경"
+      },
+      {
+        "previousPage": 127,
+        "previousSourceIds": [
+          "ch15-dataframe"
+        ],
+        "currentSourceIds": [],
+        "currentPages": [],
+        "excluded": true,
+        "previousTitle": "현아·태민 자료의 DataFrame"
+      },
+      {
+        "previousPage": 128,
+        "previousSourceIds": [
+          "ch15-rename",
+          "ch15-table-result"
+        ],
+        "currentSourceIds": [],
+        "currentPages": [],
+        "excluded": true,
+        "previousTitle": "실행한 DataFrame을 표로 확인하기"
+      },
+      {
+        "previousPage": 129,
+        "previousSourceIds": [
+          "ch15-rename-code"
+        ],
+        "currentSourceIds": [],
+        "currentPages": [],
+        "excluded": true,
+        "previousTitle": "DataFrame 행·열 이름 변경"
+      },
+      {
+        "previousPage": 130,
+        "previousSourceIds": [
+          "ch15-check"
+        ],
+        "currentSourceIds": [],
+        "currentPages": [],
+        "excluded": true,
+        "previousTitle": "실습 완료 확인"
+      },
+      {
+        "previousPage": 131,
+        "previousSourceIds": [
+          "ch16-opening",
+          "ch16-projects"
+        ],
+        "currentSourceIds": [
+          "ch16-opening",
+          "ch16-projects"
+        ],
+        "currentPages": [
+          127
+        ],
+        "excluded": false,
+        "previousTitle": "앱 개선·발표"
+      },
+      {
+        "previousPage": 132,
+        "previousSourceIds": [
+          "ch16-practice-1"
+        ],
+        "currentSourceIds": [
+          "ch16-practice-1"
+        ],
+        "currentPages": [
+          128
+        ],
+        "excluded": false,
+        "previousTitle": "원하는 프로그램을 자유롭게 작성하기"
+      },
+      {
+        "previousPage": 133,
+        "previousSourceIds": [
+          "ch16-fix",
+          "ch16-procedure"
+        ],
+        "currentSourceIds": [
+          "ch16-fix",
+          "ch16-procedure"
+        ],
+        "currentPages": [
+          129
+        ],
+        "excluded": false,
+        "previousTitle": "작게 만들고 검증하기"
+      },
+      {
+        "previousPage": 134,
+        "previousSourceIds": [
+          "ch16-check",
+          "ch16-evidence",
+          "ch16-portfolio"
+        ],
+        "currentSourceIds": [
+          "ch16-check",
+          "ch16-evidence",
+          "ch16-portfolio"
+        ],
+        "currentPages": [
+          130
+        ],
+        "excluded": false,
+        "previousTitle": "결과 이미지를 정직하게 기록하기"
+      }
+    ],
+    "summaryGraphicAssetUnchanged": true,
+    "hallucinationExampleContentRetained": true,
+    "hallucinationPhysicalPage": 7,
+    "nativeFlowchartChecks": [
+      {
+        "sourceId": "ch04-family-flow",
+        "physicalPages": [
+          23
+        ],
+        "sourcePdfPage": 23,
+        "vectorSha256": "c1e0a5f450eb37a2d587466f6b15cd8ed21a7191ca0a7d696fe3a133bfa99cbb",
+        "previewSha256": "ee77a8b7efd0b3dbde047ab9519f43cf1cff1f77edae6d738ce5bc7b0147cd7c",
+        "rasterXObjects": 0
+      },
+      {
+        "sourceId": "ch05-exercise-flow",
+        "physicalPages": [
+          29
+        ],
+        "sourcePdfPage": 31,
+        "vectorSha256": "511829586c6c90fbe4dc7229475b8e8aca6e3a9f0ee63f5c149473c5c73c1812",
+        "previewSha256": "34639abdb13946c500309844ad5a29071080171e0889f6aca59d435aca5de5de",
+        "rasterXObjects": 0
+      },
+      {
+        "sourceId": "ch06-sleep-flow",
+        "physicalPages": [
+          36
+        ],
+        "sourcePdfPage": 36,
+        "vectorSha256": "59b5afb0d9446dc449158acda4b8ae486dc3d7a0662ab24fe6b6d47b9d894b65",
+        "previewSha256": "5338707be4918ba2bfee7e52c31205d647c0980ec35497608cfdd340b8ea37fb",
+        "rasterXObjects": 0
+      },
+      {
+        "sourceId": "ch07-movie-flow",
+        "physicalPages": [
+          41
+        ],
+        "sourcePdfPage": 39,
+        "vectorSha256": "2f03cf2dee987f02bbe353b9858398a597440eb79c3c42a97316e62f58dfc85f",
+        "previewSha256": "7dcdd157977bfb4ab3e11716c9c1034d4e9ab3181c797ab36c01422b8f0144b1",
+        "rasterXObjects": 0
+      }
+    ],
+    "declarationSixSided": true,
+    "loopTrace": [
+      {
+        "time1": 1,
+        "total": 1
+      },
+      {
+        "time1": 2,
+        "total": 3
+      },
+      {
+        "time1": 3,
+        "total": 6
+      },
+      {
+        "time1": 4,
+        "total": 10
+      },
+      {
+        "time1": 5,
+        "total": 15
+      },
+      {
+        "time1": 6,
+        "total": 21
+      },
+      {
+        "time1": 7,
+        "total": 28
+      },
+      {
+        "time1": 8,
+        "total": 36
+      },
+      {
+        "time1": 9,
+        "total": 45
+      },
+      {
+        "time1": 10,
+        "total": 55
+      }
+    ],
+    "loopExit": {
+      "time1": 11,
+      "total": 55
+    },
+    "sourcePdf": "(flet내용 추가)AI와 함께하는 앱 개발  업데이트 수정본(삼육_최종)의 사본 (7).pdf",
+    "sourceSha256": "a4aa668621a7c59c36c9666fa1019182d5ed999c9fb8620f2ddcf509840b2729",
+    "sourceFileHashDirectlyVerified": true,
+    "sourceEquivalenceEvidence": "source-reference-review.json",
+    "sourceEquivalenceRecordIsHistorical": true,
+    "studentManuscriptDeliberatelyRevised": true,
+    "studentExcludedReferencePages": {
+      "editorial": [],
+      "robot": [],
+      "api": [],
+      "pandas": [],
+      "divider": []
+    },
+    "calculatorResultWidget": "fld3",
+    "calculatorSentencesChecked": [
+      {
+        "sourceId": "ch09-calculator-request",
+        "physicalPage": 58,
+        "sentence": "결과 표시 위젯 fld3에서 계산한 값을 확인합니다."
+      },
+      {
+        "sourceId": "ch09-calculator-code",
+        "physicalPage": 59,
+        "sentence": "두 숫자와 선택한 사칙연산을 처리하고 결과를 fld3에 표시합니다."
+      }
+    ],
+    "fontsEmbedded": {
+      "/AAAAAA+WantedSans-Bold": true,
+      "/AAAAAB+WantedSans-Bold": true,
+      "/AAAAAA+WantedSans-Medium": true,
+      "/AAAAAB+WantedSans-Medium": true,
+      "/AAAAAC+WantedSans-Medium": true,
+      "/AAAAAA+Consolas": true
+    },
+    "bookmarks": 16,
+    "contentsLinks": 16,
+    "bodyFontPt": 14,
+    "headingFontPt": 15,
+    "bodyLeadingPt": 28,
+    "checkboxItems": 150,
+    "allCurrentSourceIdsRendered": true,
+    "fullRenderingAutomatedQaPassed": true,
+    "guiExamplesRevision": {
+      "evidence": {
+        "date": "2026-10-11",
+        "edition": "gui-examples-16-sessions",
+        "baseline": "previous-reports/20261011-before-gui-examples",
+        "added_page_ids": [
+          "ch08-gui-example",
+          "ch15-gui-layout"
+        ],
+        "changed_page_ids": [
+          "ch08-widgets",
+          "ch08-designer",
+          "ch08-request",
+          "ch09-product-code",
+          "ch09-calculator-request",
+          "ch11-request",
+          "ch14-line-screen",
+          "ch14-scatter-screen",
+          "ch14-bar-screen"
+        ],
+        "added_asset": "assets/source-20261011/save-gui-layout.png",
+        "added_asset_source_pdf_page": 118,
+        "new_placement": {
+          "src": "assets/source-20261006/field-copy.png",
+          "page_id": "ch08-gui-example"
+        },
+        "expected_containers": 162,
+        "expected_practices": 37,
+        "expected_python_blocks": 7,
+        "expected_output_blocks": 0,
+        "notes": [
+          "기존 실습의 배치·위젯 이름·역할·버튼 동작을 설명",
+          "계산기 결과fld3과 표fld1~fld4 역할을 구분",
+          "저장 디자이너사진은 실행결과사진과 용도를 구분"
+        ]
+      },
+      "baselineMetadata": "coala-book-md/vibe-coding-16/previous-reports/20261011-before-gui-examples/vibe-coding-16-no-pandas.json",
+      "previousPdfPages": 128,
+      "previousManuscriptContainers": 160,
+      "addedSourceIds": [
+        "ch08-gui-example",
+        "ch15-gui-layout"
+      ],
+      "fieldCopyFigureReusedUnchanged": true,
+      "newGuiImageSourcePdfPage": 118,
+      "newGuiImageSha256": "7621ab9c94a02999bd2fff029764e4621d916393aa68c1c9b9119bdabbe1f545",
+      "practiceAndCodeCountsUnchanged": true
+    },
+    "upstreamRevision": {
+      "evidence": {
+        "date": "2026-10-11",
+        "edition": "upstream-gui-16-sessions",
+        "repository": "https://github.com/kkh1466/coala-book-system",
+        "branch": "main",
+        "commit": "9723e244e225c4a300b6f251a766b39de46e63f6",
+        "commit_url": "https://github.com/kkh1466/coala-book-system/commit/9723e244e225c4a300b6f251a766b39de46e63f6",
+        "previous_upstream_commit": "032bf19",
+        "baseline": "previous-reports/20261011-before-upstream-update",
+        "upstream_source_sha256": {
+          "README.md": "472709a4b940493a58eb6a1b28c3bd76e1a690fc6c96fb124a4d93dd6adc2a59",
+          "canva-app/src/builder/image-assets.ts": "6353764f0643d7d9a19bd7a911fc3db52fd845feed044f58adef3a5c0b4fba5d",
+          "canva-app/tests/image-assets.test.ts": "c4e9737b4d7592ff8c352e4def23b26b87e7830b4d60e8c9ff68755869ac04aa",
+          "coala-book-md/ai-math2/book.md": "736c434363c8eb034620da28579f6ca3fc655e0382673bb019746f97cc14fd64",
+          "coala-book-md/ai-math2/notes.md": "4d29dde7729c2c661193cbaefc4546490c22d2973dc20f292998ce70453392bc"
+        },
+        "changed_page_ids": [
+          "ch01-ai",
+          "ch02-request",
+          "ch08-designer",
+          "ch08-request"
+        ],
+        "added_page_ids": [],
+        "added_assets": [],
+        "adopted": [
+          "사람과 AI의 역할",
+          "구체적인 기능·입력·출력 요청",
+          "앱 화면에서 실행 결과 확인 후 수정 요청",
+          "한글 이미지 경로 NFC 정규화와 회귀 테스트",
+          "최신 설치 안내와 PDF 제작 스크립트 전달"
+        ],
+        "excluded": [
+          {
+            "content": "주피터 노트북·코드 셀·AI Chat·현재 셀에 추가 단계와 화면 4개",
+            "reason": "사용자 확인: 이 수업에서는 셀에 코드를 넣는 절차를 진행하지 않음"
+          },
+          {
+            "content": "노트북에서 실행하는 자기소개·공부 시간 계산 신규 실습",
+            "reason": "현재 수업 환경과 기존 교재 실습 중심 구성에 맞추어 기존 실습을 유지"
+          }
+        ],
+        "expected_containers": 162,
+        "expected_practices": 37,
+        "expected_python_blocks": 7,
+        "expected_output_blocks": 0,
+        "expected_png_assets": 39,
+        "expected_image_placements": 41,
+        "expected_vector_assets": 7,
+        "student_no_notebook_workflow": true
+      },
+      "repository": "https://github.com/kkh1466/coala-book-system",
+      "commit": "9723e244e225c4a300b6f251a766b39de46e63f6",
+      "commitUrl": "https://github.com/kkh1466/coala-book-system/commit/9723e244e225c4a300b6f251a766b39de46e63f6",
+      "baselineMetadata": "coala-book-md/vibe-coding-16/previous-reports/20261011-before-upstream-update/vibe-coding-16-gui.json",
+      "previousPdfPages": 130,
+      "previousManuscriptContainers": 162,
+      "addedConceptSourceIds": [],
+      "addedAssetPaths": [],
+      "existing41ImagePlacementsUnchanged": true,
+      "currentAssetFilenamesNfc": true,
+      "practiceAndCodeCountsUnchanged": true,
+      "notebookCellWorkflowExcludedFromGuiCourse": true,
+      "noNotebookScreenshotsPackaged": true,
+      "onlyExistingGuiConceptTextRevised": true
+    }
+  }
+}

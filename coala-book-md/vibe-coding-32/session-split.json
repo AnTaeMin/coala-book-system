@@ -1,0 +1,1155 @@
+{
+  "date": "2026-11-03",
+  "source": "../vibe-coding-16/book.md",
+  "sourceSha256": "eeca91c7e211c314fb780c8ef581b442b38df8333e5737ef3704f90bee36bcc0",
+  "sourceFileHashes": {
+    "book.md": "eeca91c7e211c314fb780c8ef581b442b38df8333e5737ef3704f90bee36bcc0",
+    "ch01.md": "289d217fecdb313d20fc2dc8be02494b99fe4582c6e8d2831be040cf5fd735a0",
+    "ch02.md": "ec9305ccadf4465b310e4b116b4eb745d771951df0febc5c8aded88a0e38d2b7",
+    "ch03.md": "27200d4c262ccea70929bfad2bfbc62b1c76205875579fb072b189611415148f",
+    "ch04.md": "37a86b118b84e9937b86615c8b6f75920805200903ed60bf0bdaf75ac06746e3",
+    "ch05.md": "0062a0add007bd888d7e47dc8df959ad9b49c0780670cf535571a77fb6f97e2a",
+    "ch06.md": "61ada3c6ceff74f10963ceaca58b3babc0d0f3911f1f9bc3369bad5cb9efa18a",
+    "ch07.md": "a57c17607bd51c94af528e8e3627831e3703fa86bff0bffd2f4a878a5d9bb5d5",
+    "ch08.md": "0df556a14fdccb1710aa25085025298f61b34b86b4f2e0d46996fba4cb1c88df",
+    "ch09.md": "dff633dcbd03a6370bf9dc0401d33196e8c712d771afd147610be476ca25c95c",
+    "ch10.md": "43cb9b36cddf3fcfa1c986bb655e94e722c6220bfb77057895e686771240f2d5",
+    "ch11.md": "13f731fe95c09cbbb161e8bf4e0e9e9d91484c2c22b3f9ae8d14941082290cf3",
+    "ch12.md": "ba57cd7f2d211ef934cf221aab36a823f41ee4106da38e7644285bd7a3d9e848",
+    "ch13.md": "4a64604c61665263e3e8ed45e6f03ac8292bb1e679f9eb19a90c6346ed968542",
+    "ch14.md": "033c97945fcb00926c89898bf3691384b024d39d1f5b536df6543ab5822c8b80",
+    "ch15.md": "07356f9853a14dfa0227a3079faca6d250f3343638361754840653bbb98c6c44",
+    "ch16.md": "7bec1d246386fcd667422e54961ad2b935014940adb992c37536626c5e371817"
+  },
+  "sessions": [
+    {
+      "number": 1,
+      "originalChapter": 1,
+      "part": 1,
+      "title": "AI와 함께하는 디지털 시대 1",
+      "shortTitle": "AI와 앱 개발 1",
+      "focus": "생성형 AI의 역할과 한계",
+      "objectives": [
+        "생성형 AI와 바이브 코딩의 역할을 설명할 수 있다.",
+        "AI의 답에서 사람이 확인할 내용을 구분할 수 있다."
+      ],
+      "openingId": "ch01-opening",
+      "originalPageIds": [
+        "ch01-opening",
+        "ch01-ai",
+        "ch01-limits",
+        "ch01-ethics"
+      ],
+      "contentPageIds": [
+        "ch01-ai",
+        "ch01-limits",
+        "ch01-ethics"
+      ],
+      "practiceCount": 0
+    },
+    {
+      "number": 2,
+      "originalChapter": 1,
+      "part": 2,
+      "title": "AI와 함께하는 디지털 시대 2",
+      "shortTitle": "AI와 앱 개발 2",
+      "focus": "AI 답변 검증 실습",
+      "objectives": [
+        "질문 유형에 따른 AI 답변의 차이를 비교할 수 있다.",
+        "답변의 근거를 확인하고 활용 여부를 기록할 수 있다."
+      ],
+      "openingId": "ch01-part2-opening",
+      "originalPageIds": [
+        "ch01-practice-1",
+        "ch01-procedure",
+        "ch01-check"
+      ],
+      "contentPageIds": [
+        "ch01-practice-1",
+        "ch01-procedure",
+        "ch01-check"
+      ],
+      "practiceCount": 1
+    },
+    {
+      "number": 3,
+      "originalChapter": 2,
+      "part": 1,
+      "title": "좋은 질문이 좋은 답을 만든다 1",
+      "shortTitle": "질문과 입력 1",
+      "focus": "프롬프트 구성과 질문 비교",
+      "objectives": [
+        "목적과 상황, 조건을 포함한 프롬프트를 작성할 수 있다.",
+        "모호한 질문과 구체적인 질문의 답변을 비교할 수 있다."
+      ],
+      "openingId": "ch02-opening",
+      "originalPageIds": [
+        "ch02-opening",
+        "ch02-prompt",
+        "ch02-compare",
+        "ch02-practice-1"
+      ],
+      "contentPageIds": [
+        "ch02-prompt",
+        "ch02-compare",
+        "ch02-practice-1"
+      ],
+      "practiceCount": 1
+    },
+    {
+      "number": 4,
+      "originalChapter": 2,
+      "part": 2,
+      "title": "좋은 질문이 좋은 답을 만든다 2",
+      "shortTitle": "질문과 입력 2",
+      "focus": "앱 입력 데이터와 요청 설계",
+      "objectives": [
+        "앱의 목적에 필요한 입력 데이터를 정할 수 있다.",
+        "입력·버튼 동작·결과를 담아 앱 제작과 수정을 요청할 수 있다."
+      ],
+      "openingId": "ch02-part2-opening",
+      "originalPageIds": [
+        "ch02-inputs",
+        "ch02-practice-2",
+        "ch02-request",
+        "ch02-check"
+      ],
+      "contentPageIds": [
+        "ch02-inputs",
+        "ch02-practice-2",
+        "ch02-request",
+        "ch02-check"
+      ],
+      "practiceCount": 1
+    },
+    {
+      "number": 5,
+      "originalChapter": 3,
+      "part": 1,
+      "title": "문제를 단계별로 나누기 1",
+      "shortTitle": "문제 나누기 1",
+      "focus": "입력·처리·출력과 알고리즘",
+      "objectives": [
+        "문제를 입력·처리·출력으로 구분할 수 있다.",
+        "문제 해결 순서를 단계별로 설명할 수 있다."
+      ],
+      "openingId": "ch03-opening",
+      "originalPageIds": [
+        "ch03-opening",
+        "ch03-ramen",
+        "ch03-algorithm"
+      ],
+      "contentPageIds": [
+        "ch03-ramen",
+        "ch03-algorithm"
+      ],
+      "practiceCount": 0
+    },
+    {
+      "number": 6,
+      "originalChapter": 3,
+      "part": 2,
+      "title": "문제를 단계별로 나누기 2",
+      "shortTitle": "문제 나누기 2",
+      "focus": "앱 아이디어의 단계별 설계",
+      "objectives": [
+        "앱 아이디어를 입력·처리·출력으로 설계할 수 있다.",
+        "처리 순서를 확인하고 빠진 단계를 보완할 수 있다."
+      ],
+      "openingId": "ch03-part2-opening",
+      "originalPageIds": [
+        "ch03-practice-1",
+        "ch03-design",
+        "ch03-check"
+      ],
+      "contentPageIds": [
+        "ch03-practice-1",
+        "ch03-design",
+        "ch03-check"
+      ],
+      "practiceCount": 1
+    },
+    {
+      "number": 7,
+      "originalChapter": 4,
+      "part": 1,
+      "title": "순서도와 데이터 이해 1",
+      "shortTitle": "순서도와 변수 1",
+      "focus": "순서도·자료형·변수",
+      "objectives": [
+        "순서도에서 데이터가 이동하는 과정을 설명할 수 있다.",
+        "문자열과 숫자, 변수 이름과 값을 구분할 수 있다."
+      ],
+      "openingId": "ch04-opening",
+      "originalPageIds": [
+        "ch04-opening",
+        "ch04-roles",
+        "ch04-types",
+        "ch04-variables"
+      ],
+      "contentPageIds": [
+        "ch04-roles",
+        "ch04-types",
+        "ch04-variables"
+      ],
+      "practiceCount": 0
+    },
+    {
+      "number": 8,
+      "originalChapter": 4,
+      "part": 2,
+      "title": "순서도와 데이터 이해 2",
+      "shortTitle": "순서도와 변수 2",
+      "focus": "가족 나이와 학생 총점 계산",
+      "objectives": [
+        "입력한 나이와 점수의 합계를 계산하는 순서를 설명할 수 있다.",
+        "변수와 순서도를 대조하여 계산 결과를 확인할 수 있다."
+      ],
+      "openingId": "ch04-part2-opening",
+      "originalPageIds": [
+        "ch04-practice-1",
+        "ch04-family-code",
+        "ch04-family-flow",
+        "ch04-scores-code",
+        "ch04-check"
+      ],
+      "contentPageIds": [
+        "ch04-practice-1",
+        "ch04-family-code",
+        "ch04-family-flow",
+        "ch04-scores-code",
+        "ch04-check"
+      ],
+      "practiceCount": 1
+    },
+    {
+      "number": 9,
+      "originalChapter": 5,
+      "part": 1,
+      "title": "반복과 누적 이해 1",
+      "shortTitle": "반복과 누적 1",
+      "focus": "운동 시간 반복·누적",
+      "objectives": [
+        "반복 횟수와 누적 변수의 역할을 설명할 수 있다.",
+        "운동 시간을 반복해서 더하고 결과를 확인할 수 있다."
+      ],
+      "openingId": "ch05-opening",
+      "originalPageIds": [
+        "ch05-opening",
+        "ch05-loops",
+        "ch05-trace",
+        "ch05-practice-1",
+        "ch05-exercise-code",
+        "ch05-exercise-flow"
+      ],
+      "contentPageIds": [
+        "ch05-loops",
+        "ch05-trace",
+        "ch05-practice-1",
+        "ch05-exercise-code",
+        "ch05-exercise-flow"
+      ],
+      "practiceCount": 1
+    },
+    {
+      "number": 10,
+      "originalChapter": 5,
+      "part": 2,
+      "title": "반복과 누적 이해 2",
+      "shortTitle": "반복과 누적 2",
+      "focus": "카페인 입력 반복·누적",
+      "objectives": [
+        "반복 입력한 카페인 양의 합계를 구할 수 있다.",
+        "반복 종료 조건과 누적 결과를 확인할 수 있다."
+      ],
+      "openingId": "ch05-part2-opening",
+      "originalPageIds": [
+        "ch05-practice-2",
+        "ch05-caffeine-code",
+        "ch05-check"
+      ],
+      "contentPageIds": [
+        "ch05-practice-2",
+        "ch05-caffeine-code",
+        "ch05-check"
+      ],
+      "practiceCount": 1
+    },
+    {
+      "number": 11,
+      "originalChapter": 6,
+      "part": 1,
+      "title": "조건에 따라 결과 나누기 1",
+      "shortTitle": "조건과 분기 1",
+      "focus": "조건식과 수면 분류 규칙",
+      "objectives": [
+        "조건식의 참과 거짓에 따른 분기를 설명할 수 있다.",
+        "수면 시간 분류의 기준과 경계값을 구분할 수 있다."
+      ],
+      "openingId": "ch06-opening",
+      "originalPageIds": [
+        "ch06-opening",
+        "ch06-conditions",
+        "ch06-sleep-rules"
+      ],
+      "contentPageIds": [
+        "ch06-conditions",
+        "ch06-sleep-rules"
+      ],
+      "practiceCount": 0
+    },
+    {
+      "number": 12,
+      "originalChapter": 6,
+      "part": 2,
+      "title": "조건에 따라 결과 나누기 2",
+      "shortTitle": "조건과 분기 2",
+      "focus": "조건 처리 구현과 분기 확인",
+      "objectives": [
+        "입력한 수면 시간을 조건에 따라 분류할 수 있다.",
+        "5시간·8시간의 경계값을 넣어 선택되는 안내 문구를 확인할 수 있다."
+      ],
+      "openingId": "ch06-part2-opening",
+      "originalPageIds": [
+        "ch06-practice-1",
+        "ch06-sleep-code",
+        "ch06-sleep-flow",
+        "ch06-fix",
+        "ch06-check"
+      ],
+      "contentPageIds": [
+        "ch06-practice-1",
+        "ch06-sleep-code",
+        "ch06-sleep-flow",
+        "ch06-fix",
+        "ch06-check"
+      ],
+      "practiceCount": 1
+    },
+    {
+      "number": 13,
+      "originalChapter": 7,
+      "part": 1,
+      "title": "반복과 조건 함께 사용하기 1",
+      "shortTitle": "반복 속 조건 1",
+      "focus": "학생 수만큼 합격 판정",
+      "objectives": [
+        "입력한 학생 수만큼 점수 처리를 반복할 수 있다.",
+        "80점 기준에 따라 PASS와 FAIL을 구분할 수 있다."
+      ],
+      "openingId": "ch07-opening",
+      "originalPageIds": [
+        "ch07-opening",
+        "ch07-roles",
+        "ch07-practice-1",
+        "ch07-pass-code"
+      ],
+      "contentPageIds": [
+        "ch07-roles",
+        "ch07-practice-1",
+        "ch07-pass-code"
+      ],
+      "practiceCount": 1
+    },
+    {
+      "number": 14,
+      "originalChapter": 7,
+      "part": 2,
+      "title": "반복과 조건 함께 사용하기 2",
+      "shortTitle": "반복 속 조건 2",
+      "focus": "영화 관람 반복과 분기",
+      "objectives": [
+        "네 학생의 나이를 반복 입력하고 관람 조건을 판단할 수 있다.",
+        "15세 기준의 분기와 반복 흐름을 순서도로 설명할 수 있다."
+      ],
+      "openingId": "ch07-part2-opening",
+      "originalPageIds": [
+        "ch07-movie-code",
+        "ch07-movie-flow",
+        "ch07-check"
+      ],
+      "contentPageIds": [
+        "ch07-movie-code",
+        "ch07-movie-flow",
+        "ch07-check"
+      ],
+      "practiceCount": 0
+    },
+    {
+      "number": 15,
+      "originalChapter": 8,
+      "part": 1,
+      "title": "Button·Field·Text로 첫 화면 만들기 1",
+      "shortTitle": "첫 앱 화면 1",
+      "focus": "기본 위젯과 버튼 색 변경",
+      "objectives": [
+        "Button·Field·Text의 역할을 구분할 수 있다.",
+        "버튼 클릭에 따른 색 변경을 요청하고 확인할 수 있다."
+      ],
+      "openingId": "ch08-opening",
+      "originalPageIds": [
+        "ch08-opening",
+        "ch08-widgets",
+        "ch08-designer",
+        "ch08-gui-example",
+        "ch08-practice-1",
+        "ch08-button-before",
+        "ch08-button-after"
+      ],
+      "contentPageIds": [
+        "ch08-widgets",
+        "ch08-designer",
+        "ch08-gui-example",
+        "ch08-practice-1",
+        "ch08-button-before",
+        "ch08-button-after"
+      ],
+      "practiceCount": 1
+    },
+    {
+      "number": 16,
+      "originalChapter": 8,
+      "part": 2,
+      "title": "Button·Field·Text로 첫 화면 만들기 2",
+      "shortTitle": "첫 앱 화면 2",
+      "focus": "메시지 창과 Field 복사·삭제",
+      "objectives": [
+        "버튼 클릭으로 메시지 창을 표시할 수 있다.",
+        "Field 입력값의 복사와 삭제 동작을 확인할 수 있다."
+      ],
+      "openingId": "ch08-part2-opening",
+      "originalPageIds": [
+        "ch08-practice-message",
+        "ch08-message-screen",
+        "ch08-practice-2",
+        "ch08-request",
+        "ch08-field-copy",
+        "ch08-platform",
+        "ch08-check"
+      ],
+      "contentPageIds": [
+        "ch08-practice-message",
+        "ch08-message-screen",
+        "ch08-practice-2",
+        "ch08-request",
+        "ch08-field-copy",
+        "ch08-platform",
+        "ch08-check"
+      ],
+      "practiceCount": 2
+    },
+    {
+      "number": 17,
+      "originalChapter": 9,
+      "part": 1,
+      "title": "계산·누적 출력 앱 만들기 1",
+      "shortTitle": "계산과 출력 1",
+      "focus": "누적곱과 계산기",
+      "objectives": [
+        "누적곱과 계산기의 입력·처리·출력을 구성할 수 있다.",
+        "계산 결과와 빈칸·문자·0 나누기 처리를 확인할 수 있다."
+      ],
+      "openingId": "ch09-opening",
+      "originalPageIds": [
+        "ch09-opening",
+        "ch09-practice-1",
+        "ch09-product-code",
+        "ch09-product",
+        "ch09-practice-2",
+        "ch09-calculator-request",
+        "ch09-calculator",
+        "ch09-calculator-code"
+      ],
+      "contentPageIds": [
+        "ch09-practice-1",
+        "ch09-product-code",
+        "ch09-product",
+        "ch09-practice-2",
+        "ch09-calculator-request",
+        "ch09-calculator",
+        "ch09-calculator-code"
+      ],
+      "practiceCount": 2
+    },
+    {
+      "number": 18,
+      "originalChapter": 9,
+      "part": 2,
+      "title": "계산·누적 출력 앱 만들기 2",
+      "shortTitle": "계산과 출력 2",
+      "focus": "Text 추가와 구구단",
+      "objectives": [
+        "Text를 추가하여 결과를 누적 출력할 수 있다.",
+        "반복으로 구구단을 출력하고 결과를 확인할 수 있다."
+      ],
+      "openingId": "ch09-part2-opening",
+      "originalPageIds": [
+        "ch09-practice-3",
+        "ch09-text",
+        "ch09-practice-4",
+        "ch09-times-code",
+        "ch09-times",
+        "ch09-check"
+      ],
+      "contentPageIds": [
+        "ch09-practice-3",
+        "ch09-text",
+        "ch09-practice-4",
+        "ch09-times-code",
+        "ch09-times",
+        "ch09-check"
+      ],
+      "practiceCount": 2
+    },
+    {
+      "number": 19,
+      "originalChapter": 10,
+      "part": 1,
+      "title": "선택 위젯과 진행 표시 1",
+      "shortTitle": "선택 위젯 1",
+      "focus": "Dropdown·Checkbox·RadioButton",
+      "objectives": [
+        "세 선택 위젯의 역할과 선택 방식을 구분할 수 있다.",
+        "선택값에 따른 화면 결과를 확인할 수 있다."
+      ],
+      "openingId": "ch10-opening",
+      "originalPageIds": [
+        "ch10-opening",
+        "ch10-choice",
+        "ch10-practice-1",
+        "ch10-dropdown",
+        "ch10-practice-2",
+        "ch10-health",
+        "ch10-health-request",
+        "ch10-practice-3",
+        "ch10-club"
+      ],
+      "contentPageIds": [
+        "ch10-choice",
+        "ch10-practice-1",
+        "ch10-dropdown",
+        "ch10-practice-2",
+        "ch10-health",
+        "ch10-health-request",
+        "ch10-practice-3",
+        "ch10-club"
+      ],
+      "practiceCount": 3
+    },
+    {
+      "number": 20,
+      "originalChapter": 10,
+      "part": 2,
+      "title": "선택 위젯과 진행 표시 2",
+      "shortTitle": "선택 위젯 2",
+      "focus": "ProgressBar와 Image",
+      "objectives": [
+        "진행 막대의 값과 표시 범위를 확인할 수 있다.",
+        "두 이미지를 배치하고 화면 결과를 확인할 수 있다."
+      ],
+      "openingId": "ch10-part2-opening",
+      "originalPageIds": [
+        "ch10-practice-4",
+        "ch10-progress",
+        "ch10-practice-5",
+        "ch10-images",
+        "ch10-check"
+      ],
+      "contentPageIds": [
+        "ch10-practice-4",
+        "ch10-progress",
+        "ch10-practice-5",
+        "ch10-images",
+        "ch10-check"
+      ],
+      "practiceCount": 2
+    },
+    {
+      "number": 21,
+      "originalChapter": 11,
+      "part": 1,
+      "title": "학생 성적을 표로 정리하기 1",
+      "shortTitle": "표와 성적 1",
+      "focus": "성적표 입력과 행 추가",
+      "objectives": [
+        "입력창의 값을 성적표의 열 순서에 맞출 수 있다.",
+        "학생 성적을 표에 추가하고 입력값과 비교할 수 있다."
+      ],
+      "openingId": "ch11-opening",
+      "originalPageIds": [
+        "ch11-opening",
+        "ch11-table",
+        "ch11-practice-1",
+        "ch11-table-screen",
+        "ch11-field-map",
+        "ch11-request"
+      ],
+      "contentPageIds": [
+        "ch11-table",
+        "ch11-practice-1",
+        "ch11-table-screen",
+        "ch11-field-map",
+        "ch11-request"
+      ],
+      "practiceCount": 1
+    },
+    {
+      "number": 22,
+      "originalChapter": 11,
+      "part": 2,
+      "title": "학생 성적을 표로 정리하기 2",
+      "shortTitle": "표와 성적 2",
+      "focus": "위치 번호와 셀 값 수정",
+      "objectives": [
+        "화면의 행·열 번호와 리스트 인덱스의 관계를 설명할 수 있다.",
+        "행·열 범위를 확인하고 선택한 셀의 값을 바꿀 수 있다."
+      ],
+      "openingId": "ch11-part2-opening",
+      "originalPageIds": [
+        "ch11-index",
+        "ch11-index-code",
+        "ch11-practice-2",
+        "ch11-check"
+      ],
+      "contentPageIds": [
+        "ch11-index",
+        "ch11-index-code",
+        "ch11-practice-2",
+        "ch11-check"
+      ],
+      "practiceCount": 0
+    },
+    {
+      "number": 23,
+      "originalChapter": 12,
+      "part": 1,
+      "title": "Matplotlib 선 그래프와 마커 1",
+      "shortTitle": "선 그래프·마커 1",
+      "focus": "배열·좌표·선 그래프·표시 범위",
+      "objectives": [
+        "cht1에 연결된 Figure·Axes에 배열을 선 그래프로 그릴 수 있다.",
+        "X·Y 좌표와 표시 범위를 실행 결과에서 확인할 수 있다."
+      ],
+      "openingId": "ch12-opening",
+      "originalPageIds": [
+        "ch12-opening",
+        "ch12-axes",
+        "ch12-practice-1",
+        "ch12-one-array",
+        "ch12-practice-two",
+        "ch12-two-arrays",
+        "ch12-practice-2",
+        "ch12-range"
+      ],
+      "contentPageIds": [
+        "ch12-axes",
+        "ch12-practice-1",
+        "ch12-one-array",
+        "ch12-practice-two",
+        "ch12-two-arrays",
+        "ch12-practice-2",
+        "ch12-range"
+      ],
+      "practiceCount": 3
+    },
+    {
+      "number": 24,
+      "originalChapter": 12,
+      "part": 2,
+      "title": "Matplotlib 선 그래프와 마커 2",
+      "shortTitle": "선 그래프·마커 2",
+      "focus": "마커·제목·축 이름",
+      "objectives": [
+        "마커와 선의 표시 방법을 바꿀 수 있다.",
+        "제목·축 이름·좌표 설명을 설정하고 결과를 확인할 수 있다."
+      ],
+      "openingId": "ch12-part2-opening",
+      "originalPageIds": [
+        "ch12-practice-colors",
+        "ch12-markers",
+        "ch12-practice-labels",
+        "ch12-labels-screen",
+        "ch12-fix",
+        "ch12-check"
+      ],
+      "contentPageIds": [
+        "ch12-practice-colors",
+        "ch12-markers",
+        "ch12-practice-labels",
+        "ch12-labels-screen",
+        "ch12-fix",
+        "ch12-check"
+      ],
+      "practiceCount": 2
+    },
+    {
+      "number": 25,
+      "originalChapter": 13,
+      "part": 1,
+      "title": "Matplotlib 막대그래프와 산점도 1",
+      "shortTitle": "막대·산점도 1",
+      "focus": "막대와 나란한 막대그래프",
+      "objectives": [
+        "값을 막대 높이로 나타낼 수 있다.",
+        "나란한 막대의 위치와 항목 이름을 확인할 수 있다."
+      ],
+      "openingId": "ch13-opening",
+      "originalPageIds": [
+        "ch13-opening",
+        "ch13-practice-3",
+        "ch13-bars",
+        "ch13-practice-grouped",
+        "ch13-grouped"
+      ],
+      "contentPageIds": [
+        "ch13-practice-3",
+        "ch13-bars",
+        "ch13-practice-grouped",
+        "ch13-grouped"
+      ],
+      "practiceCount": 2
+    },
+    {
+      "number": 26,
+      "originalChapter": 13,
+      "part": 2,
+      "title": "Matplotlib 막대그래프와 산점도 2",
+      "shortTitle": "막대·산점도 2",
+      "focus": "산점도·시드·축 확인",
+      "objectives": [
+        "X·Y 값의 짝을 산점도로 나타낼 수 있다.",
+        "시드와 축 이름을 확인하고 그림을 해석할 수 있다."
+      ],
+      "openingId": "ch13-part2-opening",
+      "originalPageIds": [
+        "ch13-practice-4",
+        "ch13-scatter",
+        "ch13-fix",
+        "ch13-check"
+      ],
+      "contentPageIds": [
+        "ch13-practice-4",
+        "ch13-scatter",
+        "ch13-fix",
+        "ch13-check"
+      ],
+      "practiceCount": 1
+    },
+    {
+      "number": 27,
+      "originalChapter": 14,
+      "part": 1,
+      "title": "입력 데이터를 차트로 표현하기 1",
+      "shortTitle": "차트 바이브 코딩 1",
+      "focus": "입력값 선 그래프",
+      "objectives": [
+        "입력값을 Chart의 선 그래프로 나타낼 수 있다.",
+        "입력값과 그래프의 축·좌표를 비교할 수 있다."
+      ],
+      "openingId": "ch14-opening",
+      "originalPageIds": [
+        "ch14-opening",
+        "ch14-charts",
+        "ch14-practice-1",
+        "ch14-line-screen"
+      ],
+      "contentPageIds": [
+        "ch14-charts",
+        "ch14-practice-1",
+        "ch14-line-screen"
+      ],
+      "practiceCount": 1
+    },
+    {
+      "number": 28,
+      "originalChapter": 14,
+      "part": 2,
+      "title": "입력 데이터를 차트로 표현하기 2",
+      "shortTitle": "차트 바이브 코딩 2",
+      "focus": "입력값 산점도·막대그래프",
+      "objectives": [
+        "입력값을 산점도와 막대그래프로 나타낼 수 있다.",
+        "새 입력이 이전 값과 함께 누적되는지 확인할 수 있다."
+      ],
+      "openingId": "ch14-part2-opening",
+      "originalPageIds": [
+        "ch14-practice-2",
+        "ch14-scatter-screen",
+        "ch14-practice-3",
+        "ch14-bar-screen",
+        "ch14-check"
+      ],
+      "contentPageIds": [
+        "ch14-practice-2",
+        "ch14-scatter-screen",
+        "ch14-practice-3",
+        "ch14-bar-screen",
+        "ch14-check"
+      ],
+      "practiceCount": 2
+    },
+    {
+      "number": 29,
+      "originalChapter": 15,
+      "part": 1,
+      "title": "자료 활용과 저장·불러오기 1",
+      "shortTitle": "자료와 저장 1",
+      "focus": "학생 자료와 학교별 집계",
+      "objectives": [
+        "학생 자료의 열과 값을 확인할 수 있다.",
+        "학교별 학생 수를 집계하고 결과를 비교할 수 있다."
+      ],
+      "openingId": "ch15-opening",
+      "originalPageIds": [
+        "ch15-opening",
+        "ch15-practice-data",
+        "ch15-loaded-data",
+        "ch15-data-screen",
+        "ch15-practice-school",
+        "ch15-school-screen"
+      ],
+      "contentPageIds": [
+        "ch15-practice-data",
+        "ch15-loaded-data",
+        "ch15-data-screen",
+        "ch15-practice-school",
+        "ch15-school-screen"
+      ],
+      "practiceCount": 2
+    },
+    {
+      "number": 30,
+      "originalChapter": 15,
+      "part": 2,
+      "title": "자료 활용과 저장·불러오기 2",
+      "shortTitle": "자료와 저장 2",
+      "focus": "프로젝트 저장·불러오기",
+      "objectives": [
+        "프로젝트와 표의 저장 옵션을 확인할 수 있다.",
+        "저장한 프로젝트를 불러와 입력값과 동작을 비교할 수 있다."
+      ],
+      "openingId": "ch15-part2-opening",
+      "originalPageIds": [
+        "ch15-practice-3",
+        "ch15-gui-layout",
+        "ch15-save-widgets",
+        "ch15-save-process",
+        "ch15-save-menu",
+        "ch15-save-name",
+        "ch15-load-project",
+        "ch15-saved",
+        "ch15-check"
+      ],
+      "contentPageIds": [
+        "ch15-practice-3",
+        "ch15-gui-layout",
+        "ch15-save-widgets",
+        "ch15-save-process",
+        "ch15-save-menu",
+        "ch15-save-name",
+        "ch15-load-project",
+        "ch15-saved",
+        "ch15-check"
+      ],
+      "practiceCount": 1
+    },
+    {
+      "number": 31,
+      "originalChapter": 16,
+      "part": 1,
+      "title": "앱 개선과 결과 발표 1",
+      "shortTitle": "앱 개선·발표 1",
+      "focus": "자율 프로젝트 설계·구현",
+      "objectives": [
+        "프로그램 아이디어와 입력·처리·출력을 정할 수 있다.",
+        "위젯 역할과 이벤트를 정하여 작은 앱을 구현할 수 있다."
+      ],
+      "openingId": "ch16-opening",
+      "originalPageIds": [
+        "ch16-opening",
+        "ch16-projects",
+        "ch16-practice-1",
+        "ch16-procedure"
+      ],
+      "contentPageIds": [
+        "ch16-projects",
+        "ch16-practice-1",
+        "ch16-procedure"
+      ],
+      "practiceCount": 1
+    },
+    {
+      "number": 32,
+      "originalChapter": 16,
+      "part": 2,
+      "title": "앱 개선과 결과 발표 2",
+      "shortTitle": "앱 개선·발표 2",
+      "focus": "동작 검증·기록·발표",
+      "objectives": [
+        "설계와 실행 결과를 비교하고 오류를 수정할 수 있다.",
+        "AI가 제안한 부분과 직접 확인한 부분, 수정 결과를 구분하여 발표할 수 있다."
+      ],
+      "openingId": "ch16-part2-opening",
+      "originalPageIds": [
+        "ch16-fix",
+        "ch16-evidence",
+        "ch16-portfolio",
+        "ch16-check"
+      ],
+      "contentPageIds": [
+        "ch16-fix",
+        "ch16-evidence",
+        "ch16-portfolio",
+        "ch16-check"
+      ],
+      "practiceCount": 0
+    }
+  ],
+  "practiceRenumbering": [
+    {
+      "pageId": "ch01-practice-1",
+      "original": "001-1",
+      "current": "002-1"
+    },
+    {
+      "pageId": "ch02-practice-1",
+      "original": "002-1",
+      "current": "003-1"
+    },
+    {
+      "pageId": "ch02-practice-2",
+      "original": "002-2",
+      "current": "004-1"
+    },
+    {
+      "pageId": "ch03-practice-1",
+      "original": "003-1",
+      "current": "006-1"
+    },
+    {
+      "pageId": "ch04-practice-1",
+      "original": "004-1",
+      "current": "008-1"
+    },
+    {
+      "pageId": "ch05-practice-1",
+      "original": "005-1",
+      "current": "009-1"
+    },
+    {
+      "pageId": "ch05-practice-2",
+      "original": "005-2",
+      "current": "010-1"
+    },
+    {
+      "pageId": "ch06-practice-1",
+      "original": "006-1",
+      "current": "012-1"
+    },
+    {
+      "pageId": "ch07-practice-1",
+      "original": "007-1",
+      "current": "013-1"
+    },
+    {
+      "pageId": "ch08-practice-1",
+      "original": "008-1",
+      "current": "015-1"
+    },
+    {
+      "pageId": "ch08-practice-message",
+      "original": "008-2",
+      "current": "016-1"
+    },
+    {
+      "pageId": "ch08-practice-2",
+      "original": "008-3",
+      "current": "016-2"
+    },
+    {
+      "pageId": "ch09-practice-1",
+      "original": "009-1",
+      "current": "017-1"
+    },
+    {
+      "pageId": "ch09-practice-2",
+      "original": "009-2",
+      "current": "017-2"
+    },
+    {
+      "pageId": "ch09-practice-3",
+      "original": "009-3",
+      "current": "018-1"
+    },
+    {
+      "pageId": "ch09-practice-4",
+      "original": "009-4",
+      "current": "018-2"
+    },
+    {
+      "pageId": "ch10-practice-1",
+      "original": "010-1",
+      "current": "019-1"
+    },
+    {
+      "pageId": "ch10-practice-2",
+      "original": "010-2",
+      "current": "019-2"
+    },
+    {
+      "pageId": "ch10-practice-3",
+      "original": "010-3",
+      "current": "019-3"
+    },
+    {
+      "pageId": "ch10-practice-4",
+      "original": "010-4",
+      "current": "020-1"
+    },
+    {
+      "pageId": "ch10-practice-5",
+      "original": "010-5",
+      "current": "020-2"
+    },
+    {
+      "pageId": "ch11-practice-1",
+      "original": "011-1",
+      "current": "021-1"
+    },
+    {
+      "pageId": "ch12-practice-1",
+      "original": "012-1",
+      "current": "023-1"
+    },
+    {
+      "pageId": "ch12-practice-two",
+      "original": "012-2",
+      "current": "023-2"
+    },
+    {
+      "pageId": "ch12-practice-2",
+      "original": "012-3",
+      "current": "023-3"
+    },
+    {
+      "pageId": "ch12-practice-colors",
+      "original": "012-4",
+      "current": "024-1"
+    },
+    {
+      "pageId": "ch12-practice-labels",
+      "original": "012-5",
+      "current": "024-2"
+    },
+    {
+      "pageId": "ch13-practice-3",
+      "original": "013-1",
+      "current": "025-1"
+    },
+    {
+      "pageId": "ch13-practice-grouped",
+      "original": "013-2",
+      "current": "025-2"
+    },
+    {
+      "pageId": "ch13-practice-4",
+      "original": "013-3",
+      "current": "026-1"
+    },
+    {
+      "pageId": "ch14-practice-1",
+      "original": "014-1",
+      "current": "027-1"
+    },
+    {
+      "pageId": "ch14-practice-2",
+      "original": "014-2",
+      "current": "028-1"
+    },
+    {
+      "pageId": "ch14-practice-3",
+      "original": "014-3",
+      "current": "028-2"
+    },
+    {
+      "pageId": "ch15-practice-data",
+      "original": "015-1",
+      "current": "029-1"
+    },
+    {
+      "pageId": "ch15-practice-school",
+      "original": "015-2",
+      "current": "029-2"
+    },
+    {
+      "pageId": "ch15-practice-3",
+      "original": "015-3",
+      "current": "030-1"
+    },
+    {
+      "pageId": "ch16-practice-1",
+      "original": "016-1",
+      "current": "031-1"
+    }
+  ],
+  "reorderedPages": [
+    "ch02-practice-1"
+  ],
+  "reviewedContentEdits": [
+    "ch01-check",
+    "ch02-check",
+    "ch03-check",
+    "ch04-check",
+    "ch05-check",
+    "ch06-check",
+    "ch07-check",
+    "ch08-button-before",
+    "ch08-button-after",
+    "ch08-message-screen",
+    "ch08-check",
+    "ch09-check",
+    "ch10-check",
+    "ch11-practice-2",
+    "ch11-check",
+    "ch12-check",
+    "ch13-check",
+    "ch14-check",
+    "ch15-check",
+    "ch16-portfolio",
+    "ch16-check"
+  ],
+  "preservation": {
+    "originalPageIds": 162,
+    "retainedOriginalPageIds": 162,
+    "addedPartOpenings": 16,
+    "currentPages": 178,
+    "practiceCount": 37,
+    "pythonBlocks": 8,
+    "flowchartBlocks": 4,
+    "imagePlacements": 43,
+    "changedNonOpeningContent": [
+      "ch01-check",
+      "ch02-check",
+      "ch03-check",
+      "ch04-check",
+      "ch05-check",
+      "ch06-check",
+      "ch07-check",
+      "ch08-button-before",
+      "ch08-button-after",
+      "ch08-message-screen",
+      "ch08-check",
+      "ch09-check",
+      "ch10-check",
+      "ch11-practice-2",
+      "ch11-check",
+      "ch12-check",
+      "ch13-check",
+      "ch14-check",
+      "ch15-check",
+      "ch16-portfolio",
+      "ch16-check"
+    ],
+    "unreviewedContentChanges": []
+  }
+}

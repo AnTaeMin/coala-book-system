@@ -1,0 +1,674 @@
+{
+  "reviewed_date": "2026-10-27",
+  "python": "3.10.11",
+  "flet": "0.86.0",
+  "flet_charts": "0.86.0",
+  "execution": "real-browser-connected-flet-page; real control event callbacks",
+  "cloud_project_save_tested": false,
+  "tested": 32,
+  "passed": 32,
+  "failed": 0,
+  "records": [
+    {
+      "id": "008-1",
+      "title": "버튼 색 바꾸기",
+      "status": "passed",
+      "evidence": {
+        "id": "008-1",
+        "status": "passed",
+        "bgcolor": "blue",
+        "color": "white"
+      }
+    },
+    {
+      "id": "008-2",
+      "title": "입력 인사말 메시지 창",
+      "status": "passed",
+      "evidence": {
+        "id": "008-2",
+        "status": "passed",
+        "message": "안녕하세요",
+        "dialog_opened_and_closed": true
+      }
+    },
+    {
+      "id": "008-3",
+      "title": "Field 복사·삭제",
+      "status": "passed",
+      "evidence": {
+        "id": "008-3",
+        "status": "passed",
+        "copied": "안녕",
+        "both_fields_cleared": true
+      }
+    },
+    {
+      "id": "009-1",
+      "title": "두 정수 사이의 누적곱",
+      "status": "passed",
+      "evidence": {
+        "id": "009-1",
+        "status": "passed",
+        "one_to_six": "720",
+        "repeat_reset": true,
+        "two_to_four": 24,
+        "invalid_cases": 4
+      }
+    },
+    {
+      "id": "009-2",
+      "title": "사칙연산 계산기",
+      "status": "passed",
+      "evidence": {
+        "id": "009-2",
+        "status": "passed",
+        "operations": {
+          "+": "105.0",
+          "-": "95.0",
+          "*": "500.0",
+          "/": "20.0"
+        },
+        "invalid_cases": 4,
+        "zero_division_handled": true
+      }
+    },
+    {
+      "id": "009-3",
+      "title": "Text 내용 추가",
+      "status": "passed",
+      "evidence": {
+        "id": "009-3",
+        "status": "passed",
+        "text": "안녕하세요 저는 코알라입니다\n저는 12살입니다",
+        "line_count": 2
+      }
+    },
+    {
+      "id": "009-4",
+      "title": "4단 구구단 출력",
+      "status": "passed",
+      "evidence": {
+        "id": "009-4",
+        "status": "passed",
+        "first": "4 × 1 = 4",
+        "last": "4 × 9 = 36",
+        "line_count": 9
+      }
+    },
+    {
+      "id": "010-1",
+      "title": "Dropdown 항목 추가·선택",
+      "status": "passed",
+      "evidence": {
+        "id": "010-1",
+        "status": "passed",
+        "options": [
+          "빨강",
+          "파랑"
+        ],
+        "selected": "빨강"
+      }
+    },
+    {
+      "id": "010-2",
+      "title": "건강습관 Checkbox",
+      "status": "passed",
+      "evidence": {
+        "id": "010-2",
+        "status": "passed",
+        "selected": [
+          "아침 식사하기"
+        ],
+        "count": 1,
+        "empty_count": 0
+      }
+    },
+    {
+      "id": "010-3",
+      "title": "동아리 RadioGroup",
+      "status": "passed",
+      "evidence": {
+        "id": "010-3",
+        "status": "passed",
+        "tested_choices": [
+          "코딩",
+          "방송",
+          "미술",
+          "과학"
+        ],
+        "selected": "과학",
+        "description": "과학 동아리: 과학 실험과 탐구 활동을 하는 동아리입니다.",
+        "single_group": true
+      }
+    },
+    {
+      "id": "010-4",
+      "title": "진행 막대 증가·감소",
+      "status": "passed",
+      "evidence": {
+        "id": "010-4",
+        "status": "passed",
+        "min": 0.0,
+        "max": 1.0,
+        "step": 0.1,
+        "display": "0.5",
+        "boundary_checks": 2
+      }
+    },
+    {
+      "id": "010-5",
+      "title": "두 Image 세로 배치",
+      "status": "passed",
+      "evidence": {
+        "id": "010-5",
+        "status": "passed",
+        "images": [
+          {
+            "source_pixels": [
+              2197,
+              792
+            ],
+            "display_size": [
+              320,
+              120
+            ]
+          },
+          {
+            "source_pixels": [
+              1536,
+              1152
+            ],
+            "display_size": [
+              240,
+              150
+            ]
+          }
+        ],
+        "vertical_order": [
+          "img1",
+          "img2"
+        ],
+        "source_files": [
+          "assets/ch01/ai-human-summary.png",
+          "assets/source-20261006/plot-one.png"
+        ]
+      }
+    },
+    {
+      "id": "011-1",
+      "title": "학생 성적 DataTable 추가·셀 변경",
+      "status": "passed",
+      "evidence": {
+        "id": "011-1",
+        "status": "passed",
+        "columns": [
+          "이름",
+          "국어",
+          "수학",
+          "영어"
+        ],
+        "rows": [
+          [
+            "학생1",
+            "100",
+            "90",
+            "80"
+          ],
+          [
+            "학생2",
+            "70",
+            "95",
+            "50"
+          ]
+        ],
+        "edited_cell": [
+          2,
+          3,
+          "95"
+        ],
+        "invalid_index_cases": 6,
+        "invalid_score_rejected": true
+      }
+    },
+    {
+      "id": "ch14-practice-1",
+      "title": "입력값 꺾은선·초기화",
+      "status": "passed",
+      "evidence": {
+        "x": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "y": [
+          1,
+          2,
+          5,
+          4,
+          5
+        ],
+        "reset": true,
+        "redraw_reuses_figure": true,
+        "invalid_input_preserves_previous_graph": true
+      }
+    },
+    {
+      "id": "ch14-practice-2",
+      "title": "키·몸무게 세 점 누적",
+      "status": "passed",
+      "evidence": {
+        "points": [
+          [
+            170.0,
+            74.0
+          ],
+          [
+            180.0,
+            82.0
+          ],
+          [
+            185.0,
+            89.0
+          ]
+        ],
+        "accumulation": true,
+        "invalid_input_does_not_append": true,
+        "redraw_reuses_figure": true
+      }
+    },
+    {
+      "id": "ch14-practice-3",
+      "title": "90·80·70 막대 누적",
+      "status": "passed",
+      "evidence": {
+        "heights": [
+          90.0,
+          80.0,
+          70.0
+        ],
+        "accumulation": true,
+        "nonfinite_input_rejected": true,
+        "redraw_reuses_figure": true
+      }
+    },
+    {
+      "id": "ch15-practice-data",
+      "title": "학생 100명 자료·열 선택",
+      "status": "passed",
+      "evidence": {
+        "rows": 100,
+        "source": "provided student_body_100.csv",
+        "visible_columns": [
+          "id",
+          "gender",
+          "height_cm",
+          "weight_kg"
+        ],
+        "first_point": [
+          155.8,
+          49.4
+        ],
+        "axis_swap_checked": true
+      }
+    },
+    {
+      "id": "ch15-practice-school",
+      "title": "학교별 학생 수",
+      "status": "passed",
+      "evidence": {
+        "column": "school",
+        "counts": {
+          "중학교": 51,
+          "고등학교": 49
+        },
+        "total": 100,
+        "redraw_does_not_duplicate": true
+      }
+    },
+    {
+      "id": "ch15-practice-3",
+      "title": "걸음 수·거리 로컬 저장·불러오기",
+      "status": "passed",
+      "evidence": {
+        "scope": "local JSON project model; Coala cloud not exercised",
+        "records_restored": [
+          [
+            10.0,
+            15.0
+          ],
+          [
+            20.0,
+            30.0
+          ],
+          [
+            30.0,
+            45.0
+          ]
+        ],
+        "sha256_unchanged_on_load": true,
+        "table_save_false_omits_records": true,
+        "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\tmp\\flet-practices\\walk-project.json",
+        "figure_identity_preserved": true
+      }
+    },
+    {
+      "id": "ch04-family-code",
+      "title": "가족 나이 합 103",
+      "status": "passed",
+      "evidence": {
+        "cases": [
+          {
+            "input": [
+              43,
+              45,
+              15
+            ],
+            "output": "103"
+          }
+        ],
+        "scope": "flowchart rules implemented in Flet"
+      }
+    },
+    {
+      "id": "ch05-exercise-code",
+      "title": "10일 누적 운동 시간",
+      "status": "passed",
+      "evidence": {
+        "cases": [
+          {
+            "input": [
+              10
+            ],
+            "output": "total=55, time1=11"
+          },
+          {
+            "input": [
+              1
+            ],
+            "output": "total=1, time1=2"
+          }
+        ],
+        "scope": "flowchart rules implemented in Flet"
+      }
+    },
+    {
+      "id": "ch05-caffeine-code",
+      "title": "카페인 누적",
+      "status": "passed",
+      "evidence": {
+        "cases": [
+          {
+            "input": [
+              "50,80,20"
+            ],
+            "output": "150mg"
+          },
+          {
+            "input": [
+              "0,0"
+            ],
+            "output": "0mg"
+          }
+        ],
+        "scope": "flowchart rules implemented in Flet"
+      }
+    },
+    {
+      "id": "ch06-sleep-code",
+      "title": "수면 조건 경계값",
+      "status": "passed",
+      "evidence": {
+        "cases": [
+          {
+            "input": [
+              8
+            ],
+            "output": "충분한 수면입니다"
+          },
+          {
+            "input": [
+              7.9
+            ],
+            "output": "적정 수면입니다"
+          },
+          {
+            "input": [
+              5
+            ],
+            "output": "적정 수면입니다"
+          },
+          {
+            "input": [
+              4.9
+            ],
+            "output": "수면 부족입니다"
+          }
+        ],
+        "scope": "flowchart rules implemented in Flet"
+      }
+    },
+    {
+      "id": "ch07-pass-code",
+      "title": "N명 점수 PASS 판정",
+      "status": "passed",
+      "evidence": {
+        "cases": [
+          {
+            "input": [
+              3,
+              "79,80,100"
+            ],
+            "output": "FAIL, PASS, PASS"
+          },
+          {
+            "input": [
+              2,
+              "79,80,100"
+            ],
+            "output": "입력값을 확인하세요."
+          }
+        ],
+        "scope": "flowchart rules implemented in Flet"
+      }
+    },
+    {
+      "id": "ch07-movie-code",
+      "title": "네 학생 영화 관람 판정",
+      "status": "passed",
+      "evidence": {
+        "cases": [
+          {
+            "input": [
+              "14,15,16,10"
+            ],
+            "output": "관람불가, 관람가능, 관람가능, 관람불가"
+          },
+          {
+            "input": [
+              "14,15"
+            ],
+            "output": "입력값을 확인하세요."
+          }
+        ],
+        "scope": "flowchart rules implemented in Flet"
+      }
+    },
+    {
+      "id": "ch12-one-array",
+      "title": "ch12-one-array",
+      "status": "passed",
+      "evidence": {
+        "chart_binding": true,
+        "repeat_redraw": true,
+        "semantics": {
+          "x": [
+            0.0,
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ],
+          "y": [
+            1.0,
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch12-two-arrays",
+      "title": "ch12-two-arrays",
+      "status": "passed",
+      "evidence": {
+        "chart_binding": true,
+        "repeat_redraw": true,
+        "semantics": {
+          "x": [
+            15.0,
+            25.0,
+            35.0,
+            45.0,
+            55.0
+          ],
+          "y": [
+            5.0,
+            10.0,
+            15.0,
+            20.0,
+            25.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch12-range",
+      "title": "ch12-range",
+      "status": "passed",
+      "evidence": {
+        "chart_binding": true,
+        "repeat_redraw": true,
+        "semantics": {
+          "marker": "+",
+          "color": "b",
+          "xlim": [
+            0.0,
+            10.0
+          ],
+          "ylim": [
+            0.0,
+            25.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch12-markers",
+      "title": "ch12-markers",
+      "status": "passed",
+      "evidence": {
+        "chart_binding": true,
+        "repeat_redraw": true,
+        "semantics": {
+          "marker": "o",
+          "color": "r",
+          "linestyle": "None",
+          "annotation": "12/19 at (3, 5)"
+        }
+      }
+    },
+    {
+      "id": "ch13-bars",
+      "title": "ch13-bars",
+      "status": "passed",
+      "evidence": {
+        "chart_binding": true,
+        "repeat_redraw": true,
+        "semantics": {
+          "heights": [
+            1,
+            2,
+            4,
+            8,
+            16,
+            32,
+            64,
+            128
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch13-grouped",
+      "title": "ch13-grouped",
+      "status": "passed",
+      "evidence": {
+        "chart_binding": true,
+        "repeat_redraw": true,
+        "semantics": {
+          "heights": [
+            35,
+            80,
+            84,
+            83,
+            50,
+            73,
+            80,
+            77,
+            40,
+            86
+          ],
+          "centers": [
+            0.8,
+            2.8,
+            4.8,
+            6.8,
+            8.8,
+            1.6,
+            3.6000000000000005,
+            5.6,
+            7.6,
+            9.6
+          ],
+          "ticks": [
+            1.2000000000000002,
+            3.2,
+            5.199999999999999,
+            7.199999999999999,
+            9.2
+          ]
+        }
+      }
+    },
+    {
+      "id": "ch13-scatter",
+      "title": "ch13-scatter",
+      "status": "passed",
+      "evidence": {
+        "chart_binding": true,
+        "repeat_redraw": true,
+        "semantics": {
+          "points": 20,
+          "first_point": [
+            1.1,
+            20.56392186263395
+          ],
+          "last_point": [
+            96.1,
+            184.3747507628296
+          ],
+          "seed_repeatability": true,
+          "labels": [
+            "X축 제목",
+            "Y축 제목"
+          ],
+          "selected_korean_font": "Malgun Gothic"
+        }
+      }
+    }
+  ]
+}

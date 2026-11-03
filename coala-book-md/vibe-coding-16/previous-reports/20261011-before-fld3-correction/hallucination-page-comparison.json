@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-11",
+  "status": "historical-comparison-archived",
+  "description": "직전 환각 예시 교체에서 7쪽만 바뀐 기록은 이전 판의 검증이며 현재 과정 개편의 변경 범위가 아님",
+  "archivedRecord": "previous-reports/20261011-before-second-compaction/hallucination-page-comparison.json",
+  "currentComparison": "page-merge-comparison.json"
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-11",
+  "resultWidget": "fld3",
+  "correctedPages": [
+    57,
+    58
+  ],
+  "correctedSentences": [
+    {
+      "sourceId": "ch09-calculator-request",
+      "physicalPage": 57,
+      "sentence": "결과 표시 위젯 fld3에서 계산한 값을 확인합니다."
+    },
+    {
+      "sourceId": "ch09-calculator-code",
+      "physicalPage": 58,
+      "sentence": "두 숫자와 선택한 사칙연산을 처리하고 결과를 fld3에 표시합니다."
+    }
+  ],
+  "pdfSha256": "8eb34de2607cf48756d2651974a88cff5f32a56ba199172ca02c9ba6c9e58bea",
+  "manuscriptSha256": "4e7471c693a5732744ed14d831dc6f2f4598c6682d417dec4de4613ddc718a00",
+  "otherTxt1ExercisesRetained": true,
+  "directPreviousPdfCompared": true,
+  "previousPdf": "coala-book-md/vibe-coding-16/previous-reports/20261011-before-fld3-correction/vibe-coding-16-merged.pdf",
+  "previousPdfSha256": "07b217c973223638ecc3027acbfb856f85659b95718c951e6f907205b702a4c4",
+  "onlyPages57And58TextChanged": true,
+  "unchangedTextPages": 132
+}

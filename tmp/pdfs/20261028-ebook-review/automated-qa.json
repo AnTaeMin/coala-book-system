@@ -1,0 +1,23 @@
+{
+  "pdfSha256": "fcaeb41aa7d806238ab9bd2984acdc0a727fc41d03b267b7cea7306a1bc461ce",
+  "manuscriptSha256": "3db3bb4df431e975c4eae2e70225c7b18a17b31601f716a6ad128b759abbf841",
+  "renderDirectory": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\tmp\\pdfs\\20261028-ebook-review",
+  "pages": 132,
+  "renderedPages": 132,
+  "outOfPageGlyphs": [],
+  "missingSourceIds": [],
+  "contentsErrors": [],
+  "images": 42,
+  "flowcharts": 4,
+  "manuscriptCodeBlocks": 8,
+  "printedCodeBlocks": 8,
+  "printedCodeSegments": 8,
+  "codeContentDifferences": [],
+  "replacementGlyphPages": [],
+  "institutionLogoTextPages": [],
+  "editorialReferencePages": [],
+  "robotReferencePages": [],
+  "excludedTopicPages": [],
+  "notebookWorkflowPages": [],
+  "boxOverflows": []
+}

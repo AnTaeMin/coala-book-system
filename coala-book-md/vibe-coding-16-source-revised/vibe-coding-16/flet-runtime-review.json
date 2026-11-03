@@ -1,0 +1,320 @@
+{
+  "date": "2026-10-27",
+  "edition": "flet-chart-context-16-sessions",
+  "sourceContractUrl": "https://coala-web-v2.coala.services/ko/student/sl42",
+  "baseline": "coala-book-md/vibe-coding-16/previous-reports/20261027-before-flet-runtime",
+  "previousPdfPages": 130,
+  "currentPdfPages": 132,
+  "currentPdfSha256": "5d180e5a1ee7252ed08086103d954e3d297e6364370f83a731497f72370a89a4",
+  "currentManuscriptSha256": "3647dcc9571ee990462b91138b17a31fd44a0281319520b02d4cb3967822ab2a",
+  "previousChapterPages": {
+    "1": 5,
+    "2": 10,
+    "3": 15,
+    "4": 19,
+    "5": 25,
+    "6": 32,
+    "7": 38,
+    "8": 43,
+    "9": 54,
+    "10": 65,
+    "11": 77,
+    "12": 83,
+    "13": 96,
+    "14": 106,
+    "15": 113,
+    "16": 127
+  },
+  "currentChapterPages": {
+    "1": 5,
+    "2": 10,
+    "3": 15,
+    "4": 19,
+    "5": 25,
+    "6": 32,
+    "7": 38,
+    "8": 43,
+    "9": 54,
+    "10": 65,
+    "11": 77,
+    "12": 83,
+    "13": 98,
+    "14": 108,
+    "15": 115,
+    "16": 129
+  },
+  "chapterPagesUnchanged": false,
+  "manuscriptContainers": 162,
+  "practiceCards": 37,
+  "pythonBlocks": 8,
+  "practiceCodeBlocks": 7,
+  "commonSetupBlocks": 1,
+  "addedCodeIds": [
+    "ch12-axes"
+  ],
+  "changedCodeIds": [
+    "ch12-markers",
+    "ch12-one-array",
+    "ch12-range",
+    "ch12-two-arrays",
+    "ch13-bars",
+    "ch13-grouped",
+    "ch13-scatter"
+  ],
+  "addedAssets": [
+    "assets/ch12/chart-binding.png"
+  ],
+  "changedAssets": [
+    "assets/source-20261006/plot-bars.png",
+    "assets/source-20261006/plot-grouped.png",
+    "assets/source-20261006/plot-markers.png",
+    "assets/source-20261006/plot-one.png",
+    "assets/source-20261006/plot-range.png",
+    "assets/source-20261006/plot-scatter.png",
+    "assets/source-20261006/plot-two.png"
+  ],
+  "otherAssetsUnchanged": true,
+  "chartContract": {
+    "imports": [
+      "flet_charts as fch",
+      "matplotlib.pyplot as plt"
+    ],
+    "setup": "fig_cht1, ax_cht1 = plt.subplots(); cht1 = fch.MatplotlibChart(expand=True, figure=fig_cht1)",
+    "drawing": "Reuse fig_cht1/ax_cht1/cht1; student examples contain drawing logic only; runtime handles layout and refresh externally",
+    "layoutAndRefreshExcludedFromLogic": true,
+    "figureInches": [
+      6.4,
+      4.8
+    ],
+    "resultImagePixels": [
+      1536,
+      1152
+    ],
+    "imageRatio": "4:3",
+    "separatePyplotWindow": false
+  },
+  "pythonExecution": {
+    "passedBlocks": 8,
+    "practiceBlocks": 7,
+    "setupBlocks": 1,
+    "practiceRuns": 14,
+    "warnings": 0,
+    "backend": "module://flet_charts.matplotlib_backends.backend_flet_agg",
+    "fallbackPassed": true,
+    "figureChartBindingVerified": true,
+    "sameObjectsOnRepeat": true
+  },
+  "guiExecution": {
+    "performed": true,
+    "tested": 32,
+    "passed": 32,
+    "failed": 0,
+    "scope": "real-browser-connected-flet-page; real control event callbacks",
+    "guiCases": 19,
+    "algorithmCases": 6,
+    "plotCases": 7,
+    "cloudProjectSaveTested": false,
+    "localJsonSaveLoadTested": true,
+    "resultsSha256": "5d1322f755aa657cfa3755e106831d4dd0de46a464f1488bad89befc3a4a178d"
+  },
+  "sl42Execution": {
+    "reviewed_date": "2026-10-27",
+    "python": "3.14.2",
+    "flet": "0.86.0",
+    "flet_charts": "0.86.0",
+    "tested": 32,
+    "passed": 32,
+    "failed": 0,
+    "cloud_project_save_tested": false,
+    "execution": "sl42 real browser-connected Flet Page; actual control callbacks",
+    "cases": [
+      {
+        "id": "008-1",
+        "status": "passed"
+      },
+      {
+        "id": "008-2",
+        "status": "passed"
+      },
+      {
+        "id": "008-3",
+        "status": "passed"
+      },
+      {
+        "id": "009-1",
+        "status": "passed"
+      },
+      {
+        "id": "009-2",
+        "status": "passed"
+      },
+      {
+        "id": "009-3",
+        "status": "passed"
+      },
+      {
+        "id": "009-4",
+        "status": "passed"
+      },
+      {
+        "id": "010-1",
+        "status": "passed"
+      },
+      {
+        "id": "010-2",
+        "status": "passed"
+      },
+      {
+        "id": "010-3",
+        "status": "passed"
+      },
+      {
+        "id": "010-4",
+        "status": "passed"
+      },
+      {
+        "id": "010-5",
+        "status": "passed"
+      },
+      {
+        "id": "011-1",
+        "status": "passed"
+      },
+      {
+        "id": "ch14-practice-1",
+        "status": "passed"
+      },
+      {
+        "id": "ch14-practice-2",
+        "status": "passed"
+      },
+      {
+        "id": "ch14-practice-3",
+        "status": "passed"
+      },
+      {
+        "id": "ch15-practice-data",
+        "status": "passed"
+      },
+      {
+        "id": "ch15-practice-school",
+        "status": "passed"
+      },
+      {
+        "id": "ch15-practice-3",
+        "status": "passed"
+      },
+      {
+        "id": "ch04-family-code",
+        "status": "passed"
+      },
+      {
+        "id": "ch05-exercise-code",
+        "status": "passed"
+      },
+      {
+        "id": "ch05-caffeine-code",
+        "status": "passed"
+      },
+      {
+        "id": "ch06-sleep-code",
+        "status": "passed"
+      },
+      {
+        "id": "ch07-pass-code",
+        "status": "passed"
+      },
+      {
+        "id": "ch07-movie-code",
+        "status": "passed"
+      },
+      {
+        "id": "ch12-one-array",
+        "status": "passed"
+      },
+      {
+        "id": "ch12-two-arrays",
+        "status": "passed"
+      },
+      {
+        "id": "ch12-range",
+        "status": "passed"
+      },
+      {
+        "id": "ch12-markers",
+        "status": "passed"
+      },
+      {
+        "id": "ch13-bars",
+        "status": "passed"
+      },
+      {
+        "id": "ch13-grouped",
+        "status": "passed"
+      },
+      {
+        "id": "ch13-scatter",
+        "status": "passed"
+      }
+    ],
+    "source_url": "https://coala-web-v2.coala.services/ko/student/sl42",
+    "observed_at": "2026-10-27T02:54:24.910Z",
+    "program_sha256": "29bb9c2d6dc9b42bdb8844dd30297661ebb1975f1268a79218496d49b3096f03",
+    "logic_refresh_calls_excluded": true
+  },
+  "nativeLogicView": {
+    "source_url": "https://coala-web-v2.coala.services/ko/student/sl42",
+    "view": "로직 보기",
+    "logic_view": "\r\n    fig_cht1, ax_cht1 = plt.subplots()\r\n    cht1 = fch.MatplotlibChart(expand=True, figure=fig_cht1)\r\n\r\n    ax_cht1.clear()\r\n    ax_cht1.plot([1, 2, 3, 4, 5])\r\n",
+    "student_example": "ax_cht1.clear()\r\nax_cht1.plot([1, 2, 3, 4, 5])",
+    "student_example_found": true,
+    "excluded_calls_absent": true,
+    "rendered_line_graph_verified": true,
+    "screenshot": "output/pdf/sl42-logic-only-check.png"
+  },
+  "sl42GeneratedSource": "examples/flet-practices/sl42-generated-chart.py",
+  "sl42GeneratedSourceSha256": "e64e8cbad9ca65608919ebaff099fbdac9cfd1821695858bd000d6a1abc1bf66",
+  "sl42Screenshot": "output/pdf/sl42-practice-runtime-check.png",
+  "validation": {
+    "manuscripts": 17,
+    "renderedPages": 132,
+    "contentsLinks": 16,
+    "bookmarks": 16,
+    "pngAssets": 40,
+    "vectorAssets": 7,
+    "imagePlacements": 42,
+    "flowcharts": 4
+  },
+  "setupPdfPages": [
+    84,
+    85
+  ],
+  "plotPdfPages": {
+    "ch12-markers": [
+      93,
+      94
+    ],
+    "ch12-one-array": [
+      87
+    ],
+    "ch12-range": [
+      91
+    ],
+    "ch12-two-arrays": [
+      89
+    ],
+    "ch13-bars": [
+      100
+    ],
+    "ch13-grouped": [
+      102,
+      103
+    ],
+    "ch13-scatter": [
+      105,
+      106
+    ]
+  },
+  "runtimeScreenshot": "output/pdf/flet-practice-runtime-check.png",
+  "runtimeScreenshotSha256": "94212d39165aa1eb8b8b6780de8fd322e6ea3fff0ef53915d4b31c73266147ec"
+}

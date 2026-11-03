@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-11",
+  "status": "historical-comparison-archived",
+  "description": "그래프 선행·API 제외 과정 개편 비교는 이전 판의 기록으로 보존",
+  "archivedRecord": "previous-reports/20261011-before-second-compaction/graph-first-edition-comparison.json",
+  "currentComparison": "page-merge-comparison.json"
+}

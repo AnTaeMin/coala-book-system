@@ -1,0 +1,51 @@
+[
+  {
+    "chapter": 12,
+    "page_id": "ch12-one-array",
+    "code": "import matplotlib.pyplot as plt\n\nfig, ax = plt.subplots(figsize=(8, 5))\nax.plot([1, 2, 3, 4, 5])\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-one"
+  },
+  {
+    "chapter": 12,
+    "page_id": "ch12-two-arrays",
+    "code": "import matplotlib.pyplot as plt\n\na = [15, 25, 35, 45, 55]\nb = [5, 10, 15, 20, 25]\nfig, ax = plt.subplots(figsize=(8, 5))\nax.plot(a, b)\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-two"
+  },
+  {
+    "chapter": 12,
+    "page_id": "ch12-range",
+    "code": "import matplotlib.pyplot as plt\n\na = [1, 2, 3, 4, 5]\nb = [5, 10, 15, 20, 25]\nfig, ax = plt.subplots(figsize=(8, 5))\nax.plot(a, b, \"b-+\", clip_on=False)\nax.axis([0, 10, 0, 25])\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-range"
+  },
+  {
+    "chapter": 12,
+    "page_id": "ch12-markers",
+    "code": "import matplotlib.pyplot as plt\n\nx = [1, 2, 3, 4, 5]\ny = [5, 10, 15, 20, 25]\nfig, ax = plt.subplots(figsize=(8, 5))\nax.plot(x, y, \"ro\", clip_on=False)\nax.set_xlabel(\"x\")\nax.set_ylabel(\"y\")\nax.set_title(\"hello\")\nax.text(3, 5, \"12/19\")\nax.axis([0, 10, 0, 25])\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-markers"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-bars",
+    "code": "import matplotlib.pyplot as plt\n\na = [1, 2, 4, 8, 16, 32, 64, 128]\nfig, ax = plt.subplots(figsize=(8, 5))\nax.bar(range(len(a)), a)\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-bars"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-grouped",
+    "code": "import matplotlib.pyplot as plt\n\ntopics = [\"one\", \"two\", \"three\", \"four\", \"five\"]\nvalue_a = [35, 80, 84, 83, 50]\nvalue_b = [73, 80, 77, 40, 86]\n\ndef create_x(t, w, n, d):\n    return [t * x + w * n for x in range(d)]\n\nvalue_a_x = create_x(2, 0.8, 1, 5)\nvalue_b_x = create_x(2, 0.8, 2, 5)\nfig, ax = plt.subplots(figsize=(8, 5))\nax.bar(value_a_x, value_a)\nax.bar(value_b_x, value_b)\nmiddle_x = [(a + b) / 2\n            for a, b in zip(value_a_x, value_b_x)]\nax.set_xticks(middle_x)\nax.set_xticklabels(topics)\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-grouped"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-scatter",
+    "code": "import numpy as np\nimport matplotlib.pyplot as plt\n\nnp.random.seed(20211206)\nx = np.arange(1.1, 100.0, 5.0)\ny = x * 1.5 + np.random.rand(20) * 50\nfig, ax = plt.subplots(figsize=(8, 5))\nax.scatter(x, y, c=\"red\", alpha=0.5, label=\"random\")\nax.set_xlabel(\"X축 제목\")\nax.set_ylabel(\"Y축 제목\")\nax.legend(loc=\"upper left\")\nax.set_title(\"random\")\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-scatter"
+  }
+]

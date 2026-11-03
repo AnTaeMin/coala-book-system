@@ -1,0 +1,2115 @@
+{
+  "date": "2026-10-11",
+  "previousPdfPages": 142,
+  "currentPdfPages": 139,
+  "baselineMetadata": "coala-book-md/vibe-coding-16/previous-reports/20261011-before-graph-first/vibe-coding-16-hallucination.json",
+  "baselinePdfSha256": "bd88067cfb383ce60da8889fa63bd7af6fae266869aec85feebf83b447461f9d",
+  "currentPdfSha256": "4762b50f288b93fb9f9138c6a996e161d40c952c1265db3540fa23ed28814228",
+  "previousManuscriptContainers": 170,
+  "currentManuscriptContainers": 167,
+  "previousPracticeCards": 41,
+  "currentPracticeCards": 40,
+  "chapterOrder": {
+    "12": "Matplotlib",
+    "13": "입력 Chart",
+    "14": "학생 자료·저장",
+    "15": "Pandas",
+    "16": "프로젝트"
+  },
+  "removedSourceIds": [
+    "ch13-api-screen",
+    "ch13-api-steps",
+    "ch13-practice-api"
+  ],
+  "addedSourceIds": [],
+  "removedRasterAsset": "subway-top5-result.png",
+  "addedSummary": {
+    "physicalPage": 5,
+    "sourceId": "ch01-opening",
+    "previewAsset": "assets/ch01/ai-human-summary.png",
+    "previewSha256": "f405856e2cdf7b58c05237ef5a22286c7a89b665d7fcc6696364e6d6f2e59824",
+    "vectorAsset": "assets/ch01/ai-human-summary.pdf",
+    "vectorSha256": "6acb0d0fd33e00697b6629dc01f017045761891d30166d0465416bd0c7339b28",
+    "pixels": [
+      2197,
+      792
+    ],
+    "vectorPages": 1,
+    "rasterXObjects": 0,
+    "bodyFontPt": 14,
+    "headingFontPt": 15,
+    "printWidthPt": 527.2755905511812,
+    "printHeightPt": 190.0,
+    "chapterOpeningBodyBottomPt": 772.0,
+    "printFormat": "generated-vector-pdf",
+    "roles": [
+      "AI 제안",
+      "사람 확인·수정"
+    ],
+    "newExerciseAdded": false
+  },
+  "retainedRasterAssets": 29,
+  "retainedRasterPlacements": 30,
+  "retainedImagePixelsAndPrintWidthsUnchanged": true,
+  "nativeFlowchartsUnchanged": true,
+  "executedCodeAndOutputHashesUnchanged": true,
+  "hallucinationPage7LayoutUnchanged": true,
+  "chapterStarts1Through11Unchanged": true,
+  "previousPhysicalPagesMapping": [
+    {
+      "previousPage": 1,
+      "previousSourceIds": [
+        "cover"
+      ],
+      "currentSourceIds": [
+        "cover"
+      ],
+      "currentPages": [
+        1
+      ],
+      "excluded": false,
+      "previousTitle": "AI와 함께하는 바이브 코딩"
+    },
+    {
+      "previousPage": 2,
+      "previousSourceIds": [
+        "toc-1"
+      ],
+      "currentSourceIds": [
+        "toc-1"
+      ],
+      "currentPages": [
+        2
+      ],
+      "excluded": false,
+      "previousTitle": "학습 차례"
+    },
+    {
+      "previousPage": 3,
+      "previousSourceIds": [
+        "toc-2"
+      ],
+      "currentSourceIds": [
+        "toc-2"
+      ],
+      "currentPages": [
+        3
+      ],
+      "excluded": false,
+      "previousTitle": "학습 차례"
+    },
+    {
+      "previousPage": 4,
+      "previousSourceIds": [
+        "book-guide"
+      ],
+      "currentSourceIds": [
+        "book-guide"
+      ],
+      "currentPages": [
+        4
+      ],
+      "excluded": false,
+      "previousTitle": "이 교재를 사용하는 방법"
+    },
+    {
+      "previousPage": 5,
+      "previousSourceIds": [
+        "ch01-opening"
+      ],
+      "currentSourceIds": [
+        "ch01-opening"
+      ],
+      "currentPages": [
+        5
+      ],
+      "excluded": false,
+      "previousTitle": "AI와 앱 개발"
+    },
+    {
+      "previousPage": 6,
+      "previousSourceIds": [
+        "ch01-ai",
+        "ch01-limits"
+      ],
+      "currentSourceIds": [
+        "ch01-ai",
+        "ch01-limits"
+      ],
+      "currentPages": [
+        6
+      ],
+      "excluded": false,
+      "previousTitle": "생성형 AI와 바이브 코딩"
+    },
+    {
+      "previousPage": 7,
+      "previousSourceIds": [
+        "ch01-ethics"
+      ],
+      "currentSourceIds": [
+        "ch01-ethics"
+      ],
+      "currentPages": [
+        7
+      ],
+      "excluded": false,
+      "previousTitle": "AI의 답을 검토하는 태도"
+    },
+    {
+      "previousPage": 8,
+      "previousSourceIds": [
+        "ch01-practice-1"
+      ],
+      "currentSourceIds": [
+        "ch01-practice-1"
+      ],
+      "currentPages": [
+        8
+      ],
+      "excluded": false,
+      "previousTitle": "AI는 어떤 질문을 잘하고, 어려워할까?"
+    },
+    {
+      "previousPage": 9,
+      "previousSourceIds": [
+        "ch01-check",
+        "ch01-procedure"
+      ],
+      "currentSourceIds": [
+        "ch01-check",
+        "ch01-procedure"
+      ],
+      "currentPages": [
+        9
+      ],
+      "excluded": false,
+      "previousTitle": "답변의 근거 찾아보기"
+    },
+    {
+      "previousPage": 10,
+      "previousSourceIds": [
+        "ch02-opening",
+        "ch02-prompt"
+      ],
+      "currentSourceIds": [
+        "ch02-opening",
+        "ch02-prompt"
+      ],
+      "currentPages": [
+        10
+      ],
+      "excluded": false,
+      "previousTitle": "질문과 입력"
+    },
+    {
+      "previousPage": 11,
+      "previousSourceIds": [
+        "ch02-compare",
+        "ch02-inputs"
+      ],
+      "currentSourceIds": [
+        "ch02-compare",
+        "ch02-inputs"
+      ],
+      "currentPages": [
+        11
+      ],
+      "excluded": false,
+      "previousTitle": "모호한 요청을 구체적으로 바꾸기"
+    },
+    {
+      "previousPage": 12,
+      "previousSourceIds": [
+        "ch02-practice-1"
+      ],
+      "currentSourceIds": [
+        "ch02-practice-1"
+      ],
+      "currentPages": [
+        12
+      ],
+      "excluded": false,
+      "previousTitle": "어떤 질문이 더 좋은 답을 만들까?"
+    },
+    {
+      "previousPage": 13,
+      "previousSourceIds": [
+        "ch02-practice-2"
+      ],
+      "currentSourceIds": [
+        "ch02-practice-2"
+      ],
+      "currentPages": [
+        13
+      ],
+      "excluded": false,
+      "previousTitle": "앱에 필요한 입력 데이터 설계하기"
+    },
+    {
+      "previousPage": 14,
+      "previousSourceIds": [
+        "ch02-check",
+        "ch02-request"
+      ],
+      "currentSourceIds": [
+        "ch02-check",
+        "ch02-request"
+      ],
+      "currentPages": [
+        14
+      ],
+      "excluded": false,
+      "previousTitle": "질문을 구체적으로 다듬기"
+    },
+    {
+      "previousPage": 15,
+      "previousSourceIds": [
+        "ch03-opening"
+      ],
+      "currentSourceIds": [
+        "ch03-opening"
+      ],
+      "currentPages": [
+        15
+      ],
+      "excluded": false,
+      "previousTitle": "문제 나누기"
+    },
+    {
+      "previousPage": 16,
+      "previousSourceIds": [
+        "ch03-algorithm",
+        "ch03-ramen"
+      ],
+      "currentSourceIds": [
+        "ch03-algorithm",
+        "ch03-ramen"
+      ],
+      "currentPages": [
+        16
+      ],
+      "excluded": false,
+      "previousTitle": "라면 끓이기로 보는 입력·처리·출력"
+    },
+    {
+      "previousPage": 17,
+      "previousSourceIds": [
+        "ch03-practice-1"
+      ],
+      "currentSourceIds": [
+        "ch03-practice-1"
+      ],
+      "currentPages": [
+        17
+      ],
+      "excluded": false,
+      "previousTitle": "내 아이디어를 단계별로 나눠보기"
+    },
+    {
+      "previousPage": 18,
+      "previousSourceIds": [
+        "ch03-check",
+        "ch03-design"
+      ],
+      "currentSourceIds": [
+        "ch03-check",
+        "ch03-design"
+      ],
+      "currentPages": [
+        18
+      ],
+      "excluded": false,
+      "previousTitle": "아이디어를 실행 순서로 만들기"
+    },
+    {
+      "previousPage": 19,
+      "previousSourceIds": [
+        "ch04-opening",
+        "ch04-roles"
+      ],
+      "currentSourceIds": [
+        "ch04-opening",
+        "ch04-roles"
+      ],
+      "currentPages": [
+        19
+      ],
+      "excluded": false,
+      "previousTitle": "순서도와 변수"
+    },
+    {
+      "previousPage": 20,
+      "previousSourceIds": [
+        "ch04-types",
+        "ch04-variables"
+      ],
+      "currentSourceIds": [
+        "ch04-types",
+        "ch04-variables"
+      ],
+      "currentPages": [
+        20
+      ],
+      "excluded": false,
+      "previousTitle": "문자열과 숫자 구분하기"
+    },
+    {
+      "previousPage": 21,
+      "previousSourceIds": [
+        "ch04-practice-1"
+      ],
+      "currentSourceIds": [
+        "ch04-practice-1"
+      ],
+      "currentPages": [
+        21
+      ],
+      "excluded": false,
+      "previousTitle": "우리 가족 나이 합 구하기"
+    },
+    {
+      "previousPage": 22,
+      "previousSourceIds": [
+        "ch04-family-code"
+      ],
+      "currentSourceIds": [
+        "ch04-family-code"
+      ],
+      "currentPages": [
+        22
+      ],
+      "excluded": false,
+      "previousTitle": "가족 나이 합 구하기"
+    },
+    {
+      "previousPage": 23,
+      "previousSourceIds": [
+        "ch04-family-flow"
+      ],
+      "currentSourceIds": [
+        "ch04-family-flow"
+      ],
+      "currentPages": [
+        23
+      ],
+      "excluded": false,
+      "previousTitle": "가족 나이 합의 순서도"
+    },
+    {
+      "previousPage": 24,
+      "previousSourceIds": [
+        "ch04-check",
+        "ch04-scores-code"
+      ],
+      "currentSourceIds": [
+        "ch04-check",
+        "ch04-scores-code"
+      ],
+      "currentPages": [
+        24
+      ],
+      "excluded": false,
+      "previousTitle": "학생 세 명의 총점 구하기"
+    },
+    {
+      "previousPage": 25,
+      "previousSourceIds": [
+        "ch05-loops",
+        "ch05-opening"
+      ],
+      "currentSourceIds": [
+        "ch05-loops",
+        "ch05-opening"
+      ],
+      "currentPages": [
+        25
+      ],
+      "excluded": false,
+      "previousTitle": "반복과 누적"
+    },
+    {
+      "previousPage": 26,
+      "previousSourceIds": [
+        "ch05-trace"
+      ],
+      "currentSourceIds": [
+        "ch05-trace"
+      ],
+      "currentPages": [
+        26
+      ],
+      "excluded": false,
+      "previousTitle": "운동 시간 누적 따라가기"
+    },
+    {
+      "previousPage": 27,
+      "previousSourceIds": [
+        "ch05-practice-1"
+      ],
+      "currentSourceIds": [
+        "ch05-practice-1"
+      ],
+      "currentPages": [
+        27
+      ],
+      "excluded": false,
+      "previousTitle": "10일 동안의 운동 시간 누적하기"
+    },
+    {
+      "previousPage": 28,
+      "previousSourceIds": [
+        "ch05-exercise-code"
+      ],
+      "currentSourceIds": [
+        "ch05-exercise-code"
+      ],
+      "currentPages": [
+        28
+      ],
+      "excluded": false,
+      "previousTitle": "운동 시간 누적 순서"
+    },
+    {
+      "previousPage": 29,
+      "previousSourceIds": [
+        "ch05-exercise-flow"
+      ],
+      "currentSourceIds": [
+        "ch05-exercise-flow"
+      ],
+      "currentPages": [
+        29
+      ],
+      "excluded": false,
+      "previousTitle": "운동 시간 누적 순서도"
+    },
+    {
+      "previousPage": 30,
+      "previousSourceIds": [
+        "ch05-practice-2"
+      ],
+      "currentSourceIds": [
+        "ch05-practice-2"
+      ],
+      "currentPages": [
+        30
+      ],
+      "excluded": false,
+      "previousTitle": "하루 카페인 섭취량 누적하기"
+    },
+    {
+      "previousPage": 31,
+      "previousSourceIds": [
+        "ch05-caffeine-code",
+        "ch05-check"
+      ],
+      "currentSourceIds": [
+        "ch05-caffeine-code",
+        "ch05-check"
+      ],
+      "currentPages": [
+        31
+      ],
+      "excluded": false,
+      "previousTitle": "카페인 섭취량 누적 순서"
+    },
+    {
+      "previousPage": 32,
+      "previousSourceIds": [
+        "ch06-conditions",
+        "ch06-opening"
+      ],
+      "currentSourceIds": [
+        "ch06-conditions",
+        "ch06-opening"
+      ],
+      "currentPages": [
+        32
+      ],
+      "excluded": false,
+      "previousTitle": "조건과 분기"
+    },
+    {
+      "previousPage": 33,
+      "previousSourceIds": [
+        "ch06-sleep-rules"
+      ],
+      "currentSourceIds": [
+        "ch06-sleep-rules"
+      ],
+      "currentPages": [
+        33
+      ],
+      "excluded": false,
+      "previousTitle": "수면 시간 분류 규칙"
+    },
+    {
+      "previousPage": 34,
+      "previousSourceIds": [
+        "ch06-practice-1"
+      ],
+      "currentSourceIds": [
+        "ch06-practice-1"
+      ],
+      "currentPages": [
+        34
+      ],
+      "excluded": false,
+      "previousTitle": "수면 시간에 따른 안내 만들기"
+    },
+    {
+      "previousPage": 35,
+      "previousSourceIds": [
+        "ch06-sleep-code"
+      ],
+      "currentSourceIds": [
+        "ch06-sleep-code"
+      ],
+      "currentPages": [
+        35
+      ],
+      "excluded": false,
+      "previousTitle": "수면 시간에 따른 조건 처리"
+    },
+    {
+      "previousPage": 36,
+      "previousSourceIds": [
+        "ch06-sleep-flow"
+      ],
+      "currentSourceIds": [
+        "ch06-sleep-flow"
+      ],
+      "currentPages": [
+        36
+      ],
+      "excluded": false,
+      "previousTitle": "수면 시간 조건 순서도"
+    },
+    {
+      "previousPage": 37,
+      "previousSourceIds": [
+        "ch06-check",
+        "ch06-fix"
+      ],
+      "currentSourceIds": [
+        "ch06-check",
+        "ch06-fix"
+      ],
+      "currentPages": [
+        37
+      ],
+      "excluded": false,
+      "previousTitle": "조건 검사 순서 읽기"
+    },
+    {
+      "previousPage": 38,
+      "previousSourceIds": [
+        "ch07-opening"
+      ],
+      "currentSourceIds": [
+        "ch07-opening"
+      ],
+      "currentPages": [
+        38
+      ],
+      "excluded": false,
+      "previousTitle": "반복 속 조건"
+    },
+    {
+      "previousPage": 39,
+      "previousSourceIds": [
+        "ch07-roles"
+      ],
+      "currentSourceIds": [
+        "ch07-roles"
+      ],
+      "currentPages": [
+        39
+      ],
+      "excluded": false,
+      "previousTitle": "반복과 조건의 서로 다른 역할"
+    },
+    {
+      "previousPage": 40,
+      "previousSourceIds": [
+        "ch07-practice-1"
+      ],
+      "currentSourceIds": [
+        "ch07-practice-1"
+      ],
+      "currentPages": [
+        40
+      ],
+      "excluded": false,
+      "previousTitle": "입력받은 학생 수만큼 점수 통과 여부 확인"
+    },
+    {
+      "previousPage": 41,
+      "previousSourceIds": [
+        "ch07-movie-code",
+        "ch07-pass-code"
+      ],
+      "currentSourceIds": [
+        "ch07-movie-code",
+        "ch07-pass-code"
+      ],
+      "currentPages": [
+        41
+      ],
+      "excluded": false,
+      "previousTitle": "학생 수 N에 따라 점수 확인하기"
+    },
+    {
+      "previousPage": 42,
+      "previousSourceIds": [
+        "ch07-movie-flow"
+      ],
+      "currentSourceIds": [
+        "ch07-movie-flow"
+      ],
+      "currentPages": [
+        42
+      ],
+      "excluded": false,
+      "previousTitle": "영화 관람의 반복과 분기"
+    },
+    {
+      "previousPage": 43,
+      "previousSourceIds": [
+        "ch07-check"
+      ],
+      "currentSourceIds": [
+        "ch07-check"
+      ],
+      "currentPages": [
+        43
+      ],
+      "excluded": false,
+      "previousTitle": "실습 완료 확인"
+    },
+    {
+      "previousPage": 44,
+      "previousSourceIds": [
+        "ch08-opening"
+      ],
+      "currentSourceIds": [
+        "ch08-opening"
+      ],
+      "currentPages": [
+        44
+      ],
+      "excluded": false,
+      "previousTitle": "첫 앱 화면"
+    },
+    {
+      "previousPage": 45,
+      "previousSourceIds": [
+        "ch08-designer",
+        "ch08-widgets"
+      ],
+      "currentSourceIds": [
+        "ch08-designer",
+        "ch08-widgets"
+      ],
+      "currentPages": [
+        45
+      ],
+      "excluded": false,
+      "previousTitle": "기본 위젯의 역할"
+    },
+    {
+      "previousPage": 46,
+      "previousSourceIds": [
+        "ch08-practice-1"
+      ],
+      "currentSourceIds": [
+        "ch08-practice-1"
+      ],
+      "currentPages": [
+        46
+      ],
+      "excluded": false,
+      "previousTitle": "버튼 클릭하면 배경색과 글자색 바꾸기"
+    },
+    {
+      "previousPage": 47,
+      "previousSourceIds": [
+        "ch08-button-after",
+        "ch08-button-before"
+      ],
+      "currentSourceIds": [
+        "ch08-button-after",
+        "ch08-button-before"
+      ],
+      "currentPages": [
+        47
+      ],
+      "excluded": false,
+      "previousTitle": "버튼 클릭 전"
+    },
+    {
+      "previousPage": 48,
+      "previousSourceIds": [
+        "ch08-practice-message"
+      ],
+      "currentSourceIds": [
+        "ch08-practice-message"
+      ],
+      "currentPages": [
+        48
+      ],
+      "excluded": false,
+      "previousTitle": "버튼 클릭하면 메시지 창 출력하기"
+    },
+    {
+      "previousPage": 49,
+      "previousSourceIds": [
+        "ch08-message-screen"
+      ],
+      "currentSourceIds": [
+        "ch08-message-screen"
+      ],
+      "currentPages": [
+        49
+      ],
+      "excluded": false,
+      "previousTitle": "입력 화면과 메시지 창"
+    },
+    {
+      "previousPage": 50,
+      "previousSourceIds": [
+        "ch08-practice-2"
+      ],
+      "currentSourceIds": [
+        "ch08-practice-2"
+      ],
+      "currentPages": [
+        50
+      ],
+      "excluded": false,
+      "previousTitle": "Field에 입력한 내용 버튼으로 출력하기"
+    },
+    {
+      "previousPage": 51,
+      "previousSourceIds": [
+        "ch08-request"
+      ],
+      "currentSourceIds": [
+        "ch08-request"
+      ],
+      "currentPages": [
+        51
+      ],
+      "excluded": false,
+      "previousTitle": "Field 실습 · 이벤트 설정"
+    },
+    {
+      "previousPage": 52,
+      "previousSourceIds": [
+        "ch08-field-copy",
+        "ch08-platform"
+      ],
+      "currentSourceIds": [
+        "ch08-field-copy",
+        "ch08-platform"
+      ],
+      "currentPages": [
+        52
+      ],
+      "excluded": false,
+      "previousTitle": "입력값을 복사한 화면"
+    },
+    {
+      "previousPage": 53,
+      "previousSourceIds": [
+        "ch08-check"
+      ],
+      "currentSourceIds": [
+        "ch08-check"
+      ],
+      "currentPages": [
+        53
+      ],
+      "excluded": false,
+      "previousTitle": "실습 완료 확인"
+    },
+    {
+      "previousPage": 54,
+      "previousSourceIds": [
+        "ch09-opening"
+      ],
+      "currentSourceIds": [
+        "ch09-opening"
+      ],
+      "currentPages": [
+        54
+      ],
+      "excluded": false,
+      "previousTitle": "계산과 출력"
+    },
+    {
+      "previousPage": 55,
+      "previousSourceIds": [
+        "ch09-practice-1"
+      ],
+      "currentSourceIds": [
+        "ch09-practice-1"
+      ],
+      "currentPages": [
+        55
+      ],
+      "excluded": false,
+      "previousTitle": "Field에 입력한 두 수의 누적곱 출력"
+    },
+    {
+      "previousPage": 56,
+      "previousSourceIds": [
+        "ch09-product",
+        "ch09-product-code"
+      ],
+      "currentSourceIds": [
+        "ch09-product",
+        "ch09-product-code"
+      ],
+      "currentPages": [
+        56
+      ],
+      "excluded": false,
+      "previousTitle": "누적곱 프로그램의 동작"
+    },
+    {
+      "previousPage": 57,
+      "previousSourceIds": [
+        "ch09-practice-2"
+      ],
+      "currentSourceIds": [
+        "ch09-practice-2"
+      ],
+      "currentPages": [
+        57
+      ],
+      "excluded": false,
+      "previousTitle": "계산기 프로그램 2"
+    },
+    {
+      "previousPage": 58,
+      "previousSourceIds": [
+        "ch09-calculator",
+        "ch09-calculator-request"
+      ],
+      "currentSourceIds": [
+        "ch09-calculator",
+        "ch09-calculator-request"
+      ],
+      "currentPages": [
+        58
+      ],
+      "excluded": false,
+      "previousTitle": "계산기 2 · 위젯과 이벤트"
+    },
+    {
+      "previousPage": 59,
+      "previousSourceIds": [
+        "ch09-calculator-code"
+      ],
+      "currentSourceIds": [
+        "ch09-calculator-code"
+      ],
+      "currentPages": [
+        59
+      ],
+      "excluded": false,
+      "previousTitle": "입력·연산·결과 연결하기"
+    },
+    {
+      "previousPage": 60,
+      "previousSourceIds": [
+        "ch09-practice-3"
+      ],
+      "currentSourceIds": [
+        "ch09-practice-3"
+      ],
+      "currentPages": [
+        60
+      ],
+      "excluded": false,
+      "previousTitle": "Text에 원하는 내용 추가 프로그램"
+    },
+    {
+      "previousPage": 61,
+      "previousSourceIds": [
+        "ch09-text"
+      ],
+      "currentSourceIds": [
+        "ch09-text"
+      ],
+      "currentPages": [
+        61
+      ],
+      "excluded": false,
+      "previousTitle": "Text에 두 문장을 추가한 화면"
+    },
+    {
+      "previousPage": 62,
+      "previousSourceIds": [
+        "ch09-practice-4"
+      ],
+      "currentSourceIds": [
+        "ch09-practice-4"
+      ],
+      "currentPages": [
+        62
+      ],
+      "excluded": false,
+      "previousTitle": "원하는 단 구구단 출력하기"
+    },
+    {
+      "previousPage": 63,
+      "previousSourceIds": [
+        "ch09-times",
+        "ch09-times-code"
+      ],
+      "currentSourceIds": [
+        "ch09-times",
+        "ch09-times-code"
+      ],
+      "currentPages": [
+        63
+      ],
+      "excluded": false,
+      "previousTitle": "구구단 실습 · 프로그램 순서"
+    },
+    {
+      "previousPage": 64,
+      "previousSourceIds": [
+        "ch09-check"
+      ],
+      "currentSourceIds": [
+        "ch09-check"
+      ],
+      "currentPages": [
+        64
+      ],
+      "excluded": false,
+      "previousTitle": "실습 완료 확인"
+    },
+    {
+      "previousPage": 65,
+      "previousSourceIds": [
+        "ch10-opening"
+      ],
+      "currentSourceIds": [
+        "ch10-opening"
+      ],
+      "currentPages": [
+        65
+      ],
+      "excluded": false,
+      "previousTitle": "선택 위젯"
+    },
+    {
+      "previousPage": 66,
+      "previousSourceIds": [
+        "ch10-choice"
+      ],
+      "currentSourceIds": [
+        "ch10-choice"
+      ],
+      "currentPages": [
+        66
+      ],
+      "excluded": false,
+      "previousTitle": "선택 방식 비교"
+    },
+    {
+      "previousPage": 67,
+      "previousSourceIds": [
+        "ch10-practice-1"
+      ],
+      "currentSourceIds": [
+        "ch10-practice-1"
+      ],
+      "currentPages": [
+        67
+      ],
+      "excluded": false,
+      "previousTitle": "Dropdown을 추가하고 선택한 값 확인"
+    },
+    {
+      "previousPage": 68,
+      "previousSourceIds": [
+        "ch10-dropdown"
+      ],
+      "currentSourceIds": [
+        "ch10-dropdown"
+      ],
+      "currentPages": [
+        68
+      ],
+      "excluded": false,
+      "previousTitle": "목록의 선택값 확인하기"
+    },
+    {
+      "previousPage": 69,
+      "previousSourceIds": [
+        "ch10-practice-2"
+      ],
+      "currentSourceIds": [
+        "ch10-practice-2"
+      ],
+      "currentPages": [
+        69
+      ],
+      "excluded": false,
+      "previousTitle": "오늘의 건강습관 체크 프로그램"
+    },
+    {
+      "previousPage": 70,
+      "previousSourceIds": [
+        "ch10-health",
+        "ch10-health-request"
+      ],
+      "currentSourceIds": [
+        "ch10-health",
+        "ch10-health-request"
+      ],
+      "currentPages": [
+        70
+      ],
+      "excluded": false,
+      "previousTitle": "건강습관 체크 화면"
+    },
+    {
+      "previousPage": 71,
+      "previousSourceIds": [
+        "ch10-practice-3"
+      ],
+      "currentSourceIds": [
+        "ch10-practice-3"
+      ],
+      "currentPages": [
+        71
+      ],
+      "excluded": false,
+      "previousTitle": "선택한 동아리 소개 프로그램"
+    },
+    {
+      "previousPage": 72,
+      "previousSourceIds": [
+        "ch10-club"
+      ],
+      "currentSourceIds": [
+        "ch10-club"
+      ],
+      "currentPages": [
+        72
+      ],
+      "excluded": false,
+      "previousTitle": "한 동아리만 선택한 화면"
+    },
+    {
+      "previousPage": 73,
+      "previousSourceIds": [
+        "ch10-practice-4"
+      ],
+      "currentSourceIds": [
+        "ch10-practice-4"
+      ],
+      "currentPages": [
+        73
+      ],
+      "excluded": false,
+      "previousTitle": "ProgressBar 버튼 2개로 증가·감소"
+    },
+    {
+      "previousPage": 74,
+      "previousSourceIds": [
+        "ch10-progress"
+      ],
+      "currentSourceIds": [
+        "ch10-progress"
+      ],
+      "currentPages": [
+        74
+      ],
+      "excluded": false,
+      "previousTitle": "진행 막대와 두 버튼"
+    },
+    {
+      "previousPage": 75,
+      "previousSourceIds": [
+        "ch10-practice-5"
+      ],
+      "currentSourceIds": [
+        "ch10-practice-5"
+      ],
+      "currentPages": [
+        75
+      ],
+      "excluded": false,
+      "previousTitle": "Image 구성하기"
+    },
+    {
+      "previousPage": 76,
+      "previousSourceIds": [
+        "ch10-check",
+        "ch10-images"
+      ],
+      "currentSourceIds": [
+        "ch10-check",
+        "ch10-images"
+      ],
+      "currentPages": [
+        76
+      ],
+      "excluded": false,
+      "previousTitle": "두 이미지와 구분선"
+    },
+    {
+      "previousPage": 77,
+      "previousSourceIds": [
+        "ch11-opening",
+        "ch11-table"
+      ],
+      "currentSourceIds": [
+        "ch11-opening",
+        "ch11-table"
+      ],
+      "currentPages": [
+        77
+      ],
+      "excluded": false,
+      "previousTitle": "표와 성적"
+    },
+    {
+      "previousPage": 78,
+      "previousSourceIds": [
+        "ch11-practice-1"
+      ],
+      "currentSourceIds": [
+        "ch11-practice-1"
+      ],
+      "currentPages": [
+        78
+      ],
+      "excluded": false,
+      "previousTitle": "학생 성적을 Table에 기록하기"
+    },
+    {
+      "previousPage": 79,
+      "previousSourceIds": [
+        "ch11-table-screen"
+      ],
+      "currentSourceIds": [
+        "ch11-table-screen"
+      ],
+      "currentPages": [
+        79
+      ],
+      "excluded": false,
+      "previousTitle": "학생 성적 Table"
+    },
+    {
+      "previousPage": 80,
+      "previousSourceIds": [
+        "ch11-field-map",
+        "ch11-request"
+      ],
+      "currentSourceIds": [
+        "ch11-field-map",
+        "ch11-request"
+      ],
+      "currentPages": [
+        80
+      ],
+      "excluded": false,
+      "previousTitle": "입력창과 표 열 대조"
+    },
+    {
+      "previousPage": 81,
+      "previousSourceIds": [
+        "ch11-index",
+        "ch11-index-code"
+      ],
+      "currentSourceIds": [
+        "ch11-index",
+        "ch11-index-code"
+      ],
+      "currentPages": [
+        81
+      ],
+      "excluded": false,
+      "previousTitle": "왜 위치 번호에서 1을 뺄까?"
+    },
+    {
+      "previousPage": 82,
+      "previousSourceIds": [
+        "ch11-check",
+        "ch11-practice-2"
+      ],
+      "currentSourceIds": [
+        "ch11-check",
+        "ch11-practice-2"
+      ],
+      "currentPages": [
+        82
+      ],
+      "excluded": false,
+      "previousTitle": "표의 값 변경 순서"
+    },
+    {
+      "previousPage": 83,
+      "previousSourceIds": [
+        "ch12-opening"
+      ],
+      "currentSourceIds": [
+        "ch13-opening"
+      ],
+      "currentPages": [
+        104
+      ],
+      "excluded": false,
+      "previousTitle": "차트 시각화"
+    },
+    {
+      "previousPage": 84,
+      "previousSourceIds": [
+        "ch12-charts"
+      ],
+      "currentSourceIds": [
+        "ch13-charts"
+      ],
+      "currentPages": [
+        105
+      ],
+      "excluded": false,
+      "previousTitle": "표현 목적에 맞는 그래프"
+    },
+    {
+      "previousPage": 85,
+      "previousSourceIds": [
+        "ch12-practice-1"
+      ],
+      "currentSourceIds": [
+        "ch13-practice-1"
+      ],
+      "currentPages": [
+        106
+      ],
+      "excluded": false,
+      "previousTitle": "꺾은선 그래프 만들기"
+    },
+    {
+      "previousPage": 86,
+      "previousSourceIds": [
+        "ch12-line-screen"
+      ],
+      "currentSourceIds": [
+        "ch13-line-screen"
+      ],
+      "currentPages": [
+        107
+      ],
+      "excluded": false,
+      "previousTitle": "선 그래프 화면"
+    },
+    {
+      "previousPage": 87,
+      "previousSourceIds": [
+        "ch12-practice-2"
+      ],
+      "currentSourceIds": [
+        "ch13-practice-2"
+      ],
+      "currentPages": [
+        108
+      ],
+      "excluded": false,
+      "previousTitle": "키·몸무게 산점도 만들기"
+    },
+    {
+      "previousPage": 88,
+      "previousSourceIds": [
+        "ch12-scatter-screen"
+      ],
+      "currentSourceIds": [
+        "ch13-scatter-screen"
+      ],
+      "currentPages": [
+        109
+      ],
+      "excluded": false,
+      "previousTitle": "키·몸무게 산점도"
+    },
+    {
+      "previousPage": 89,
+      "previousSourceIds": [
+        "ch12-practice-3"
+      ],
+      "currentSourceIds": [
+        "ch13-practice-3"
+      ],
+      "currentPages": [
+        110
+      ],
+      "excluded": false,
+      "previousTitle": "입력값 막대그래프 만들기"
+    },
+    {
+      "previousPage": 90,
+      "previousSourceIds": [
+        "ch12-bar-screen"
+      ],
+      "currentSourceIds": [
+        "ch13-bar-screen"
+      ],
+      "currentPages": [
+        111
+      ],
+      "excluded": false,
+      "previousTitle": "입력값 막대그래프"
+    },
+    {
+      "previousPage": 91,
+      "previousSourceIds": [
+        "ch12-check"
+      ],
+      "currentSourceIds": [
+        "ch13-check"
+      ],
+      "currentPages": [
+        112
+      ],
+      "excluded": false,
+      "previousTitle": "실습 완료 확인"
+    },
+    {
+      "previousPage": 92,
+      "previousSourceIds": [
+        "ch13-opening"
+      ],
+      "currentSourceIds": [
+        "ch14-opening"
+      ],
+      "currentPages": [
+        113
+      ],
+      "excluded": false,
+      "previousTitle": "자료와 저장"
+    },
+    {
+      "previousPage": 93,
+      "previousSourceIds": [
+        "ch13-practice-data"
+      ],
+      "currentSourceIds": [
+        "ch14-practice-data"
+      ],
+      "currentPages": [
+        114
+      ],
+      "excluded": false,
+      "previousTitle": "학생 100명 자료 불러와 시각화하기"
+    },
+    {
+      "previousPage": 94,
+      "previousSourceIds": [
+        "ch13-data-screen",
+        "ch13-loaded-data"
+      ],
+      "currentSourceIds": [
+        "ch14-data-screen",
+        "ch14-loaded-data"
+      ],
+      "currentPages": [
+        115
+      ],
+      "excluded": false,
+      "previousTitle": "저장된 자료 불러오기 순서"
+    },
+    {
+      "previousPage": 95,
+      "previousSourceIds": [
+        "ch13-practice-school"
+      ],
+      "currentSourceIds": [
+        "ch14-practice-school"
+      ],
+      "currentPages": [
+        116
+      ],
+      "excluded": false,
+      "previousTitle": "학교별 학생 수를 막대그래프로 표현"
+    },
+    {
+      "previousPage": 96,
+      "previousSourceIds": [
+        "ch13-school-screen"
+      ],
+      "currentSourceIds": [
+        "ch14-school-screen"
+      ],
+      "currentPages": [
+        117
+      ],
+      "excluded": false,
+      "previousTitle": "학교별 학생 수 막대그래프"
+    },
+    {
+      "previousPage": 97,
+      "previousSourceIds": [
+        "ch13-practice-api"
+      ],
+      "currentSourceIds": [],
+      "currentPages": [],
+      "excluded": true,
+      "previousTitle": "자치구별 지하철역 정보 시각화"
+    },
+    {
+      "previousPage": 98,
+      "previousSourceIds": [
+        "ch13-api-steps"
+      ],
+      "currentSourceIds": [],
+      "currentPages": [],
+      "excluded": true,
+      "previousTitle": "지하철역 API 실습 순서"
+    },
+    {
+      "previousPage": 99,
+      "previousSourceIds": [
+        "ch13-api-screen"
+      ],
+      "currentSourceIds": [],
+      "currentPages": [],
+      "excluded": true,
+      "previousTitle": "상위 5개 자치구 결과"
+    },
+    {
+      "previousPage": 100,
+      "previousSourceIds": [
+        "ch13-practice-4"
+      ],
+      "currentSourceIds": [
+        "ch14-practice-3"
+      ],
+      "currentPages": [
+        118
+      ],
+      "excluded": false,
+      "previousTitle": "입력받은 데이터 저장·불러오기"
+    },
+    {
+      "previousPage": 101,
+      "previousSourceIds": [
+        "ch13-save-process"
+      ],
+      "currentSourceIds": [
+        "ch14-save-process"
+      ],
+      "currentPages": [
+        119
+      ],
+      "excluded": false,
+      "previousTitle": "저장·불러오기 확인 순서"
+    },
+    {
+      "previousPage": 102,
+      "previousSourceIds": [
+        "ch13-saved"
+      ],
+      "currentSourceIds": [
+        "ch14-saved"
+      ],
+      "currentPages": [
+        120,
+        121
+      ],
+      "excluded": false,
+      "previousTitle": "다시 불러온 프로젝트"
+    },
+    {
+      "previousPage": 103,
+      "previousSourceIds": [
+        "ch13-saved"
+      ],
+      "currentSourceIds": [
+        "ch14-saved"
+      ],
+      "currentPages": [
+        120,
+        121
+      ],
+      "excluded": false,
+      "previousTitle": "다시 불러온 프로젝트 (계속)"
+    },
+    {
+      "previousPage": 104,
+      "previousSourceIds": [
+        "ch13-check"
+      ],
+      "currentSourceIds": [
+        "ch14-check"
+      ],
+      "currentPages": [
+        122
+      ],
+      "excluded": false,
+      "previousTitle": "실습 완료 확인"
+    },
+    {
+      "previousPage": 105,
+      "previousSourceIds": [
+        "ch14-axes",
+        "ch14-opening"
+      ],
+      "currentSourceIds": [
+        "ch12-axes",
+        "ch12-opening"
+      ],
+      "currentPages": [
+        83
+      ],
+      "excluded": false,
+      "previousTitle": "그래프 코딩"
+    },
+    {
+      "previousPage": 106,
+      "previousSourceIds": [
+        "ch14-practice-1"
+      ],
+      "currentSourceIds": [
+        "ch12-practice-1"
+      ],
+      "currentPages": [
+        84
+      ],
+      "excluded": false,
+      "previousTitle": "Matplotlib 실습 1 · 배열 한 개"
+    },
+    {
+      "previousPage": 107,
+      "previousSourceIds": [
+        "ch14-one-array"
+      ],
+      "currentSourceIds": [
+        "ch12-one-array"
+      ],
+      "currentPages": [
+        85
+      ],
+      "excluded": false,
+      "previousTitle": "실습 1 · 배열 한 개의 그래프"
+    },
+    {
+      "previousPage": 108,
+      "previousSourceIds": [
+        "ch14-practice-two"
+      ],
+      "currentSourceIds": [
+        "ch12-practice-two"
+      ],
+      "currentPages": [
+        86
+      ],
+      "excluded": false,
+      "previousTitle": "Matplotlib 실습 2 · X·Y 배열"
+    },
+    {
+      "previousPage": 109,
+      "previousSourceIds": [
+        "ch14-two-arrays"
+      ],
+      "currentSourceIds": [
+        "ch12-two-arrays"
+      ],
+      "currentPages": [
+        87
+      ],
+      "excluded": false,
+      "previousTitle": "실습 2 · X·Y 배열 지정"
+    },
+    {
+      "previousPage": 110,
+      "previousSourceIds": [
+        "ch14-practice-2"
+      ],
+      "currentSourceIds": [
+        "ch12-practice-2"
+      ],
+      "currentPages": [
+        88
+      ],
+      "excluded": false,
+      "previousTitle": "Matplotlib 실습 3 · 표시 범위"
+    },
+    {
+      "previousPage": 111,
+      "previousSourceIds": [
+        "ch14-range"
+      ],
+      "currentSourceIds": [
+        "ch12-range"
+      ],
+      "currentPages": [
+        89
+      ],
+      "excluded": false,
+      "previousTitle": "실습 3 · 선 모양과 표시 범위"
+    },
+    {
+      "previousPage": 112,
+      "previousSourceIds": [
+        "ch14-practice-colors"
+      ],
+      "currentSourceIds": [
+        "ch12-practice-colors"
+      ],
+      "currentPages": [
+        90
+      ],
+      "excluded": false,
+      "previousTitle": "Matplotlib 실습 4 · 모양과 색"
+    },
+    {
+      "previousPage": 113,
+      "previousSourceIds": [
+        "ch14-markers"
+      ],
+      "currentSourceIds": [
+        "ch12-markers"
+      ],
+      "currentPages": [
+        91,
+        92
+      ],
+      "excluded": false,
+      "previousTitle": "실습 4 · 빨간 점과 설명"
+    },
+    {
+      "previousPage": 114,
+      "previousSourceIds": [
+        "ch14-markers"
+      ],
+      "currentSourceIds": [
+        "ch12-markers"
+      ],
+      "currentPages": [
+        91,
+        92
+      ],
+      "excluded": false,
+      "previousTitle": "실습 4 · 빨간 점과 설명 (계속)"
+    },
+    {
+      "previousPage": 115,
+      "previousSourceIds": [
+        "ch14-practice-labels"
+      ],
+      "currentSourceIds": [
+        "ch12-practice-labels"
+      ],
+      "currentPages": [
+        93
+      ],
+      "excluded": false,
+      "previousTitle": "Matplotlib 실습 5 · 제목과 설명"
+    },
+    {
+      "previousPage": 116,
+      "previousSourceIds": [
+        "ch14-labels-screen"
+      ],
+      "currentSourceIds": [
+        "ch12-labels-screen"
+      ],
+      "currentPages": [
+        94
+      ],
+      "excluded": false,
+      "previousTitle": "그래프의 제목·축·좌표 설명"
+    },
+    {
+      "previousPage": 117,
+      "previousSourceIds": [
+        "ch14-practice-3"
+      ],
+      "currentSourceIds": [
+        "ch12-practice-3"
+      ],
+      "currentPages": [
+        95
+      ],
+      "excluded": false,
+      "previousTitle": "Matplotlib 실습 6 · 막대그래프 1"
+    },
+    {
+      "previousPage": 118,
+      "previousSourceIds": [
+        "ch14-bars"
+      ],
+      "currentSourceIds": [
+        "ch12-bars"
+      ],
+      "currentPages": [
+        96
+      ],
+      "excluded": false,
+      "previousTitle": "실습 6 · 막대그래프 1"
+    },
+    {
+      "previousPage": 119,
+      "previousSourceIds": [
+        "ch14-practice-grouped"
+      ],
+      "currentSourceIds": [
+        "ch12-practice-grouped"
+      ],
+      "currentPages": [
+        97
+      ],
+      "excluded": false,
+      "previousTitle": "Matplotlib 실습 7 · 막대그래프 2"
+    },
+    {
+      "previousPage": 120,
+      "previousSourceIds": [
+        "ch14-grouped"
+      ],
+      "currentSourceIds": [
+        "ch12-grouped"
+      ],
+      "currentPages": [
+        98,
+        99
+      ],
+      "excluded": false,
+      "previousTitle": "실습 7 · 나란한 막대그래프"
+    },
+    {
+      "previousPage": 121,
+      "previousSourceIds": [
+        "ch14-grouped"
+      ],
+      "currentSourceIds": [
+        "ch12-grouped"
+      ],
+      "currentPages": [
+        98,
+        99
+      ],
+      "excluded": false,
+      "previousTitle": "실습 7 · 나란한 막대그래프 (계속)"
+    },
+    {
+      "previousPage": 122,
+      "previousSourceIds": [
+        "ch14-practice-4"
+      ],
+      "currentSourceIds": [
+        "ch12-practice-4"
+      ],
+      "currentPages": [
+        100
+      ],
+      "excluded": false,
+      "previousTitle": "Matplotlib 실습 8 · 산점도"
+    },
+    {
+      "previousPage": 123,
+      "previousSourceIds": [
+        "ch14-scatter"
+      ],
+      "currentSourceIds": [
+        "ch12-scatter"
+      ],
+      "currentPages": [
+        101,
+        102
+      ],
+      "excluded": false,
+      "previousTitle": "실습 8 · 산점도"
+    },
+    {
+      "previousPage": 124,
+      "previousSourceIds": [
+        "ch14-fix",
+        "ch14-scatter"
+      ],
+      "currentSourceIds": [
+        "ch12-fix",
+        "ch12-scatter"
+      ],
+      "currentPages": [
+        101,
+        102
+      ],
+      "excluded": false,
+      "previousTitle": "실습 8 · 산점도 (계속)"
+    },
+    {
+      "previousPage": 125,
+      "previousSourceIds": [
+        "ch14-check"
+      ],
+      "currentSourceIds": [
+        "ch12-check"
+      ],
+      "currentPages": [
+        103
+      ],
+      "excluded": false,
+      "previousTitle": "실습 완료 확인"
+    },
+    {
+      "previousPage": 126,
+      "previousSourceIds": [
+        "ch15-opening"
+      ],
+      "currentSourceIds": [
+        "ch15-opening"
+      ],
+      "currentPages": [
+        123
+      ],
+      "excluded": false,
+      "previousTitle": "데이터 정리"
+    },
+    {
+      "previousPage": 127,
+      "previousSourceIds": [
+        "ch15-formats",
+        "ch15-structure"
+      ],
+      "currentSourceIds": [
+        "ch15-formats",
+        "ch15-structure"
+      ],
+      "currentPages": [
+        124
+      ],
+      "excluded": false,
+      "previousTitle": "데이터를 보관하는 형식"
+    },
+    {
+      "previousPage": 128,
+      "previousSourceIds": [
+        "ch15-practice-1"
+      ],
+      "currentSourceIds": [
+        "ch15-practice-1"
+      ],
+      "currentPages": [
+        125
+      ],
+      "excluded": false,
+      "previousTitle": "Series · 딕셔너리와 리스트"
+    },
+    {
+      "previousPage": 129,
+      "previousSourceIds": [
+        "ch15-series"
+      ],
+      "currentSourceIds": [
+        "ch15-series"
+      ],
+      "currentPages": [
+        126
+      ],
+      "excluded": false,
+      "previousTitle": "딕셔너리를 Series로 변환"
+    },
+    {
+      "previousPage": 130,
+      "previousSourceIds": [
+        "ch15-mixed"
+      ],
+      "currentSourceIds": [
+        "ch15-mixed"
+      ],
+      "currentPages": [
+        127
+      ],
+      "excluded": false,
+      "previousTitle": "리스트를 Series로 변환"
+    },
+    {
+      "previousPage": 131,
+      "previousSourceIds": [
+        "ch15-practice-dict"
+      ],
+      "currentSourceIds": [
+        "ch15-practice-dict"
+      ],
+      "currentPages": [
+        128
+      ],
+      "excluded": false,
+      "previousTitle": "DataFrame · 요일별 열 만들기"
+    },
+    {
+      "previousPage": 132,
+      "previousSourceIds": [
+        "ch15-dict-frame-code"
+      ],
+      "currentSourceIds": [
+        "ch15-dict-frame-code"
+      ],
+      "currentPages": [
+        129
+      ],
+      "excluded": false,
+      "previousTitle": "요일별 열의 DataFrame"
+    },
+    {
+      "previousPage": 133,
+      "previousSourceIds": [
+        "ch15-practice-2"
+      ],
+      "currentSourceIds": [
+        "ch15-practice-2"
+      ],
+      "currentPages": [
+        130
+      ],
+      "excluded": false,
+      "previousTitle": "DataFrame · 행·열 이름 지정과 변경"
+    },
+    {
+      "previousPage": 134,
+      "previousSourceIds": [
+        "ch15-dataframe"
+      ],
+      "currentSourceIds": [
+        "ch15-dataframe"
+      ],
+      "currentPages": [
+        131
+      ],
+      "excluded": false,
+      "previousTitle": "현아·태민 자료의 DataFrame"
+    },
+    {
+      "previousPage": 135,
+      "previousSourceIds": [
+        "ch15-table-result"
+      ],
+      "currentSourceIds": [
+        "ch15-table-result"
+      ],
+      "currentPages": [
+        132
+      ],
+      "excluded": false,
+      "previousTitle": "실행한 DataFrame을 표로 확인하기"
+    },
+    {
+      "previousPage": 136,
+      "previousSourceIds": [
+        "ch15-rename"
+      ],
+      "currentSourceIds": [
+        "ch15-rename"
+      ],
+      "currentPages": [
+        133
+      ],
+      "excluded": false,
+      "previousTitle": "이름 변경과 값 변경 구분하기"
+    },
+    {
+      "previousPage": 137,
+      "previousSourceIds": [
+        "ch15-rename-code"
+      ],
+      "currentSourceIds": [
+        "ch15-rename-code"
+      ],
+      "currentPages": [
+        134
+      ],
+      "excluded": false,
+      "previousTitle": "DataFrame 행·열 이름 변경"
+    },
+    {
+      "previousPage": 138,
+      "previousSourceIds": [
+        "ch15-check"
+      ],
+      "currentSourceIds": [
+        "ch15-check"
+      ],
+      "currentPages": [
+        135
+      ],
+      "excluded": false,
+      "previousTitle": "실습 완료 확인"
+    },
+    {
+      "previousPage": 139,
+      "previousSourceIds": [
+        "ch16-opening",
+        "ch16-projects"
+      ],
+      "currentSourceIds": [
+        "ch16-opening",
+        "ch16-projects"
+      ],
+      "currentPages": [
+        136
+      ],
+      "excluded": false,
+      "previousTitle": "앱 개선·발표"
+    },
+    {
+      "previousPage": 140,
+      "previousSourceIds": [
+        "ch16-practice-1"
+      ],
+      "currentSourceIds": [
+        "ch16-practice-1"
+      ],
+      "currentPages": [
+        137
+      ],
+      "excluded": false,
+      "previousTitle": "원하는 프로그램을 자유롭게 작성하기"
+    },
+    {
+      "previousPage": 141,
+      "previousSourceIds": [
+        "ch16-fix",
+        "ch16-procedure"
+      ],
+      "currentSourceIds": [
+        "ch16-fix",
+        "ch16-procedure"
+      ],
+      "currentPages": [
+        138
+      ],
+      "excluded": false,
+      "previousTitle": "작게 만들고 검증하기"
+    },
+    {
+      "previousPage": 142,
+      "previousSourceIds": [
+        "ch16-check",
+        "ch16-evidence",
+        "ch16-portfolio"
+      ],
+      "currentSourceIds": [
+        "ch16-check",
+        "ch16-evidence",
+        "ch16-portfolio"
+      ],
+      "currentPages": [
+        139
+      ],
+      "excluded": false,
+      "previousTitle": "결과 이미지를 정직하게 기록하기"
+    }
+  ],
+  "page7PdfTextDirectlyCompared": true
+}

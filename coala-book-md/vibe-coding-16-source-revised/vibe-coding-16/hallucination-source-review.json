@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-11",
+  "constructedLearningWrongAnswers": true,
+  "actualAiOutputClaimed": false,
+  "examples": [
+    {
+      "topic": "제1차 십자군의 연도",
+      "question": "제1차 십자군은 1492년에 시작했나요?",
+      "learning_only_wrong_answer": "네, 1492년에 시작했습니다.",
+      "verified_fact": "제1차 십자군은 1096~1099년에 진행되었습니다.",
+      "source_title": "OpenStax · 13.4 The Crusading Movement",
+      "source_url": "https://openstax.org/books/world-history-volume-1/pages/13-4-the-crusading-movement"
+    },
+    {
+      "topic": "소설 연금술사의 작가·출간 연도",
+      "question": "산티아고가 나오는 소설 『연금술사』는 셰익스피어의 작품인가요?",
+      "learning_only_wrong_answer": "네, 셰익스피어가 쓴 작품입니다.",
+      "verified_fact": "파울로 코엘료의 소설로, 1988년에 처음 출간되었습니다.",
+      "source_title": "Paulo Coelho and Christina Oiticica Foundation · The Alchemist",
+      "source_url": "https://fondationpaulocoelho.com/books/paulo-coelho-the-alchemist/"
+    }
+  ],
+  "currentPhysicalPage": 7,
+  "currentPdfSha256": "c7a74887b35cec4dce1fa6460d718d1481b286375c5c474b720fd6bbd71950ce",
+  "unchangedFromPreviousEdition": true
+}

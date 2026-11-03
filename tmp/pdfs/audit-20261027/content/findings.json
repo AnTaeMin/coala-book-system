@@ -1,0 +1,58 @@
+{
+  "source_sha256": "a4aa668621a7c59c36c9666fa1019182d5ed999c9fb8620f2ddcf509840b2729",
+  "scope": "Chapters 1-7 and 16; source pp5-40,93-94; target pp4-42,127-130",
+  "confirmed_logic_or_factual_errors": [],
+  "rendered_flowcharts_checked": [
+    23,
+    29,
+    36,
+    41
+  ],
+  "guide_gap": {
+    "target_page": 4,
+    "finding": "Code execution is requested but the runtime, dependency installation, example folder and execution command are absent. AlgoFlow access URL is absent from both PDFs; do not invent one.",
+    "recommended": "Provide Python 3.12 and requirements.txt instructions for shipped examples and defer platform URL/account to teacher. Current scripts use ASCII labels, so Korean fonts are optional for custom Korean labels."
+  },
+  "table_introductions": [
+    {
+      "page": 6,
+      "container": "ch01-limits",
+      "replacement": "AI 활용 예시와 사람이 확인할 내용을 비교해봅시다."
+    },
+    {
+      "page": 11,
+      "container": "ch02-compare",
+      "replacement": "모호한 요청과 구체적인 요청을 비교해봅시다."
+    },
+    {
+      "page": 16,
+      "container": "ch03-ramen",
+      "replacement": "라면 끓이기를 입력·처리·출력의 세 단계로 나누어봅시다."
+    },
+    {
+      "page": 20,
+      "container": "ch04-types",
+      "replacement": "문자열·정수·실수의 예시와 사용 방법을 비교해봅시다."
+    },
+    {
+      "page": 26,
+      "container": "ch05-trace",
+      "replacement": "날짜별 운동 시간과 누적 합계의 변화를 확인해봅시다."
+    }
+  ],
+  "existing_corrections_confirmed": [
+    "while repeats while true rather than until true",
+    "family 43+45+15=103",
+    "exercise total1..10=55, final time1=11",
+    "sleep branches >=8 then >=5 then else",
+    "007-1 uses 80-point PASS threshold, separate source 60-point example omitted",
+    "movie repeats 4 times and age<15 prohibits admission under the exercise rule"
+  ],
+  "preserved_intentional_differences": [
+    "Expanded 16-lesson structure",
+    "Source p7 smartphone example replaced by explicitly fictional errors with corrected facts",
+    "Source p27 week/day contradiction standardized to day",
+    "BMI and sleep examples framed as learning rules",
+    "Free project relocated to chapter16"
+  ]
+}

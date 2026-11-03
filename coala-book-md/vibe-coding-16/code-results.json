@@ -1,162 +1,266 @@
 {
-  "reviewed_date": "2026-10-06",
+  "reviewed_date": "2026-10-28",
+  "edition": "flet-chart-context-16-sessions",
   "python": "3.10.11",
+  "runtime": "C:\\Users\\use\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "flet": "0.86.0",
+  "flet_charts": "0.86.0",
   "matplotlib": "3.10.9",
-  "pandas": "2.3.3",
   "numpy": "2.2.6",
-  "executed_blocks": 23,
-  "passed": 23,
+  "matplotlib_backend": "module://flet_charts.matplotlib_backends.backend_flet_agg",
+  "executed_blocks": 8,
+  "passed": 8,
+  "practice_blocks": 7,
+  "setup_blocks": 1,
+  "practice_runs": 14,
   "records": [
     {
-      "page_id": "ch04-variables",
+      "page_id": "ch12-axes",
       "status": "passed",
-      "stdout": "민수\n80",
-      "code_sha256": "1be22a2781c7426817edceae92786b0c290f5682c423573049b717084b519035"
-    },
-    {
-      "page_id": "ch04-family-code",
-      "status": "passed",
-      "stdout": "우리 가족 나이의 총합은 103입니다.",
-      "code_sha256": "0b6aba555fa0749bd7b7b7d68b8a75ef2fd2b08ed73d257ac7f2b685603d1816"
-    },
-    {
-      "page_id": "ch04-scores-code",
-      "status": "passed",
-      "stdout": "240",
-      "code_sha256": "2f8da427dc41316717d957254cd5beb1f97ae9f280c1f9ef9ba346679b9fde9f"
-    },
-    {
-      "page_id": "ch05-exercise-code",
-      "status": "passed",
-      "stdout": "총 운동 시간은 55분입니다.",
-      "code_sha256": "c47c83a9f05be9bcc01db026f9a02d8ee7d7e9ed1f838c8476df79957cbe87ba"
-    },
-    {
-      "page_id": "ch05-caffeine-code",
-      "status": "passed",
-      "stdout": "총 카페인 양 80mg",
-      "code_sha256": "1dfba6cd5e3761852e3f8c5928fa5dd09c1fe6d1dd264bc5564851860d1c80dc"
-    },
-    {
-      "page_id": "ch06-sleep-code",
-      "status": "passed",
-      "stdout": "적정 수면입니다",
-      "code_sha256": "d8ffac57aefc5f2cff9006118cce955696d40915a63c7ac540fc13efe03c21f3"
-    },
-    {
-      "page_id": "ch07-pass-code",
-      "status": "passed",
-      "stdout": "FAIL\nPASS\nPASS",
-      "code_sha256": "92d1765501d09364ebfc915f19d3d8a84c7b1ccf6ef55384ca9b0d6b75925a6d"
-    },
-    {
-      "page_id": "ch07-movie-code",
-      "status": "passed",
-      "stdout": "관람 불가\n관람 가능\n관람 가능\n관람 불가",
-      "code_sha256": "32159f2976858ecfd1c7a4715651cabbd3177a7893932b977bceec8aaaedf91d"
-    },
-    {
-      "page_id": "ch09-product-code",
-      "status": "passed",
-      "stdout": "720",
-      "code_sha256": "1f4c7935cfefefe6f2c6106badaf5f2132cde15bf340ea5d7bc3656c31b9ac5e"
-    },
-    {
-      "page_id": "ch09-calculator-code",
-      "status": "passed",
-      "stdout": "20.0",
-      "code_sha256": "09690d10368858adbd7f73f0be38d934658d453f34d81aa36ce24660d55726ff"
-    },
-    {
-      "page_id": "ch09-times-code",
-      "status": "passed",
-      "stdout": "4 x 1 = 4\n4 x 2 = 8\n4 x 3 = 12\n4 x 4 = 16\n4 x 5 = 20\n4 x 6 = 24\n4 x 7 = 28\n4 x 8 = 32\n4 x 9 = 36",
-      "code_sha256": "9c0cc140af4eb1693959cec733783d2d11753b4e596791c19d1957e5e4a58a8f"
-    },
-    {
-      "page_id": "ch11-index-code",
-      "status": "passed",
-      "stdout": "88",
-      "code_sha256": "3e1ef44972541a02c7d3ad2ab0d22e378ba2d494012ca238fd0d3f421a51eee4"
-    },
-    {
-      "page_id": "ch13-one-array",
-      "status": "passed",
+      "role": "generated-chart-setup",
+      "file": "chart_setup.py",
+      "source_pdf_pages": null,
       "stdout": "",
-      "code_sha256": "1543b98e40d9d8883c2230eee7a6179d97d1b2ab4a4dcbb2e49df4e0e9111ea2",
-      "figure_checks": "data, axes, marker/line, range or legend checked as applicable"
+      "code_sha256": "ee1f42dd58dacdc59877991f80375826dcf9d25cc409be2711e173f862b5cc53",
+      "result_asset": null,
+      "warnings": [],
+      "semantics": {
+        "figure_inches": [
+          6.4,
+          4.8
+        ],
+        "chart_binding": true,
+        "real_flet_control": true
+      },
+      "chart_binding": true
     },
     {
-      "page_id": "ch13-two-arrays",
+      "page_id": "ch12-one-array",
       "status": "passed",
+      "role": "drawing-event-body",
+      "file": "ch12-one-array.py",
+      "source_pdf_pages": "131-132",
       "stdout": "",
-      "code_sha256": "d2b1f5760dd24536a1557c56fc4a38ee83819e752b492fb5709cd568a15deaa2",
-      "figure_checks": "data, axes, marker/line, range or legend checked as applicable"
+      "code_sha256": "44e8c4ef05d471ab4b148d3b69ec98fb048aac1833b2cda68588e3c536520c89",
+      "result_asset": "plot-one",
+      "semantics": {
+        "x": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0
+        ],
+        "y": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ]
+      },
+      "warnings": [],
+      "chart_binding": true,
+      "repeated_updates": true,
+      "draw_count": 2,
+      "automatic_refresh_outside_logic": true
     },
     {
-      "page_id": "ch13-range",
+      "page_id": "ch12-two-arrays",
       "status": "passed",
+      "role": "drawing-event-body",
+      "file": "ch12-two-arrays.py",
+      "source_pdf_pages": "133",
       "stdout": "",
-      "code_sha256": "47424f005f1797499b356a18876bc73b2752b5b27c4947c907df274cdf84719c",
-      "figure_checks": "data, axes, marker/line, range or legend checked as applicable"
+      "code_sha256": "a12efd065fe80aa8466191c647007dd7852e54332eda6108d8b575ba07238bd8",
+      "result_asset": "plot-two",
+      "semantics": {
+        "x": [
+          15.0,
+          25.0,
+          35.0,
+          45.0,
+          55.0
+        ],
+        "y": [
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0
+        ]
+      },
+      "warnings": [],
+      "chart_binding": true,
+      "repeated_updates": true,
+      "draw_count": 2,
+      "automatic_refresh_outside_logic": true
     },
     {
-      "page_id": "ch13-markers",
+      "page_id": "ch12-range",
       "status": "passed",
+      "role": "drawing-event-body",
+      "file": "ch12-range.py",
+      "source_pdf_pages": "134",
       "stdout": "",
-      "code_sha256": "aaf790720c396f07c3472b8db66dda65696c843036990a3508efb4b0645fea39",
-      "figure_checks": "data, axes, marker/line, range or legend checked as applicable"
+      "code_sha256": "d66a0eeb18e2c74f308524fdf53338a91ea58572036c1bcde473212baf75d144",
+      "result_asset": "plot-range",
+      "semantics": {
+        "marker": "+",
+        "color": "b",
+        "xlim": [
+          0.0,
+          10.0
+        ],
+        "ylim": [
+          0.0,
+          25.0
+        ]
+      },
+      "warnings": [],
+      "chart_binding": true,
+      "repeated_updates": true,
+      "draw_count": 2,
+      "automatic_refresh_outside_logic": true
+    },
+    {
+      "page_id": "ch12-markers",
+      "status": "passed",
+      "role": "drawing-event-body",
+      "file": "ch12-markers.py",
+      "source_pdf_pages": "136-138",
+      "stdout": "",
+      "code_sha256": "fb4ecba903e76c5eddf1e8475998f2833a0c2737a2d58579f17823f82d2a472f",
+      "result_asset": "plot-markers",
+      "semantics": {
+        "marker": "o",
+        "color": "r",
+        "linestyle": "None",
+        "annotation": "12/19 at (3, 5)"
+      },
+      "warnings": [],
+      "chart_binding": true,
+      "repeated_updates": true,
+      "draw_count": 2,
+      "automatic_refresh_outside_logic": true
     },
     {
       "page_id": "ch13-bars",
       "status": "passed",
+      "role": "drawing-event-body",
+      "file": "ch13-bars.py",
+      "source_pdf_pages": "140",
       "stdout": "",
-      "code_sha256": "6d72a56736cccd607a97e55d8a640288bf1f13de0e9ae1e17ce8da6b77531e48",
-      "figure_checks": "data, axes, marker/line, range or legend checked as applicable"
+      "code_sha256": "1f936872e8b11d798d3c4f2e4e17a3bfdf4fc5a358e3403dc9c7d7ca43f4726f",
+      "result_asset": "plot-bars",
+      "semantics": {
+        "heights": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ]
+      },
+      "warnings": [],
+      "chart_binding": true,
+      "repeated_updates": true,
+      "draw_count": 2,
+      "automatic_refresh_outside_logic": true
     },
     {
       "page_id": "ch13-grouped",
       "status": "passed",
+      "role": "drawing-event-body",
+      "file": "ch13-grouped.py",
+      "source_pdf_pages": "141-142",
       "stdout": "",
-      "code_sha256": "969cc16de4a06b233f1bf4e305313565eb893dbcd7660ca4e81137d7b47fb824",
-      "figure_checks": "data, axes, marker/line, range or legend checked as applicable"
+      "code_sha256": "7f9d91d04f30f096f80a3e2bc69a1316b29b4a71ff10480f4d513a785fdc82af",
+      "result_asset": "plot-grouped",
+      "semantics": {
+        "heights": [
+          35,
+          80,
+          84,
+          83,
+          50,
+          73,
+          80,
+          77,
+          40,
+          86
+        ],
+        "centers": [
+          0.8,
+          2.8,
+          4.8,
+          6.8,
+          8.8,
+          1.6,
+          3.6000000000000005,
+          5.6,
+          7.6,
+          9.6
+        ],
+        "ticks": [
+          1.2000000000000002,
+          3.2,
+          5.199999999999999,
+          7.199999999999999,
+          9.2
+        ]
+      },
+      "warnings": [],
+      "chart_binding": true,
+      "repeated_updates": true,
+      "draw_count": 2,
+      "automatic_refresh_outside_logic": true
     },
     {
       "page_id": "ch13-scatter",
       "status": "passed",
+      "role": "drawing-event-body",
+      "file": "ch13-scatter.py",
+      "source_pdf_pages": "145",
       "stdout": "",
-      "code_sha256": "a8624ed3b2ef3c22f86286c8ad0ced7fa9ca99123fc8ea11d4e08a0f68ad1a7d",
-      "figure_checks": "data, axes, marker/line, range or legend checked as applicable"
-    },
-    {
-      "page_id": "ch14-series",
-      "status": "passed",
-      "stdout": "{'one': 1, 'two': 2, 'three': 3}\n['one', 'two', 'three']\n[1, 2, 3]",
-      "code_sha256": "90f6194f89cb00ccb8163cb196898df24ab52f3e0e9ecda9747cee02f2950b8a"
-    },
-    {
-      "page_id": "ch14-mixed",
-      "status": "passed",
-      "stdout": "[0, 1, 2, 3, 4]\n['2022-01-01', 2.14, 'song', 1000, True]",
-      "code_sha256": "8bf655bd3284e4f2736354dcad73dbcae58ef9c78406f9345b4b8a7e8b4263d4"
-    },
-    {
-      "page_id": "ch14-dataframe",
-      "status": "passed",
-      "stdout": "['현아', '태민']\n['나이', '성별', '학년']\n{'나이': 17, '성별': '남', '학년': '고1'}",
-      "code_sha256": "779d0af3a74e4ac313142bbbd57a871c5bb28bd80ff49af91ac15f2e449ad1d1"
-    },
-    {
-      "page_id": "ch14-rename-code",
-      "status": "passed",
-      "stdout": "['학생1', '학생2']\n['연령', '남녀', '학년']\n{'연령': 15, '남녀': '여', '학년': '중2'}",
-      "code_sha256": "a6150979251e612498b8d14db37b2ba31f72918ffb6eb1841ccb2e38c2a0e262"
+      "code_sha256": "8e6e9f1fe1531e3037b7fa40d5fcee3db0454aa71defd4190b0cf506ecf03543",
+      "result_asset": "plot-scatter",
+      "semantics": {
+        "points": 20,
+        "first_point": [
+          1.1,
+          20.56392186263395
+        ],
+        "last_point": [
+          96.1,
+          184.3747507628296
+        ],
+        "seed_repeatability": true,
+        "labels": [
+          "X axis",
+          "Y axis"
+        ]
+      },
+      "warnings": [],
+      "chart_binding": true,
+      "repeated_updates": true,
+      "draw_count": 2,
+      "automatic_refresh_outside_logic": true
     }
   ],
-  "not_executed": [
-    "Algoflow GUI code generation",
-    "project/table persistence in Algoflow",
-    "public-data API calls",
-    "physical Cocobot movement"
-  ]
+  "chapter_blocks_match_files": true,
+  "book_blocks_match_files": true,
+  "code_specs_match_files": true,
+  "plot_pixels": [
+    1536,
+    1152
+  ],
+  "plot_dpi": 240,
+  "chart_binding": true,
+  "repeated_updates": true,
+  "automatic_refresh_outside_logic": true,
+  "execution_scope": "Real Flet MatplotlibChart construction and backend rendering; each of 7 drawing bodies executed twice on its original Figure/Axes/control. Controls were not mounted in a live Flet session by this checker."
 }

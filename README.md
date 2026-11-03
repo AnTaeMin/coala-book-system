@@ -1,6 +1,8 @@
 # Coala Book System
 
-다른 컴퓨터에서 현재 16차시 교재 작업을 이어가려면 [다른 컴퓨터 설치·작업 안내](OTHER-PC-SETUP.md)를 따른다. 최신 원고는 `feat/python-vibe-sample` 브랜치의 `coala-book-md/vibe-coding-16/book.md`에 있다.
+현재 최종 과정은 **32차시**입니다. 기존 16개 주제를 각각 1·2부로 나눴습니다. [재검토한 32차시 학생용 PDF](output/pdf/vibe-coding-32-coala-access-reviewed.pdf), [전체 원고](coala-book-md/vibe-coding-32/book.md), [수업 구성](coala-book-md/vibe-coding-32/curriculum.md)을 확인합니다. 아래 16차시 설치·전달 안내는 이전판 기록이며 기존 자료도 보존합니다.
+
+다른 컴퓨터에서 현재 16차시 교재 작업을 이어가려면 [다른 컴퓨터 설치·작업 안내](OTHER-PC-SETUP.md)를 참고한다. `feat/python-vibe-sample` 브랜치에 있는 교재를 이어서 수정한 현재 전달본은 `coala-book-md/vibe-coding-16-source-revised.zip`에 있다. 아래에서 저장소를 설치한 뒤 ZIP의 `START-HERE.txt`에 따라 현재 원고와 자산을 복사한다.
 
 구조화된 Markdown 원고를 검증하고, Canva Apps SDK로 편집 가능한 교재 페이지(1587 × 2245)를 자동 생성하는 프로젝트다.
 
@@ -11,6 +13,49 @@ coala-book-system/
 ├─ skill/            원고 작성·교재 제작 규칙을 담은 Claude 스킬 (coala-canva-textbook)
 └─ test-input/       파서 테스트용 원고 예시. invalid/ 는 일부러 틀린 원고
 ```
+
+## 빠른 시작 (복붙용)
+
+준비물: [Node.js 24](https://nodejs.org) 설치, Canva 계정
+
+**1. 설치 (최초 1회)**
+
+```bash
+git clone https://github.com/kkh1466/coala-book-system.git coala-book-system
+cd coala-book-system/canva-app
+npm install
+```
+
+현재 16차시 수정판을 사용하려면 전달 ZIP의 `START-HERE.txt`에 따라 `vibe-coding-16` 폴더를 `coala-book-md/vibe-coding-16`에, 나머지 폴더를 저장소의 같은 상대 경로에 복사한다. 원고와 `assets/`를 함께 옮긴다. 저장소만 설치한 상태에서 앱을 시험하려면 `coala-book-md/ai-math2/book.md`를 선택할 수 있다.
+
+**2. Canva 앱 만들기 (최초 1회)**
+
+1. https://www.canva.com/developers/apps 접속 → **Create an app** 클릭
+2. 왼쪽 메뉴 **Configuration** 의 **App source** → **Development URL** 에 `http://localhost:8080` 입력 → 저장
+3. 같은 화면의 **Permissions** 에서 `canva:design:content:read`, `canva:design:content:write` 두 개 켜기
+
+CLI 로그인과 앱 연결이 처음이면 아래 5-2절도 진행한다.
+
+**3. 서버 켜기 (매번)**
+
+저장소를 둔 상위 폴더에서 새 터미널을 열고 실행한다.
+
+```bash
+cd coala-book-system/canva-app
+npm start
+```
+
+터미널에 `localhost:8080` 이 보이면 켜진 것. 이 창은 닫지 말고 둔다.
+
+**4. Canva에서 열기 (매번)**
+
+1. https://www.canva.com/developers/apps → **Your apps** → 2번에서 만든 앱 클릭
+2. 오른쪽 위 **Preview** (미리보기) 클릭 → 새 Canva 디자인이 열리고 왼쪽에 앱 패널이 뜬다
+3. 패널에서 **Choose file** → `coala-book-md/vibe-coding-16/book.md` 선택
+4. (이미지 포함) **폴더 입력** → `coala-book-md/vibe-coding-16/assets` 선택
+5. **교재 페이지 생성** 클릭
+
+종료할 때는 터미널에서 `Ctrl + C`. 자세한 내용은 아래 절을 본다.
 
 ## 1. 요구 사항
 
@@ -35,9 +80,9 @@ npm install
 
 ```bash
 cd canva-app
-npm run validate -- ../coala-book-md/ch05-conditionals/book.md            # 문법·구조 검사
-npm run validate -- ../coala-book-md/ch05-conditionals/book.md --layout   # 배치까지 계산
-npm run validate -- ../coala-book-md/ch05-conditionals/book.md --json     # 기계가 읽을 출력
+npm run validate -- ../coala-book-md/vibe-coding-16/book.md            # 문법·구조 검사
+npm run validate -- ../coala-book-md/vibe-coding-16/book.md --layout   # 배치까지 계산
+npm run validate -- ../coala-book-md/vibe-coding-16/book.md --json     # 기계가 읽을 출력
 ```
 
 - 여러 파일을 한 번에 줄 수 있다.
@@ -121,7 +166,7 @@ coala-book-md/<교재>/
 └─ assets/    book.md가 가리키는 이미지
 ```
 
-메모·개요 같은 대충 적은 재료에서 원고를 쓰려면 Claude에서 `skill/coala-canva-textbook` 스킬을 쓴다. 스킬은 원고를 쓰고 3절의 검증기를 통과할 때까지 고친다. 본보기 원고는 [coala-book-md/ch05-conditionals/book.md](coala-book-md/ch05-conditionals/book.md)이고, `test-input/`의 원고는 문법 예시다.
+메모·개요 같은 대충 적은 재료에서 원고를 쓰려면 Claude에서 `skill/coala-canva-textbook` 스킬을 쓴다. 스킬은 원고를 쓰고 3절의 검증기를 통과할 때까지 고친다. 본보기 원고는 [coala-book-md/ai-math2/book.md](coala-book-md/ai-math2/book.md)이고, `test-input/`의 원고는 문법 예시다. 현재 16차시 수정판은 전달 ZIP을 복사한 뒤 `coala-book-md/vibe-coding-16/book.md`에서 편집한다.
 
 스킬을 Claude Code에서 쓰려면 `skill/coala-canva-textbook` 폴더를 `~/.claude/skills/` 아래에 복사하거나 링크한다.
 

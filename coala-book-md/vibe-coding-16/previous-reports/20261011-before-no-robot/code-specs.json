@@ -1,0 +1,86 @@
+[
+  {
+    "chapter": 13,
+    "page_id": "ch13-one-array",
+    "code": "import matplotlib.pyplot as plt\n\nfig, ax = plt.subplots(figsize=(8, 5))\nax.plot([1, 2, 3, 4, 5])\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-one"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-two-arrays",
+    "code": "import matplotlib.pyplot as plt\n\na = [15, 25, 35, 45, 55]\nb = [5, 10, 15, 20, 25]\nfig, ax = plt.subplots(figsize=(8, 5))\nax.plot(a, b)\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-two"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-range",
+    "code": "import matplotlib.pyplot as plt\n\na = [1, 2, 3, 4, 5]\nb = [5, 10, 15, 20, 25]\nfig, ax = plt.subplots(figsize=(8, 5))\nax.plot(a, b, \"b-+\", clip_on=False)\nax.axis([0, 10, 0, 25])\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-range"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-markers",
+    "code": "import matplotlib.pyplot as plt\n\nx = [1, 2, 3, 4, 5]\ny = [5, 10, 15, 20, 25]\nfig, ax = plt.subplots(figsize=(8, 5))\nax.plot(x, y, \"ro\", clip_on=False)\nax.set_xlabel(\"x\")\nax.set_ylabel(\"y\")\nax.set_title(\"hello\")\nax.text(3, 5, \"12/19\")\nax.axis([0, 10, 0, 25])\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-markers"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-bars",
+    "code": "import matplotlib.pyplot as plt\n\na = [1, 2, 4, 8, 16, 32, 64, 128]\nfig, ax = plt.subplots(figsize=(8, 5))\nax.bar(range(len(a)), a)\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-bars"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-grouped",
+    "code": "import matplotlib.pyplot as plt\n\ntopics = [\"one\", \"two\", \"three\", \"four\", \"five\"]\nvalue_a = [35, 80, 84, 83, 50]\nvalue_b = [73, 80, 77, 40, 86]\n\ndef create_x(t, w, n, d):\n    return [t * x + w * n for x in range(d)]\n\nvalue_a_x = create_x(2, 0.8, 1, 5)\nvalue_b_x = create_x(2, 0.8, 2, 5)\nfig, ax = plt.subplots(figsize=(8, 5))\nax.bar(value_a_x, value_a)\nax.bar(value_b_x, value_b)\nmiddle_x = [(a + b) / 2\n            for a, b in zip(value_a_x, value_b_x)]\nax.set_xticks(middle_x)\nax.set_xticklabels(topics)\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-grouped"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-scatter",
+    "code": "import numpy as np\nimport matplotlib.pyplot as plt\n\nnp.random.seed(20211206)\nx = np.arange(1.1, 100.0, 5.0)\ny = x * 1.5 + np.random.rand(20) * 50\nfig, ax = plt.subplots(figsize=(8, 5))\nax.scatter(x, y, c=\"red\", alpha=0.5, label=\"random\")\nax.set_xlabel(\"X축 제목\")\nax.set_ylabel(\"Y축 제목\")\nax.legend(loc=\"upper left\")\nax.set_title(\"random\")\nfig.tight_layout()\nplt.show()",
+    "output": null,
+    "result": "plot-scatter"
+  },
+  {
+    "chapter": 14,
+    "page_id": "ch14-series",
+    "code": "import pandas as pd\n\ndict_data = {\"one\": 1, \"two\": 2, \"three\": 3}\nser = pd.Series(dict_data)\nprint(ser)",
+    "output": "one      1\ntwo      2\nthree    3\ndtype: int64",
+    "result": null
+  },
+  {
+    "chapter": 14,
+    "page_id": "ch14-mixed",
+    "code": "import pandas as pd\n\nlist_data = [\"2022-01-01\", 2.14, \"song\", 1000, True]\nsr = pd.Series(list_data)\nprint(sr)\nprint(sr.index)\nprint(sr.values)",
+    "output": "0    2022-01-01\n1          2.14\n2          song\n3          1000\n4          True\ndtype: object\nRangeIndex(start=0, stop=5, step=1)\n['2022-01-01' 2.14 'song' 1000 True]",
+    "result": null
+  },
+  {
+    "chapter": 14,
+    "page_id": "ch14-dataframe",
+    "code": "import pandas as pd\n\ndf = pd.DataFrame(\n    [[15, \"여\", \"중2\"], [17, \"남\", \"고1\"]],\n    index=[\"현아\", \"태민\"],\n    columns=[\"나이\", \"성별\", \"학년\"],\n)\nprint(df)\nprint(df.index)\nprint(df.columns)",
+    "output": "    나이 성별  학년\n현아  15  여  중2\n태민  17  남  고1\nIndex(['현아', '태민'], dtype='object')\nIndex(['나이', '성별', '학년'], dtype='object')",
+    "result": null
+  },
+  {
+    "chapter": 14,
+    "page_id": "ch14-rename-code",
+    "code": "import pandas as pd\n\ndf = pd.DataFrame(\n    [[15, \"여\", \"중2\"], [17, \"남\", \"고1\"]],\n    index=[\"현아\", \"태민\"],\n    columns=[\"나이\", \"성별\", \"학년\"],\n)\ndf.index = [\"학생1\", \"학생2\"]\ndf.columns = [\"연령\", \"남녀\", \"학년\"]\nprint(df)\nprint(df.index)\nprint(df.columns)",
+    "output": "     연령 남녀  학년\n학생1  15  여  중2\n학생2  17  남  고1\nIndex(['학생1', '학생2'], dtype='object')\nIndex(['연령', '남녀', '학년'], dtype='object')",
+    "result": null
+  },
+  {
+    "chapter": 14,
+    "page_id": "ch14-dict-frame-code",
+    "code": "import pandas as pd\n\ndict_data = {\n    \"mon\": [1, 8, 15, 22],\n    \"tue\": [2, 9, 6, 23],\n    \"wed\": [3, 10, 17, 24],\n    \"thu\": [4, 11, 18, 25],\n    \"fri\": [5, 12, 19, 26],\n    \"sat\": [6, 13, 20, 27],\n    \"sun\": [7, 14, 21, 28],\n}\ndf = pd.DataFrame(dict_data)\nprint(type(df))\nprint(df)",
+    "output": "<class 'pandas.core.frame.DataFrame'>\n   mon  tue  wed  thu  fri  sat  sun\n0    1    2    3    4    5    6    7\n1    8    9   10   11   12   13   14\n2   15    6   17   18   19   20   21\n3   22   23   24   25   26   27   28",
+    "result": null
+  }
+]

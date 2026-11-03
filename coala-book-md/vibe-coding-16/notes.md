@@ -1,17 +1,61 @@
-# 다음 제작·수정에 사용할 지침
+# 원고 수정·다른 컴퓨터 전달 · 2026-10-28
 
-## 기준 원고
+현재 편집본은 output/pdf/vibe-coding-16-coala-access.pdf와 output/pptx/vibe-coding-16-coala-access.pptx이며 A4 134쪽입니다. 표지·AI/알고리즘/GUI 목차·Matplotlib 영문 축을 반영했습니다. 4~6쪽의 COALA 접속 안내는 홈페이지·Web Version·학생 로그인·수업 입장·전자책 순서이며, 사용자 사진 4개와 개정 교재 화면 예시 1개를 사용합니다. 원본 사진과 출처는 assets/coala-access-20261028/sources 및 provenance.json에 보존했습니다.
 
-지정한 루트 폴더의 158쪽 앱 개발 PDF를 우선한다. source-map.json과 source-audit.md를 참고하여 책의 설명과 실습 예시를 중심으로 유지한다. coala-book-md/ai-math/flet.pdf 및 previous-20261005.zip은 현재 기준 원본이 아니다.
+아래의 2026-10-27 실행 기록과 전달 ZIP은 직전판입니다. 현재 PDF 전체 렌더 검증은 tmp/pdfs/20261028-coala-access-review/automated-qa.json, 코드 실행 검증은 tmp/pdfs/20261028-matplotlib-review/execution-results.json을 확인합니다. 이전 판을 포장하는 audit_current_edition.py는 현재 편집본에 다시 실행하지 않습니다.
 
-## 내용 작성
+직전 Flet 구조 반영본: output/pdf/vibe-coding-16-upstream.pdf, A4 132쪽. 16차시·162개 원고 컨테이너·37개 실습·공통 생성 코드 1개·그리기 코드 7개·4개 순서도. PNG 40개·벡터 PDF 7개·이미지 배치 42곳.
 
-16차시를 유지한다. 자체 공부 기록·대출·음료 주문 예시로 되돌리지 않는다. source-audit.md의 오타·변수·조건·그래프 오류 수정 사항을 보존한다. 요청·답변은 학습용 재작성 예시라는 표시를 유지한다. 알고플로 기능과 독립 Python 코드를 구분하며, 정의되지 않은 message·fch·코코봇 함수를 임의로 추가하지 않는다.
+12차시 Matplotlib 선·마커 → 13차시 Matplotlib 막대·산점도 → 14차시 입력 Chart → 15차시 학생 자료·저장 → 16차시 프로젝트
 
-## 이미지와 지면
+## 다른 컴퓨터에서 준비
 
-현재 asset-manifest.json의 28개 이미지만 사용한다. 이미지의 실제 비율을 유지하고 원본 캡처 쪽수와 새 실행 결과 표시를 보존한다. 삼육보건대 로고를 넣지 않는다. 흰 배경을 쓰고 종이 질감, 회색 가루 효과, 카드 그림자를 넣지 않는다. 긴 요청은 좌우가 좁아지는 타원 대신 둥근 사각형 안에 넣는다. 제목·본문 글꼴을 줄여 공간을 맞추지 않는다. 여백 보강은 해당 예제의 예측·테스트·기록 활동으로 하며 가장자리까지 밀어 넣지 않는다.
+최신 저장소를 복제하고 앱 패키지를 설치한 뒤 전달ZIP을 같은 저장소에 덮어씁니다. ZIP의 vibe-coding-16 폴더는 coala-book-md/vibe-coding-16에, canva-app·scripts·output·tmp는 저장소 루트의 같은 위치에 배치합니다. ZIP에 포함한 export-book-spec.cjs도 반드시 canva-app/scripts에 복사합니다.
 
-## Canva 제작 요청 예시
+```powershell
+git clone https://github.com/kkh1466/coala-book-system.git
+cd coala-book-system
+npm --prefix canva-app install
+```
 
-skill/coala-canva-textbook/SKILL.md와 이 notes.md를 따라 coala-book-md/vibe-coding-16/book.md를 제작해줘. assets/source-20261006 폴더의 이미지와 asset-manifest.json을 함께 사용해줘. 원본 Canva를 보존하고 제작 사본에서 작업해줘. 순서도 4개는 flowchart-canva.md와 flowcharts.md의 네이티브 요소 규칙을 따라 완성해줘. 실제 생성 후 표지·목차·페이지 번호·넘침·레이어·이미지 가독성을 확인하고 PDF를 새로 내보내줘. 이전 209쪽 PDF를 수정본으로 전달하지 말아줘.
+반영 기준 커밋은 9723e244e225c4a300b6f251a766b39de46e63f6입니다. 저장소 원본과 수정된 전달 원고를 구분하며 ZIP을 덮어쓴 뒤 일회성 개편 스크립트를 실행하지 않습니다.
+
+## 일반 수정과 재생성
+
+각 chXX.md를 수정한 뒤 book.md를 조립합니다. 기존 데이터·실습 조건·코드·그림 폭을 유지하고 표지·학생 본문에 제작 메모를 넣지 않습니다.
+
+```powershell
+python scripts/finalize_student_manuscript.py
+$chapters = (Get-ChildItem coala-book-md/vibe-coding-16 -Filter ch??.md).FullName
+$validation = node canva-app/scripts/validate.cjs --layout --json coala-book-md/vibe-coding-16/book.md @chapters
+[IO.File]::WriteAllText("coala-book-md/vibe-coding-16/validation-full.json", ($validation -join [Environment]::NewLine), [Text.UTF8Encoding]::new($false))
+node canva-app/scripts/export-book-spec.cjs coala-book-md/vibe-coding-16/book.md tmp/pdfs/book-spec.json
+python scripts/check_practice_code.py --review-date 2026-10-28
+python scripts/finalize_textbook_pdf.py --output output/pdf/vibe-coding-16-coala-access.pdf --review-date 2026-10-28
+python scripts/prepare_coala_access_assets.py --preview-only --pdf output/pdf/vibe-coding-16-coala-access.pdf
+python scripts/finalize_textbook_pdf.py --output output/pdf/vibe-coding-16-coala-access.pdf --review-date 2026-10-28
+python scripts/review_textbook_pdf.py --pdf output/pdf/vibe-coding-16-coala-access.pdf --dest tmp/pdfs/20261028-coala-access-review
+python scripts/export_textbook_pptx_scene.py --pdf output/pdf/vibe-coding-16-coala-access.pdf --dest tmp/pptx/textbook-coala-access
+node scripts/build_textbook_pptx.mjs --scene tmp/pptx/textbook-coala-access/scene.json --output tmp/pptx/textbook-coala-access/candidate.pptx
+node scripts/finalize_textbook_pptx.mjs --scene tmp/pptx/textbook-coala-access/scene.json --candidate tmp/pptx/textbook-coala-access/candidate.pptx --output output/pptx/vibe-coding-16-coala-access.pptx
+```
+
+validation-full.json은 book.md와 16개 차시가 모두 통과한 현재 결과로 갱신한 뒤 보고서를 실행합니다. Node 명령이 실패하면 다음 명령으로 진행하지 않고 오류를 먼저 수정합니다. PPTX 최종 검증기는 기존 결과물을 덮어쓰지 않으므로 마지막 --output에는 새 파일명을 지정합니다. 실제 Windows 환경에서는 번들 Python·Node 실행 경로를 사용합니다.
+
+restructure_no_pandas.py·restructure_graph_first.py는 과거 원고에서 일회성으로 구조를 변경한 스크립트입니다. 일상 편집에서 다시 실행하면 후속 수정이 지워질 수 있으므로 사용하지 않습니다. prepare_source_flowcharts.py는 원본 자산 재추출 때만 사용하며 일반 PDF 재생성에는 기준 PDF·PyMuPDF가 필요하지 않습니다. 순서도 YAML을 바꿀 때는 대응 flow-source-map 해시도 함께 갱신해야 합니다.
+
+## 환경과 전달 파일
+
+PDF 자체는 설치 없이 열 수 있습니다. 재조판에는 Python의 reportlab·pypdf·Pillow와 원고 파서용 Node.js, 전체 렌더용 도구가 필요합니다. 코드 예제에는 examples/source-based/requirements.txt의 Matplotlib·NumPy를 설치합니다. ZIP의 tmp/pdfs/fonts에는 사용한 비시스템 글꼴 4개를 포함합니다. Windows의 Consolas는 시스템 글꼴을 사용합니다. 현재 비교에 필요한 수정 전 metadata·자산·코드 JSON을 previous-reports/20261027-before-content-code-review에 포함합니다. 과거 PDF·이미지·원고는 전달 ZIP에서 제외합니다.
+
+원본 파일이 없는 컴퓨터에서는 포함 자산·벡터의 해시와 보존 출처 기록을 검사합니다. 로컬에 기준 PDF가 있을 때만 그 파일의 SHA-256도 직접 검증합니다. 원본 기준 파일 동일성 기록은 이전 기준 변경의 증거이며, 이번 16차시 개편이 원고 불변이었다는 뜻이 아닙니다.
+
+Matplotlib을 선·마커와 막대·산점도 두 차시로 나누고 입력 Chart를 14차시, 학생 자료·저장을 15차시에 배치했습니다. Pandas 차시의 실습 3개·코드 5개·텍스트 출력 5개·결과 표 이미지 1개를 제외했습니다. Divider를 제외한 두 Image 배치 그림으로 바꾸고 교재의 저장·불러오기 과정 사진 5개를 추가했습니다. GUI(그래픽 사용자 인터페이스) 구성 설명과 예시를 추가했습니다. 8차시는 Field 복사 화면에서 입력 칸·버튼·표시 영역의 역할을 설명하고, 15차시는118쪽 저장 앱 구성 화면을 사용합니다. 버튼·Field·Text·계산기·Table·Chart·저장 화면의 위젯 위치·이름·역할을 기존 실습에 연결했습니다. 새 실습·코드는 추가하지 않았습니다. 최신 저장소의 공통 설명을GUI수업에 맞게 반영하여 사람과AI의 역할, GUI요청·실행 결과 확인·수정을 기존 개념에서 설명했습니다. 노트북 셀에 코드를 넣고 실행하는 과정과 노트북 화면4개는 이번 수업 방식에 맞지 않아 제외했습니다. 기존162개 원고ID·37개 실습·7개 Python코드·이미지 구성을 유지합니다.
+
+직전 GUI130쪽판과 제작 기록은 previous-reports/20261011-before-upstream-update에 보관했습니다. 이전128쪽 과정 개편판과 source7 기준134쪽판의 기록도 previous-reports에 보존하며 현재판의 검증과 구분합니다.
+
+## 실제 Flet 실습 앱 확인
+
+examples/flet-practices/README.md의 순서로 requirements.txt를 설치하고 gallery.py를 실행합니다. 브라우저가 연결된 실제 Page에서 위젯·계산·표·차트·조건과 반복을 점검합니다. 코드 조각은 독립 실행 파일이 아니라 기존 fig_cht1·ax_cht1에 적용하는 그리기 부분입니다. 코드 자체를 수정하면 대응 code-specs.json도 함께 갱신한 뒤 조립·검증합니다.
+
+현재 실행 결과는 gui-results.json, 현재 종합 검토는 flet-runtime-review.md입니다. 학교 클라우드 저장은 로컬 JSON 저장 검사와 구분합니다.

@@ -1,0 +1,279 @@
+{
+  "source_sha256": "a4aa668621a7c59c36c9666fa1019182d5ed999c9fb8620f2ddcf509840b2729",
+  "compared_native_images": 21,
+  "all_identical": true,
+  "items": [
+    {
+      "src": "assets/source-20261006/button-before.png",
+      "pdf_page": 46,
+      "decoded_pixel_sha256": "1f33fe926b96952311c5855b964cab42844aa35f05707ae8531f3416c38dd92d",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/button-after.png",
+      "pdf_page": 46,
+      "decoded_pixel_sha256": "ab0d48417a555f4a9d98b1b35e426861a29c39fc419a046edfbdd4349624828f",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/field-copy.png",
+      "pdf_page": 53,
+      "decoded_pixel_sha256": "48b861c785cefa036fd258548be7df39470706038cc0f4f70d6c370c99856814",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/product.png",
+      "pdf_page": 54,
+      "decoded_pixel_sha256": "74cc3f111e78b31dab142e3805603d75200e0f247ea2340d1c36589b3aa0c39b",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/calculator.png",
+      "pdf_page": 61,
+      "decoded_pixel_sha256": "495933bc4dd71268fa2edea51bc998a8263eff0186b28bca53d23cec42c33718",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/text-append.png",
+      "pdf_page": 63,
+      "decoded_pixel_sha256": "504da33c030ec8e95558d30fdd357fab45f4d2ce741d943e96ba6059bbcd08ca",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/times-table.png",
+      "pdf_page": 65,
+      "decoded_pixel_sha256": "07fef6efd18cc04b6b77e58ce7e98f2e7611be7e9d0f47f99442a6a4c460cc28",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/dropdown.png",
+      "pdf_page": 68,
+      "decoded_pixel_sha256": "8deb7b12c48e28a5605d42b2218bae97436f82d73ba7ad8b7086b77005af7d09",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/health-check.png",
+      "pdf_page": 73,
+      "decoded_pixel_sha256": "80cdf804cf1d6a473ed9bfa62f5d817321cf18a14a48e3cd1355ffdb3eec8975",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/club-radio.png",
+      "pdf_page": 78,
+      "decoded_pixel_sha256": "2d68b36e70fee94cb5f38b5e97bd29fd9da1b8ffd79c905150a734d0be566301",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/progress.png",
+      "pdf_page": 82,
+      "decoded_pixel_sha256": "bb86a1e0357b8d58d4d8b8c6cd21a3565639847fe5b0caf5ffd41604103f5dbf",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/image-divider.png",
+      "pdf_page": 85,
+      "decoded_pixel_sha256": "b7d96531271488fdac6fa1bd6765ff3ef0c3df9ca326917c761dd8c729884f0f",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/student-table.png",
+      "pdf_page": 90,
+      "decoded_pixel_sha256": "fcb6638e185187d57098d0127ccee914895786bb31867c46449ede08900a6aa2",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/line-chart.png",
+      "pdf_page": 99,
+      "decoded_pixel_sha256": "b45031354d3586fe4e4074786aada6e3d7e325953ebb22a767caf3c368f52d67",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/scatter-chart.png",
+      "pdf_page": 102,
+      "decoded_pixel_sha256": "09626dbdc01fc4e20322273d0d999421ff22a6be58559b9ce645dc19c6c2a399",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/bar-chart.png",
+      "pdf_page": 105,
+      "decoded_pixel_sha256": "08d5dcdbec71c420dd2b4ae27b7ee509b909f471f3386d4a90a99d8c0e54a0ea",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261006/saved-project.png",
+      "pdf_page": 127,
+      "decoded_pixel_sha256": "4571d602d1f54719f9d11016489262fe68700008369884d6ed88b4d1564fd21f",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261010/message-dialog.png",
+      "pdf_page": 49,
+      "decoded_pixel_sha256": "9164d4c0ea714dccbfd04423b35297d6782639ea2963f67e3ef623da8d28fb6a",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261010/message-input.png",
+      "pdf_page": 49,
+      "decoded_pixel_sha256": "3bd0890136a636ee005948b0b28c113a4b12415fb41d2e725f9f3a336bf6123b",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261010/data-column-select.png",
+      "pdf_page": 107,
+      "decoded_pixel_sha256": "f3e243eed77ecd43c109ce9c2debb2ee6a6da4e27a62b953efc8eab1cbd9acdd",
+      "native_image_identical": true
+    },
+    {
+      "src": "assets/source-20261010/school-count-chart.png",
+      "pdf_page": 110,
+      "decoded_pixel_sha256": "b0d524c150616b19e835f8f18de41d7f5ef54955b3d9e1e1fb3c948ee4b4ca18",
+      "native_image_identical": true
+    }
+  ],
+  "visual_difference_measures": [
+    {
+      "page": 8,
+      "different_pixel_percentage": 0.0018,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 12,
+      "different_pixel_percentage": 0.0014,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 15,
+      "different_pixel_percentage": 0.0016,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 27,
+      "different_pixel_percentage": 0.002,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 40,
+      "different_pixel_percentage": 0.0004,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 61,
+      "different_pixel_percentage": 0.0004,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 62,
+      "different_pixel_percentage": 0.0004,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 63,
+      "different_pixel_percentage": 0.0016,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 65,
+      "different_pixel_percentage": 0.0823,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 66,
+      "different_pixel_percentage": 0.0046,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 68,
+      "different_pixel_percentage": 0.0016,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 73,
+      "different_pixel_percentage": 0.002,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 74,
+      "different_pixel_percentage": 0.002,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 78,
+      "different_pixel_percentage": 0.002,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 79,
+      "different_pixel_percentage": 0.002,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 91,
+      "different_pixel_percentage": 0.0014,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 92,
+      "different_pixel_percentage": 0.0022,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 94,
+      "different_pixel_percentage": 0.0014,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 133,
+      "different_pixel_percentage": 0.0004,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 134,
+      "different_pixel_percentage": 0.0004,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 136,
+      "different_pixel_percentage": 0.0004,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 140,
+      "different_pixel_percentage": 0.0004,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 142,
+      "different_pixel_percentage": 0.0004,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    },
+    {
+      "page": 145,
+      "different_pixel_percentage": 0.0004,
+      "above_8_percentage": 0.0,
+      "max_channel_difference": 1
+    }
+  ]
+}

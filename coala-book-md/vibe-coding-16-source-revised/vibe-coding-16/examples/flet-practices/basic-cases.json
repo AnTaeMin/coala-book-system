@@ -1,0 +1,20 @@
+{
+  "runtime": {"flet": "0.86.0", "python_test_target": "3.10.11"},
+  "factory": "basic.build_cases(page)",
+  "execution_contract": "실제 Page에 case.control을 장착한 뒤 await case.exercise()를 호출합니다. 콜백 실행 결과를 검증하며 UI 클릭을 자동화했다는 의미는 아닙니다.",
+  "cases": [
+    {"id":"008-1","title":"버튼 색 바꾸기","expected":{"bgcolor":"blue","color":"white"}},
+    {"id":"008-2","title":"입력 인사말 메시지 창","expected":{"message":"안녕하세요","dialog_opened_and_closed":true}},
+    {"id":"008-3","title":"Field 복사·삭제","expected":{"copied":"안녕","both_fields_cleared":true}},
+    {"id":"009-1","title":"두 정수 사이의 누적곱","expected":{"one_to_six":"720","two_to_four":24,"repeat_reset":true,"invalid_cases":4}},
+    {"id":"009-2","title":"사칙연산 계산기","expected":{"operations":{"+":"105.0","-":"95.0","*":"500.0","/":"20.0"},"zero_division_handled":true,"invalid_cases":4}},
+    {"id":"009-3","title":"Text 내용 추가","expected":{"text":"안녕하세요 저는 코알라입니다\n저는 12살입니다","line_count":2}},
+    {"id":"009-4","title":"4단 구구단 출력","expected":{"first":"4 × 1 = 4","last":"4 × 9 = 36","line_count":9}},
+    {"id":"010-1","title":"Dropdown 항목 추가·선택","expected":{"options":["빨강","파랑"],"selected":"빨강"}},
+    {"id":"010-2","title":"건강습관 Checkbox","expected":{"selected":["아침 식사하기"],"count":1,"empty_count":0}},
+    {"id":"010-3","title":"동아리 RadioGroup","expected":{"tested_choices":["코딩","방송","미술","과학"],"selected":"과학","single_group":true}},
+    {"id":"010-4","title":"진행 막대 증가·감소","expected":{"min":0.0,"max":1.0,"step":0.1,"display":"0.5","boundary_checks":2}},
+    {"id":"010-5","title":"두 Image 세로 배치","expected":{"vertical_order":["img1","img2"],"display_sizes":[[320,120],[240,150]],"local_png_count":2}},
+    {"id":"011-1","title":"학생 성적 DataTable 추가·셀 변경","expected":{"columns":["이름","국어","수학","영어"],"rows":[["학생1","100","90","80"],["학생2","70","95","50"]],"edited_cell":[2,3,"95"],"invalid_index_cases":6,"invalid_score_rejected":true}}
+  ]
+}

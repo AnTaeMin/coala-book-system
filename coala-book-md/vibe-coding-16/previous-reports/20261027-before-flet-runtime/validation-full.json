@@ -1,0 +1,2533 @@
+[
+  {
+    "file": "coala-book-md/vibe-coding-16/book.md",
+    "ok": true,
+    "pages": 162,
+    "issues": [],
+    "layout": {
+      "canvaPages": 168,
+      "pages": [
+        {
+          "id": "book-guide",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch01-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch01-ai",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch01-limits",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch01-ethics",
+          "type": "concept",
+          "canvaPages": 2
+        },
+        {
+          "id": "ch01-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch01-procedure",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch01-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch02-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch02-prompt",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch02-compare",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch02-inputs",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch02-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch02-practice-2",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch02-request",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch02-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch03-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch03-ramen",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch03-algorithm",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch03-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch03-design",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch03-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-roles",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-types",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-variables",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-family-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-family-flow",
+          "type": "flowchart",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-scores-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-loops",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-trace",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-exercise-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-exercise-flow",
+          "type": "flowchart",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-practice-2",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-caffeine-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch06-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch06-conditions",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch06-sleep-rules",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch06-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch06-sleep-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch06-sleep-flow",
+          "type": "flowchart",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch06-fix",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch06-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch07-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch07-roles",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch07-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch07-pass-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch07-movie-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch07-movie-flow",
+          "type": "flowchart",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch07-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-widgets",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-designer",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-gui-example",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-button-before",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-button-after",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-practice-message",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-message-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-practice-2",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-request",
+          "type": "step-process",
+          "canvaPages": 2
+        },
+        {
+          "id": "ch08-field-copy",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-platform",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-product-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-product",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-practice-2",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-calculator-request",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-calculator",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-calculator-code",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-practice-3",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-text",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-practice-4",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-times-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-times",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-choice",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-dropdown",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-practice-2",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-health",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-health-request",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-practice-3",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-club",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-practice-4",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-progress",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-practice-5",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-images",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-table",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-table-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-field-map",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-request",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-index",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-index-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-practice-2",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-axes",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-one-array",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-practice-two",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-two-arrays",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-practice-2",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-range",
+          "type": "concept",
+          "canvaPages": 2
+        },
+        {
+          "id": "ch12-practice-colors",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-markers",
+          "type": "concept",
+          "canvaPages": 2
+        },
+        {
+          "id": "ch12-practice-labels",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-labels-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-fix",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch13-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch13-practice-3",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch13-bars",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch13-practice-grouped",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch13-grouped",
+          "type": "concept",
+          "canvaPages": 2
+        },
+        {
+          "id": "ch13-practice-4",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch13-scatter",
+          "type": "concept",
+          "canvaPages": 2
+        },
+        {
+          "id": "ch13-fix",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch13-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-charts",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-line-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-practice-2",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-scatter-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-practice-3",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-bar-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-practice-data",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-loaded-data",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-data-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-practice-school",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-school-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-practice-3",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-gui-layout",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-save-widgets",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-save-process",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-save-menu",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-save-name",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-load-project",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-saved",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch16-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch16-projects",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch16-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch16-procedure",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch16-fix",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch16-evidence",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch16-portfolio",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch16-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [
+        {
+          "page": "2",
+          "src": "assets/ch01/ai-human-summary.png",
+          "fileRatio": "2.77",
+          "manuscriptRatio": "2197:792",
+          "ratioChanged": false,
+          "size": "1190×429"
+        },
+        {
+          "page": "60",
+          "src": "assets/source-20261006/field-copy.png",
+          "fileRatio": "1.22",
+          "manuscriptRatio": "497:406",
+          "ratioChanged": false,
+          "size": "595×486"
+        },
+        {
+          "page": "62",
+          "src": "assets/source-20261006/button-before.png",
+          "fileRatio": "2.02",
+          "manuscriptRatio": "170:84",
+          "ratioChanged": false,
+          "size": "595×294"
+        },
+        {
+          "page": "63",
+          "src": "assets/source-20261006/button-after.png",
+          "fileRatio": "2.23",
+          "manuscriptRatio": "183:82",
+          "ratioChanged": false,
+          "size": "595×267"
+        },
+        {
+          "page": "65",
+          "src": "assets/source-20261010/message-dialog.png",
+          "fileRatio": "1.69",
+          "manuscriptRatio": "462:274",
+          "ratioChanged": false,
+          "size": "595×353"
+        },
+        {
+          "page": "65",
+          "src": "assets/source-20261010/message-input.png",
+          "fileRatio": "1.72",
+          "manuscriptRatio": "424:247",
+          "ratioChanged": false,
+          "size": "595×347"
+        },
+        {
+          "page": "69",
+          "src": "assets/source-20261006/field-copy.png",
+          "fileRatio": "1.22",
+          "manuscriptRatio": "497:406",
+          "ratioChanged": false,
+          "size": "595×486"
+        },
+        {
+          "page": "75",
+          "src": "assets/source-20261006/product.png",
+          "fileRatio": "3.29",
+          "manuscriptRatio": "940:286",
+          "ratioChanged": false,
+          "size": "1190×362"
+        },
+        {
+          "page": "78",
+          "src": "assets/source-20261006/calculator.png",
+          "fileRatio": "2.10",
+          "manuscriptRatio": "452:215",
+          "ratioChanged": false,
+          "size": "595×283"
+        },
+        {
+          "page": "81",
+          "src": "assets/source-20261006/text-append.png",
+          "fileRatio": "1.68",
+          "manuscriptRatio": "393:234",
+          "ratioChanged": false,
+          "size": "595×354"
+        },
+        {
+          "page": "84",
+          "src": "assets/source-20261006/times-table.png",
+          "fileRatio": "1.90",
+          "manuscriptRatio": "489:257",
+          "ratioChanged": false,
+          "size": "595×313"
+        },
+        {
+          "page": "89",
+          "src": "assets/source-20261006/dropdown.png",
+          "fileRatio": "1.10",
+          "manuscriptRatio": "334:304",
+          "ratioChanged": false,
+          "size": "595×542"
+        },
+        {
+          "page": "91",
+          "src": "assets/source-20261006/health-check.png",
+          "fileRatio": "0.73",
+          "manuscriptRatio": "235:323",
+          "ratioChanged": false,
+          "size": "595×818"
+        },
+        {
+          "page": "94",
+          "src": "assets/source-20261006/club-radio.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "384:240",
+          "ratioChanged": false,
+          "size": "595×372"
+        },
+        {
+          "page": "96",
+          "src": "assets/source-20261006/progress.png",
+          "fileRatio": "2.34",
+          "manuscriptRatio": "292:125",
+          "ratioChanged": false,
+          "size": "595×255"
+        },
+        {
+          "page": "98",
+          "src": "assets/ch10/two-images.png",
+          "fileRatio": "1.15",
+          "manuscriptRatio": "266:232",
+          "ratioChanged": false,
+          "size": "595×519"
+        },
+        {
+          "page": "103",
+          "src": "assets/source-20261006/student-table.png",
+          "fileRatio": "1.95",
+          "manuscriptRatio": "744:381",
+          "ratioChanged": false,
+          "size": "1190×609"
+        },
+        {
+          "page": "113",
+          "src": "assets/source-20261006/plot-one.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "8:5",
+          "ratioChanged": false,
+          "size": "1190×744",
+          "role": "result"
+        },
+        {
+          "page": "115",
+          "src": "assets/source-20261006/plot-two.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "8:5",
+          "ratioChanged": false,
+          "size": "1190×744",
+          "role": "result"
+        },
+        {
+          "page": "118",
+          "src": "assets/source-20261006/plot-range.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "8:5",
+          "ratioChanged": false,
+          "size": "1190×744",
+          "role": "result"
+        },
+        {
+          "page": "121",
+          "src": "assets/source-20261006/plot-markers.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "8:5",
+          "ratioChanged": false,
+          "size": "1190×744",
+          "role": "result"
+        },
+        {
+          "page": "123",
+          "src": "assets/source-20261006/plot-markers.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "1920:1200",
+          "ratioChanged": false,
+          "size": "1190×744"
+        },
+        {
+          "page": "128",
+          "src": "assets/source-20261006/plot-bars.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "8:5",
+          "ratioChanged": false,
+          "size": "1190×744",
+          "role": "result"
+        },
+        {
+          "page": "131",
+          "src": "assets/source-20261006/plot-grouped.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "8:5",
+          "ratioChanged": false,
+          "size": "1190×744",
+          "role": "result"
+        },
+        {
+          "page": "134",
+          "src": "assets/source-20261006/plot-scatter.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "8:5",
+          "ratioChanged": false,
+          "size": "1190×744",
+          "role": "result"
+        },
+        {
+          "page": "140",
+          "src": "assets/source-20261006/line-chart.png",
+          "fileRatio": "1.83",
+          "manuscriptRatio": "856:467",
+          "ratioChanged": false,
+          "size": "1190×649"
+        },
+        {
+          "page": "142",
+          "src": "assets/source-20261006/scatter-chart.png",
+          "fileRatio": "1.95",
+          "manuscriptRatio": "904:464",
+          "ratioChanged": false,
+          "size": "1190×611"
+        },
+        {
+          "page": "144",
+          "src": "assets/source-20261006/bar-chart.png",
+          "fileRatio": "0.88",
+          "manuscriptRatio": "480:545",
+          "ratioChanged": false,
+          "size": "595×676"
+        },
+        {
+          "page": "149",
+          "src": "assets/source-20261010/data-column-select.png",
+          "fileRatio": "2.32",
+          "manuscriptRatio": "946:408",
+          "ratioChanged": false,
+          "size": "1190×513"
+        },
+        {
+          "page": "151",
+          "src": "assets/source-20261010/school-count-chart.png",
+          "fileRatio": "1.03",
+          "manuscriptRatio": "1020:992",
+          "ratioChanged": false,
+          "size": "1190×1157"
+        },
+        {
+          "page": "153",
+          "src": "assets/source-20261011/save-gui-layout.png",
+          "fileRatio": "0.75",
+          "manuscriptRatio": "913:1216",
+          "ratioChanged": false,
+          "size": "595×792"
+        },
+        {
+          "page": "155",
+          "src": "assets/source-20261011/save-table-columns.png",
+          "fileRatio": "3.73",
+          "manuscriptRatio": "1066:286",
+          "ratioChanged": false,
+          "size": "1190×319"
+        },
+        {
+          "page": "155",
+          "src": "assets/ch15/save-table-toggle.png",
+          "fileRatio": "2.48",
+          "manuscriptRatio": "208:84",
+          "ratioChanged": false,
+          "size": "595×240"
+        },
+        {
+          "page": "156",
+          "src": "assets/source-20261011/save-project-menu.png",
+          "fileRatio": "0.82",
+          "manuscriptRatio": "1115:1366",
+          "ratioChanged": false,
+          "size": "595×729"
+        },
+        {
+          "page": "157",
+          "src": "assets/source-20261011/save-project-name.png",
+          "fileRatio": "0.66",
+          "manuscriptRatio": "849:1278",
+          "ratioChanged": false,
+          "size": "595×896"
+        },
+        {
+          "page": "158",
+          "src": "assets/source-20261011/load-project-select.png",
+          "fileRatio": "0.89",
+          "manuscriptRatio": "1103:1238",
+          "ratioChanged": false,
+          "size": "595×668"
+        },
+        {
+          "page": "159",
+          "src": "assets/source-20261006/saved-project.png",
+          "fileRatio": "0.58",
+          "manuscriptRatio": "744:1282",
+          "ratioChanged": false,
+          "size": "595×1025"
+        }
+      ],
+      "unreadableImages": [],
+      "flowcharts": [
+        {
+          "page": "30",
+          "title": "가족 나이 합의 순서도",
+          "nodes": 4
+        },
+        {
+          "page": "38",
+          "title": "운동 시간 누적 순서도",
+          "nodes": 5
+        },
+        {
+          "page": "47",
+          "title": "수면 시간 조건 순서도",
+          "nodes": 6
+        },
+        {
+          "page": "55",
+          "title": "영화 관람의 반복과 분기",
+          "nodes": 7
+        }
+      ]
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch01.md",
+    "ok": true,
+    "pages": 7,
+    "issues": [],
+    "layout": {
+      "canvaPages": 8,
+      "pages": [
+        {
+          "id": "ch01-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch01-ai",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch01-limits",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch01-ethics",
+          "type": "concept",
+          "canvaPages": 2
+        },
+        {
+          "id": "ch01-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch01-procedure",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch01-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [
+        {
+          "page": "1",
+          "src": "assets/ch01/ai-human-summary.png",
+          "fileRatio": "2.77",
+          "manuscriptRatio": "2197:792",
+          "ratioChanged": false,
+          "size": "1190×429"
+        }
+      ],
+      "unreadableImages": [],
+      "flowcharts": []
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch02.md",
+    "ok": true,
+    "pages": 8,
+    "issues": [],
+    "layout": {
+      "canvaPages": 8,
+      "pages": [
+        {
+          "id": "ch02-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch02-prompt",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch02-compare",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch02-inputs",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch02-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch02-practice-2",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch02-request",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch02-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [],
+      "unreadableImages": [],
+      "flowcharts": []
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch03.md",
+    "ok": true,
+    "pages": 6,
+    "issues": [],
+    "layout": {
+      "canvaPages": 6,
+      "pages": [
+        {
+          "id": "ch03-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch03-ramen",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch03-algorithm",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch03-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch03-design",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch03-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [],
+      "unreadableImages": [],
+      "flowcharts": []
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch04.md",
+    "ok": true,
+    "pages": 9,
+    "issues": [],
+    "layout": {
+      "canvaPages": 9,
+      "pages": [
+        {
+          "id": "ch04-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-roles",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-types",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-variables",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-family-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-family-flow",
+          "type": "flowchart",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-scores-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch04-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [],
+      "unreadableImages": [],
+      "flowcharts": [
+        {
+          "page": "7",
+          "title": "가족 나이 합의 순서도",
+          "nodes": 4
+        }
+      ]
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch05.md",
+    "ok": true,
+    "pages": 9,
+    "issues": [],
+    "layout": {
+      "canvaPages": 9,
+      "pages": [
+        {
+          "id": "ch05-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-loops",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-trace",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-exercise-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-exercise-flow",
+          "type": "flowchart",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-practice-2",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-caffeine-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch05-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [],
+      "unreadableImages": [],
+      "flowcharts": [
+        {
+          "page": "6",
+          "title": "운동 시간 누적 순서도",
+          "nodes": 5
+        }
+      ]
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch06.md",
+    "ok": true,
+    "pages": 8,
+    "issues": [],
+    "layout": {
+      "canvaPages": 8,
+      "pages": [
+        {
+          "id": "ch06-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch06-conditions",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch06-sleep-rules",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch06-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch06-sleep-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch06-sleep-flow",
+          "type": "flowchart",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch06-fix",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch06-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [],
+      "unreadableImages": [],
+      "flowcharts": [
+        {
+          "page": "6",
+          "title": "수면 시간 조건 순서도",
+          "nodes": 6
+        }
+      ]
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch07.md",
+    "ok": true,
+    "pages": 7,
+    "issues": [],
+    "layout": {
+      "canvaPages": 7,
+      "pages": [
+        {
+          "id": "ch07-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch07-roles",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch07-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch07-pass-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch07-movie-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch07-movie-flow",
+          "type": "flowchart",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch07-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [],
+      "unreadableImages": [],
+      "flowcharts": [
+        {
+          "page": "6",
+          "title": "영화 관람의 반복과 분기",
+          "nodes": 7
+        }
+      ]
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch08.md",
+    "ok": true,
+    "pages": 14,
+    "issues": [],
+    "layout": {
+      "canvaPages": 15,
+      "pages": [
+        {
+          "id": "ch08-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-widgets",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-designer",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-gui-example",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-button-before",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-button-after",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-practice-message",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-message-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-practice-2",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-request",
+          "type": "step-process",
+          "canvaPages": 2
+        },
+        {
+          "id": "ch08-field-copy",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-platform",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch08-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [
+        {
+          "page": "4",
+          "src": "assets/source-20261006/field-copy.png",
+          "fileRatio": "1.22",
+          "manuscriptRatio": "497:406",
+          "ratioChanged": false,
+          "size": "595×486"
+        },
+        {
+          "page": "6",
+          "src": "assets/source-20261006/button-before.png",
+          "fileRatio": "2.02",
+          "manuscriptRatio": "170:84",
+          "ratioChanged": false,
+          "size": "595×294"
+        },
+        {
+          "page": "7",
+          "src": "assets/source-20261006/button-after.png",
+          "fileRatio": "2.23",
+          "manuscriptRatio": "183:82",
+          "ratioChanged": false,
+          "size": "595×267"
+        },
+        {
+          "page": "9",
+          "src": "assets/source-20261010/message-dialog.png",
+          "fileRatio": "1.69",
+          "manuscriptRatio": "462:274",
+          "ratioChanged": false,
+          "size": "595×353"
+        },
+        {
+          "page": "9",
+          "src": "assets/source-20261010/message-input.png",
+          "fileRatio": "1.72",
+          "manuscriptRatio": "424:247",
+          "ratioChanged": false,
+          "size": "595×347"
+        },
+        {
+          "page": "13",
+          "src": "assets/source-20261006/field-copy.png",
+          "fileRatio": "1.22",
+          "manuscriptRatio": "497:406",
+          "ratioChanged": false,
+          "size": "595×486"
+        }
+      ],
+      "unreadableImages": [],
+      "flowcharts": []
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch09.md",
+    "ok": true,
+    "pages": 14,
+    "issues": [],
+    "layout": {
+      "canvaPages": 14,
+      "pages": [
+        {
+          "id": "ch09-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-product-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-product",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-practice-2",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-calculator-request",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-calculator",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-calculator-code",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-practice-3",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-text",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-practice-4",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-times-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-times",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch09-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [
+        {
+          "page": "4",
+          "src": "assets/source-20261006/product.png",
+          "fileRatio": "3.29",
+          "manuscriptRatio": "940:286",
+          "ratioChanged": false,
+          "size": "1190×362"
+        },
+        {
+          "page": "7",
+          "src": "assets/source-20261006/calculator.png",
+          "fileRatio": "2.10",
+          "manuscriptRatio": "452:215",
+          "ratioChanged": false,
+          "size": "595×283"
+        },
+        {
+          "page": "10",
+          "src": "assets/source-20261006/text-append.png",
+          "fileRatio": "1.68",
+          "manuscriptRatio": "393:234",
+          "ratioChanged": false,
+          "size": "595×354"
+        },
+        {
+          "page": "13",
+          "src": "assets/source-20261006/times-table.png",
+          "fileRatio": "1.90",
+          "manuscriptRatio": "489:257",
+          "ratioChanged": false,
+          "size": "595×313"
+        }
+      ],
+      "unreadableImages": [],
+      "flowcharts": []
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch10.md",
+    "ok": true,
+    "pages": 14,
+    "issues": [],
+    "layout": {
+      "canvaPages": 14,
+      "pages": [
+        {
+          "id": "ch10-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-choice",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-dropdown",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-practice-2",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-health",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-health-request",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-practice-3",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-club",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-practice-4",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-progress",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-practice-5",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-images",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch10-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [
+        {
+          "page": "4",
+          "src": "assets/source-20261006/dropdown.png",
+          "fileRatio": "1.10",
+          "manuscriptRatio": "334:304",
+          "ratioChanged": false,
+          "size": "595×542"
+        },
+        {
+          "page": "6",
+          "src": "assets/source-20261006/health-check.png",
+          "fileRatio": "0.73",
+          "manuscriptRatio": "235:323",
+          "ratioChanged": false,
+          "size": "595×818"
+        },
+        {
+          "page": "9",
+          "src": "assets/source-20261006/club-radio.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "384:240",
+          "ratioChanged": false,
+          "size": "595×372"
+        },
+        {
+          "page": "11",
+          "src": "assets/source-20261006/progress.png",
+          "fileRatio": "2.34",
+          "manuscriptRatio": "292:125",
+          "ratioChanged": false,
+          "size": "595×255"
+        },
+        {
+          "page": "13",
+          "src": "assets/ch10/two-images.png",
+          "fileRatio": "1.15",
+          "manuscriptRatio": "266:232",
+          "ratioChanged": false,
+          "size": "595×519"
+        }
+      ],
+      "unreadableImages": [],
+      "flowcharts": []
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch11.md",
+    "ok": true,
+    "pages": 10,
+    "issues": [],
+    "layout": {
+      "canvaPages": 10,
+      "pages": [
+        {
+          "id": "ch11-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-table",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-table-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-field-map",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-request",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-index",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-index-code",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-practice-2",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch11-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [
+        {
+          "page": "4",
+          "src": "assets/source-20261006/student-table.png",
+          "fileRatio": "1.95",
+          "manuscriptRatio": "744:381",
+          "ratioChanged": false,
+          "size": "1190×609"
+        }
+      ],
+      "unreadableImages": [],
+      "flowcharts": []
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch12.md",
+    "ok": true,
+    "pages": 14,
+    "issues": [],
+    "layout": {
+      "canvaPages": 16,
+      "pages": [
+        {
+          "id": "ch12-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-axes",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-one-array",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-practice-two",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-two-arrays",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-practice-2",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-range",
+          "type": "concept",
+          "canvaPages": 2
+        },
+        {
+          "id": "ch12-practice-colors",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-markers",
+          "type": "concept",
+          "canvaPages": 2
+        },
+        {
+          "id": "ch12-practice-labels",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-labels-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-fix",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch12-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [
+        {
+          "page": "4",
+          "src": "assets/source-20261006/plot-one.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "8:5",
+          "ratioChanged": false,
+          "size": "1190×744",
+          "role": "result"
+        },
+        {
+          "page": "6",
+          "src": "assets/source-20261006/plot-two.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "8:5",
+          "ratioChanged": false,
+          "size": "1190×744",
+          "role": "result"
+        },
+        {
+          "page": "9",
+          "src": "assets/source-20261006/plot-range.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "8:5",
+          "ratioChanged": false,
+          "size": "1190×744",
+          "role": "result"
+        },
+        {
+          "page": "12",
+          "src": "assets/source-20261006/plot-markers.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "8:5",
+          "ratioChanged": false,
+          "size": "1190×744",
+          "role": "result"
+        },
+        {
+          "page": "14",
+          "src": "assets/source-20261006/plot-markers.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "1920:1200",
+          "ratioChanged": false,
+          "size": "1190×744"
+        }
+      ],
+      "unreadableImages": [],
+      "flowcharts": []
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch13.md",
+    "ok": true,
+    "pages": 9,
+    "issues": [],
+    "layout": {
+      "canvaPages": 11,
+      "pages": [
+        {
+          "id": "ch13-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch13-practice-3",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch13-bars",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch13-practice-grouped",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch13-grouped",
+          "type": "concept",
+          "canvaPages": 2
+        },
+        {
+          "id": "ch13-practice-4",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch13-scatter",
+          "type": "concept",
+          "canvaPages": 2
+        },
+        {
+          "id": "ch13-fix",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch13-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [
+        {
+          "page": "3",
+          "src": "assets/source-20261006/plot-bars.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "8:5",
+          "ratioChanged": false,
+          "size": "1190×744",
+          "role": "result"
+        },
+        {
+          "page": "6",
+          "src": "assets/source-20261006/plot-grouped.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "8:5",
+          "ratioChanged": false,
+          "size": "1190×744",
+          "role": "result"
+        },
+        {
+          "page": "9",
+          "src": "assets/source-20261006/plot-scatter.png",
+          "fileRatio": "8:5",
+          "manuscriptRatio": "8:5",
+          "ratioChanged": false,
+          "size": "1190×744",
+          "role": "result"
+        }
+      ],
+      "unreadableImages": [],
+      "flowcharts": []
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch14.md",
+    "ok": true,
+    "pages": 9,
+    "issues": [],
+    "layout": {
+      "canvaPages": 9,
+      "pages": [
+        {
+          "id": "ch14-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-charts",
+          "type": "comparison",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-line-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-practice-2",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-scatter-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-practice-3",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-bar-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch14-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [
+        {
+          "page": "4",
+          "src": "assets/source-20261006/line-chart.png",
+          "fileRatio": "1.83",
+          "manuscriptRatio": "856:467",
+          "ratioChanged": false,
+          "size": "1190×649"
+        },
+        {
+          "page": "6",
+          "src": "assets/source-20261006/scatter-chart.png",
+          "fileRatio": "1.95",
+          "manuscriptRatio": "904:464",
+          "ratioChanged": false,
+          "size": "1190×611"
+        },
+        {
+          "page": "8",
+          "src": "assets/source-20261006/bar-chart.png",
+          "fileRatio": "0.88",
+          "manuscriptRatio": "480:545",
+          "ratioChanged": false,
+          "size": "595×676"
+        }
+      ],
+      "unreadableImages": [],
+      "flowcharts": []
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch15.md",
+    "ok": true,
+    "pages": 15,
+    "issues": [],
+    "layout": {
+      "canvaPages": 15,
+      "pages": [
+        {
+          "id": "ch15-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-practice-data",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-loaded-data",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-data-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-practice-school",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-school-screen",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-practice-3",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-gui-layout",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-save-widgets",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-save-process",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-save-menu",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-save-name",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-load-project",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-saved",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch15-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [
+        {
+          "page": "4",
+          "src": "assets/source-20261010/data-column-select.png",
+          "fileRatio": "2.32",
+          "manuscriptRatio": "946:408",
+          "ratioChanged": false,
+          "size": "1190×513"
+        },
+        {
+          "page": "6",
+          "src": "assets/source-20261010/school-count-chart.png",
+          "fileRatio": "1.03",
+          "manuscriptRatio": "1020:992",
+          "ratioChanged": false,
+          "size": "1190×1157"
+        },
+        {
+          "page": "8",
+          "src": "assets/source-20261011/save-gui-layout.png",
+          "fileRatio": "0.75",
+          "manuscriptRatio": "913:1216",
+          "ratioChanged": false,
+          "size": "595×792"
+        },
+        {
+          "page": "10",
+          "src": "assets/source-20261011/save-table-columns.png",
+          "fileRatio": "3.73",
+          "manuscriptRatio": "1066:286",
+          "ratioChanged": false,
+          "size": "1190×319"
+        },
+        {
+          "page": "10",
+          "src": "assets/ch15/save-table-toggle.png",
+          "fileRatio": "2.48",
+          "manuscriptRatio": "208:84",
+          "ratioChanged": false,
+          "size": "595×240"
+        },
+        {
+          "page": "11",
+          "src": "assets/source-20261011/save-project-menu.png",
+          "fileRatio": "0.82",
+          "manuscriptRatio": "1115:1366",
+          "ratioChanged": false,
+          "size": "595×729"
+        },
+        {
+          "page": "12",
+          "src": "assets/source-20261011/save-project-name.png",
+          "fileRatio": "0.66",
+          "manuscriptRatio": "849:1278",
+          "ratioChanged": false,
+          "size": "595×896"
+        },
+        {
+          "page": "13",
+          "src": "assets/source-20261011/load-project-select.png",
+          "fileRatio": "0.89",
+          "manuscriptRatio": "1103:1238",
+          "ratioChanged": false,
+          "size": "595×668"
+        },
+        {
+          "page": "14",
+          "src": "assets/source-20261006/saved-project.png",
+          "fileRatio": "0.58",
+          "manuscriptRatio": "744:1282",
+          "ratioChanged": false,
+          "size": "595×1025"
+        }
+      ],
+      "unreadableImages": [],
+      "flowcharts": []
+    }
+  },
+  {
+    "file": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\coala-book-md\\vibe-coding-16\\ch16.md",
+    "ok": true,
+    "pages": 8,
+    "issues": [],
+    "layout": {
+      "canvaPages": 8,
+      "pages": [
+        {
+          "id": "ch16-opening",
+          "type": "chapter-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch16-projects",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch16-practice-1",
+          "type": "practice-opening",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch16-procedure",
+          "type": "step-process",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch16-fix",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch16-evidence",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch16-portfolio",
+          "type": "concept",
+          "canvaPages": 1
+        },
+        {
+          "id": "ch16-check",
+          "type": "practice-checklist",
+          "canvaPages": 1
+        }
+      ],
+      "images": [],
+      "placedImages": [],
+      "unreadableImages": [],
+      "flowcharts": []
+    }
+  }
+]

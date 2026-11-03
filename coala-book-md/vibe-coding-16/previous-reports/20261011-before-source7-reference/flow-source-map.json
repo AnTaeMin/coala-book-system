@@ -1,0 +1,116 @@
+{
+  "source_pdf": "(flet내용 추가)AI와 함께하는 앱 개발  업데이트 수정본(삼육_최종)의 사본.pdf",
+  "source_sha256": "759455352791ac3818f6757de97fa8f6f4a8ed14cf08e84077477dacae8ed0d5",
+  "date": "2026-10-11",
+  "diagrams": [
+    {
+      "page_id": "ch04-family-flow",
+      "chapter": 4,
+      "source_pdf_page": 23,
+      "crop_bbox_top_left_pt": [
+        243,
+        360,
+        862,
+        1356
+      ],
+      "vector_src": "assets/source-flowcharts/ch04-family-flow.pdf",
+      "src": "assets/source-flowcharts/ch04-family-flow.png",
+      "vector_sha256": "c1e0a5f450eb37a2d587466f6b15cd8ed21a7191ca0a7d696fe3a133bfa99cbb",
+      "sha256": "ee77a8b7efd0b3dbde047ab9519f43cf1cff1f77edae6d738ce5bc7b0147cd7c",
+      "width": 2580,
+      "height": 4150,
+      "ratio": "2580:4150",
+      "max_print_height_pt": 545,
+      "kind": "user-supplied-pdf-native-vector-crop",
+      "alt": "가족 나이 합의 변수 준비·값 저장·합계 계산·출력",
+      "background": "full-page background changed to white; external text removed; all diagram paths/colors unchanged",
+      "flowchart_sha256": "db01e3764bdd8991951705301e0c7410ef04ac3edeb161ed6a695deb7c9c2a76"
+    },
+    {
+      "page_id": "ch05-exercise-flow",
+      "chapter": 5,
+      "source_pdf_page": 31,
+      "crop_bbox_top_left_pt": [
+        204,
+        360,
+        901,
+        1356
+      ],
+      "vector_src": "assets/source-flowcharts/ch05-exercise-flow.pdf",
+      "src": "assets/source-flowcharts/ch05-exercise-flow.png",
+      "vector_sha256": "511829586c6c90fbe4dc7229475b8e8aca6e3a9f0ee63f5c149473c5c73c1812",
+      "sha256": "34639abdb13946c500309844ad5a29071080171e0889f6aca59d435aca5de5de",
+      "width": 2905,
+      "height": 4150,
+      "ratio": "2905:4150",
+      "max_print_height_pt": 540,
+      "kind": "user-supplied-pdf-native-vector-crop",
+      "alt": "운동 시간의 초기값·반복 조건·누적·증가·출력",
+      "background": "full-page background changed to white; external text removed; all diagram paths/colors unchanged",
+      "flowchart_sha256": "14c7f50a8a1f1082b8b024261ce1eba602ff97fb1024d7ae9e71afa9efb16c44"
+    },
+    {
+      "page_id": "ch06-sleep-flow",
+      "chapter": 6,
+      "source_pdf_page": 36,
+      "crop_bbox_top_left_pt": [
+        51,
+        840,
+        1178,
+        1524
+      ],
+      "vector_src": "assets/source-flowcharts/ch06-sleep-flow.pdf",
+      "src": "assets/source-flowcharts/ch06-sleep-flow.png",
+      "vector_sha256": "59b5afb0d9446dc449158acda4b8ae486dc3d7a0662ab24fe6b6d47b9d894b65",
+      "sha256": "5338707be4918ba2bfee7e52c31205d647c0980ec35497608cfdd340b8ea37fb",
+      "width": 4696,
+      "height": 2850,
+      "ratio": "4696:2850",
+      "max_print_height_pt": 330,
+      "kind": "user-supplied-pdf-native-vector-crop",
+      "alt": "수면 시간의 8시간·5시간 조건 분기",
+      "background": "full-page background changed to white; external text removed; all diagram paths/colors unchanged",
+      "flowchart_sha256": "8f763bd57f129ab692669c05758fdd99e002279daee0cd85b110259f0b10f960"
+    },
+    {
+      "page_id": "ch07-movie-flow",
+      "chapter": 7,
+      "source_pdf_page": 39,
+      "crop_bbox_top_left_pt": [
+        235,
+        461,
+        971,
+        1442
+      ],
+      "vector_src": "assets/source-flowcharts/ch07-movie-flow.pdf",
+      "src": "assets/source-flowcharts/ch07-movie-flow.png",
+      "vector_sha256": "2f03cf2dee987f02bbe353b9858398a597440eb79c3c42a97316e62f58dfc85f",
+      "sha256": "7dcdd157977bfb4ab3e11716c9c1034d4e9ab3181c797ab36c01422b8f0144b1",
+      "width": 3067,
+      "height": 4088,
+      "ratio": "3067:4088",
+      "max_print_height_pt": 545,
+      "kind": "user-supplied-pdf-native-vector-crop",
+      "alt": "네 학생 나이의 반복과 15세 관람 조건",
+      "background": "full-page background changed to white; external text removed; all diagram paths/colors unchanged",
+      "flowchart_sha256": "02ac8335da2821e03353f9ad327abf189344ad8f9db8a8e96e45dbd9e60c4e14"
+    }
+  ],
+  "declaration_shape": "six-sided preparation symbol preserved from source",
+  "loop_trace": {
+    "start": {
+      "time1": 1,
+      "total": 0
+    },
+    "condition": "time1 <= 10",
+    "updates": [
+      "total = total + time1",
+      "time1 += 1"
+    ],
+    "iterations": 10,
+    "exit": {
+      "time1": 11,
+      "total": 55
+    }
+  }
+}

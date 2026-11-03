@@ -1,0 +1,1108 @@
+{
+  "source_pdf": "../../(flet내용 추가)AI와 함께하는 앱 개발  업데이트 수정본(삼육_최종)의 사본 (7).pdf",
+  "source_sha256": "a4aa668621a7c59c36c9666fa1019182d5ed999c9fb8620f2ddcf509840b2729",
+  "source_pages": 158,
+  "reviewed_date": "2026-10-11",
+  "items": [
+    {
+      "src": "assets/source-20261006/button-before.png",
+      "chapter": 8,
+      "width": 170,
+      "height": 84,
+      "ratio": "170:84",
+      "sha256": "71f2335f7225d72fd4fe3741a5462f959aafe2dc791785ee4cb25a1c8d7ac822",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 46,
+      "xobject": [
+        "/X13",
+        "/X10"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch08-button-before"
+      ],
+      "placement_width": "half",
+      "placements": [
+        {
+          "page_id": "ch08-button-before",
+          "width": "half",
+          "caption": "클릭 전의 버튼"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/button-after.png",
+      "chapter": 8,
+      "width": 183,
+      "height": 82,
+      "ratio": "183:82",
+      "sha256": "2924d52044a50253f19a8e178a37a23b7755763f26b4d2bb5f047c22e8c5b739",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 46,
+      "xobject": [
+        "/X13",
+        "/X9"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch08-button-after"
+      ],
+      "placement_width": "half",
+      "placements": [
+        {
+          "page_id": "ch08-button-after",
+          "width": "half",
+          "caption": "클릭 후 파란색으로 바뀐 버튼"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/field-copy.png",
+      "chapter": 8,
+      "width": 497,
+      "height": 406,
+      "ratio": "497:406",
+      "sha256": "558cc9f39a622a9495ee2e70916a13f8db7ed25544cb106206829a25c74bd285",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 53,
+      "xobject": [
+        "/X25",
+        "/X17"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch08-field-copy"
+      ],
+      "placement_width": "half",
+      "placements": [
+        {
+          "page_id": "ch08-field-copy",
+          "width": "half",
+          "caption": "추가 버튼으로 두 Field에 표시한 인사말"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/product.png",
+      "chapter": 9,
+      "width": 940,
+      "height": 286,
+      "ratio": "940:286",
+      "sha256": "fd7246c1efa691dcf6655f645daff3602406051158c3f50c2b6b2287c02934c5",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 54,
+      "xobject": [
+        "/X18",
+        "/X16"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch09-product"
+      ],
+      "placement_width": "text",
+      "placements": [
+        {
+          "page_id": "ch09-product",
+          "width": "text",
+          "caption": "1부터 6까지의 누적곱 결과 720"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/calculator.png",
+      "chapter": 9,
+      "width": 452,
+      "height": 215,
+      "ratio": "452:215",
+      "sha256": "3b9cb3b567cfc561158e6c4969a5987a39b010ae314773fb28bffb07284b7864",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 61,
+      "xobject": [
+        "/X18",
+        "/X16"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch09-calculator"
+      ],
+      "placement_width": "half",
+      "placements": [
+        {
+          "page_id": "ch09-calculator",
+          "width": "half",
+          "caption": "100 / 5를 계산한 결과 20.0"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/text-append.png",
+      "chapter": 9,
+      "width": 393,
+      "height": 234,
+      "ratio": "393:234",
+      "sha256": "0651fe8960a626305bc004c678aeff3c926408e2f0244902b5bd27fe1d3e597b",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 63,
+      "xobject": [
+        "/X18",
+        "/X16"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch09-text"
+      ],
+      "placement_width": "half",
+      "placements": [
+        {
+          "page_id": "ch09-text",
+          "width": "half",
+          "caption": "Text에 두 문장을 추가한 결과"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/times-table.png",
+      "chapter": 9,
+      "width": 489,
+      "height": 257,
+      "ratio": "489:257",
+      "sha256": "0741d77b42a2388488a1fdb2e99f7b90168faa6910fa84f05b8d8b91ba278406",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 65,
+      "xobject": [
+        "/X18",
+        "/X16"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch09-times"
+      ],
+      "placement_width": "half",
+      "placements": [
+        {
+          "page_id": "ch09-times",
+          "width": "half",
+          "caption": "입력값 4에 대한 구구단 출력"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/dropdown.png",
+      "chapter": 10,
+      "width": 334,
+      "height": 304,
+      "ratio": "334:304",
+      "sha256": "424979d6be5c25ea5c5e940326346a432c6da7f68dc8649cec44f0815bfd8aec",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 68,
+      "xobject": [
+        "/X18",
+        "/X9"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch10-dropdown"
+      ],
+      "placement_width": "half",
+      "placements": [
+        {
+          "page_id": "ch10-dropdown",
+          "width": "half",
+          "caption": "Dropdown에서 선택한 빨강 표시"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/health-check.png",
+      "chapter": 10,
+      "width": 235,
+      "height": 323,
+      "ratio": "235:323",
+      "sha256": "0e913e6678c3f804e4017d16cf738e86877d7fd0804b6ff269cc3ab9c86a54ab",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 73,
+      "xobject": [
+        "/X18",
+        "/X16"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch10-health"
+      ],
+      "placement_width": "half",
+      "placements": [
+        {
+          "page_id": "ch10-health",
+          "width": "half",
+          "caption": "건강습관 선택과 결과 확인"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/club-radio.png",
+      "chapter": 10,
+      "width": 384,
+      "height": 240,
+      "ratio": "384:240",
+      "sha256": "10721a7db3b27705ece2290148ce8d9d96606be7c3f14e3c7aebee89c87b6d96",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 78,
+      "xobject": [
+        "/X18",
+        "/X16"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch10-club"
+      ],
+      "placement_width": "half",
+      "placements": [
+        {
+          "page_id": "ch10-club",
+          "width": "half",
+          "caption": "과학 동아리 선택과 활동 소개"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/progress.png",
+      "chapter": 10,
+      "width": 292,
+      "height": 125,
+      "ratio": "292:125",
+      "sha256": "46e85c4d0272e83e0ba4972a51c5bdcce5eb1fa4b62157614d944a31b8c59ee5",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 82,
+      "xobject": [
+        "/X18",
+        "/X6"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch10-progress"
+      ],
+      "placement_width": "half",
+      "placements": [
+        {
+          "page_id": "ch10-progress",
+          "width": "half",
+          "caption": "진행 막대와 증가·감소 버튼"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/student-table.png",
+      "chapter": 11,
+      "width": 744,
+      "height": 381,
+      "ratio": "744:381",
+      "sha256": "23ac3fc8a7c64cdef2c9e689ccb29485a0ac190ca6df647b710cd4ba912ff894",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 90,
+      "xobject": [
+        "/X18",
+        "/X9"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch11-table-screen"
+      ],
+      "placement_width": "text",
+      "placements": [
+        {
+          "page_id": "ch11-table-screen",
+          "width": "text",
+          "caption": "학생1의 국어·수학·영어 성적 기록"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/line-chart.png",
+      "chapter": 14,
+      "width": 856,
+      "height": 467,
+      "ratio": "856:467",
+      "sha256": "9f983cd292a078b311f22a5bb7f4a899173c3a8b4d48cc1e13cbabb7eb9724df",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 99,
+      "xobject": [
+        "/X11",
+        "/X7"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch14-line-screen"
+      ],
+      "placement_width": "text",
+      "placements": [
+        {
+          "page_id": "ch14-line-screen",
+          "width": "text",
+          "caption": "입력 순서에 따른 다섯 값의 선 그래프"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/scatter-chart.png",
+      "chapter": 14,
+      "width": 904,
+      "height": 464,
+      "ratio": "904:464",
+      "sha256": "8ed34053d037a3001a05b158abd721b1c48a0225966ff607c533f435b6bb3089",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 102,
+      "xobject": [
+        "/X11",
+        "/X4"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch14-scatter-screen"
+      ],
+      "placement_width": "text",
+      "placements": [
+        {
+          "page_id": "ch14-scatter-screen",
+          "width": "text",
+          "caption": "키·몸무게 세 쌍을 표시한 산점도"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/bar-chart.png",
+      "chapter": 14,
+      "width": 480,
+      "height": 545,
+      "ratio": "480:545",
+      "sha256": "5f31d822f2bff2f282c31c1768f1e977c2977d3a77b919ce555935da016e9726",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 105,
+      "xobject": [
+        "/X11",
+        "/X4"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch14-bar-screen"
+      ],
+      "placement_width": "half",
+      "placements": [
+        {
+          "page_id": "ch14-bar-screen",
+          "width": "half",
+          "caption": "90·80·70을 입력 순서대로 표시한 막대그래프"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/saved-project.png",
+      "chapter": 15,
+      "width": 744,
+      "height": 1282,
+      "ratio": "744:1282",
+      "sha256": "2e8e262f20adc4fa6ec82d122f13b2fa7d2cd6372944b9e3adcb07d2c1ba5c46",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 127,
+      "xobject": [
+        "/X9",
+        "/X4"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch15-saved"
+      ],
+      "placement_width": "half",
+      "placements": [
+        {
+          "page_id": "ch15-saved",
+          "width": "half",
+          "caption": "다시 불러온 걸음 수·이동거리의 표와 산점도"
+        }
+      ]
+    },
+    {
+      "src": "assets/source-20261006/plot-one.png",
+      "chapter": 12,
+      "width": 1920,
+      "height": 1200,
+      "ratio": "8:5",
+      "sha256": "cc89ac838ad7949f97298c414df2722e111660f4b34d7194490de2c92eda6bed",
+      "kind": "executed-source-code-adaptation",
+      "source_pdf_pages": "128-145",
+      "code": "examples/source-based/ch12-one-array.py",
+      "used_in": [
+        "ch12-one-array"
+      ],
+      "placement_width": "text",
+      "upscaled": false,
+      "placements": [
+        {
+          "page_id": "ch12-one-array",
+          "width": "text",
+          "caption": "배열 한 개를 전달한 선 그래프"
+        }
+      ],
+      "generated_date": "2026-10-10",
+      "source_example_only": true
+    },
+    {
+      "src": "assets/source-20261006/plot-two.png",
+      "chapter": 12,
+      "width": 1920,
+      "height": 1200,
+      "ratio": "8:5",
+      "sha256": "698927c36aaddcfe78ce8e5aff3cf4d87e280a05599a56f128d5455daf985659",
+      "kind": "executed-source-code-adaptation",
+      "source_pdf_pages": "128-145",
+      "code": "examples/source-based/ch12-two-arrays.py",
+      "used_in": [
+        "ch12-two-arrays"
+      ],
+      "placement_width": "text",
+      "upscaled": false,
+      "placements": [
+        {
+          "page_id": "ch12-two-arrays",
+          "width": "text",
+          "caption": "X·Y 배열을 지정한 선 그래프"
+        }
+      ],
+      "generated_date": "2026-10-10",
+      "source_example_only": true
+    },
+    {
+      "src": "assets/source-20261006/plot-range.png",
+      "chapter": 12,
+      "width": 1920,
+      "height": 1200,
+      "ratio": "8:5",
+      "sha256": "42c0e2b5b06d07fb3613bae4fbd857f6adeec2a59f98649781d01d5483e57623",
+      "kind": "executed-source-code-adaptation",
+      "source_pdf_pages": "128-145",
+      "code": "examples/source-based/ch12-range.py",
+      "used_in": [
+        "ch12-range"
+      ],
+      "placement_width": "text",
+      "upscaled": false,
+      "placements": [
+        {
+          "page_id": "ch12-range",
+          "width": "text",
+          "caption": "파란 선·더하기 마커와 지정한 축 범위"
+        }
+      ],
+      "generated_date": "2026-10-10",
+      "source_example_only": true
+    },
+    {
+      "src": "assets/source-20261006/plot-markers.png",
+      "chapter": 12,
+      "width": 1920,
+      "height": 1200,
+      "ratio": "8:5",
+      "sha256": "b9bee387bb10ec4bf6c4b74c0eac82175866522a1407675e3cdfff20fbebb907",
+      "kind": "executed-source-code-adaptation",
+      "source_pdf_pages": "128-145",
+      "code": "examples/source-based/ch12-markers.py",
+      "used_in": [
+        "ch12-markers",
+        "ch12-labels-screen"
+      ],
+      "placement_width": "text",
+      "upscaled": false,
+      "placements": [
+        {
+          "page_id": "ch12-markers",
+          "width": "text",
+          "caption": "ro로 표시한 빨간 점과 그래프 설명"
+        },
+        {
+          "page_id": "ch12-labels-screen",
+          "width": "text",
+          "caption": "제목·축 이름과 좌표 (3, 5)의 12/19 설명"
+        }
+      ],
+      "generated_date": "2026-10-10",
+      "source_example_only": true
+    },
+    {
+      "src": "assets/source-20261006/plot-bars.png",
+      "chapter": 13,
+      "width": 1920,
+      "height": 1200,
+      "ratio": "8:5",
+      "sha256": "f1cd0901f5e58248ee43fb111ed78e76485653d780dd5330a2c25f9039a8eb70",
+      "kind": "executed-source-code-adaptation",
+      "source_pdf_pages": "128-145",
+      "code": "examples/source-based/ch13-bars.py",
+      "used_in": [
+        "ch13-bars"
+      ],
+      "placement_width": "text",
+      "upscaled": false,
+      "placements": [
+        {
+          "page_id": "ch13-bars",
+          "width": "text",
+          "caption": "2의 거듭제곱 배열을 나타낸 여덟 막대"
+        }
+      ],
+      "generated_date": "2026-10-10",
+      "source_example_only": true
+    },
+    {
+      "src": "assets/source-20261006/plot-grouped.png",
+      "chapter": 13,
+      "width": 1920,
+      "height": 1200,
+      "ratio": "8:5",
+      "sha256": "dcd47ccfea5e6992d72f399dcfc0a546709e8fbe80f51b147d88c6ec0469cfb6",
+      "kind": "executed-source-code-adaptation",
+      "source_pdf_pages": "128-145",
+      "code": "examples/source-based/ch13-grouped.py",
+      "used_in": [
+        "ch13-grouped"
+      ],
+      "placement_width": "text",
+      "upscaled": false,
+      "placements": [
+        {
+          "page_id": "ch13-grouped",
+          "width": "text",
+          "caption": "다섯 항목에 나란히 배치한 두 배열의 막대"
+        }
+      ],
+      "generated_date": "2026-10-10",
+      "source_example_only": true
+    },
+    {
+      "src": "assets/source-20261006/plot-scatter.png",
+      "chapter": 13,
+      "width": 1920,
+      "height": 1200,
+      "ratio": "8:5",
+      "sha256": "1cb3fe5cc5261b57a103d897a3344ea10113cb306f657e2b39748526fcaf72c5",
+      "kind": "executed-source-code-adaptation",
+      "source_pdf_pages": "128-145",
+      "code": "examples/source-based/ch13-scatter.py",
+      "used_in": [
+        "ch13-scatter"
+      ],
+      "placement_width": "text",
+      "upscaled": false,
+      "placements": [
+        {
+          "page_id": "ch13-scatter",
+          "width": "text",
+          "caption": "난수를 더한 Y값을 표시한 빨간 산점도"
+        }
+      ],
+      "generated_date": "2026-10-10",
+      "source_example_only": true
+    },
+    {
+      "src": "assets/source-20261010/message-dialog.png",
+      "pdf_page": 49,
+      "xobject": [
+        "/X21",
+        "/X12"
+      ],
+      "width": 462,
+      "height": 274,
+      "ratio": "462:274",
+      "sha256": "b9576245c7a94a5cf2f36e95672e05afd898cc5d3331b9f488b37b6230325cc3",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch08-message-screen"
+      ],
+      "placements": [
+        {
+          "page_id": "ch08-message-screen",
+          "width": "half",
+          "caption": "인사말을 입력한 화면"
+        }
+      ],
+      "chapter": 8,
+      "placement_width": "half"
+    },
+    {
+      "src": "assets/source-20261010/message-input.png",
+      "pdf_page": 49,
+      "xobject": [
+        "/X21",
+        "/X10"
+      ],
+      "width": 424,
+      "height": 247,
+      "ratio": "424:247",
+      "sha256": "62d241e6f65b9867423f49dadd39d7f09db112091da3e9d8389d898bda0210fe",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch08-message-screen"
+      ],
+      "placements": [
+        {
+          "page_id": "ch08-message-screen",
+          "width": "half",
+          "caption": "입력한 인사말을 표시한 메시지 창"
+        }
+      ],
+      "chapter": 8,
+      "placement_width": "half"
+    },
+    {
+      "src": "assets/source-20261010/data-column-select.png",
+      "pdf_page": 107,
+      "xobject": [
+        "/X11",
+        "/X6"
+      ],
+      "width": 946,
+      "height": 408,
+      "ratio": "946:408",
+      "sha256": "b5e42d6312ef046f7ff278af5d76e805a9e3a6da1f6b5d3c0c07560547cde2c3",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch15-data-screen"
+      ],
+      "placements": [
+        {
+          "page_id": "ch15-data-screen",
+          "width": "text",
+          "caption": "학생 자료에서 표에 표시할 열 선택"
+        }
+      ],
+      "chapter": 15,
+      "placement_width": "text"
+    },
+    {
+      "src": "assets/source-20261010/school-count-chart.png",
+      "pdf_page": 110,
+      "xobject": [
+        "/X11",
+        "/X4"
+      ],
+      "width": 1020,
+      "height": 992,
+      "ratio": "1020:992",
+      "sha256": "79e8e2f7cae224ca0873bd895be1f763fc4ad0c9696cb2b6d03314b542333f18",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "used_in": [
+        "ch15-school-screen"
+      ],
+      "placements": [
+        {
+          "page_id": "ch15-school-screen",
+          "width": "text",
+          "caption": "고등학교·중학교 학생 수 비교"
+        }
+      ],
+      "chapter": 15,
+      "placement_width": "text"
+    },
+    {
+      "page_id": "ch04-family-flow",
+      "chapter": 4,
+      "source_pdf_page": 23,
+      "crop_bbox_top_left_pt": [
+        243,
+        360,
+        862,
+        1356
+      ],
+      "vector_src": "assets/source-flowcharts/ch04-family-flow.pdf",
+      "src": "assets/source-flowcharts/ch04-family-flow.png",
+      "vector_sha256": "c1e0a5f450eb37a2d587466f6b15cd8ed21a7191ca0a7d696fe3a133bfa99cbb",
+      "sha256": "ee77a8b7efd0b3dbde047ab9519f43cf1cff1f77edae6d738ce5bc7b0147cd7c",
+      "width": 2580,
+      "height": 4150,
+      "ratio": "2580:4150",
+      "max_print_height_pt": 545,
+      "kind": "user-supplied-pdf-native-vector-crop",
+      "alt": "가족 나이 합의 변수 준비·값 저장·합계 계산·출력",
+      "background": "full-page background changed to white; external text removed; all diagram paths/colors unchanged",
+      "flowchart_sha256": "db01e3764bdd8991951705301e0c7410ef04ac3edeb161ed6a695deb7c9c2a76",
+      "pdf_page": 23,
+      "used_in": [
+        "ch04-family-flow"
+      ],
+      "placement_width": "full",
+      "placements": [
+        {
+          "page_id": "ch04-family-flow",
+          "width": "full",
+          "caption": "가족 나이 합의 변수 준비·값 저장·합계 계산·출력"
+        }
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false
+    },
+    {
+      "page_id": "ch05-exercise-flow",
+      "chapter": 5,
+      "source_pdf_page": 31,
+      "crop_bbox_top_left_pt": [
+        204,
+        360,
+        901,
+        1356
+      ],
+      "vector_src": "assets/source-flowcharts/ch05-exercise-flow.pdf",
+      "src": "assets/source-flowcharts/ch05-exercise-flow.png",
+      "vector_sha256": "511829586c6c90fbe4dc7229475b8e8aca6e3a9f0ee63f5c149473c5c73c1812",
+      "sha256": "34639abdb13946c500309844ad5a29071080171e0889f6aca59d435aca5de5de",
+      "width": 2905,
+      "height": 4150,
+      "ratio": "2905:4150",
+      "max_print_height_pt": 540,
+      "kind": "user-supplied-pdf-native-vector-crop",
+      "alt": "운동 시간의 초기값·반복 조건·누적·증가·출력",
+      "background": "full-page background changed to white; external text removed; all diagram paths/colors unchanged",
+      "flowchart_sha256": "14c7f50a8a1f1082b8b024261ce1eba602ff97fb1024d7ae9e71afa9efb16c44",
+      "pdf_page": 31,
+      "used_in": [
+        "ch05-exercise-flow"
+      ],
+      "placement_width": "full",
+      "placements": [
+        {
+          "page_id": "ch05-exercise-flow",
+          "width": "full",
+          "caption": "운동 시간의 초기값·반복 조건·누적·증가·출력"
+        }
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false
+    },
+    {
+      "page_id": "ch06-sleep-flow",
+      "chapter": 6,
+      "source_pdf_page": 36,
+      "crop_bbox_top_left_pt": [
+        51,
+        840,
+        1178,
+        1524
+      ],
+      "vector_src": "assets/source-flowcharts/ch06-sleep-flow.pdf",
+      "src": "assets/source-flowcharts/ch06-sleep-flow.png",
+      "vector_sha256": "59b5afb0d9446dc449158acda4b8ae486dc3d7a0662ab24fe6b6d47b9d894b65",
+      "sha256": "5338707be4918ba2bfee7e52c31205d647c0980ec35497608cfdd340b8ea37fb",
+      "width": 4696,
+      "height": 2850,
+      "ratio": "4696:2850",
+      "max_print_height_pt": 330,
+      "kind": "user-supplied-pdf-native-vector-crop",
+      "alt": "수면 시간의 8시간·5시간 조건 분기",
+      "background": "full-page background changed to white; external text removed; all diagram paths/colors unchanged",
+      "flowchart_sha256": "8f763bd57f129ab692669c05758fdd99e002279daee0cd85b110259f0b10f960",
+      "pdf_page": 36,
+      "used_in": [
+        "ch06-sleep-flow"
+      ],
+      "placement_width": "full",
+      "placements": [
+        {
+          "page_id": "ch06-sleep-flow",
+          "width": "full",
+          "caption": "수면 시간의 8시간·5시간 조건 분기"
+        }
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false
+    },
+    {
+      "page_id": "ch07-movie-flow",
+      "chapter": 7,
+      "source_pdf_page": 39,
+      "crop_bbox_top_left_pt": [
+        235,
+        461,
+        971,
+        1442
+      ],
+      "vector_src": "assets/source-flowcharts/ch07-movie-flow.pdf",
+      "src": "assets/source-flowcharts/ch07-movie-flow.png",
+      "vector_sha256": "2f03cf2dee987f02bbe353b9858398a597440eb79c3c42a97316e62f58dfc85f",
+      "sha256": "7dcdd157977bfb4ab3e11716c9c1034d4e9ab3181c797ab36c01422b8f0144b1",
+      "width": 3067,
+      "height": 4088,
+      "ratio": "3067:4088",
+      "max_print_height_pt": 545,
+      "kind": "user-supplied-pdf-native-vector-crop",
+      "alt": "네 학생 나이의 반복과 15세 관람 조건",
+      "background": "full-page background changed to white; external text removed; all diagram paths/colors unchanged",
+      "flowchart_sha256": "02ac8335da2821e03353f9ad327abf189344ad8f9db8a8e96e45dbd9e60c4e14",
+      "pdf_page": 39,
+      "used_in": [
+        "ch07-movie-flow"
+      ],
+      "placement_width": "full",
+      "placements": [
+        {
+          "page_id": "ch07-movie-flow",
+          "width": "full",
+          "caption": "네 학생 나이의 반복과 15세 관람 조건"
+        }
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false
+    },
+    {
+      "src": "assets/ch01/ai-human-summary.png",
+      "chapter": 1,
+      "page_id": "ch01-opening",
+      "width": 2197,
+      "height": 792,
+      "ratio": "2197:792",
+      "sha256": "f405856e2cdf7b58c05237ef5a22286c7a89b665d7fcc6696364e6d6f2e59824",
+      "vector_src": "assets/ch01/ai-human-summary.pdf",
+      "vector_sha256": "6acb0d0fd33e00697b6629dc01f017045761891d30166d0465416bd0c7339b28",
+      "kind": "self-authored-vector-learning-summary",
+      "used_in": [
+        "ch01-opening"
+      ],
+      "placement_width": "text",
+      "caption": "AI의 제안과 사람의 검증으로 함께 만드는 앱",
+      "placements": [
+        {
+          "page_id": "ch01-opening",
+          "width": "text",
+          "caption": "AI의 제안과 사람의 검증으로 함께 만드는 앱"
+        }
+      ],
+      "body_font_pt": 14,
+      "heading_font_pt": 15,
+      "print_width_pt": 527.2755905511812,
+      "print_height_pt": 190.0,
+      "pixel_text_modified": false,
+      "upscaled": false
+    },
+    {
+      "src": "assets/ch10/two-images.png",
+      "chapter": 10,
+      "width": 266,
+      "height": 232,
+      "ratio": "266:232",
+      "sha256": "41435d5c3eb1ba71d48a211d451e980fb0a1b83bd89567a9cb3ddf9c8dc65e44",
+      "kind": "source-derived-vector-illustration",
+      "pdf_page": 85,
+      "xobject": [
+        "/X18",
+        "/X9"
+      ],
+      "source_asset": "assets/source-20261006/image-divider.png",
+      "source_asset_sha256": "a9d777f0706d9481c9315ffae419efc744b6b25df5b89b1000ddbf1d01dc4e0e",
+      "crop_bbox_top_left_px": [
+        [
+          37,
+          10,
+          133,
+          108
+        ],
+        [
+          37,
+          118,
+          133,
+          214
+        ]
+      ],
+      "vector_src": "assets/ch10/two-images.pdf",
+      "vector_sha256": "2cd2c35776b29786af05346019cd5ec83acf288dc274c94334ae0e040ea7eeda",
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "derivation": "원본 사진 픽셀을 무손실 PDF 이미지로 임베딩하고 사진 영역만 클리핑. 구분선 제외. 새 GUI 실행 화면은 아님.",
+      "placements": [
+        {
+          "page_id": "ch10-images",
+          "width": "half",
+          "caption": "두 Image를 세로로 배치한 화면"
+        }
+      ],
+      "used_in": [
+        "ch10-images"
+      ],
+      "placement_width": "half"
+    },
+    {
+      "src": "assets/ch15/save-table-toggle.png",
+      "chapter": 15,
+      "width": 208,
+      "height": 84,
+      "ratio": "208:84",
+      "sha256": "3af07ce220e186c295a3bb22b9ade253862775aa04e8b1b1ddead9a0a1988f02",
+      "kind": "source-derived-vector-illustration",
+      "pdf_page": 119,
+      "xobject": [
+        "/X4"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "source_image_index": 1,
+      "source_asset": "assets/source-20261011/save-table-toggle.png",
+      "source_asset_sha256": "ade48614e9fa0405c2f8ec0db7f0643d415b4e0d6a6a48d404a7e48bcd5b44df",
+      "crop_bbox_top_left_px": [
+        [
+          148,
+          0,
+          356,
+          84
+        ]
+      ],
+      "vector_src": "assets/ch15/save-table-toggle.pdf",
+      "vector_sha256": "2b3cd8925a43477063b91a44806032a2104c267d0ebcb35bdbab5da2b3f69fc9",
+      "derivation": "원본 도구막대를 PDF 이미지로 무손실 임베딩하고 표 저장 옵션 영역만 클리핑. 문자·상태 수정 없음.",
+      "placements": [
+        {
+          "page_id": "ch15-save-process",
+          "width": "half",
+          "caption": "파란색으로 켜진 표 저장 스위치 확인"
+        }
+      ],
+      "used_in": [
+        "ch15-save-process"
+      ],
+      "placement_width": "half"
+    },
+    {
+      "src": "assets/source-20261011/save-table-columns.png",
+      "chapter": 15,
+      "width": 1066,
+      "height": 286,
+      "ratio": "1066:286",
+      "sha256": "dc6fb7b0e5887a04dc1f18028828dca14a7336f862959380fc0051c9062275df",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 119,
+      "xobject": [
+        "/X6"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "source_image_index": 2,
+      "placements": [
+        {
+          "page_id": "ch15-save-process",
+          "width": "text",
+          "caption": "표 저장을 켜기 전에 두 열을 정하기"
+        }
+      ],
+      "used_in": [
+        "ch15-save-process"
+      ],
+      "placement_width": "text"
+    },
+    {
+      "src": "assets/source-20261011/save-project-menu.png",
+      "chapter": 15,
+      "width": 1115,
+      "height": 1366,
+      "ratio": "1115:1366",
+      "sha256": "b4a821a85736e74a1f1f90d205a7c3d0f672298b13ce5b5aff197703a394287c",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 124,
+      "xobject": [
+        "/X4"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "source_image_index": 1,
+      "placements": [
+        {
+          "page_id": "ch15-save-menu",
+          "width": "half",
+          "caption": "내 저장소에서 저장 선택"
+        }
+      ],
+      "used_in": [
+        "ch15-save-menu"
+      ],
+      "placement_width": "half"
+    },
+    {
+      "src": "assets/source-20261011/save-project-name.png",
+      "chapter": 15,
+      "width": 849,
+      "height": 1278,
+      "ratio": "849:1278",
+      "sha256": "edd193fbd43c1abf370ec95674abd688c6620d100edd64ee3dc9198a68c191ea",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 125,
+      "xobject": [
+        "/X4"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "source_image_index": 1,
+      "placements": [
+        {
+          "page_id": "ch15-save-name",
+          "width": "half",
+          "caption": "프로젝트 이름을 입력하고 저장 버튼 누르기"
+        }
+      ],
+      "used_in": [
+        "ch15-save-name"
+      ],
+      "placement_width": "half"
+    },
+    {
+      "src": "assets/source-20261011/load-project-select.png",
+      "chapter": 15,
+      "width": 1103,
+      "height": 1238,
+      "ratio": "1103:1238",
+      "sha256": "fa35e3837c8fd735867d5307e5574aba68105b6e38d04120251ad8c98c2c1ae6",
+      "kind": "user-supplied-pdf-embedded-image",
+      "pdf_page": 126,
+      "xobject": [
+        "/X4"
+      ],
+      "pixel_text_modified": false,
+      "upscaled": false,
+      "source_image_index": 1,
+      "placements": [
+        {
+          "page_id": "ch15-load-project",
+          "width": "half",
+          "caption": "저장한 프로젝트를 선택한 뒤 열기"
+        }
+      ],
+      "used_in": [
+        "ch15-load-project"
+      ],
+      "placement_width": "half"
+    }
+  ],
+  "reused": 20,
+  "new": 8,
+  "total": 28,
+  "active_unique_assets": 33,
+  "active_placements": 34,
+  "edition": "no-pandas-16-sessions",
+  "source_reference_review": "source-reference-review.json"
+}

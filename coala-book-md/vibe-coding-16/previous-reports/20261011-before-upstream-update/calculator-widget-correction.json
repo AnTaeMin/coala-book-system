@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-11",
+  "resultWidget": "fld3",
+  "currentPdfSha256": "e64200bc1f2cc21711a374d822b6f06b64fa061ea1ff2bf16ea0d005f0fd3e89",
+  "checkedSentences": [
+    {
+      "sourceId": "ch09-calculator-request",
+      "physicalPage": 58,
+      "sentence": "결과 표시 위젯 fld3에서 계산한 값을 확인합니다."
+    },
+    {
+      "sourceId": "ch09-calculator-code",
+      "physicalPage": 59,
+      "sentence": "두 숫자와 선택한 사칙연산을 처리하고 결과를 fld3에 표시합니다."
+    }
+  ],
+  "otherTxt1ExercisesRetained": true,
+  "historicalCorrectionRecord": "previous-reports/20261011-before-no-pandas-divider/calculator-widget-correction.json"
+}

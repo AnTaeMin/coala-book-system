@@ -1,0 +1,183 @@
+{
+  "python": "3.10.11",
+  "runtime": "C:\\Users\\use\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "matplotlib": "3.10.9",
+  "numpy": "2.2.6",
+  "executed": 7,
+  "semantic_checks_passed": 7,
+  "blocks_match_files": true,
+  "available_korean_fonts": [
+    "Malgun Gothic",
+    "Nanum Pen Script",
+    "Nanum Pen Script OTF",
+    "NanumBarunGothic",
+    "NanumBarunGothicOTF",
+    "NanumGothic"
+  ],
+  "records": [
+    {
+      "file": "ch12-markers.py",
+      "status": "passed",
+      "code_sha256": "aaf790720c396f07c3472b8db66dda65696c843036990a3508efb4b0645fea39",
+      "stdout": "",
+      "semantics": {
+        "marker": "o",
+        "color": "r",
+        "linestyle": "None",
+        "annotation": "12/19 at (3,5)"
+      },
+      "warnings": []
+    },
+    {
+      "file": "ch12-one-array.py",
+      "status": "passed",
+      "code_sha256": "2cd6dcbfc29285217eb3de7c2c61f6a78082146bf1f73e6c4e869d437792ff2b",
+      "stdout": "",
+      "semantics": {
+        "x": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0
+        ],
+        "y": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "file": "ch12-range.py",
+      "status": "passed",
+      "code_sha256": "165d17e79c9d6437acfdfd6e8000bf12e45515dc1bd55c8ac2e19b17ed04ed63",
+      "stdout": "",
+      "semantics": {
+        "marker": "+",
+        "color": "b",
+        "xlim": [
+          0.0,
+          10.0
+        ],
+        "ylim": [
+          0.0,
+          25.0
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "file": "ch12-two-arrays.py",
+      "status": "passed",
+      "code_sha256": "ba26bb8070af9b5ee5ec20752d62fa226cf097e6c59539e546c21dc8b81c8633",
+      "stdout": "",
+      "semantics": {
+        "x": [
+          15.0,
+          25.0,
+          35.0,
+          45.0,
+          55.0
+        ],
+        "y": [
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "file": "ch13-bars.py",
+      "status": "passed",
+      "code_sha256": "7aea71be8ea81da41217c195756cc1b81ca5d522e0cdf3218713e83f7e632ab8",
+      "stdout": "",
+      "semantics": {
+        "heights": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "file": "ch13-grouped.py",
+      "status": "passed",
+      "code_sha256": "09843eb84a99791de977dbf88f597a6edf955fc176a539245d71c5880dc51ee0",
+      "stdout": "",
+      "semantics": {
+        "heights": [
+          35,
+          80,
+          84,
+          83,
+          50,
+          73,
+          80,
+          77,
+          40,
+          86
+        ],
+        "centers": [
+          0.8,
+          2.8,
+          4.8,
+          6.8,
+          8.8,
+          1.6,
+          3.6000000000000005,
+          5.6,
+          7.6,
+          9.6
+        ],
+        "ticks": [
+          1.2000000000000002,
+          3.2,
+          5.199999999999999,
+          7.199999999999999,
+          9.2
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "file": "ch13-scatter.py",
+      "status": "passed",
+      "code_sha256": "a0cfe202532f308bf63e55097dcb9b69d0859d4a76a40283fafd75773e57eaf1",
+      "stdout": "",
+      "semantics": {
+        "points": 20,
+        "first_point": [
+          1.1,
+          20.56392186263395
+        ],
+        "last_point": [
+          96.1,
+          184.3747507628296
+        ],
+        "seed_repeatability": true,
+        "labels": [
+          "X축 제목",
+          "Y축 제목"
+        ]
+      },
+      "warnings": [
+        "Glyph 47785 (\\N{HANGUL SYLLABLE MOG}) missing from font(s) DejaVu Sans.",
+        "Glyph 51228 (\\N{HANGUL SYLLABLE JE}) missing from font(s) DejaVu Sans.",
+        "Glyph 52629 (\\N{HANGUL SYLLABLE CUG}) missing from font(s) DejaVu Sans."
+      ]
+    }
+  ]
+}

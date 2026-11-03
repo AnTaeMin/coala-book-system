@@ -1,11 +1,7 @@
-# 원본 PDF 기반 수정 원고
+# 현재 교재 검토 · 2026-10-27
 
-현재 전달본은 원고와 준비 이미지의 수정본이다. Canva·출력 PDF는 이전 판이다.
+현재 PDF는 A4 132쪽입니다. 16차시·162개 원고 컨테이너·37개 실습·공통 차트 생성 코드 1개·그리기 실습 코드 7개·순서도 4개입니다.
 
-- 원고: book.md 및 ch01.md부터 ch16.md.
-- 원고 컨테이너 183개, 예상 Canva 본문 190장. 실제 디자인 수가 아니다.
-- assets/source-20261006의 현재 사용 이미지 28개 준비 완료. 이미지 경로·크기·출처·비율·배치는 asset-manifest.json과 asset-audit.md에 있다.
-- 순서도 4개의 의미 구조 준비 완료, Canva 네이티브 제작은 flowchart-canva.md에 명세했다.
-- 교재 내용·예시 수정 내역은 source-audit.md, 운영은 teacher-guide.md를 참고한다.
-- 작은 원본 캡처의 화질과 수업 플랫폼·장비 기능은 최종 실습·출력 과정에서 확인한다.
-- 기존 Canva 및 209쪽 PDF는 이전 판이며 현재 수정본으로 재생성하지 않았다.
+[현재 Flet 구조 반영과 실제 실행 검증](flet-runtime-review.md)을 확인합니다. Python 블록 8개와 실제 Flet Page 실습 32개가 검사를 통과했습니다.
+
+수정 전 자료는 previous-reports/20261027-before-flet-runtime에 보관했습니다. [이전 검토](content-code-review.md)와 현재 검증을 구분합니다.

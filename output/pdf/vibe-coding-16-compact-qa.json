@@ -1,0 +1,1311 @@
+{
+  "pages": 150,
+  "renderedPages": 150,
+  "outOfPageGlyphs": [],
+  "missingSourceIds": [],
+  "contentsErrors": [],
+  "images": 34,
+  "flowcharts": 4,
+  "manuscriptCodeBlocks": 12,
+  "printedCodeBlocks": 12,
+  "printedCodeSegments": 12,
+  "codeContentDifferences": [],
+  "replacementGlyphPages": [],
+  "institutionLogoTextPages": [],
+  "boxOverflows": [],
+  "date": "2026-10-11",
+  "fonts": {
+    "/AAAAAA+WantedSans-Bold": true,
+    "/AAAAAB+WantedSans-Bold": true,
+    "/AAAAAA+WantedSans-Medium": true,
+    "/AAAAAB+WantedSans-Medium": true,
+    "/AAAAAC+WantedSans-Medium": true,
+    "/AAAAAA+HakgyoansimChilpanjiugaeTTF-L": true,
+    "/AAAAAA+Consolas": true
+  },
+  "standardPdfFonts": [
+    "/Helvetica"
+  ],
+  "bookmarks": 16,
+  "contentsLinks": 16,
+  "pdfSha256": "170ec472f0aec2a3ef3c8d8f5dd9f53fa1fd3b9ea8dcc158004e82b6c37d9777",
+  "manuscriptSha256": "45e52698445bcd329799bea6b743688f44e1b09f26f2a7f764e5dda07a2be4b8",
+  "manuscriptContainers": 179,
+  "previousPdfPages": 179,
+  "savedPages": 29,
+  "sourcePracticeCards": 43,
+  "sourceImages": 25,
+  "uniqueAssets": 33,
+  "imagePixelsAndPrintWidthUnchanged": true,
+  "executedCodeBlocks": 12,
+  "executedCodePassed": 12,
+  "typography": {
+    "bodyPt": 14,
+    "bodyLeadingPt": 28,
+    "sectionHeadingPt": 15,
+    "chapterTitlePt": 25
+  },
+  "pageMapping": [
+    {
+      "previousPage": 1,
+      "sourceId": "cover",
+      "currentPages": [
+        1
+      ]
+    },
+    {
+      "previousPage": 2,
+      "sourceId": "toc-1",
+      "currentPages": [
+        2
+      ]
+    },
+    {
+      "previousPage": 3,
+      "sourceId": "toc-2",
+      "currentPages": [
+        3
+      ]
+    },
+    {
+      "previousPage": 4,
+      "sourceId": "book-guide",
+      "currentPages": [
+        4
+      ]
+    },
+    {
+      "previousPage": 5,
+      "sourceId": "ch01-opening",
+      "currentPages": [
+        5
+      ]
+    },
+    {
+      "previousPage": 6,
+      "sourceId": "ch01-ai",
+      "currentPages": [
+        6
+      ]
+    },
+    {
+      "previousPage": 7,
+      "sourceId": "ch01-limits",
+      "currentPages": [
+        6
+      ]
+    },
+    {
+      "previousPage": 8,
+      "sourceId": "ch01-ethics",
+      "currentPages": [
+        7
+      ]
+    },
+    {
+      "previousPage": 9,
+      "sourceId": "ch01-practice-1",
+      "currentPages": [
+        8
+      ]
+    },
+    {
+      "previousPage": 10,
+      "sourceId": "ch01-procedure",
+      "currentPages": [
+        9
+      ]
+    },
+    {
+      "previousPage": 11,
+      "sourceId": "ch01-check",
+      "currentPages": [
+        9
+      ]
+    },
+    {
+      "previousPage": 12,
+      "sourceId": "ch02-opening",
+      "currentPages": [
+        10
+      ]
+    },
+    {
+      "previousPage": 13,
+      "sourceId": "ch02-prompt",
+      "currentPages": [
+        10
+      ]
+    },
+    {
+      "previousPage": 14,
+      "sourceId": "ch02-compare",
+      "currentPages": [
+        11
+      ]
+    },
+    {
+      "previousPage": 15,
+      "sourceId": "ch02-inputs",
+      "currentPages": [
+        11
+      ]
+    },
+    {
+      "previousPage": 16,
+      "sourceId": "ch02-practice-1",
+      "currentPages": [
+        12
+      ]
+    },
+    {
+      "previousPage": 17,
+      "sourceId": "ch02-practice-2",
+      "currentPages": [
+        13
+      ]
+    },
+    {
+      "previousPage": 18,
+      "sourceId": "ch02-request",
+      "currentPages": [
+        14
+      ]
+    },
+    {
+      "previousPage": 19,
+      "sourceId": "ch02-check",
+      "currentPages": [
+        14
+      ]
+    },
+    {
+      "previousPage": 20,
+      "sourceId": "ch03-opening",
+      "currentPages": [
+        15
+      ]
+    },
+    {
+      "previousPage": 21,
+      "sourceId": "ch03-ramen",
+      "currentPages": [
+        16
+      ]
+    },
+    {
+      "previousPage": 22,
+      "sourceId": "ch03-algorithm",
+      "currentPages": [
+        16
+      ]
+    },
+    {
+      "previousPage": 23,
+      "sourceId": "ch03-practice-1",
+      "currentPages": [
+        17
+      ]
+    },
+    {
+      "previousPage": 24,
+      "sourceId": "ch03-design",
+      "currentPages": [
+        18
+      ]
+    },
+    {
+      "previousPage": 25,
+      "sourceId": "ch03-check",
+      "currentPages": [
+        18
+      ]
+    },
+    {
+      "previousPage": 26,
+      "sourceId": "ch04-opening",
+      "currentPages": [
+        19
+      ]
+    },
+    {
+      "previousPage": 27,
+      "sourceId": "ch04-roles",
+      "currentPages": [
+        19
+      ]
+    },
+    {
+      "previousPage": 28,
+      "sourceId": "ch04-types",
+      "currentPages": [
+        20
+      ]
+    },
+    {
+      "previousPage": 29,
+      "sourceId": "ch04-variables",
+      "currentPages": [
+        20
+      ]
+    },
+    {
+      "previousPage": 30,
+      "sourceId": "ch04-practice-1",
+      "currentPages": [
+        21
+      ]
+    },
+    {
+      "previousPage": 31,
+      "sourceId": "ch04-family-code",
+      "currentPages": [
+        22
+      ]
+    },
+    {
+      "previousPage": 32,
+      "sourceId": "ch04-family-flow",
+      "currentPages": [
+        23
+      ]
+    },
+    {
+      "previousPage": 33,
+      "sourceId": "ch04-scores-code",
+      "currentPages": [
+        24
+      ]
+    },
+    {
+      "previousPage": 34,
+      "sourceId": "ch04-check",
+      "currentPages": [
+        24
+      ]
+    },
+    {
+      "previousPage": 35,
+      "sourceId": "ch05-opening",
+      "currentPages": [
+        25
+      ]
+    },
+    {
+      "previousPage": 36,
+      "sourceId": "ch05-loops",
+      "currentPages": [
+        25
+      ]
+    },
+    {
+      "previousPage": 37,
+      "sourceId": "ch05-trace",
+      "currentPages": [
+        26
+      ]
+    },
+    {
+      "previousPage": 38,
+      "sourceId": "ch05-practice-1",
+      "currentPages": [
+        27
+      ]
+    },
+    {
+      "previousPage": 39,
+      "sourceId": "ch05-exercise-code",
+      "currentPages": [
+        28
+      ]
+    },
+    {
+      "previousPage": 40,
+      "sourceId": "ch05-exercise-flow",
+      "currentPages": [
+        29
+      ]
+    },
+    {
+      "previousPage": 41,
+      "sourceId": "ch05-practice-2",
+      "currentPages": [
+        30
+      ]
+    },
+    {
+      "previousPage": 42,
+      "sourceId": "ch05-caffeine-code",
+      "currentPages": [
+        31
+      ]
+    },
+    {
+      "previousPage": 43,
+      "sourceId": "ch05-check",
+      "currentPages": [
+        31
+      ]
+    },
+    {
+      "previousPage": 44,
+      "sourceId": "ch06-opening",
+      "currentPages": [
+        32
+      ]
+    },
+    {
+      "previousPage": 45,
+      "sourceId": "ch06-conditions",
+      "currentPages": [
+        32
+      ]
+    },
+    {
+      "previousPage": 46,
+      "sourceId": "ch06-sleep-rules",
+      "currentPages": [
+        33
+      ]
+    },
+    {
+      "previousPage": 47,
+      "sourceId": "ch06-practice-1",
+      "currentPages": [
+        34
+      ]
+    },
+    {
+      "previousPage": 48,
+      "sourceId": "ch06-sleep-code",
+      "currentPages": [
+        35
+      ]
+    },
+    {
+      "previousPage": 49,
+      "sourceId": "ch06-sleep-flow",
+      "currentPages": [
+        36
+      ]
+    },
+    {
+      "previousPage": 50,
+      "sourceId": "ch06-fix",
+      "currentPages": [
+        37
+      ]
+    },
+    {
+      "previousPage": 51,
+      "sourceId": "ch06-check",
+      "currentPages": [
+        37
+      ]
+    },
+    {
+      "previousPage": 52,
+      "sourceId": "ch07-opening",
+      "currentPages": [
+        38
+      ]
+    },
+    {
+      "previousPage": 53,
+      "sourceId": "ch07-roles",
+      "currentPages": [
+        39
+      ]
+    },
+    {
+      "previousPage": 54,
+      "sourceId": "ch07-practice-1",
+      "currentPages": [
+        40
+      ]
+    },
+    {
+      "previousPage": 55,
+      "sourceId": "ch07-pass-code",
+      "currentPages": [
+        41
+      ]
+    },
+    {
+      "previousPage": 56,
+      "sourceId": "ch07-pass-flow",
+      "currentPages": [
+        42
+      ]
+    },
+    {
+      "previousPage": 57,
+      "sourceId": "ch07-movie-code",
+      "currentPages": [
+        43
+      ]
+    },
+    {
+      "previousPage": 58,
+      "sourceId": "ch07-check",
+      "currentPages": [
+        43
+      ]
+    },
+    {
+      "previousPage": 59,
+      "sourceId": "ch08-opening",
+      "currentPages": [
+        44
+      ]
+    },
+    {
+      "previousPage": 60,
+      "sourceId": "ch08-widgets",
+      "currentPages": [
+        45
+      ]
+    },
+    {
+      "previousPage": 61,
+      "sourceId": "ch08-designer",
+      "currentPages": [
+        45
+      ]
+    },
+    {
+      "previousPage": 62,
+      "sourceId": "ch08-practice-1",
+      "currentPages": [
+        46
+      ]
+    },
+    {
+      "previousPage": 63,
+      "sourceId": "ch08-button-before",
+      "currentPages": [
+        47
+      ]
+    },
+    {
+      "previousPage": 64,
+      "sourceId": "ch08-practice-message",
+      "currentPages": [
+        48
+      ]
+    },
+    {
+      "previousPage": 65,
+      "sourceId": "ch08-message-screen",
+      "currentPages": [
+        49
+      ]
+    },
+    {
+      "previousPage": 66,
+      "sourceId": "ch08-practice-2",
+      "currentPages": [
+        50
+      ]
+    },
+    {
+      "previousPage": 67,
+      "sourceId": "ch08-request",
+      "currentPages": [
+        51
+      ]
+    },
+    {
+      "previousPage": 68,
+      "sourceId": "ch08-field-copy",
+      "currentPages": [
+        52
+      ]
+    },
+    {
+      "previousPage": 69,
+      "sourceId": "ch08-check",
+      "currentPages": [
+        53
+      ]
+    },
+    {
+      "previousPage": 70,
+      "sourceId": "ch09-opening",
+      "currentPages": [
+        54
+      ]
+    },
+    {
+      "previousPage": 71,
+      "sourceId": "ch09-practice-1",
+      "currentPages": [
+        55
+      ]
+    },
+    {
+      "previousPage": 72,
+      "sourceId": "ch09-product-code",
+      "currentPages": [
+        56
+      ]
+    },
+    {
+      "previousPage": 73,
+      "sourceId": "ch09-practice-2",
+      "currentPages": [
+        57
+      ]
+    },
+    {
+      "previousPage": 74,
+      "sourceId": "ch09-calculator-request",
+      "currentPages": [
+        58
+      ]
+    },
+    {
+      "previousPage": 75,
+      "sourceId": "ch09-calculator-code",
+      "currentPages": [
+        59
+      ]
+    },
+    {
+      "previousPage": 76,
+      "sourceId": "ch09-practice-3",
+      "currentPages": [
+        60
+      ]
+    },
+    {
+      "previousPage": 77,
+      "sourceId": "ch09-text",
+      "currentPages": [
+        61
+      ]
+    },
+    {
+      "previousPage": 78,
+      "sourceId": "ch09-practice-4",
+      "currentPages": [
+        62
+      ]
+    },
+    {
+      "previousPage": 79,
+      "sourceId": "ch09-times-code",
+      "currentPages": [
+        63
+      ]
+    },
+    {
+      "previousPage": 80,
+      "sourceId": "ch09-check",
+      "currentPages": [
+        64
+      ]
+    },
+    {
+      "previousPage": 81,
+      "sourceId": "ch10-opening",
+      "currentPages": [
+        65
+      ]
+    },
+    {
+      "previousPage": 82,
+      "sourceId": "ch10-choice",
+      "currentPages": [
+        66
+      ]
+    },
+    {
+      "previousPage": 83,
+      "sourceId": "ch10-practice-1",
+      "currentPages": [
+        67
+      ]
+    },
+    {
+      "previousPage": 84,
+      "sourceId": "ch10-dropdown",
+      "currentPages": [
+        68
+      ]
+    },
+    {
+      "previousPage": 85,
+      "sourceId": "ch10-practice-2",
+      "currentPages": [
+        69
+      ]
+    },
+    {
+      "previousPage": 86,
+      "sourceId": "ch10-health",
+      "currentPages": [
+        70
+      ]
+    },
+    {
+      "previousPage": 87,
+      "sourceId": "ch10-practice-3",
+      "currentPages": [
+        71
+      ]
+    },
+    {
+      "previousPage": 88,
+      "sourceId": "ch10-club",
+      "currentPages": [
+        72
+      ]
+    },
+    {
+      "previousPage": 89,
+      "sourceId": "ch10-practice-4",
+      "currentPages": [
+        73
+      ]
+    },
+    {
+      "previousPage": 90,
+      "sourceId": "ch10-progress",
+      "currentPages": [
+        74
+      ]
+    },
+    {
+      "previousPage": 91,
+      "sourceId": "ch10-practice-5",
+      "currentPages": [
+        75
+      ]
+    },
+    {
+      "previousPage": 92,
+      "sourceId": "ch10-images",
+      "currentPages": [
+        76
+      ]
+    },
+    {
+      "previousPage": 93,
+      "sourceId": "ch10-check",
+      "currentPages": [
+        76
+      ]
+    },
+    {
+      "previousPage": 94,
+      "sourceId": "ch11-opening",
+      "currentPages": [
+        77
+      ]
+    },
+    {
+      "previousPage": 95,
+      "sourceId": "ch11-table",
+      "currentPages": [
+        77
+      ]
+    },
+    {
+      "previousPage": 96,
+      "sourceId": "ch11-practice-1",
+      "currentPages": [
+        78
+      ]
+    },
+    {
+      "previousPage": 97,
+      "sourceId": "ch11-table-screen",
+      "currentPages": [
+        79
+      ]
+    },
+    {
+      "previousPage": 98,
+      "sourceId": "ch11-field-map",
+      "currentPages": [
+        80
+      ]
+    },
+    {
+      "previousPage": 99,
+      "sourceId": "ch11-index",
+      "currentPages": [
+        81
+      ]
+    },
+    {
+      "previousPage": 100,
+      "sourceId": "ch11-practice-2",
+      "currentPages": [
+        82
+      ]
+    },
+    {
+      "previousPage": 101,
+      "sourceId": "ch11-check",
+      "currentPages": [
+        82
+      ]
+    },
+    {
+      "previousPage": 102,
+      "sourceId": "ch12-opening",
+      "currentPages": [
+        83
+      ]
+    },
+    {
+      "previousPage": 103,
+      "sourceId": "ch12-charts",
+      "currentPages": [
+        84
+      ]
+    },
+    {
+      "previousPage": 104,
+      "sourceId": "ch12-practice-1",
+      "currentPages": [
+        85
+      ]
+    },
+    {
+      "previousPage": 105,
+      "sourceId": "ch12-line-screen",
+      "currentPages": [
+        86
+      ]
+    },
+    {
+      "previousPage": 106,
+      "sourceId": "ch12-practice-2",
+      "currentPages": [
+        87
+      ]
+    },
+    {
+      "previousPage": 107,
+      "sourceId": "ch12-scatter-screen",
+      "currentPages": [
+        88
+      ]
+    },
+    {
+      "previousPage": 108,
+      "sourceId": "ch12-practice-3",
+      "currentPages": [
+        89
+      ]
+    },
+    {
+      "previousPage": 109,
+      "sourceId": "ch12-bar-screen",
+      "currentPages": [
+        90
+      ]
+    },
+    {
+      "previousPage": 110,
+      "sourceId": "ch12-practice-data",
+      "currentPages": [
+        91
+      ]
+    },
+    {
+      "previousPage": 111,
+      "sourceId": "ch12-loaded-data",
+      "currentPages": [
+        92
+      ]
+    },
+    {
+      "previousPage": 112,
+      "sourceId": "ch12-practice-school",
+      "currentPages": [
+        93
+      ]
+    },
+    {
+      "previousPage": 113,
+      "sourceId": "ch12-school-screen",
+      "currentPages": [
+        94
+      ]
+    },
+    {
+      "previousPage": 114,
+      "sourceId": "ch12-practice-api",
+      "currentPages": [
+        95
+      ]
+    },
+    {
+      "previousPage": 115,
+      "sourceId": "ch12-api-steps",
+      "currentPages": [
+        96
+      ]
+    },
+    {
+      "previousPage": 116,
+      "sourceId": "ch12-api-screen",
+      "currentPages": [
+        97
+      ]
+    },
+    {
+      "previousPage": 117,
+      "sourceId": "ch12-practice-4",
+      "currentPages": [
+        98
+      ]
+    },
+    {
+      "previousPage": 118,
+      "sourceId": "ch12-save-process",
+      "currentPages": [
+        99
+      ]
+    },
+    {
+      "previousPage": 119,
+      "sourceId": "ch12-saved",
+      "currentPages": [
+        100,
+        101
+      ]
+    },
+    {
+      "previousPage": 120,
+      "sourceId": "ch12-saved",
+      "currentPages": [
+        100,
+        101
+      ]
+    },
+    {
+      "previousPage": 121,
+      "sourceId": "ch12-check",
+      "currentPages": [
+        102
+      ]
+    },
+    {
+      "previousPage": 122,
+      "sourceId": "ch13-opening",
+      "currentPages": [
+        103
+      ]
+    },
+    {
+      "previousPage": 123,
+      "sourceId": "ch13-axes",
+      "currentPages": [
+        104
+      ]
+    },
+    {
+      "previousPage": 124,
+      "sourceId": "ch13-practice-1",
+      "currentPages": [
+        105
+      ]
+    },
+    {
+      "previousPage": 125,
+      "sourceId": "ch13-one-array",
+      "currentPages": [
+        106
+      ]
+    },
+    {
+      "previousPage": 126,
+      "sourceId": "ch13-one-array",
+      "currentPages": [
+        106
+      ]
+    },
+    {
+      "previousPage": 127,
+      "sourceId": "ch13-practice-two",
+      "currentPages": [
+        107
+      ]
+    },
+    {
+      "previousPage": 128,
+      "sourceId": "ch13-two-arrays",
+      "currentPages": [
+        108
+      ]
+    },
+    {
+      "previousPage": 129,
+      "sourceId": "ch13-two-arrays",
+      "currentPages": [
+        108
+      ]
+    },
+    {
+      "previousPage": 130,
+      "sourceId": "ch13-practice-2",
+      "currentPages": [
+        109
+      ]
+    },
+    {
+      "previousPage": 131,
+      "sourceId": "ch13-range",
+      "currentPages": [
+        110
+      ]
+    },
+    {
+      "previousPage": 132,
+      "sourceId": "ch13-range",
+      "currentPages": [
+        110
+      ]
+    },
+    {
+      "previousPage": 133,
+      "sourceId": "ch13-practice-colors",
+      "currentPages": [
+        111
+      ]
+    },
+    {
+      "previousPage": 134,
+      "sourceId": "ch13-markers",
+      "currentPages": [
+        112,
+        113
+      ]
+    },
+    {
+      "previousPage": 135,
+      "sourceId": "ch13-markers",
+      "currentPages": [
+        112,
+        113
+      ]
+    },
+    {
+      "previousPage": 136,
+      "sourceId": "ch13-practice-labels",
+      "currentPages": [
+        114
+      ]
+    },
+    {
+      "previousPage": 137,
+      "sourceId": "ch13-labels-screen",
+      "currentPages": [
+        115
+      ]
+    },
+    {
+      "previousPage": 138,
+      "sourceId": "ch13-practice-3",
+      "currentPages": [
+        116
+      ]
+    },
+    {
+      "previousPage": 139,
+      "sourceId": "ch13-bars",
+      "currentPages": [
+        117
+      ]
+    },
+    {
+      "previousPage": 140,
+      "sourceId": "ch13-bars",
+      "currentPages": [
+        117
+      ]
+    },
+    {
+      "previousPage": 141,
+      "sourceId": "ch13-practice-grouped",
+      "currentPages": [
+        118
+      ]
+    },
+    {
+      "previousPage": 142,
+      "sourceId": "ch13-grouped",
+      "currentPages": [
+        119,
+        120
+      ]
+    },
+    {
+      "previousPage": 143,
+      "sourceId": "ch13-grouped",
+      "currentPages": [
+        119,
+        120
+      ]
+    },
+    {
+      "previousPage": 144,
+      "sourceId": "ch13-practice-4",
+      "currentPages": [
+        121
+      ]
+    },
+    {
+      "previousPage": 145,
+      "sourceId": "ch13-scatter",
+      "currentPages": [
+        122,
+        123
+      ]
+    },
+    {
+      "previousPage": 146,
+      "sourceId": "ch13-scatter",
+      "currentPages": [
+        122,
+        123
+      ]
+    },
+    {
+      "previousPage": 147,
+      "sourceId": "ch13-check",
+      "currentPages": [
+        124
+      ]
+    },
+    {
+      "previousPage": 148,
+      "sourceId": "ch14-opening",
+      "currentPages": [
+        125
+      ]
+    },
+    {
+      "previousPage": 149,
+      "sourceId": "ch14-formats",
+      "currentPages": [
+        126
+      ]
+    },
+    {
+      "previousPage": 150,
+      "sourceId": "ch14-structure",
+      "currentPages": [
+        126
+      ]
+    },
+    {
+      "previousPage": 151,
+      "sourceId": "ch14-practice-1",
+      "currentPages": [
+        127
+      ]
+    },
+    {
+      "previousPage": 152,
+      "sourceId": "ch14-series",
+      "currentPages": [
+        128
+      ]
+    },
+    {
+      "previousPage": 153,
+      "sourceId": "ch14-mixed",
+      "currentPages": [
+        129
+      ]
+    },
+    {
+      "previousPage": 154,
+      "sourceId": "ch14-practice-dict",
+      "currentPages": [
+        130
+      ]
+    },
+    {
+      "previousPage": 155,
+      "sourceId": "ch14-dict-frame-code",
+      "currentPages": [
+        131
+      ]
+    },
+    {
+      "previousPage": 156,
+      "sourceId": "ch14-dict-frame-code",
+      "currentPages": [
+        131
+      ]
+    },
+    {
+      "previousPage": 157,
+      "sourceId": "ch14-practice-2",
+      "currentPages": [
+        132
+      ]
+    },
+    {
+      "previousPage": 158,
+      "sourceId": "ch14-dataframe",
+      "currentPages": [
+        133
+      ]
+    },
+    {
+      "previousPage": 159,
+      "sourceId": "ch14-table-result",
+      "currentPages": [
+        134
+      ]
+    },
+    {
+      "previousPage": 160,
+      "sourceId": "ch14-rename",
+      "currentPages": [
+        135
+      ]
+    },
+    {
+      "previousPage": 161,
+      "sourceId": "ch14-rename-code",
+      "currentPages": [
+        136
+      ]
+    },
+    {
+      "previousPage": 162,
+      "sourceId": "ch14-check",
+      "currentPages": [
+        137
+      ]
+    },
+    {
+      "previousPage": 163,
+      "sourceId": "ch15-opening",
+      "currentPages": [
+        138
+      ]
+    },
+    {
+      "previousPage": 164,
+      "sourceId": "ch15-robot-flow",
+      "currentPages": [
+        138
+      ]
+    },
+    {
+      "previousPage": 165,
+      "sourceId": "ch15-buttons",
+      "currentPages": [
+        139
+      ]
+    },
+    {
+      "previousPage": 166,
+      "sourceId": "ch15-practice-1",
+      "currentPages": [
+        140
+      ]
+    },
+    {
+      "previousPage": 167,
+      "sourceId": "ch15-fields",
+      "currentPages": [
+        141
+      ]
+    },
+    {
+      "previousPage": 168,
+      "sourceId": "ch15-event-map",
+      "currentPages": [
+        142
+      ]
+    },
+    {
+      "previousPage": 169,
+      "sourceId": "ch15-practice-2",
+      "currentPages": [
+        143
+      ]
+    },
+    {
+      "previousPage": 170,
+      "sourceId": "ch15-request",
+      "currentPages": [
+        144
+      ]
+    },
+    {
+      "previousPage": 171,
+      "sourceId": "ch15-inputs",
+      "currentPages": [
+        145
+      ]
+    },
+    {
+      "previousPage": 172,
+      "sourceId": "ch15-verify",
+      "currentPages": [
+        146
+      ]
+    },
+    {
+      "previousPage": 173,
+      "sourceId": "ch15-check",
+      "currentPages": [
+        146
+      ]
+    },
+    {
+      "previousPage": 174,
+      "sourceId": "ch16-opening",
+      "currentPages": [
+        147
+      ]
+    },
+    {
+      "previousPage": 175,
+      "sourceId": "ch16-projects",
+      "currentPages": [
+        147
+      ]
+    },
+    {
+      "previousPage": 176,
+      "sourceId": "ch16-practice-1",
+      "currentPages": [
+        148
+      ]
+    },
+    {
+      "previousPage": 177,
+      "sourceId": "ch16-procedure",
+      "currentPages": [
+        149
+      ]
+    },
+    {
+      "previousPage": 178,
+      "sourceId": "ch16-evidence",
+      "currentPages": [
+        150
+      ]
+    },
+    {
+      "previousPage": 179,
+      "sourceId": "ch16-check",
+      "currentPages": [
+        150
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-11",
+  "physicalPage": 7,
+  "sourceId": "ch01-ethics",
+  "purpose": "질문의 틀린 전제를 받아들이는 환각을 알아보는 학습용 가상 오답",
+  "notice": "다음 답변은 환각을 살펴보기 위해 만든 학습용 가상 오답입니다.",
+  "actualAiOutput": false,
+  "examples": [
+    {
+      "topic": "제1차 십자군의 연도",
+      "question": "제1차 십자군은 1492년에 시작했나요?",
+      "learning_only_wrong_answer": "네, 1492년에 시작했습니다.",
+      "verified_fact": "제1차 십자군은 1096~1099년에 진행되었습니다.",
+      "source_title": "OpenStax · 13.4 The Crusading Movement",
+      "source_url": "https://openstax.org/books/world-history-volume-1/pages/13-4-the-crusading-movement",
+      "source_support": "Figure 13.19의 First Crusade, 1096-1099 표기와 1099년 예루살렘 도착 설명"
+    },
+    {
+      "topic": "소설 연금술사의 작가·출간 연도",
+      "question": "산티아고가 나오는 소설 『연금술사』는 셰익스피어의 작품인가요?",
+      "learning_only_wrong_answer": "네, 셰익스피어가 쓴 작품입니다.",
+      "verified_fact": "파울로 코엘료의 소설로, 1988년에 처음 출간되었습니다.",
+      "source_title": "Paulo Coelho and Christina Oiticica Foundation · The Alchemist",
+      "source_url": "https://fondationpaulocoelho.com/books/paulo-coelho-the-alchemist/",
+      "source_support": "작가 Paulo Coelho, 주인공 Santiago, First publication year: 1988 확인"
+    }
+  ],
+  "verificationTask": "질문의 전제·연도·작가를 근거 자료와 비교하고 맞음·틀림·확인하지 못함으로 구분",
+  "sourcesReviewedDate": "2026-10-11",
+  "webVerification": "OpenStax 해당 절과 작가재단 도서 페이지의 사실을 확인",
+  "pdfSha256": "bd88067cfb383ce60da8889fa63bd7af6fae266869aec85feebf83b447461f9d",
+  "manuscriptSha256": "651502eaef854cf5b8d2876b6fbc9e681dad48989c8aa9a8759e98d757b2d244",
+  "layoutVerification": {
+    "page": 7,
+    "sourceId": "ch01-ethics",
+    "labeledHypothetical": true,
+    "constructedLearningWrongAnswers": true,
+    "actualAiOutputClaimed": false,
+    "verifiedExampleCount": 2,
+    "questionPremiseYearAndAuthorVerificationPresent": true,
+    "verifiedFacts": [
+      {
+        "topic": "제1차 십자군의 연도",
+        "question": "제1차 십자군은 1492년에 시작했나요?",
+        "learning_only_wrong_answer": "네, 1492년에 시작했습니다.",
+        "verified_fact": "제1차 십자군은 1096~1099년에 진행되었습니다.",
+        "source_title": "OpenStax · 13.4 The Crusading Movement",
+        "source_url": "https://openstax.org/books/world-history-volume-1/pages/13-4-the-crusading-movement",
+        "source_support": "Figure 13.19의 First Crusade, 1096-1099 표기와 1099년 예루살렘 도착 설명"
+      },
+      {
+        "topic": "소설 연금술사의 작가·출간 연도",
+        "question": "산티아고가 나오는 소설 『연금술사』는 셰익스피어의 작품인가요?",
+        "learning_only_wrong_answer": "네, 셰익스피어가 쓴 작품입니다.",
+        "verified_fact": "파울로 코엘료의 소설로, 1988년에 처음 출간되었습니다.",
+        "source_title": "Paulo Coelho and Christina Oiticica Foundation · The Alchemist",
+        "source_url": "https://fondationpaulocoelho.com/books/paulo-coelho-the-alchemist/",
+        "source_support": "작가 Paulo Coelho, 주인공 Santiago, First publication year: 1988 확인"
+      }
+    ],
+    "responsibleUsePresent": true,
+    "previousBodyBottomPt": 299.0,
+    "currentBodyBottomPt": 718.0,
+    "bodyBottomExtendedPt": 419.0
+  }
+}

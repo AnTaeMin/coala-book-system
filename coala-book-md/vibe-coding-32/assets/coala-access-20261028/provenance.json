@@ -1,0 +1,238 @@
+{
+  "date": "2026-10-28",
+  "sources": [
+    {
+      "original_filename": "스크린샷 2026-10-28 134809.png",
+      "src": "assets/coala-access-20261028/sources/homepage.png",
+      "sha256": "f2eaa8f85fdd2000df5368d93928fa26809fc102cc8211c838bbfa419beda216",
+      "copied_intact": true,
+      "used_in_student_guide": true,
+      "note": "User-provided screenshot"
+    },
+    {
+      "original_filename": "스크린샷 2026-10-28 134835.png",
+      "src": "assets/coala-access-20261028/sources/download.png",
+      "sha256": "6d08bba138e7e63077ca5afbe41ab0d1c1413648a47b021d83821e831b1f5518",
+      "copied_intact": true,
+      "used_in_student_guide": true,
+      "note": "User-provided screenshot"
+    },
+    {
+      "original_filename": "스크린샷 2026-10-28 134907.png",
+      "src": "assets/coala-access-20261028/sources/login.png",
+      "sha256": "9e6430893ee11f8d9a09d1fa6c1b8d752abd309bc88e71dc8508be2a5691b6c0",
+      "copied_intact": true,
+      "used_in_student_guide": true,
+      "note": "User-provided screenshot"
+    },
+    {
+      "original_filename": "스크린샷 2026-10-28 134926.png",
+      "src": "assets/coala-access-20261028/sources/dashboard.png",
+      "sha256": "01dc793d08cc229712a0ff913ee98ce52c4b4e5c49ae4afc409169cd35d53ca3",
+      "copied_intact": true,
+      "used_in_student_guide": true,
+      "note": "User-provided screenshot"
+    },
+    {
+      "original_filename": "스크린샷 2026-10-28 135122.png",
+      "src": "assets/coala-access-20261028/sources/old-ebook-reference.png",
+      "sha256": "42b659611b4a1d0e1e221215048cefdb7c580605d04555662ad6fd099f3d5ee4",
+      "copied_intact": true,
+      "used_in_student_guide": false,
+      "note": "Reference only: shows the superseded edition; never placed in the guide."
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/coala-access-20261028/homepage.png",
+      "document_viewport_pdf": "assets/coala-access-20261028/homepage.pdf",
+      "kind": "user-supplied-screenshot-viewport",
+      "source": "assets/coala-access-20261028/sources/homepage.png",
+      "source_sha256": "f2eaa8f85fdd2000df5368d93928fa26809fc102cc8211c838bbfa419beda216",
+      "crop_bounds_top_left_px": [
+        240,
+        0,
+        1660,
+        735
+      ],
+      "source_dimensions_px": [
+        1919,
+        895
+      ],
+      "width": 1420,
+      "height": 735,
+      "ratio": "1420:735",
+      "sha256": "c77747e4477b439dd157c15ace980c716d68f495f653fab8e5993933a0890c2a",
+      "ui_text_redrawn": false,
+      "pixel_content_invented": false,
+      "upscaled": false
+    },
+    {
+      "src": "assets/coala-access-20261028/download.png",
+      "document_viewport_pdf": "assets/coala-access-20261028/download.pdf",
+      "kind": "user-supplied-screenshot-viewport",
+      "source": "assets/coala-access-20261028/sources/download.png",
+      "source_sha256": "6d08bba138e7e63077ca5afbe41ab0d1c1413648a47b021d83821e831b1f5518",
+      "crop_bounds_top_left_px": [
+        440,
+        455,
+        1125,
+        903
+      ],
+      "source_dimensions_px": [
+        1919,
+        903
+      ],
+      "width": 685,
+      "height": 448,
+      "ratio": "685:448",
+      "sha256": "53ff3e3c9ff3b5dc01790938368278645f3316d7338ec29426d303af4b675e2a",
+      "ui_text_redrawn": false,
+      "pixel_content_invented": false,
+      "upscaled": false
+    },
+    {
+      "src": "assets/coala-access-20261028/web-version.png",
+      "document_viewport_pdf": "assets/coala-access-20261028/web-version.pdf",
+      "kind": "user-supplied-screenshot-viewport",
+      "source": "assets/coala-access-20261028/sources/download.png",
+      "source_sha256": "6d08bba138e7e63077ca5afbe41ab0d1c1413648a47b021d83821e831b1f5518",
+      "crop_bounds_top_left_px": [
+        450,
+        465,
+        785,
+        680
+      ],
+      "source_dimensions_px": [
+        1919,
+        903
+      ],
+      "width": 335,
+      "height": 215,
+      "ratio": "335:215",
+      "sha256": "4a49e3f652268c90e5c832729c81034b3e23dd2248ce24b9fdc467e953f261f5",
+      "ui_text_redrawn": false,
+      "pixel_content_invented": false,
+      "upscaled": false
+    },
+    {
+      "src": "assets/coala-access-20261028/online-book.png",
+      "document_viewport_pdf": "assets/coala-access-20261028/online-book.pdf",
+      "kind": "user-supplied-screenshot-viewport",
+      "source": "assets/coala-access-20261028/sources/download.png",
+      "source_sha256": "6d08bba138e7e63077ca5afbe41ab0d1c1413648a47b021d83821e831b1f5518",
+      "crop_bounds_top_left_px": [
+        790,
+        690,
+        1120,
+        903
+      ],
+      "source_dimensions_px": [
+        1919,
+        903
+      ],
+      "width": 330,
+      "height": 213,
+      "ratio": "330:213",
+      "sha256": "c3bd5369cb86140b68094e550c5bfaec7b049ca45ca35775ec122480f1948240",
+      "ui_text_redrawn": false,
+      "pixel_content_invented": false,
+      "upscaled": false
+    },
+    {
+      "src": "assets/coala-access-20261028/login.png",
+      "document_viewport_pdf": "assets/coala-access-20261028/login.pdf",
+      "kind": "user-supplied-screenshot-viewport",
+      "source": "assets/coala-access-20261028/sources/login.png",
+      "source_sha256": "9e6430893ee11f8d9a09d1fa6c1b8d752abd309bc88e71dc8508be2a5691b6c0",
+      "crop_bounds_top_left_px": [
+        1185,
+        335,
+        1630,
+        585
+      ],
+      "source_dimensions_px": [
+        1919,
+        907
+      ],
+      "width": 445,
+      "height": 250,
+      "ratio": "445:250",
+      "sha256": "539175087b3115e1464f246b23d9ff130b55dc750882f502f20ec75796707d1b",
+      "ui_text_redrawn": false,
+      "pixel_content_invented": false,
+      "upscaled": false
+    },
+    {
+      "src": "assets/coala-access-20261028/login-context.png",
+      "document_viewport_pdf": "assets/coala-access-20261028/login-context.pdf",
+      "kind": "user-supplied-screenshot-viewport",
+      "source": "assets/coala-access-20261028/sources/login.png",
+      "source_sha256": "9e6430893ee11f8d9a09d1fa6c1b8d752abd309bc88e71dc8508be2a5691b6c0",
+      "crop_bounds_top_left_px": [
+        500,
+        0,
+        1630,
+        590
+      ],
+      "source_dimensions_px": [
+        1919,
+        907
+      ],
+      "width": 1130,
+      "height": 590,
+      "ratio": "1130:590",
+      "sha256": "4fd4aef7990259e87be59118738869e833ee521b4e698b2312898be84150a99c",
+      "ui_text_redrawn": false,
+      "pixel_content_invented": false,
+      "upscaled": false
+    },
+    {
+      "src": "assets/coala-access-20261028/dashboard.png",
+      "document_viewport_pdf": "assets/coala-access-20261028/dashboard.pdf",
+      "kind": "user-supplied-screenshot-viewport",
+      "source": "assets/coala-access-20261028/sources/dashboard.png",
+      "source_sha256": "01dc793d08cc229712a0ff913ee98ce52c4b4e5c49ae4afc409169cd35d53ca3",
+      "crop_bounds_top_left_px": [
+        600,
+        65,
+        1550,
+        335
+      ],
+      "source_dimensions_px": [
+        1919,
+        907
+      ],
+      "width": 950,
+      "height": 270,
+      "ratio": "950:270",
+      "sha256": "68d74d798aeb31ddccbd38f44784d84e3e834b900c6f1721c788ed2d116c1370",
+      "ui_text_redrawn": false,
+      "pixel_content_invented": false,
+      "upscaled": false
+    }
+  ],
+  "ebook_preview": {
+    "src": "assets/coala-access-20261028/ebook-preview.png",
+    "vector_src": "assets/coala-access-20261028/ebook-preview.pdf",
+    "kind": "generated-local-ebook-preview",
+    "source_pdf": "C:\\the_coala\\DEV-PYGAME\\coala-book-system\\output\\pdf\\vibe-coding-32-coala-access-reviewed.pdf",
+    "source_pdf_sha256": "2fff5c0a245a50f88d665a995227d230e7af3b5ab80b6161d5b72567993faf69",
+    "source_pdf_pages": [
+      1,
+      2
+    ],
+    "source_pdf_page_count": 155,
+    "width": 1600,
+    "height": 900,
+    "ratio": "16:9",
+    "sha256": "7600ce6492c5d8e8d6bb0faa270e6288d402ad981aeb7185e4508cc70d622083",
+    "vector_sha256": "a28b6b88c269851cc4943689928cae48897d66e638345faad6b1da7ecf16f761",
+    "caption": "수정 교재 화면 예시",
+    "is_live_website_screenshot": false,
+    "old_ebook_screenshot_used": false,
+    "source_pdf_edition_sessions": 32,
+    "source_pdf_snapshot_note": "Generated from the actual cover and first contents page of this local 32-session PDF at the recorded source hash. Re-embedding the preview changes the whole PDF hash while retaining those source pages."
+  },
+  "ebook_preview_review_date": "2026-11-03"
+}

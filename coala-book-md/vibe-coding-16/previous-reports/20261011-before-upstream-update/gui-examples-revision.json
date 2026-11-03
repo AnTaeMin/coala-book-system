@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-11",
+  "edition": "gui-examples-16-sessions",
+  "baseline": "previous-reports/20261011-before-gui-examples",
+  "added_page_ids": [
+    "ch08-gui-example",
+    "ch15-gui-layout"
+  ],
+  "changed_page_ids": [
+    "ch08-widgets",
+    "ch08-designer",
+    "ch08-request",
+    "ch09-product-code",
+    "ch09-calculator-request",
+    "ch11-request",
+    "ch14-line-screen",
+    "ch14-scatter-screen",
+    "ch14-bar-screen"
+  ],
+  "added_asset": "assets/source-20261011/save-gui-layout.png",
+  "added_asset_source_pdf_page": 118,
+  "new_placement": {
+    "src": "assets/source-20261006/field-copy.png",
+    "page_id": "ch08-gui-example"
+  },
+  "expected_containers": 162,
+  "expected_practices": 37,
+  "expected_python_blocks": 7,
+  "expected_output_blocks": 0,
+  "notes": [
+    "기존 실습의 배치·위젯 이름·역할·버튼 동작을 설명",
+    "계산기 결과fld3과 표fld1~fld4 역할을 구분",
+    "저장 디자이너사진은 실행결과사진과 용도를 구분"
+  ]
+}

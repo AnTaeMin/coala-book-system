@@ -1,0 +1,145 @@
+{
+  "reviewed_date": "2026-10-27",
+  "python": "3.14.2",
+  "flet": "0.86.0",
+  "flet_charts": "0.86.0",
+  "tested": 32,
+  "passed": 32,
+  "failed": 0,
+  "cloud_project_save_tested": false,
+  "execution": "sl42 real browser-connected Flet Page; actual control callbacks",
+  "cases": [
+    {
+      "id": "008-1",
+      "status": "passed"
+    },
+    {
+      "id": "008-2",
+      "status": "passed"
+    },
+    {
+      "id": "008-3",
+      "status": "passed"
+    },
+    {
+      "id": "009-1",
+      "status": "passed"
+    },
+    {
+      "id": "009-2",
+      "status": "passed"
+    },
+    {
+      "id": "009-3",
+      "status": "passed"
+    },
+    {
+      "id": "009-4",
+      "status": "passed"
+    },
+    {
+      "id": "010-1",
+      "status": "passed"
+    },
+    {
+      "id": "010-2",
+      "status": "passed"
+    },
+    {
+      "id": "010-3",
+      "status": "passed"
+    },
+    {
+      "id": "010-4",
+      "status": "passed"
+    },
+    {
+      "id": "010-5",
+      "status": "passed"
+    },
+    {
+      "id": "011-1",
+      "status": "passed"
+    },
+    {
+      "id": "ch14-practice-1",
+      "status": "passed"
+    },
+    {
+      "id": "ch14-practice-2",
+      "status": "passed"
+    },
+    {
+      "id": "ch14-practice-3",
+      "status": "passed"
+    },
+    {
+      "id": "ch15-practice-data",
+      "status": "passed"
+    },
+    {
+      "id": "ch15-practice-school",
+      "status": "passed"
+    },
+    {
+      "id": "ch15-practice-3",
+      "status": "passed"
+    },
+    {
+      "id": "ch04-family-code",
+      "status": "passed"
+    },
+    {
+      "id": "ch05-exercise-code",
+      "status": "passed"
+    },
+    {
+      "id": "ch05-caffeine-code",
+      "status": "passed"
+    },
+    {
+      "id": "ch06-sleep-code",
+      "status": "passed"
+    },
+    {
+      "id": "ch07-pass-code",
+      "status": "passed"
+    },
+    {
+      "id": "ch07-movie-code",
+      "status": "passed"
+    },
+    {
+      "id": "ch12-one-array",
+      "status": "passed"
+    },
+    {
+      "id": "ch12-two-arrays",
+      "status": "passed"
+    },
+    {
+      "id": "ch12-range",
+      "status": "passed"
+    },
+    {
+      "id": "ch12-markers",
+      "status": "passed"
+    },
+    {
+      "id": "ch13-bars",
+      "status": "passed"
+    },
+    {
+      "id": "ch13-grouped",
+      "status": "passed"
+    },
+    {
+      "id": "ch13-scatter",
+      "status": "passed"
+    }
+  ],
+  "source_url": "https://coala-web-v2.coala.services/ko/student/sl42",
+  "observed_at": "2026-10-27T02:54:24.910Z",
+  "program_sha256": "29bb9c2d6dc9b42bdb8844dd30297661ebb1975f1268a79218496d49b3096f03",
+  "logic_refresh_calls_excluded": true
+}

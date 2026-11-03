@@ -1,0 +1,218 @@
+{
+  "reviewed_date": "2026-10-27",
+  "python": "3.10.11",
+  "matplotlib": "3.10.9",
+  "numpy": "2.2.6",
+  "executed_blocks": 7,
+  "passed": 7,
+  "records": [
+    {
+      "page_id": "ch12-one-array",
+      "status": "passed",
+      "source_pdf_pages": "131-132",
+      "stdout": "",
+      "code_sha256": "2cd6dcbfc29285217eb3de7c2c61f6a78082146bf1f73e6c4e869d437792ff2b",
+      "result_asset": "plot-one",
+      "semantics": {
+        "x": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0
+        ],
+        "y": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "page_id": "ch12-two-arrays",
+      "status": "passed",
+      "source_pdf_pages": "133",
+      "stdout": "",
+      "code_sha256": "ba26bb8070af9b5ee5ec20752d62fa226cf097e6c59539e546c21dc8b81c8633",
+      "result_asset": "plot-two",
+      "semantics": {
+        "x": [
+          15.0,
+          25.0,
+          35.0,
+          45.0,
+          55.0
+        ],
+        "y": [
+          5.0,
+          10.0,
+          15.0,
+          20.0,
+          25.0
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "page_id": "ch12-range",
+      "status": "passed",
+      "source_pdf_pages": "134",
+      "stdout": "",
+      "code_sha256": "165d17e79c9d6437acfdfd6e8000bf12e45515dc1bd55c8ac2e19b17ed04ed63",
+      "result_asset": "plot-range",
+      "semantics": {
+        "marker": "+",
+        "color": "b",
+        "xlim": [
+          0.0,
+          10.0
+        ],
+        "ylim": [
+          0.0,
+          25.0
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "page_id": "ch12-markers",
+      "status": "passed",
+      "source_pdf_pages": "136-138",
+      "stdout": "",
+      "code_sha256": "aaf790720c396f07c3472b8db66dda65696c843036990a3508efb4b0645fea39",
+      "result_asset": "plot-markers",
+      "semantics": {
+        "marker": "o",
+        "color": "r",
+        "linestyle": "None",
+        "annotation": "12/19 at (3, 5)"
+      },
+      "warnings": []
+    },
+    {
+      "page_id": "ch13-bars",
+      "status": "passed",
+      "source_pdf_pages": "140",
+      "stdout": "",
+      "code_sha256": "7aea71be8ea81da41217c195756cc1b81ca5d522e0cdf3218713e83f7e632ab8",
+      "result_asset": "plot-bars",
+      "semantics": {
+        "heights": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "page_id": "ch13-grouped",
+      "status": "passed",
+      "source_pdf_pages": "141-142",
+      "stdout": "",
+      "code_sha256": "09843eb84a99791de977dbf88f597a6edf955fc176a539245d71c5880dc51ee0",
+      "result_asset": "plot-grouped",
+      "semantics": {
+        "heights": [
+          35,
+          80,
+          84,
+          83,
+          50,
+          73,
+          80,
+          77,
+          40,
+          86
+        ],
+        "centers": [
+          0.8,
+          2.8,
+          4.8,
+          6.8,
+          8.8,
+          1.6,
+          3.6000000000000005,
+          5.6,
+          7.6,
+          9.6
+        ],
+        "ticks": [
+          1.2000000000000002,
+          3.2,
+          5.199999999999999,
+          7.199999999999999,
+          9.2
+        ]
+      },
+      "warnings": []
+    },
+    {
+      "page_id": "ch13-scatter",
+      "status": "passed",
+      "source_pdf_pages": "145",
+      "stdout": "",
+      "code_sha256": "101bada5db73bae4c443d798aec652f49d3beadefe58d1b7ad86e5863a77d607",
+      "result_asset": "plot-scatter",
+      "semantics": {
+        "points": 20,
+        "first_point": [
+          1.1,
+          20.56392186263395
+        ],
+        "last_point": [
+          96.1,
+          184.3747507628296
+        ],
+        "seed_repeatability": true,
+        "labels": [
+          "X축 제목",
+          "Y축 제목"
+        ],
+        "selected_korean_font": "Malgun Gothic"
+      },
+      "warnings": []
+    }
+  ],
+  "gui_practices": "원본 화면 대조 및 절차 작성. GUI/API/코코봇의 새 실행을 주장하지 않음",
+  "edition": "no-pandas-16-sessions",
+  "runtime": "C:\\Users\\use\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "chapter_blocks_match_files": true,
+  "book_blocks_match_files": true,
+  "code_specs_match_files": true,
+  "plot_pixels": [
+    1920,
+    1200
+  ],
+  "plot_dpi": 240,
+  "fallback": {
+    "status": "passed",
+    "semantics": {
+      "points": 20,
+      "first_point": [
+        1.1,
+        20.56392186263395
+      ],
+      "last_point": [
+        96.1,
+        184.3747507628296
+      ],
+      "seed_repeatability": true,
+      "labels": [
+        "X axis",
+        "Y axis"
+      ],
+      "selected_korean_font": null
+    },
+    "warnings": [],
+    "stdout": ""
+  }
+}

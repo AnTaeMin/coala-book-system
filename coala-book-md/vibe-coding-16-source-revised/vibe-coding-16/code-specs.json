@@ -1,0 +1,74 @@
+[
+  {
+    "chapter": 12,
+    "page_id": "ch12-axes",
+    "output": null,
+    "result": null,
+    "code": "import flet_charts as fch\nimport matplotlib.pyplot as plt\n\nfig_cht1, ax_cht1 = plt.subplots()\ncht1 = fch.MatplotlibChart(\n    expand=True, figure=fig_cht1)",
+    "role": "generated-chart-setup",
+    "file": "chart_setup.py"
+  },
+  {
+    "chapter": 12,
+    "page_id": "ch12-one-array",
+    "code": "ax_cht1.clear()\nax_cht1.plot([1, 2, 3, 4, 5])",
+    "output": null,
+    "result": "plot-one",
+    "role": "drawing-event-body",
+    "file": "ch12-one-array.py"
+  },
+  {
+    "chapter": 12,
+    "page_id": "ch12-two-arrays",
+    "code": "ax_cht1.clear()\na = [15, 25, 35, 45, 55]\nb = [5, 10, 15, 20, 25]\nax_cht1.plot(a, b)",
+    "output": null,
+    "result": "plot-two",
+    "role": "drawing-event-body",
+    "file": "ch12-two-arrays.py"
+  },
+  {
+    "chapter": 12,
+    "page_id": "ch12-range",
+    "code": "ax_cht1.clear()\na = [1, 2, 3, 4, 5]\nb = [5, 10, 15, 20, 25]\nax_cht1.plot(a, b, \"b-+\", clip_on=False)\nax_cht1.axis([0, 10, 0, 25])",
+    "output": null,
+    "result": "plot-range",
+    "role": "drawing-event-body",
+    "file": "ch12-range.py"
+  },
+  {
+    "chapter": 12,
+    "page_id": "ch12-markers",
+    "code": "ax_cht1.clear()\nx = [1, 2, 3, 4, 5]\ny = [5, 10, 15, 20, 25]\nax_cht1.plot(x, y, \"ro\", clip_on=False)\nax_cht1.set_xlabel(\"x\")\nax_cht1.set_ylabel(\"y\")\nax_cht1.set_title(\"hello\")\nax_cht1.text(3, 5, \"12/19\")\nax_cht1.axis([0, 10, 0, 25])",
+    "output": null,
+    "result": "plot-markers",
+    "role": "drawing-event-body",
+    "file": "ch12-markers.py"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-bars",
+    "code": "ax_cht1.clear()\na = [1, 2, 4, 8, 16, 32, 64, 128]\nax_cht1.bar(range(len(a)), a)",
+    "output": null,
+    "result": "plot-bars",
+    "role": "drawing-event-body",
+    "file": "ch13-bars.py"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-grouped",
+    "code": "ax_cht1.clear()\ntopics = [\"one\", \"two\", \"three\", \"four\", \"five\"]\nvalue_a = [35, 80, 84, 83, 50]\nvalue_b = [73, 80, 77, 40, 86]\n\ndef create_x(t, w, n, d):\n    return [t * x + w * n for x in range(d)]\n\nvalue_a_x = create_x(2, 0.8, 1, 5)\nvalue_b_x = create_x(2, 0.8, 2, 5)\nax_cht1.bar(value_a_x, value_a)\nax_cht1.bar(value_b_x, value_b)\nmiddle_x = [(a + b) / 2\n            for a, b in zip(value_a_x, value_b_x)]\nax_cht1.set_xticks(middle_x)\nax_cht1.set_xticklabels(topics)",
+    "output": null,
+    "result": "plot-grouped",
+    "role": "drawing-event-body",
+    "file": "ch13-grouped.py"
+  },
+  {
+    "chapter": 13,
+    "page_id": "ch13-scatter",
+    "code": "import numpy as np\nfrom matplotlib import font_manager\n\nfonts = {f.name for f in\n         font_manager.fontManager.ttflist}\nfamilies = (\"Malgun Gothic\", \"AppleGothic\",\n            \"Noto Sans CJK KR\", \"Noto Sans KR\",\n            \"NanumGothic\", \"Wanted Sans\")\nfont_name = next((f for f in families\n                  if f in fonts), None)\nif font_name:\n    plt.rcParams[\"font.family\"] = font_name\nplt.rcParams[\"axes.unicode_minus\"] = False\n\nax_cht1.clear()\nnp.random.seed(20211206)\nx = np.arange(1.1, 100.0, 5.0)\ny = x * 1.5 + np.random.rand(20) * 50\nax_cht1.scatter(x, y, c=\"red\", alpha=0.5, label=\"random\")\nax_cht1.set_xlabel(\"X축 제목\" if font_name else \"X axis\")\nax_cht1.set_ylabel(\"Y축 제목\" if font_name else \"Y axis\")\nax_cht1.legend(loc=\"upper left\")\nax_cht1.set_title(\"random\")",
+    "output": null,
+    "result": "plot-scatter",
+    "role": "drawing-event-body",
+    "file": "ch13-scatter.py"
+  }
+]

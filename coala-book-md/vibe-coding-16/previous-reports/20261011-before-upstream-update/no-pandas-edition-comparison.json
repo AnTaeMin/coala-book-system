@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-11",
+  "status": "historical-record-pointer",
+  "archivedRecord": "previous-reports/20261011-before-gui-examples/no-pandas-edition-comparison.json",
+  "currentComparison": "gui-examples-edition-comparison.json",
+  "currentPdf": "output/pdf/vibe-coding-16-gui.pdf"
+}

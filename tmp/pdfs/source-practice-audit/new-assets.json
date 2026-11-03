@@ -1,0 +1,77 @@
+[
+  {
+    "src": "assets/source-20261010/message-input.png",
+    "pdf_page": 49,
+    "xobject": [
+      "/X21",
+      "/X10"
+    ],
+    "width": 424,
+    "height": 247,
+    "ratio": "424:247",
+    "sha256": "62d241e6f65b9867423f49dadd39d7f09db112091da3e9d8389d898bda0210fe",
+    "kind": "user-supplied-pdf-embedded-image",
+    "pixel_text_modified": false,
+    "upscaled": false
+  },
+  {
+    "src": "assets/source-20261010/message-dialog.png",
+    "pdf_page": 49,
+    "xobject": [
+      "/X21",
+      "/X12"
+    ],
+    "width": 462,
+    "height": 274,
+    "ratio": "462:274",
+    "sha256": "b9576245c7a94a5cf2f36e95672e05afd898cc5d3331b9f488b37b6230325cc3",
+    "kind": "user-supplied-pdf-embedded-image",
+    "pixel_text_modified": false,
+    "upscaled": false
+  },
+  {
+    "src": "assets/source-20261010/data-column-select.png",
+    "pdf_page": 107,
+    "xobject": [
+      "/X11",
+      "/X6"
+    ],
+    "width": 946,
+    "height": 408,
+    "ratio": "946:408",
+    "sha256": "b5e42d6312ef046f7ff278af5d76e805a9e3a6da1f6b5d3c0c07560547cde2c3",
+    "kind": "user-supplied-pdf-embedded-image",
+    "pixel_text_modified": false,
+    "upscaled": false
+  },
+  {
+    "src": "assets/source-20261010/school-count-chart.png",
+    "pdf_page": 110,
+    "xobject": [
+      "/X11",
+      "/X4"
+    ],
+    "width": 1020,
+    "height": 992,
+    "ratio": "1020:992",
+    "sha256": "79e8e2f7cae224ca0873bd895be1f763fc4ad0c9696cb2b6d03314b542333f18",
+    "kind": "user-supplied-pdf-embedded-image",
+    "pixel_text_modified": false,
+    "upscaled": false
+  },
+  {
+    "src": "assets/source-20261010/subway-top5-result.png",
+    "pdf_page": 117,
+    "xobject": [
+      "/X11",
+      "/X6"
+    ],
+    "width": 980,
+    "height": 587,
+    "ratio": "980:587",
+    "sha256": "23b1031a13133a6d00d4879167e762d8081b1d8dff6305bf24de94a7aa498851",
+    "kind": "user-supplied-pdf-embedded-image",
+    "pixel_text_modified": false,
+    "upscaled": false
+  }
+]

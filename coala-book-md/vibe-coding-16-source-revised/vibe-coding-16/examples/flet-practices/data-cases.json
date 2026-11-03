@@ -1,0 +1,876 @@
+{
+  "runtime": {
+    "flet": "0.86.0",
+    "flet-charts": "0.86.0"
+  },
+  "student_fixture": {
+    "source": "C:\\the_coala\\coala-web-v2\\public\\datasets\\student_body_100.csv",
+    "sha256": "5a6b20b7a70afc7a67606ef0f241c63f28c4f00b38a83ebdb7b4bac67fb59d8f",
+    "row_count": 100,
+    "rows": [
+      {
+        "id": "1",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "155.8",
+        "weight_kg": "49.4"
+      },
+      {
+        "id": "2",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "163.2",
+        "weight_kg": "54.1"
+      },
+      {
+        "id": "3",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "177.5",
+        "weight_kg": "73.5"
+      },
+      {
+        "id": "4",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "168.3",
+        "weight_kg": "59.7"
+      },
+      {
+        "id": "5",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "141.9",
+        "weight_kg": "34.1"
+      },
+      {
+        "id": "6",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "151.2",
+        "weight_kg": "42.7"
+      },
+      {
+        "id": "7",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "165.8",
+        "weight_kg": "59.7"
+      },
+      {
+        "id": "8",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "153.0",
+        "weight_kg": "48.1"
+      },
+      {
+        "id": "9",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "167.7",
+        "weight_kg": "59.4"
+      },
+      {
+        "id": "10",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "165.6",
+        "weight_kg": "60.1"
+      },
+      {
+        "id": "11",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "167.1",
+        "weight_kg": "61.6"
+      },
+      {
+        "id": "12",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "161.5",
+        "weight_kg": "58.2"
+      },
+      {
+        "id": "13",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "169.4",
+        "weight_kg": "61.9"
+      },
+      {
+        "id": "14",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "165.3",
+        "weight_kg": "62.5"
+      },
+      {
+        "id": "15",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "162.5",
+        "weight_kg": "59.2"
+      },
+      {
+        "id": "16",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "155.7",
+        "weight_kg": "48.4"
+      },
+      {
+        "id": "17",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "172.7",
+        "weight_kg": "69.8"
+      },
+      {
+        "id": "18",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "155.7",
+        "weight_kg": "47.0"
+      },
+      {
+        "id": "19",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "172.5",
+        "weight_kg": "65.2"
+      },
+      {
+        "id": "20",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "177.1",
+        "weight_kg": "76.1"
+      },
+      {
+        "id": "21",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "174.7",
+        "weight_kg": "68.8"
+      },
+      {
+        "id": "22",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "146.0",
+        "weight_kg": "40.7"
+      },
+      {
+        "id": "23",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "186.9",
+        "weight_kg": "84.8"
+      },
+      {
+        "id": "24",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "176.6",
+        "weight_kg": "70.6"
+      },
+      {
+        "id": "25",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "163.8",
+        "weight_kg": "62.0"
+      },
+      {
+        "id": "26",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "151.4",
+        "weight_kg": "46.7"
+      },
+      {
+        "id": "27",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "154.3",
+        "weight_kg": "49.1"
+      },
+      {
+        "id": "28",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "150.5",
+        "weight_kg": "44.3"
+      },
+      {
+        "id": "29",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "156.1",
+        "weight_kg": "49.2"
+      },
+      {
+        "id": "30",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "155.0",
+        "weight_kg": "50.0"
+      },
+      {
+        "id": "31",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "163.9",
+        "weight_kg": "60.5"
+      },
+      {
+        "id": "32",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "159.1",
+        "weight_kg": "53.7"
+      },
+      {
+        "id": "33",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "173.5",
+        "weight_kg": "68.9"
+      },
+      {
+        "id": "34",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "180.2",
+        "weight_kg": "82.0"
+      },
+      {
+        "id": "35",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "147.1",
+        "weight_kg": "41.4"
+      },
+      {
+        "id": "36",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "156.7",
+        "weight_kg": "48.8"
+      },
+      {
+        "id": "37",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "153.9",
+        "weight_kg": "49.6"
+      },
+      {
+        "id": "38",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "159.2",
+        "weight_kg": "54.3"
+      },
+      {
+        "id": "39",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "156.5",
+        "weight_kg": "50.4"
+      },
+      {
+        "id": "40",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "157.1",
+        "weight_kg": "50.6"
+      },
+      {
+        "id": "41",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "174.5",
+        "weight_kg": "71.4"
+      },
+      {
+        "id": "42",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "170.4",
+        "weight_kg": "65.4"
+      },
+      {
+        "id": "43",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "162.4",
+        "weight_kg": "60.0"
+      },
+      {
+        "id": "44",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "162.5",
+        "weight_kg": "60.4"
+      },
+      {
+        "id": "45",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "165.3",
+        "weight_kg": "57.6"
+      },
+      {
+        "id": "46",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "169.0",
+        "weight_kg": "63.5"
+      },
+      {
+        "id": "47",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "173.1",
+        "weight_kg": "70.6"
+      },
+      {
+        "id": "48",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "175.4",
+        "weight_kg": "67.5"
+      },
+      {
+        "id": "49",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "167.4",
+        "weight_kg": "61.6"
+      },
+      {
+        "id": "50",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "162.1",
+        "weight_kg": "58.0"
+      },
+      {
+        "id": "51",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "157.7",
+        "weight_kg": "55.4"
+      },
+      {
+        "id": "52",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "186.9",
+        "weight_kg": "84.7"
+      },
+      {
+        "id": "53",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "192.0",
+        "weight_kg": "93.4"
+      },
+      {
+        "id": "54",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "175.9",
+        "weight_kg": "72.2"
+      },
+      {
+        "id": "55",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "155.3",
+        "weight_kg": "53.1"
+      },
+      {
+        "id": "56",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "160.7",
+        "weight_kg": "57.3"
+      },
+      {
+        "id": "57",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "175.6",
+        "weight_kg": "71.8"
+      },
+      {
+        "id": "58",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "156.4",
+        "weight_kg": "52.0"
+      },
+      {
+        "id": "59",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "165.4",
+        "weight_kg": "59.8"
+      },
+      {
+        "id": "60",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "182.3",
+        "weight_kg": "79.4"
+      },
+      {
+        "id": "61",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "161.6",
+        "weight_kg": "58.3"
+      },
+      {
+        "id": "62",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "171.1",
+        "weight_kg": "64.6"
+      },
+      {
+        "id": "63",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "162.7",
+        "weight_kg": "56.5"
+      },
+      {
+        "id": "64",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "183.5",
+        "weight_kg": "82.7"
+      },
+      {
+        "id": "65",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "161.9",
+        "weight_kg": "55.5"
+      },
+      {
+        "id": "66",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "171.2",
+        "weight_kg": "62.9"
+      },
+      {
+        "id": "67",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "167.1",
+        "weight_kg": "63.5"
+      },
+      {
+        "id": "68",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "169.9",
+        "weight_kg": "65.0"
+      },
+      {
+        "id": "69",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "168.7",
+        "weight_kg": "65.2"
+      },
+      {
+        "id": "70",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "162.1",
+        "weight_kg": "60.0"
+      },
+      {
+        "id": "71",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "163.3",
+        "weight_kg": "56.0"
+      },
+      {
+        "id": "72",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "163.8",
+        "weight_kg": "63.0"
+      },
+      {
+        "id": "73",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "158.0",
+        "weight_kg": "54.1"
+      },
+      {
+        "id": "74",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "155.7",
+        "weight_kg": "52.2"
+      },
+      {
+        "id": "75",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "169.4",
+        "weight_kg": "64.0"
+      },
+      {
+        "id": "76",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "160.5",
+        "weight_kg": "56.5"
+      },
+      {
+        "id": "77",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "159.6",
+        "weight_kg": "54.6"
+      },
+      {
+        "id": "78",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "160.1",
+        "weight_kg": "56.7"
+      },
+      {
+        "id": "79",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "178.9",
+        "weight_kg": "77.5"
+      },
+      {
+        "id": "80",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "150.6",
+        "weight_kg": "45.8"
+      },
+      {
+        "id": "81",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "171.4",
+        "weight_kg": "66.3"
+      },
+      {
+        "id": "82",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "171.1",
+        "weight_kg": "67.2"
+      },
+      {
+        "id": "83",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "159.8",
+        "weight_kg": "55.4"
+      },
+      {
+        "id": "84",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "172.4",
+        "weight_kg": "67.6"
+      },
+      {
+        "id": "85",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "154.4",
+        "weight_kg": "49.0"
+      },
+      {
+        "id": "86",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "159.7",
+        "weight_kg": "57.0"
+      },
+      {
+        "id": "87",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "151.5",
+        "weight_kg": "45.7"
+      },
+      {
+        "id": "88",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "164.1",
+        "weight_kg": "58.7"
+      },
+      {
+        "id": "89",
+        "school": "고등학교",
+        "grade": "2",
+        "gender": "여",
+        "height_cm": "161.2",
+        "weight_kg": "59.3"
+      },
+      {
+        "id": "90",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "152.6",
+        "weight_kg": "46.1"
+      },
+      {
+        "id": "91",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "160.8",
+        "weight_kg": "58.8"
+      },
+      {
+        "id": "92",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "165.9",
+        "weight_kg": "60.0"
+      },
+      {
+        "id": "93",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "161.0",
+        "weight_kg": "55.9"
+      },
+      {
+        "id": "94",
+        "school": "고등학교",
+        "grade": "1",
+        "gender": "남",
+        "height_cm": "177.5",
+        "weight_kg": "73.6"
+      },
+      {
+        "id": "95",
+        "school": "고등학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "156.6",
+        "weight_kg": "48.5"
+      },
+      {
+        "id": "96",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "남",
+        "height_cm": "159.0",
+        "weight_kg": "52.4"
+      },
+      {
+        "id": "97",
+        "school": "중학교",
+        "grade": "1",
+        "gender": "여",
+        "height_cm": "157.6",
+        "weight_kg": "49.3"
+      },
+      {
+        "id": "98",
+        "school": "중학교",
+        "grade": "3",
+        "gender": "여",
+        "height_cm": "156.3",
+        "weight_kg": "51.5"
+      },
+      {
+        "id": "99",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "171.5",
+        "weight_kg": "64.1"
+      },
+      {
+        "id": "100",
+        "school": "중학교",
+        "grade": "2",
+        "gender": "남",
+        "height_cm": "164.4",
+        "weight_kg": "58.5"
+      }
+    ]
+  },
+  "cases": [
+    {
+      "id": "ch14-practice-1",
+      "topic": "꺾은선",
+      "verification": "5개 값과 X 0..4, 초기화, 재실행, 입력 오류"
+    },
+    {
+      "id": "ch14-practice-2",
+      "topic": "산점도",
+      "verification": "170/74, 180/82, 185/89 누적 및 기존 Figure 유지"
+    },
+    {
+      "id": "ch14-practice-3",
+      "topic": "막대",
+      "verification": "90/80/70 누적과 비유한 입력 거절"
+    },
+    {
+      "id": "ch15-practice-data",
+      "topic": "학생 자료",
+      "verification": "제공 CSV 100행, 표시 열 선택, X/Y 교체"
+    },
+    {
+      "id": "ch15-practice-school",
+      "topic": "학교 집계",
+      "verification": "school별 실제 CSV의 100명 개수"
+    },
+    {
+      "id": "ch15-practice-3",
+      "topic": "저장",
+      "verification": "로컬 JSON 저장/초기화/불러오기 및 표 저장 옵션"
+    },
+    {
+      "id": "ch04-family-code",
+      "topic": "나이 합",
+      "verification": "43+45+15=103"
+    },
+    {
+      "id": "ch05-exercise-code",
+      "topic": "운동 누적",
+      "verification": "1..10 합 55, 종료 time1=11"
+    },
+    {
+      "id": "ch05-caffeine-code",
+      "topic": "카페인 누적",
+      "verification": "50+80+20=150mg"
+    },
+    {
+      "id": "ch06-sleep-code",
+      "topic": "수면 조건",
+      "verification": "8/7.9/5/4.9 경계값"
+    },
+    {
+      "id": "ch07-pass-code",
+      "topic": "점수",
+      "verification": "79 FAIL, 80/100 PASS 및 N 일치"
+    },
+    {
+      "id": "ch07-movie-code",
+      "topic": "영화",
+      "verification": "14/15/16/10의 네 학생 판정"
+    }
+  ],
+  "scope": "Mounted real Flet Page required. Exercises call bound visible-control handlers. Local JSON project persistence does not test Coala cloud storage."
+}

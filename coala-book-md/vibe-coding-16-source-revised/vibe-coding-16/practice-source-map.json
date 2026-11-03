@@ -1,0 +1,528 @@
+{
+  "reviewed_date": "2026-10-27",
+  "source_pdf_sha256": "a4aa668621a7c59c36c9666fa1019182d5ed999c9fb8620f2ddcf509840b2729",
+  "practices": [
+    {
+      "page_id": "ch01-practice-1",
+      "title": "AI는 어떤 질문을 잘하고, 어려워할까?",
+      "source_pdf_pages": "8",
+      "source_label": "실습 001-1",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "서로 다른 질문 유형을 비교했다.",
+        "잘 답한 부분과 확인할 부분을 구분했다.",
+        "AI 답변의 근거를 확인했다."
+      ],
+      "chapter": 1,
+      "practice_id": "001-1"
+    },
+    {
+      "page_id": "ch02-practice-1",
+      "title": "어떤 질문이 더 좋은 답을 만들까?",
+      "source_pdf_pages": "10-12",
+      "source_label": "실습 002-1",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "같은 주제의 짧은 질문과 구체적인 질문을 비교했다.",
+        "2주와 하루 2시간이라는 조건을 확인했다.",
+        "아쉬운 답변은 질문을 다듬어 다시 확인했다."
+      ],
+      "chapter": 2,
+      "practice_id": "002-1"
+    },
+    {
+      "page_id": "ch02-practice-2",
+      "title": "앱에 필요한 입력 데이터 설계하기",
+      "source_pdf_pages": "13-15",
+      "source_label": "실습 002-2",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "앱의 목적을 BMI 계산으로 정했다.",
+        "필요한 입력을 키와 몸무게로 구분했다.",
+        "입력 데이터와 처리 결과의 관계를 설명했다."
+      ],
+      "chapter": 2,
+      "practice_id": "002-2"
+    },
+    {
+      "page_id": "ch03-practice-1",
+      "title": "내 아이디어를 단계별로 나눠보기",
+      "source_pdf_pages": "17-18",
+      "source_label": "실습 003-1",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "입력할 내용을 정리했다.",
+        "입력 뒤 처리할 작업을 정리했다.",
+        "마지막에 보여줄 결과를 정리했다."
+      ],
+      "chapter": 3,
+      "practice_id": "003-1"
+    },
+    {
+      "page_id": "ch04-practice-1",
+      "title": "우리 가족 나이 합 구하기",
+      "source_pdf_pages": "23-24",
+      "source_label": "실습 004-1",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "세 나이 43·45·15를 사용했다.",
+        "세 나이를 더하는 처리를 연결했다.",
+        "총합 103을 확인했다."
+      ],
+      "chapter": 4,
+      "practice_id": "004-1"
+    },
+    {
+      "page_id": "ch05-practice-1",
+      "title": "10일 동안의 운동 시간 누적하기",
+      "source_pdf_pages": "31-32",
+      "source_label": "실습 005-1",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "처음 합계를 0분으로 정했다.",
+        "1일차부터 10일차까지 반복했다.",
+        "총 운동 시간 55분을 확인했다."
+      ],
+      "chapter": 5,
+      "practice_id": "005-1"
+    },
+    {
+      "page_id": "ch05-practice-2",
+      "title": "하루 카페인 섭취량 누적하기",
+      "source_pdf_pages": "27",
+      "source_label": "실습 004-2",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "처음 총 카페인 양을 0mg으로 정했다.",
+        "음료 입력을 반복해 총량에 더했다.",
+        "입력이 끝났을 때 총량을 출력했다."
+      ],
+      "chapter": 5,
+      "practice_id": "005-2"
+    },
+    {
+      "page_id": "ch06-practice-1",
+      "title": "수면 시간에 따른 안내 만들기",
+      "source_pdf_pages": "36",
+      "source_label": "조건문 본문 예시",
+      "source_type": "source-worked-example",
+      "completion_criteria": [
+        "8시간 이상 조건을 먼저 확인했다.",
+        "그렇지 않을 때 5시간 이상 조건을 확인했다.",
+        "충분한 수면·적정 수면·수면 부족의 세 출력을 구분했다."
+      ],
+      "chapter": 6,
+      "practice_id": "006-1"
+    },
+    {
+      "page_id": "ch07-practice-1",
+      "title": "입력받은 학생 수만큼 점수 통과 여부 확인",
+      "source_pdf_pages": "40",
+      "source_label": "실습 007-1",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "입력받은 학생 수 N만큼 처리했다.",
+        "80점 이상과 미만을 구분했다.",
+        "학생마다 PASS 또는 FAIL을 출력했다."
+      ],
+      "chapter": 7,
+      "practice_id": "007-1"
+    },
+    {
+      "page_id": "ch08-practice-1",
+      "title": "버튼 클릭하면 배경색과 글자색 바꾸기",
+      "source_pdf_pages": "44-46",
+      "source_label": "실습 008-1",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "btn1을 화면에 추가했다.",
+        "클릭 이벤트에 blue와 white를 지정했다.",
+        "클릭 후 배경색과 글자색을 함께 확인했다."
+      ],
+      "chapter": 8,
+      "practice_id": "008-1"
+    },
+    {
+      "page_id": "ch08-practice-message",
+      "title": "버튼 클릭하면 메시지 창 출력하기",
+      "source_pdf_pages": "49-51",
+      "source_label": "실습 008-2",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "fld1과 btn1을 화면에 추가했다.",
+        "버튼 이벤트가 fld1의 값을 읽는다.",
+        "메시지 창에 입력한 인사말이 나타난다."
+      ],
+      "chapter": 8,
+      "practice_id": "008-2"
+    },
+    {
+      "page_id": "ch08-practice-2",
+      "title": "Field에 입력한 내용 버튼으로 출력하기",
+      "source_pdf_pages": "52-53",
+      "source_label": "실습 008-3",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "fld1·fld2와 추가·삭제 버튼을 배치했다.",
+        "추가 후 fld2에 안녕이 보인다.",
+        "삭제 후 두 Field의 내용이 지워진다."
+      ],
+      "chapter": 8,
+      "practice_id": "008-3"
+    },
+    {
+      "page_id": "ch09-practice-1",
+      "title": "Field에 입력한 두 수의 누적곱 출력",
+      "source_pdf_pages": "54-55",
+      "source_label": "실습 008-4",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "fld1·fld2·fld3과 누적 버튼을 배치했다.",
+        "1과 6을 입력하여 결과 720을 확인했다.",
+        "다시 실행하면 현재 값으로 결과가 바뀐다."
+      ],
+      "chapter": 9,
+      "practice_id": "009-1"
+    },
+    {
+      "page_id": "ch09-practice-2",
+      "title": "계산기 프로그램 2",
+      "source_pdf_pages": "61-62",
+      "source_label": "실습 008-5",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "두 Field와 연산·계산 버튼을 배치했다.",
+        "연산 기호가 순서대로 바뀐다.",
+        "100 / 5의 결과 20.0이 보인다."
+      ],
+      "chapter": 9,
+      "practice_id": "009-2"
+    },
+    {
+      "page_id": "ch09-practice-3",
+      "title": "Text에 원하는 내용 추가 프로그램",
+      "source_pdf_pages": "63-64",
+      "source_label": "실습 008-6",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "fld1·btn1·txt1을 배치했다.",
+        "추가 버튼이 fld1의 내용을 txt1에 넣는다.",
+        "입력한 내용과 추가된 내용을 비교했다."
+      ],
+      "chapter": 9,
+      "practice_id": "009-3"
+    },
+    {
+      "page_id": "ch09-practice-4",
+      "title": "원하는 단 구구단 출력하기",
+      "source_pdf_pages": "65-66",
+      "source_label": "실습 008-7",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "fld1·btn1·txt1을 배치했다.",
+        "입력한 단의 구구단이 출력된다.",
+        "4단의 아홉 줄을 확인했다."
+      ],
+      "chapter": 9,
+      "practice_id": "009-4"
+    },
+    {
+      "page_id": "ch10-practice-1",
+      "title": "Dropdown을 추가하고 선택한 값 확인",
+      "source_pdf_pages": "68-70",
+      "source_label": "실습 008-8",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "fld1·ddl1·btn1·txt1을 배치했다.",
+        "입력한 항목이 목록에 추가된다.",
+        "선택한 값이 txt1에 출력된다."
+      ],
+      "chapter": 10,
+      "practice_id": "010-1"
+    },
+    {
+      "page_id": "ch10-practice-2",
+      "title": "오늘의 건강습관 체크 프로그램",
+      "source_pdf_pages": "73-75",
+      "source_label": "실습 009-1",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "chk1부터 chk4까지 배치했다.",
+        "선택한 습관 이름을 출력했다.",
+        "선택한 항목의 개수를 함께 출력했다."
+      ],
+      "chapter": 10,
+      "practice_id": "010-2"
+    },
+    {
+      "page_id": "ch10-practice-3",
+      "title": "선택한 동아리 소개 프로그램",
+      "source_pdf_pages": "78-80",
+      "source_label": "실습 009-2",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "rad1부터 rad4까지 같은 그룹에 넣었다.",
+        "한 동아리만 선택할 수 있다.",
+        "선택한 동아리 이름과 안내가 txt1에 보인다."
+      ],
+      "chapter": 10,
+      "practice_id": "010-3"
+    },
+    {
+      "page_id": "ch10-practice-4",
+      "title": "ProgressBar 버튼 2개로 증가·감소",
+      "source_pdf_pages": "82-83",
+      "source_label": "실습 009-3",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "prg1과 두 버튼을 배치했다.",
+        "증가·감소에 따라 0.1씩 바뀐다.",
+        "0.0에서 감소, 1.0에서 증가해도 범위를 벗어나지 않는다."
+      ],
+      "chapter": 10,
+      "practice_id": "010-4"
+    },
+    {
+      "page_id": "ch10-practice-5",
+      "title": "Image 구성하기",
+      "source_pdf_pages": "85-87",
+      "source_label": "실습 009-6",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "Image 두 개를 화면에 배치했다.",
+        "width와 height로 크기를 설정했다.",
+        "설정한 크기로 두 이미지가 표시된다."
+      ],
+      "chapter": 10,
+      "practice_id": "010-5"
+    },
+    {
+      "page_id": "ch11-practice-1",
+      "title": "학생 성적을 Table에 기록하기",
+      "source_pdf_pages": "90-92",
+      "source_label": "실습 009-7",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "입력창과 표의 이름·국어·수학·영어 순서를 맞췄다.",
+        "추가하기를 누르면 표에 한 행이 기록된다.",
+        "입력값과 표의 각 칸을 대조했다."
+      ],
+      "chapter": 11,
+      "practice_id": "011-1"
+    },
+    {
+      "page_id": "ch12-practice-1",
+      "title": "Matplotlib 실습 1 · 배열 한 개",
+      "source_pdf_pages": "131-132",
+      "source_label": "실습 013-1",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "[1, 2, 3, 4, 5] 배열을 사용했다.",
+        "배열 하나를 plot에 전달했다.",
+        "X 위치 0부터 4를 확인했다."
+      ],
+      "chapter": 12,
+      "practice_id": "012-1"
+    },
+    {
+      "page_id": "ch12-practice-two",
+      "title": "Matplotlib 실습 2 · X·Y 배열",
+      "source_pdf_pages": "133",
+      "source_label": "실습 013-2",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "a와 b 배열을 지정했다.",
+        "a는 X, b는 Y로 연결했다.",
+        "다섯 점의 위치를 X·Y 값과 비교했다."
+      ],
+      "chapter": 12,
+      "practice_id": "012-2"
+    },
+    {
+      "page_id": "ch12-practice-2",
+      "title": "Matplotlib 실습 3 · 표시 범위",
+      "source_pdf_pages": "134",
+      "source_label": "실습 013-3",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "지정한 X·Y 값을 사용했다.",
+        "파란 선과 더하기 마커를 지정했다.",
+        "X 0-10, Y 0-25 범위를 확인했다."
+      ],
+      "chapter": 12,
+      "practice_id": "012-3"
+    },
+    {
+      "page_id": "ch12-practice-colors",
+      "title": "Matplotlib 실습 4 · 모양과 색",
+      "source_pdf_pages": "136",
+      "source_label": "실습 013-4",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "앞 실습의 X·Y 배열을 사용했다.",
+        "ro가 빨간 점임을 확인했다.",
+        "r-o와의 선 표시 차이를 설명했다."
+      ],
+      "chapter": 12,
+      "practice_id": "012-4"
+    },
+    {
+      "page_id": "ch12-practice-labels",
+      "title": "Matplotlib 실습 5 · 제목과 설명",
+      "source_pdf_pages": "137-138",
+      "source_label": "실습 013-5",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "x·y 축 이름을 확인했다.",
+        "hello 제목을 확인했다.",
+        "(3, 5)의 12/19 설명을 확인했다."
+      ],
+      "chapter": 12,
+      "practice_id": "012-5"
+    },
+    {
+      "page_id": "ch13-practice-3",
+      "title": "Matplotlib 실습 1 · 막대그래프 1",
+      "source_pdf_pages": "140",
+      "source_label": "원본 실습 014-6",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "2의 거듭제곱 배열을 사용했다.",
+        "여덟 값의 막대를 그렸다.",
+        "막대 높이와 배열 값을 비교했다."
+      ],
+      "chapter": 13,
+      "practice_id": "013-1"
+    },
+    {
+      "page_id": "ch13-practice-grouped",
+      "title": "Matplotlib 실습 2 · 막대그래프 2",
+      "source_pdf_pages": "141-142",
+      "source_label": "원본 실습 014-7",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "value_a·value_b의 두 값 배열을 사용했다.",
+        "create_x로 두 막대를 나란히 배치했다.",
+        "중간 위치에 one부터 five까지 표시했다."
+      ],
+      "chapter": 13,
+      "practice_id": "013-2"
+    },
+    {
+      "page_id": "ch13-practice-4",
+      "title": "Matplotlib 실습 3 · 산점도",
+      "source_pdf_pages": "144-145",
+      "source_label": "원본 실습 014-8",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "지정한 시드와 X 범위를 사용했다.",
+        "X의 1.5배에 난수를 더해 Y를 만들었다.",
+        "축 이름·random 범례·제목을 확인했다."
+      ],
+      "chapter": 13,
+      "practice_id": "013-3"
+    },
+    {
+      "page_id": "ch14-practice-1",
+      "title": "꺾은선 그래프 만들기",
+      "source_pdf_pages": "97-99",
+      "source_label": "시각화 프로그램 1",
+      "source_type": "source-worked-example",
+      "completion_criteria": [
+        "다섯 Field와 Chart를 구성했다.",
+        "입력값이 꺾은선으로 표시된다.",
+        "초기화 버튼을 확인했다."
+      ],
+      "chapter": 14,
+      "practice_id": "014-1"
+    },
+    {
+      "page_id": "ch14-practice-2",
+      "title": "키·몸무게 산점도 만들기",
+      "source_pdf_pages": "100-102",
+      "source_label": "시각화 프로그램 2",
+      "source_type": "source-worked-example",
+      "completion_criteria": [
+        "키와 몸무게를 서로 다른 입력창으로 받는다.",
+        "입력한 한 쌍이 점 하나로 표시된다.",
+        "누적한 세 쌍의 입력값과 점의 위치를 비교했다."
+      ],
+      "chapter": 14,
+      "practice_id": "014-2"
+    },
+    {
+      "page_id": "ch14-practice-3",
+      "title": "입력값 막대그래프 만들기",
+      "source_pdf_pages": "103-105",
+      "source_label": "시각화 프로그램 3",
+      "source_type": "source-worked-example",
+      "completion_criteria": [
+        "입력창·버튼·Chart를 구성했다.",
+        "입력한 값을 막대로 표시했다.",
+        "90·80·70의 입력값과 세 막대 높이를 비교했다."
+      ],
+      "chapter": 14,
+      "practice_id": "014-3"
+    },
+    {
+      "page_id": "ch15-practice-data",
+      "title": "학생 100명 자료 불러와 시각화하기",
+      "source_pdf_pages": "106-109",
+      "source_label": "저장된 데이터 불러오기",
+      "source_type": "source-worked-example",
+      "completion_criteria": [
+        "학생 100명 자료를 선택했다.",
+        "표의 ID·키·몸무게 등 항목을 선택했다.",
+        "산점도에 연결할 두 열을 확인했다."
+      ],
+      "chapter": 15,
+      "practice_id": "015-1"
+    },
+    {
+      "page_id": "ch15-practice-school",
+      "title": "학교별 학생 수를 막대그래프로 표현",
+      "source_pdf_pages": "110",
+      "source_label": "저장된 자료 활용 예시",
+      "source_type": "source-worked-example",
+      "completion_criteria": [
+        "앞의 학생 자료를 그대로 사용했다.",
+        "학교 항목별 개수를 집계했다.",
+        "고등학교·중학교 막대를 비교했다."
+      ],
+      "chapter": 15,
+      "practice_id": "015-2"
+    },
+    {
+      "page_id": "ch15-practice-3",
+      "title": "걸음 수·이동거리 저장·불러오기",
+      "source_pdf_pages": "118-127",
+      "source_label": "입력 데이터 저장 예시",
+      "source_type": "source-worked-example",
+      "completion_criteria": [
+        "걸음 수·이동거리의 표 구성과 저장 설정을 확인했다.",
+        "입력한 기록을 표·산점도에 표시하고 프로젝트를 저장했다.",
+        "프로젝트를 다시 불러와 같은 기록을 확인했다."
+      ],
+      "chapter": 15,
+      "practice_id": "015-3"
+    },
+    {
+      "page_id": "ch16-practice-1",
+      "title": "원하는 프로그램을 자유롭게 작성하기",
+      "source_pdf_pages": "93-94",
+      "source_label": "실습 009-8",
+      "source_type": "source-numbered-practice",
+      "completion_criteria": [
+        "프로그램 아이디어를 적었다.",
+        "필요한 위젯과 역할을 정하여 UI를 설계했다.",
+        "생성한 프로그램의 동작을 확인했다."
+      ],
+      "chapter": 16,
+      "practice_id": "016-1"
+    }
+  ],
+  "note": "4차시 학생 총점, 6차시 수면, 7차시 영화 관람 등은 원본 본문 예시로 구분. 자율 프로젝트는 원본 009-8.",
+  "edition": "no-pandas-16-sessions",
+  "source_pdf": "../../(flet내용 추가)AI와 함께하는 앱 개발  업데이트 수정본(삼육_최종)의 사본 (7).pdf",
+  "source_reference_review": "source-reference-review.json"
+}

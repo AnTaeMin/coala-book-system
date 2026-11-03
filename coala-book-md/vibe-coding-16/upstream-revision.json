@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-11",
+  "edition": "upstream-gui-16-sessions",
+  "repository": "https://github.com/kkh1466/coala-book-system",
+  "branch": "main",
+  "commit": "9723e244e225c4a300b6f251a766b39de46e63f6",
+  "commit_url": "https://github.com/kkh1466/coala-book-system/commit/9723e244e225c4a300b6f251a766b39de46e63f6",
+  "previous_upstream_commit": "032bf19",
+  "baseline": "previous-reports/20261011-before-upstream-update",
+  "upstream_source_sha256": {
+    "README.md": "472709a4b940493a58eb6a1b28c3bd76e1a690fc6c96fb124a4d93dd6adc2a59",
+    "canva-app/src/builder/image-assets.ts": "6353764f0643d7d9a19bd7a911fc3db52fd845feed044f58adef3a5c0b4fba5d",
+    "canva-app/tests/image-assets.test.ts": "c4e9737b4d7592ff8c352e4def23b26b87e7830b4d60e8c9ff68755869ac04aa",
+    "coala-book-md/ai-math2/book.md": "736c434363c8eb034620da28579f6ca3fc655e0382673bb019746f97cc14fd64",
+    "coala-book-md/ai-math2/notes.md": "4d29dde7729c2c661193cbaefc4546490c22d2973dc20f292998ce70453392bc"
+  },
+  "changed_page_ids": [
+    "ch01-ai",
+    "ch02-request",
+    "ch08-designer",
+    "ch08-request"
+  ],
+  "added_page_ids": [],
+  "added_assets": [],
+  "adopted": [
+    "사람과 AI의 역할",
+    "구체적인 기능·입력·출력 요청",
+    "앱 화면에서 실행 결과 확인 후 수정 요청",
+    "한글 이미지 경로 NFC 정규화와 회귀 테스트",
+    "최신 설치 안내와 PDF 제작 스크립트 전달"
+  ],
+  "excluded": [
+    {
+      "content": "주피터 노트북·코드 셀·AI Chat·현재 셀에 추가 단계와 화면 4개",
+      "reason": "사용자 확인: 이 수업에서는 셀에 코드를 넣는 절차를 진행하지 않음"
+    },
+    {
+      "content": "노트북에서 실행하는 자기소개·공부 시간 계산 신규 실습",
+      "reason": "현재 수업 환경과 기존 교재 실습 중심 구성에 맞추어 기존 실습을 유지"
+    }
+  ],
+  "expected_containers": 162,
+  "expected_practices": 37,
+  "expected_python_blocks": 7,
+  "expected_output_blocks": 0,
+  "expected_png_assets": 39,
+  "expected_image_placements": 41,
+  "expected_vector_assets": 7,
+  "student_no_notebook_workflow": true
+}

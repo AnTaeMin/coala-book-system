@@ -1,0 +1,4 @@
+# Versions used to execute the current manuscript examples.
+matplotlib==3.10.9
+numpy==2.2.6
+pandas==2.3.3

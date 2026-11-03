@@ -1,0 +1,77 @@
+{
+  "scope": {
+    "chapters": [
+      8,
+      9,
+      10,
+      11,
+      14,
+      15
+    ],
+    "guiPracticeCards": 19,
+    "sourcePdfPages": "41-110,118-127",
+    "targetPdfPages": "43-82,106-126"
+  },
+  "defects": [
+    {
+      "id": "gui-scatter-input",
+      "targetPage": 109,
+      "manuscriptId": "ch14-practice-2",
+      "sourcePage": 102,
+      "current": "170·75, 180·82, 185·89",
+      "replacement": "170·74, 180·82, 185·89",
+      "evidence": "Active scatter-chart.png and source p102 show the point at x170 below tick75 at approximately74; other points82,89 match."
+    },
+    {
+      "id": "gui-scatter-accumulation",
+      "targetPage": 109,
+      "manuscriptId": "ch14-practice-2",
+      "sourcePage": 102,
+      "current": "현재 값만 표시할지 이전 값과 함께 누적할지 정합니다.",
+      "replacement": "이전 입력을 지우지 않고 누적하도록 설정합니다. 세 쌍을 한 쌍씩 입력하고 매번 버튼을 누릅니다.",
+      "evidence": "Current checklist requires3 accumulated points; source event explicitly requests accumulation."
+    },
+    {
+      "id": "gui-bar-accumulation",
+      "targetPage": 111,
+      "manuscriptId": "ch14-practice-3",
+      "sourcePage": "104-105",
+      "current": "이전 값을 누적할지 현재 값만 표시할지 정합니다.",
+      "replacement": "이전 값을 유지해 누적하도록 설정합니다. 90·80·70을 하나씩 입력하고 매번 버튼을 눌러 막대 세 개를 만듭니다.",
+      "evidence": "Current checklist requires3 bars; source event explicitly requests accumulation."
+    }
+  ],
+  "robustnessOmissions": [
+    {
+      "targetPage": 73,
+      "manuscriptId": "ch10-practice-4",
+      "recommendation": "Specify that increase never exceeds1.0 and decrease never goes below0.0; test decrease at0.0/increase at1.0.",
+      "sourceAlsoOmits": true
+    },
+    {
+      "targetPage": 57,
+      "manuscriptId": "ch09-practice-2",
+      "recommendation": "Specify conversion of Field strings to numeric values, invalid/blank input feedback and division-by-zero feedback.",
+      "sourceAlsoOmits": true
+    }
+  ],
+  "alreadyCorrectedSourceIssues": [
+    {
+      "sourcePage": 62,
+      "issue": "Source labels calculator result txt1 although actual widget is a Field; target usesfld3."
+    },
+    {
+      "sourcePage": 90,
+      "issue": "Source prose subject order differs from screenshot; target consistently uses이름·국어·수학·영어."
+    },
+    {
+      "sourcePage": 109,
+      "issue": "Source axes caption says키X/몸무게Y, screenshot dropdown saysweight_kgX/height_cmY. Target loaded-data instructions require checking axes rather than copy erroneous caption."
+    },
+    {
+      "sourcePage": 110,
+      "issue": "Source dropdown showsgrade with고등학교/중학교; active target screenshot correctly showsschool. Keep targetschool."
+    }
+  ],
+  "executionBoundary": "GUI practice cards contain natural-language event requests and screenshots; no runnable GUI code is included in these chapters, so this review did not claim live app execution or save/load persistence verification."
+}

@@ -1,0 +1,109 @@
+{
+  "reviewed_date": "2026-10-10",
+  "python": "3.10.11",
+  "matplotlib": "3.10.9",
+  "pandas": "2.3.3",
+  "numpy": "2.2.6",
+  "executed_blocks": 12,
+  "passed": 12,
+  "records": [
+    {
+      "page_id": "ch12-one-array",
+      "status": "passed",
+      "source_pdf_pages": "131-132",
+      "stdout": "",
+      "code_sha256": "2cd6dcbfc29285217eb3de7c2c61f6a78082146bf1f73e6c4e869d437792ff2b",
+      "result_asset": "plot-one"
+    },
+    {
+      "page_id": "ch12-two-arrays",
+      "status": "passed",
+      "source_pdf_pages": "133",
+      "stdout": "",
+      "code_sha256": "ba26bb8070af9b5ee5ec20752d62fa226cf097e6c59539e546c21dc8b81c8633",
+      "result_asset": "plot-two"
+    },
+    {
+      "page_id": "ch12-range",
+      "status": "passed",
+      "source_pdf_pages": "134",
+      "stdout": "",
+      "code_sha256": "165d17e79c9d6437acfdfd6e8000bf12e45515dc1bd55c8ac2e19b17ed04ed63",
+      "result_asset": "plot-range"
+    },
+    {
+      "page_id": "ch12-markers",
+      "status": "passed",
+      "source_pdf_pages": "136-138",
+      "stdout": "",
+      "code_sha256": "aaf790720c396f07c3472b8db66dda65696c843036990a3508efb4b0645fea39",
+      "result_asset": "plot-markers"
+    },
+    {
+      "page_id": "ch12-bars",
+      "status": "passed",
+      "source_pdf_pages": "140",
+      "stdout": "",
+      "code_sha256": "7aea71be8ea81da41217c195756cc1b81ca5d522e0cdf3218713e83f7e632ab8",
+      "result_asset": "plot-bars"
+    },
+    {
+      "page_id": "ch12-grouped",
+      "status": "passed",
+      "source_pdf_pages": "141-142",
+      "stdout": "",
+      "code_sha256": "09843eb84a99791de977dbf88f597a6edf955fc176a539245d71c5880dc51ee0",
+      "result_asset": "plot-grouped"
+    },
+    {
+      "page_id": "ch12-scatter",
+      "status": "passed",
+      "source_pdf_pages": "145",
+      "stdout": "",
+      "code_sha256": "a0cfe202532f308bf63e55097dcb9b69d0859d4a76a40283fafd75773e57eaf1",
+      "result_asset": "plot-scatter"
+    },
+    {
+      "page_id": "ch15-series",
+      "status": "passed",
+      "source_pdf_pages": "148",
+      "stdout": "one      1\ntwo      2\nthree    3\ndtype: int64",
+      "code_sha256": "2811bb55129f854e1d9040322478d715085f24c1ab911cfb02cb396bb6a007c6",
+      "result_asset": null
+    },
+    {
+      "page_id": "ch15-mixed",
+      "status": "passed",
+      "source_pdf_pages": "149",
+      "stdout": "0    2022-01-01\n1          2.14\n2          song\n3          1000\n4          True\ndtype: object\nRangeIndex(start=0, stop=5, step=1)\n['2022-01-01' 2.14 'song' 1000 True]",
+      "code_sha256": "f508f2f31b6852bcbf1b0e4b8c3539e97601d16aa907c41c1566ef1ee4113634",
+      "result_asset": null
+    },
+    {
+      "page_id": "ch15-dict-frame-code",
+      "status": "passed",
+      "source_pdf_pages": "150",
+      "stdout": "<class 'pandas.core.frame.DataFrame'>\n   mon  tue  wed  thu  fri  sat  sun\n0    1    2    3    4    5    6    7\n1    8    9   10   11   12   13   14\n2   15    6   17   18   19   20   21\n3   22   23   24   25   26   27   28",
+      "code_sha256": "76a147e090a3bf96bd60aa45594890e4c1501e251bd84caf025dbceab916324e",
+      "result_asset": null
+    },
+    {
+      "page_id": "ch15-dataframe",
+      "status": "passed",
+      "source_pdf_pages": "151",
+      "stdout": "    나이 성별  학년\n현아  15  여  중2\n태민  17  남  고1\nIndex(['현아', '태민'], dtype='object')\nIndex(['나이', '성별', '학년'], dtype='object')",
+      "code_sha256": "e61201c16c639a4c5030fbc148ff80307facc57a238daa701f5dda334db7a76c",
+      "result_asset": null
+    },
+    {
+      "page_id": "ch15-rename-code",
+      "status": "passed",
+      "source_pdf_pages": "151",
+      "stdout": "     연령 남녀  학년\n학생1  15  여  중2\n학생2  17  남  고1\nIndex(['학생1', '학생2'], dtype='object')\nIndex(['연령', '남녀', '학년'], dtype='object')",
+      "code_sha256": "7ebfbb4b7b820da122c8ff2d6d2c9a2b6efd1c3ce9942cda3975881120ba1739",
+      "result_asset": null
+    }
+  ],
+  "gui_practices": "원본 화면 대조 및 절차 작성. GUI/API/코코봇의 새 실행을 주장하지 않음",
+  "edition": "graph-first-16-sessions"
+}

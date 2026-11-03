@@ -1,0 +1,10 @@
+{
+  "source_url": "https://coala-web-v2.coala.services/ko/student/sl42",
+  "view": "로직 보기",
+  "logic_view": "\r\n    fig_cht1, ax_cht1 = plt.subplots()\r\n    cht1 = fch.MatplotlibChart(expand=True, figure=fig_cht1)\r\n\r\n    ax_cht1.clear()\r\n    ax_cht1.plot([1, 2, 3, 4, 5])\r\n",
+  "student_example": "ax_cht1.clear()\r\nax_cht1.plot([1, 2, 3, 4, 5])",
+  "student_example_found": true,
+  "excluded_calls_absent": true,
+  "rendered_line_graph_verified": true,
+  "screenshot": "output/pdf/sl42-logic-only-check.png"
+}

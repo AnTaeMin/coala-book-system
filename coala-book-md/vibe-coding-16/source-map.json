@@ -56,23 +56,23 @@
   },
   {
     "chapter": 12,
-    "title": "입력 데이터를 차트와 저장으로 연결",
-    "source_pages": "95-127"
+    "title": "Matplotlib 선 그래프와 마커",
+    "source_pages": "128-139"
   },
   {
     "chapter": 13,
-    "title": "Matplotlib 그래프 만들기",
-    "source_pages": "128-145"
+    "title": "Matplotlib 막대그래프와 산점도",
+    "source_pages": "140-145"
   },
   {
     "chapter": 14,
-    "title": "Pandas로 데이터 정리하기",
-    "source_pages": "146-151"
+    "title": "입력 데이터를 차트로 표현하기",
+    "source_pages": "95-105"
   },
   {
     "chapter": 15,
-    "title": "코코봇과 앱 연결하기",
-    "source_pages": "152-157"
+    "title": "자료 활용과 저장·불러오기",
+    "source_pages": "106-110, 118-127"
   },
   {
     "chapter": 16,

@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-27",
+  "edition": "content-code-corrected-16-sessions",
+  "baseline": "coala-book-md/vibe-coding-16/previous-reports/20261027-before-content-code-review",
+  "sourcePdfSha256": "a4aa668621a7c59c36c9666fa1019182d5ed999c9fb8620f2ddcf509840b2729",
+  "sourcePdfPages": 158,
+  "previousPdfPages": 130,
+  "currentPdfPages": 130,
+  "currentPdfSha256": "3aafe319778a4a9bd8886f01147700b7d80a678d626c9db06761b2eb2d68b17d",
+  "currentManuscriptSha256": "c1fbb2e7816b54dad4957a61351c50fdc5117cedc818561e14fd4a78330be7da",
+  "chapterPagesUnchanged": true,
+  "manuscriptContainers": 162,
+  "practiceCards": 37,
+  "pythonBlocks": 7,
+  "changedCodeIds": [
+    "ch13-scatter"
+  ],
+  "changedAssets": [
+    "assets/source-20261006/plot-scatter.png"
+  ],
+  "otherSixProgramsUnchanged": true,
+  "otherAssetsUnchanged": true,
+  "guiLiveExecutionPerformed": false,
+  "changes": [
+    {
+      "page_id": "book-guide",
+      "pdf_pages": [
+        4
+      ],
+      "topic": "실습 준비",
+      "correction": "알고플로 접속 안내와 Python 패키지 설치·실행 방법을 추가했습니다."
+    },
+    {
+      "page_id": "ch13-scatter",
+      "pdf_pages": [
+        103,
+        104
+      ],
+      "topic": "한글 축 제목",
+      "correction": "설치된 한글 글꼴을 자동 선택하고, 없으면 영문 축 이름을 사용합니다. 결과 그림도 실제 실행 결과로 교체했습니다."
+    },
+    {
+      "page_id": "ch14-practice-2",
+      "pdf_pages": [
+        109
+      ],
+      "topic": "산점도 입력값",
+      "correction": "첫 쌍을 170·75에서 170·74로 고쳐 예시 화면과 맞췄습니다."
+    },
+    {
+      "page_id": "ch14-practice-2",
+      "pdf_pages": [
+        109
+      ],
+      "topic": "산점도 누적",
+      "correction": "이전 점을 유지하고 새 점을 누적하도록 명시했습니다."
+    },
+    {
+      "page_id": "ch14-practice-3",
+      "pdf_pages": [
+        111
+      ],
+      "topic": "막대그래프 누적",
+      "correction": "새 입력을 다음 막대로 누적하도록 명시했습니다."
+    },
+    {
+      "page_id": "ch09-product-code",
+      "pdf_pages": [
+        56
+      ],
+      "topic": "누적곱",
+      "correction": "정수 변환, 양 끝 포함, 매 실행의 누적값 초기화, 역순·잘못된 입력 안내를 보완했습니다."
+    },
+    {
+      "page_id": "ch09-calculator-request",
+      "pdf_pages": [
+        58
+      ],
+      "topic": "계산기",
+      "correction": "숫자 변환, 빈칸·문자 입력, 0 나누기 처리를 보완했습니다."
+    },
+    {
+      "page_id": "ch10-practice-4",
+      "pdf_pages": [
+        73
+      ],
+      "topic": "진행 막대",
+      "correction": "소수 첫째 자리 반올림과 0.0~1.0 범위 제한, 경계값 확인을 추가했습니다."
+    }
+  ],
+  "tableIntroductionsCorrected": [
+    "ch01-limits",
+    "ch02-compare",
+    "ch03-ramen",
+    "ch04-types",
+    "ch05-trace",
+    "ch10-choice",
+    "ch11-field-map"
+  ],
+  "sourceIssuesAlreadyCorrected": [
+    {
+      "source_page": 62,
+      "correction": "계산기 결과 위젯 fld3"
+    },
+    {
+      "source_page": 90,
+      "correction": "성적표 과목 순서: 이름·국어·수학·영어"
+    },
+    {
+      "source_page": 109,
+      "correction": "자료 열·축 선택은 실제 화면과 비교하여 확인"
+    },
+    {
+      "source_page": 110,
+      "correction": "학교별 집계 열 school 유지"
+    }
+  ],
+  "validation": {
+    "manuscripts": 17,
+    "codePassed": 7,
+    "warnings": 0,
+    "fallbackPassed": true,
+    "renderedPages": 130,
+    "contentsLinks": 16,
+    "bookmarks": 16
+  },
+  "references": [
+    "https://matplotlib.org/stable/users/explain/text/text_props.html",
+    "https://matplotlib.org/stable/install/index.html"
+  ],
+  "review_status": "previous-review",
+  "superseded_by": "flet-runtime-review.json"
+}

@@ -1,0 +1,30 @@
+{
+  "src": "assets/ch01/ai-human-summary.png",
+  "chapter": 1,
+  "page_id": "ch01-opening",
+  "width": 2197,
+  "height": 792,
+  "ratio": "2197:792",
+  "sha256": "f405856e2cdf7b58c05237ef5a22286c7a89b665d7fcc6696364e6d6f2e59824",
+  "vector_src": "assets/ch01/ai-human-summary.pdf",
+  "vector_sha256": "6acb0d0fd33e00697b6629dc01f017045761891d30166d0465416bd0c7339b28",
+  "kind": "self-authored-vector-learning-summary",
+  "used_in": [
+    "ch01-opening"
+  ],
+  "placement_width": "text",
+  "caption": "AI의 제안과 사람의 검증으로 함께 만드는 앱",
+  "placements": [
+    {
+      "page_id": "ch01-opening",
+      "width": "text",
+      "caption": "AI의 제안과 사람의 검증으로 함께 만드는 앱"
+    }
+  ],
+  "body_font_pt": 14,
+  "heading_font_pt": 15,
+  "print_width_pt": 527.2755905511812,
+  "print_height_pt": 190.0,
+  "pixel_text_modified": false,
+  "upscaled": false
+}
